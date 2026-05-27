@@ -655,7 +655,7 @@
         "uuid": "0c161f28-8075-4403-a867-35208f463636"
       }
     ],
-    "used_designators": "C18,#U$11-12,#U$19,#U$28,R18",
+    "used_designators": "#U$84-89,#PWR5-7,C29-31,R19-21,X7-8",
     "variants": []
   },
   "sheets": [
