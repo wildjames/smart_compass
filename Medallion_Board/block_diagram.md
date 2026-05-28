@@ -1,56 +1,89 @@
-# Medallion Board
+# Medallion Board — Block Diagram
 
-## Component Summary
+## System Block Diagram
+
+```mermaid
+flowchart TD
+    %% Power Input
+    USB[USB-C\nX1 USB4085-GF-A] -->|VBUS| CHRG[MCP73831T U4\nLi-Ion Charger]
+    USB -->|D+ / D-| FL[Ferrite Beads\nFL1, FL2]
+    FL -->|D+ / D-| MCU
+
+    BAT[LiPo Battery\nP1 JST_PH] <-->|VBAT| CHRG
+    BAT -->|VBAT| PROT[MBR0540 D1\n+ DMG3415U Q1]
+    PROT -->|VBAT| LDO[RT9080-33GJ5 U1\n3.3V LDO]
+    PROT -->|VLED| LEDS
+
+    LDO -->|+3.3V| MCU[MDBT50Q-1MV2\nU5 nRF52840 BLE]
+    LDO -->|+3.3V| GNSS[LC86LICMD U2\nGNSS Module]
+    LDO -->|+3.3V| IMU[BNO085 U6\n9-axis IMU]
+    LDO -->|+3.3V| FUEL[MAX17048 U3\nFuel Gauge]
+
+    %% Communication
+    MCU <-->|UART TXD0/RXD0| GNSS
+    MCU <-->|UART TXD1/RXD1| LORA[RYLR998 J1\nLoRa Module]
+    MCU <-->|I2C SDA/SCL| IMU
+    MCU <-->|I2C SDA/SCL| FUEL
+
+    %% Peripherals
+    MCU -->|NEOPIX| LEDS[WS2812B x9\nD3–D11]
+    MCU -->|GPIO| BTNS[Button SW1\nP2–P4 ext.]
+    MCU -->|GPIO/I2C| EXP[Expansion Header\nJ2 1x08]
+
+    %% Indicators
+    CHRG -->|STATUS| CHG_LED[Charge LED\nCHG1]
+    MCU -->|STATUS_LED| SLED[Status LED D2]
+
+    %% Monitoring
+    FUEL <-->|I2C| BAT
+
+    %% Clock & Power
+    MCU --- XTAL[Y1 32.768kHz\nCrystal]
+    MCU --- IND[L1 10µH\nDC-DC Inductor]
+```
+
+## Functional Blocks
 
 | Block | Component | Reference | Function |
 | ------- | ----------- | ----------- | ---------- |
-| **MCU** | ESP32-S3-MINI-1 | U1 | Main microcontroller (WiFi + BLE, 8MB Flash) |
-| **Power Input** | USB-C Connector | X3 | USB power & data (VBUS, D+, D-) |
-| **Power Input** | JST PH 2-pin | - | LiPo battery connector |
-| **Charging** | MCP73831T-2ACI/OT | U3 | Single-cell LiPo charge controller |
-| **Fuel Gauge** | LC709203F/MH | IC1 | Battery fuel gauge (I2C) |
-| **Power Switch** | DMG3415U (P-MOSFET) | Q3 | Power path control |
-| **Protection** | MBR540 (Schottky) | D4 | Reverse polarity / power OR-ing |
-| **Regulation** | Voltage Regulator (SOT23-5) | U2 | 3.3V LDO regulator |
-| **Regulation** | Voltage Regulator (SOT23-5) | U5 | 3.3V LDO regulator (sensor rail) |
-| **Sensor** | BME280 | U4 | Temperature, humidity, pressure (I2C/SPI) |
-| **LED** | WS2812B / SK6805 1515 | LED1 | Addressable RGB NeoPixel |
-| **Indicators** | LED 0603 | D2, D3 | Status LEDs |
-| **Connectivity** | STEMMA QT (JST SH 4-pin) | CONN1 | I2C expansion (x3 connectors) |
-| **Expansion** | 1x16 Header | JP1 | GPIO breakout |
-| **Expansion** | 1x12 Header | JP3 | GPIO breakout |
-| **Input** | Tactile Switches | SW1, SW2 | User buttons (reset/boot) |
-
-## Bus / Interface Connections
-
-```mermaid
-flowchart LR
-    subgraph USB
-        USBC[USB-C] -->|D+ / D-| ESP[ESP32-S3]
-        USBC -->|VBUS| PWR[Power Management]
-    end
-
-    subgraph I2C_Bus[I2C Bus - SDA/SCL]
-        ESP -->|I2C| BME[BME280]
-        ESP -->|I2C| FUEL[LC709203F]
-        ESP -->|I2C| STEMMA[STEMMA QT x3]
-    end
-
-    subgraph Power
-        PWR -->|VBAT| CHRG[MCP73831]
-        CHRG -->|VBAT| BATTERY[LiPo Battery]
-        PWR -->|3.3V| VREG[Voltage Regulators]
-        VREG -->|3.3V| ESP
-        VREG -->|3.3V| BME
-    end
-
-    ESP -->|NEOPIX GPIO| NEO[NeoPixel LED]
-    ESP -->|GPIO| HDR[Headers JP1/JP3]
-    ESP -->|GPIO| BTN[Buttons]
-```
+| **MCU** | Raytac MDBT50Q-1MV2 | U5 | Main microcontroller — nRF52840 (BLE 5.0, USB) |
+| **GNSS** | Quectel LC86LICMD | U2 | GPS/GLONASS/Galileo receiver (UART) |
+| **IMU** | BNO085 | U6 | 9-axis IMU — accel, gyro, magnetometer (I2C) |
+| **LoRa** | REYAX RYLR998 | J1 | LoRa radio module connector (UART, 1x05 header) |
+| **Power Input** | USB-C Connector | X1 | USB power & data (VBUS, D+, D-) |
+| **Power Input** | JST PH 2-pin | P1 | LiPo battery connector |
+| **Charging** | MCP73831T-2ACI/OT | U4 | Single-cell LiPo charge controller (500 mA) |
+| **Fuel Gauge** | MAX17048 | U3 | Battery fuel gauge (I2C) |
+| **Power Switch** | DMG3415U (P-MOSFET) | Q1 | Power path control |
+| **Protection** | MBR0540 (Schottky) | D1 | Reverse polarity / power OR-ing |
+| **Regulation** | RT9080-33GJ5 | U1 | 3.3V LDO regulator (SOT23-5) |
+| **LED** | WS2812B 2020 | D3–D11 | Addressable RGB NeoPixels (x9 chain) |
+| **Indicators** | LED 0603 | D2 | Red status LED |
+| **Indicators** | LED 0805 | CHG1 | Orange charge status LED |
+| **Input** | Tactile Switch | SW1 | Reset button |
+| **Input** | JST PH 2-pin | P2, P3, P4 | External user button connectors |
+| **Input** | JST PH 2-pin | P5 | External enable/reset connector |
+| **Expansion** | 1x08 Header | J2 | GPIO/I2C expansion (GPIO01, GPIO02, GPIO06, GPIO11, SCL, SDA, 3.3V, GND) |
+| **Clock** | ABS07-32.768KHZ-7-T | Y1 | 32.768 kHz crystal for nRF52840 RTC |
+| **Inductor** | LQM18DN100M70L | L1 | 10 µH DC-DC inductor for nRF52840 |
+| **Backup Power** | XH414HG-IV01E | C1 | Rechargeable backup battery (100 mF) |
 
 ## Power Architecture
 
-- **VBUS** (5V from USB-C) feeds the MCP73831 charger and, via Schottky diode/P-MOSFET, the system rail
-- **VBAT** (3.7V LiPo) is the battery rail monitored by the LC709203F fuel gauge
-- **3.3V** generated by two LDO regulators (U2, U5) powering the ESP32-S3 and peripherals
+- **VBUS** (5V from USB-C) feeds the MCP73831T charger (U4) and, via Schottky diode D1/P-MOSFET Q1, the system rail
+- **VBAT** (3.7V LiPo) is the battery rail monitored by the MAX17048 fuel gauge (U3)
+- **VLED** tapped from VBAT to power the WS2812B LED chain directly at battery voltage
+- **+3.3V** generated by RT9080 LDO (U1) powering the MDBT50Q, GNSS, IMU, and fuel gauge
+- **3.3V** (separate symbol in schematic) used on the expansion header J2
+
+## Key Interfaces
+
+| Interface | Nets | Devices | Notes |
+| --------- | ---- | ------- | ----- |
+| I2C | SDA, SCL | U5, U6, U3 | Pull-ups (10K) to +3.3V |
+| UART | TXD0, RXD0 | U5 ↔ U2 | GNSS communication |
+| UART | TXD1, RXD1 | U5 ↔ J1 | LoRa module communication |
+| USB 2.0 | D+, D- | U5 ↔ X1 | Filtered by FL1/FL2 ferrite beads, 27Ω series resistors R8/R12 |
+| NeoPixel | NEOPIX | U5 → D3–D11 | Single-wire, 9-LED daisy chain |
+| Buttons | USER_BTN_1/2/3 | P2, P3, P4 → U5 | External button inputs |
+| Expansion | GPIO01/02/06/11, SCL, SDA | J2 ↔ U5 | 8-pin header |
