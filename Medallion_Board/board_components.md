@@ -63,3 +63,30 @@ flowchart LR
     ESP -->|NEOPIX GPIO| NEO[NeoPixel LEDs x9]
     ESP -->|GPIO| BTN[Buttons SW1/SW2]
 ```
+
+## Power Consumption Budget (Worst-Case)
+
+| Component | Reference | Supply (V) | Max Current per Unit (mA) | Qty | Total Current (mA) | Total Power (mW) |
+| --------- | --------- | :--------: | :-----------------------: | :-: | :----------------: | :--------------: |
+| ESP32-S3-MINI-1-N8 (BLE TX) | U6 | 3.3 | 130 | 1 | 130.0 | 429.0 |
+| LC86LICMD GNSS (acquisition) † | U4 | 3.3 | 28 | 1 | 28.0 | 92.4 |
+| RYLR998 LoRa (TX +22 dBm) † | J2 | 3.3 | 120 | 1 | 120.0 | 396.0 |
+| BNO085 IMU (all sensors) | U5 | 3.3 | 30 | 1 | 30.0 | 99.0 |
+| MAX17048 Fuel Gauge | U3 | 3.3 | 0.023 | 1 | 0.023 | 0.08 |
+| RT9080 LDO (quiescent) | U1 | 3.7* | 0.002 | 1 | 0.002 | 0.007 |
+| MCP73831T Charger (quiescent) | U2 | 5.0 | 0.075 | 1 | 0.075 | 0.38 |
+| WS2812B-2020 LED (full white) | D4–D12 | 3.7* | 15 | 9 | 135.0 | 499.5 |
+| Status LED (Red) | D2 | 3.3 | 5 | 1 | 5.0 | 16.5 |
+| Charge LED (Orange) | CHG1 | 3.3 | 5 | 1 | 5.0 | 16.5 |
+| **TOTAL** | | | | | **425.1** | **1457.0** |
+
+> \* VLED / VBAT rail — 3.7 V nominal (LiPo). At full charge (4.2 V) peak LED power rises to ~567 mW.
+>
+> † GNSS and LoRa are mutually exclusive — only the higher draw (LoRa TX) is included in the total.
+>
+> **Notes:**
+> - WiFi is unused; ESP32-S3 operates in BLE-only mode (130 mA peak TX).
+> - RYLR998 peak is at maximum TX power (+22 dBm); at default +14 dBm TX current is ~40 mA.
+> - WS2812B max assumes all 9 LEDs at full white (R+G+B = 5 mA/ch × 3).
+> - Passives, MOSFET, Schottky diode, and ferrite beads contribute negligible power draw.
+> - MCP73831T charge current (up to 500 mA) flows to the battery, not the system load.
