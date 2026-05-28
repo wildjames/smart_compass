@@ -15,7 +15,7 @@
 "D4,D5,D6,D7,D8,D9,D10,D11,D12","9","WS2812B2020","","","WS2812B2020:LED_WS2812B2020","","",""
 "FL1,FL2","2","BLM15EG121SN1D","","","BLM15EG121SN1D:BEADC1005X55N","https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0023_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707191221","BLM15EG121SN1D","0.17"
 "J1","1","EXPANSION","","","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","","",""
-"J2","1","RYLR998","","","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8922/RYLR998.pdf","RYLR998","11.80"
+"J2","1","RYLR998","","","Connector_PinHeader_2.54mm:RYLR998","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8922/RYLR998.pdf","RYLR998","11.80"
 "P1","1","JST_EN","","","S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_","","",""
 "P2","1","JST_PH","","","S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_","","",""
 "P3","1","JST_BTN_1","","","S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_","","",""
