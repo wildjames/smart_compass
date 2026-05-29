@@ -707,6 +707,36 @@
           "label": "MAXIMUM_PACKAGE_HIEGHT",
           "name": "MAXIMUM_PACKAGE_HIEGHT",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -765,7 +795,7 @@
         "uuid": "0c161f28-8075-4403-a867-35208f463636"
       }
     ],
-    "used_designators": "U1-7,#PWR1-7,CHG1,L1,D1-11,#U$1-85,#U$88-93,C1-36,Y1,R1-22,#GND1-2,FL1-2,P1-6,SW1-2,J1-2,Q1,X1",
+    "used_designators": "U1-7,#PWR1-7,CHG1,L1-2,D1-11,#U$1-96,C1-36,Y1,R1-26,#GND1-2,FL1-2,P1-6,SW1-2,J1-2,Q1,X1,IC1",
     "variants": []
   },
   "sheets": [
