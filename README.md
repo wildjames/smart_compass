@@ -20,10 +20,13 @@ The device has a few core requirements:
   - The device may have an OLED screen for detail, if appropriate.
 - The device must be secure - there must be no way for non-paired devices to be able to discern the location of a device, even if they are part of the same mesh network.
 
+## Thoughts
+
+Should I add haptics or sound for the first version? More complexity and the board is already pretty complex... I'm getting doubtful of my ability to one-shot this with no mistakes!
+
+The component cost per device is up to ~£50. The boards are about £5 per board for the first run (some heavy discounts, I shouldn't squander that). Assembled, the first shipment of 5 boards would cost $115 plus ~$60 in components per board makes that up to $400. That's a hefty chunk of cash!!! I could try getting just two assembled for this initial run, which brings it down to like, $200, but that's still pricey.
+
 ## TODO list
 
 - There are meshtastic boards already out there that are close to what I'm doing here. I should not ignore this, and use them for help in seeing what works and what is cost-effective. e.g. this [card format I like a lot](https://thepihut.com/products/sensecap-card-tracker-t1000-e-for-meshtastic), perhaps more of a pokedex looking thing?
-- I should think about if I need an ESP32, or if I can use the lower-power [nRF52](https://www.digikey.co.uk/en/products/detail/nordic-semiconductor-asa/NRF52840-CKAA-R/15929796).
-  - I don't need wifi, but I do need GPIO pins...
-- I need to look at LoRa ICs, and get something I can throw on my schematic. I don't think the module is gonna be feasible.
-  - I think this one is better for my case: [E22-900M22S](https://www.lcsc.com/product-detail/C411293.html). Wire it in. It's SPI communication and the example schematic is crazy simple.
+- Haptics might be easy-ish to add. [Driver](https://www.digikey.co.uk/en/products/detail/texas-instruments/DRV2605LDGSR/5014144), [LDA](https://www.digikey.co.uk/en/products/detail/vybronics-inc/VG1040003D/10285886). However, the actuator is 10mm thick, so may contribute meaningfully to the package size. Remember, I still need to fit in a lipo to the back of this thing

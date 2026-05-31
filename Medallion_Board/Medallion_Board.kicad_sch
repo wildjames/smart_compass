@@ -14144,6 +14144,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 154.94 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b38ddd3-5183-47bc-bbc9-6c88531417c2")
 		)
@@ -14224,6 +14235,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 281.94 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 281.94 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -14636,6 +14658,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 246.38 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4e4d961-10f3-4cdd-93da-edf93388f525")
 		)
@@ -14928,7 +14961,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e05u06"
 			(at 300.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14963,42 +14996,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "X1SON-2 Texas Instruments"
-			(at 300.99 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 300.99 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/Texas+Instruments/view-part/?ref=snap"
-			(at 300.99 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MP" "TPD1E05U06DPYR"
 			(at 300.99 156.21 0)
 			(hide yes)
@@ -15011,8 +15008,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 300.99 156.21 0)
+		(property "MPN" "TPD1E05U06DPYR"
+			(at 300.99 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15020,11 +15017,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/Texas+Instruments/view-part/?ref=eda"
-			(at 300.99 156.21 0)
+		(property "PRICE" "0.29"
+			(at 300.99 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15032,7 +15028,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -15355,6 +15350,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.10"
+			(at 191.77 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "13bd081b-aaee-48c7-91bf-b9b488c85ece")
 		)
@@ -15451,6 +15457,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 90.17 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e877ddfb-87fc-4958-bf58-32721d6aafb9")
 		)
@@ -15531,6 +15548,17 @@
 			)
 		)
 		(property "MPN" "GRM155R61A224KE19D"
+			(at 162.56 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 162.56 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -15695,6 +15723,17 @@
 			)
 		)
 		(property "MPN" "WS2812B-2020"
+			(at 298.45 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.10"
 			(at 298.45 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -16146,6 +16185,17 @@
 			)
 		)
 		(property "MPN" "RC0603FR-072KL"
+			(at 33.02 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 33.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -16720,7 +16770,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1b7bc237-d3e9-4ce1-9a90-0379fb7ed4ee")
 		(property "Reference" "C30"
 			(at 333.76 133.33 90)
@@ -16775,7 +16825,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W106K6R3CC"
+		(property "MPN" ""
 			(at 331.47 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -17262,6 +17312,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.10"
+			(at 209.55 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "f00caea5-ce2c-4a01-ab22-99c0c27784e9")
 		)
@@ -17436,6 +17497,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 135.89 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "def6dedd-27af-43f4-81dc-be45aa6210c7")
 		)
@@ -17594,6 +17666,17 @@
 			)
 		)
 		(property "MPN" "0805W106K6R3CC"
+			(at 252.73 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 252.73 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -18009,6 +18092,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 20.32 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73673773-2e77-497f-8c41-9e7e240a367e")
 		)
@@ -18099,6 +18193,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 346.71 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6bdd3be-9fb5-4b70-986f-d9728f86c814")
 		)
@@ -18179,6 +18284,17 @@
 			)
 		)
 		(property "MPN" "0603B105K100XD"
+			(at 34.29 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 34.29 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -18587,6 +18703,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.10"
+			(at 316.23 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "20516cb9-5c3c-4fd2-a96e-964b22398f0f")
 		)
@@ -18763,6 +18890,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 128.27 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5568ecdc-7cd2-4ce6-af84-5a1ee6fca764")
 		)
@@ -18843,6 +18981,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 317.5 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 317.5 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -19023,6 +19172,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 72.39 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b028713-8f0d-460c-af48-6f9acfb54f50")
 		)
@@ -19113,6 +19273,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 220.98 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 220.98 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -19405,6 +19576,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 67.31 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "595fd8b0-3502-437d-ada1-8cf129023761")
 		)
@@ -19651,6 +19833,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 186.69 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c0d1e9f-31a2-4366-ab0b-598cbb1b0281")
 		)
@@ -19809,6 +20002,17 @@
 			)
 		)
 		(property "MPN" "0805W106K6R3CC"
+			(at 85.09 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 85.09 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -20099,7 +20303,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "54b317ad-2a56-4496-b36b-4268ac954233")
 		(property "Reference" "C29"
 			(at 315.98 133.33 90)
@@ -20154,7 +20358,7 @@
 				)
 			)
 		)
-		(property "MPN" "0805W106K6R3CC"
+		(property "MPN" ""
 			(at 313.69 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -20569,6 +20773,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 318.77 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f818b969-d017-4ee4-a7cf-646fd557ff6c")
 		)
@@ -20661,6 +20876,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 325.12 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f87e7be-fa02-4628-b998-1816422abe95")
 		)
@@ -20741,6 +20967,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 299.72 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 299.72 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -20909,6 +21146,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 104.14 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 104.14 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -21233,6 +21481,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 210.82 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 210.82 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -21956,6 +22215,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 326.39 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "38ec81ce-29ee-4b6f-a695-2d784a925acb")
 		)
@@ -22320,6 +22590,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 41.91 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4e45615-80ca-4799-b978-02fb572008d8")
 		)
@@ -22478,6 +22759,17 @@
 			)
 		)
 		(property "MPN" "GMC04CG120J6R3NT"
+			(at 29.21 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 29.21 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -22720,6 +23012,17 @@
 			)
 		)
 		(property "MPN" "WS2812B-2020"
+			(at 280.67 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.10"
 			(at 280.67 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -23221,6 +23524,17 @@
 			)
 		)
 		(property "MPN" "WS2812B-2020"
+			(at 227.33 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.10"
 			(at 227.33 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -24261,6 +24575,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 236.22 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30d034b4-98dd-4eb0-be47-ab91e3ec909b")
 		)
@@ -24497,6 +24822,17 @@
 			)
 		)
 		(property "MPN" "RT0603BRC07500RL"
+			(at 179.07 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 179.07 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -25002,6 +25338,17 @@
 			)
 		)
 		(property "MPN" "WS2812B-2020"
+			(at 345.44 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.10"
 			(at 345.44 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -25540,6 +25887,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 228.6 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02a1bd23-369d-462c-986f-0f2cf1d74bb8")
 		)
@@ -25710,6 +26068,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 147.32 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24ce42a6-915c-4c16-bd6c-fbb3131c19ea")
 		)
@@ -25870,6 +26239,17 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
+			(at 96.52 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 96.52 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -26355,6 +26735,28 @@
 				(justify left top)
 			)
 		)
+		(property "MPN" "RECE.20369.001E.01"
+			(at 300.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.77"
+			(at 300.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0cce73f6-46f3-45f7-b7d0-0e041b1f8183")
 		)
@@ -26531,6 +26933,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 144.78 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "69bfcbf4-ad46-458a-b0c3-36e76658cc96")
 		)
@@ -26611,6 +27024,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 193.04 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 193.04 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -26703,6 +27127,17 @@
 			)
 		)
 		(property "MPN" "RT0603BRE075KL"
+			(at 24.13 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 24.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -27204,6 +27639,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 322.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80e79c2e-2628-41c3-a2bd-f6d61ede5113")
 		)
@@ -27284,6 +27730,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 264.16 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 264.16 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -27386,6 +27843,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 195.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5fb43b04-4ce2-453a-a1ec-f96901cac359")
 		)
@@ -27466,6 +27934,17 @@
 			)
 		)
 		(property "MPN" "0805W106K6R3CC"
+			(at 147.32 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 147.32 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -27786,6 +28265,17 @@
 			)
 		)
 		(property "MPN" "WS2812B-2020"
+			(at 245.11 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.10"
 			(at 245.11 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -28204,6 +28694,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 29.21 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e8d6b08-8735-476c-aa54-772625460839")
 		)
@@ -28368,6 +28869,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.10"
+			(at 262.89 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c3dc2666-37cf-4d58-ba05-8b30cc5527aa")
 		)
@@ -28454,6 +28966,17 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
+			(at 80.01 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 80.01 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -28624,6 +29147,17 @@
 			)
 		)
 		(property "MPN" "RT0603BRE075KL"
+			(at 147.32 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 147.32 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -29440,6 +29974,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 228.6 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d6db5c6-852b-4d1c-933e-d975e207dfbf")
 		)
@@ -29520,6 +30065,17 @@
 			)
 		)
 		(property "MPN" "0805W106K6R3CC"
+			(at 129.54 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 129.54 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -29778,6 +30334,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 144.78 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed802eb5-c49d-4593-8cb9-a42f7842467c")
 		)
@@ -29860,6 +30427,17 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 36.83 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -30288,6 +30866,17 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
+			(at 379.73 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 379.73 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -30762,6 +31351,17 @@
 				)
 			)
 		)
+		(property "PRICE" "0.07"
+			(at 148.59 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa4b59ab-7308-4911-a0d4-6b655f0b8e8a")
 		)
@@ -31000,6 +31600,17 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100KL"
+			(at 167.64 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
 			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
