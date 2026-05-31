@@ -1400,271 +1400,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:LED0603_NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D3"
-				(at -1.27 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" "RED"
-				(at -1.27 -2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED0603_NOOUTLINE_1_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 2.2225) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy -0.9525 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 2.2225) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 0.3175 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:MOSFET-P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2684,6 +2419,356 @@
 						(effects
 							(font
 								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "BAV199:BAV199"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0.7629 2.0089 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BAV199"
+				(at -4.8317 -3.4585 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BAV199:SOT23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Small Signal Diode, SOT-23, 85V, 0.14A, 150°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Diotec Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SOT-23 Diotec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAV199/Diotec/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "BAV199"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BAV199/Diotec/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "BAV199_0_0"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 -1.27)
+					(end 3.81 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -6855,6 +6940,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RECE_20369_001E_01:RECE.20369.001E.01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J3"
+				(at 9.906 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IPEX"
+				(at 9.906 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RECE20369001E01"
+				(at 26.67 -84.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://cdn.taoglas.com/datasheets/RECE.20369.001E.01.pdf"
+				(at 26.67 -184.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RF Connectors / Coaxial Connectors Standard Receptacle IPEX MHFIII(W.Flcomp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.05"
+				(at 26.67 -384.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "960-RECE.20369001E01"
+				(at 26.67 -484.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taoglas/RECE.20369.001E.01?qs=DRkmTr78QATTXEmgGw9Tjg%3D%3D"
+				(at 26.67 -584.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Taoglas"
+				(at 26.67 -684.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RECE.20369.001E.01"
+				(at 26.67 -784.76 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "RECE.20369.001E.01_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CENTRE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_"
 			(pin_names
 				(offset 1.016)
@@ -7073,6 +7366,229 @@
 				)
 				(pin passive line
 					(at -5.08 -1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SM02B-GHS-TB:SM02B-GHS-TB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -6.85 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SM02B-GHS-TB"
+				(at -6.35 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.049 (1.25mm)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DigiKey_Part_Number" "455-1564-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SM02B-GHS-TB/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SM02B-GHS-TB/JST/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "JST Sales"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SM02B-GHS-TB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SM02B-GHS-TB_0_0"
+				(rectangle
+					(start -6.35 -2.54)
+					(end 6.35 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 2.2225)
+					(end -4.1275 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 -0.3175)
+					(end -4.1275 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -7386,6 +7902,205 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPD1E05U06DPYR:TPD1E05U06DPYR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D12"
+				(at 0.254 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD1E05U06DPYR"
+				(at 0.508 -0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TPD1E05U06DPYR:DIO_TPD1E05U06DPYR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.5-pF, 5.5-V, ±12-kV ESD protection diode in 0402 package for High Speed Interfaces"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "X1SON-2 Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TPD1E05U06DPYR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TPD1E05U06DPYR_0_0"
+				(rectangle
+					(start -3.81 3.81)
+					(end 5.08 1.27)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -8871,7 +9586,7 @@
 	)
 	(rectangle
 		(start 158.115 174.625)
-		(end 387.35 219.71)
+		(end 359.41 219.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -8883,7 +9598,7 @@
 	)
 	(rectangle
 		(start 266.7 124.46)
-		(end 368.3 172.72)
+		(end 405.765 172.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -9028,7 +9743,7 @@
 	)
 	(text "GNSS"
 		(exclude_from_sim no)
-		(at 270.764 127 0)
+		(at 270.764 126.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9130,12 +9845,6 @@
 		(uuid "0eb2ac1c-d96c-487a-b8f2-b468bb7df49d")
 	)
 	(junction
-		(at 337.82 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f4e109a-d77b-495f-ab77-56b0da0184bc")
-	)
-	(junction
 		(at 151.13 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9190,10 +9899,16 @@
 		(uuid "45c59687-62aa-4504-bdcc-b319ac83721b")
 	)
 	(junction
-		(at 293.37 158.75)
+		(at 330.2 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45e40b63-4b5d-425d-bff4-89e2f6571710")
+	)
+	(junction
+		(at 331.47 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dba93a7-5e0b-4e49-b856-99553f173efb")
 	)
 	(junction
 		(at 271.78 194.31)
@@ -9214,6 +9929,12 @@
 		(uuid "5eedcfc3-6960-4adb-9edb-d459c4b230f6")
 	)
 	(junction
+		(at 313.69 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f28d52c-d797-45ff-ac32-2e9a8a826a7f")
+	)
+	(junction
 		(at 236.22 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9224,6 +9945,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "613334c2-3282-41d8-987a-24883157e5f4")
+	)
+	(junction
+		(at 307.34 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "655c798b-8518-4514-abd4-349a00b9870a")
 	)
 	(junction
 		(at 93.98 270.51)
@@ -9268,10 +9995,22 @@
 		(uuid "83db1428-235a-45d8-8986-07aefab099e9")
 	)
 	(junction
+		(at 374.65 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95113035-eaee-429e-8231-a1b5c049d357")
+	)
+	(junction
 		(at 35.56 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9722298c-24d5-4a23-9168-11189360344e")
+	)
+	(junction
+		(at 307.34 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97926f35-96cb-4408-ab28-ebe849f6c28c")
 	)
 	(junction
 		(at 100.33 210.82)
@@ -9340,7 +10079,7 @@
 		(uuid "d229a248-ca74-4a77-add0-2a549d6f9b3c")
 	)
 	(junction
-		(at 342.9 140.97)
+		(at 379.73 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d60f86ab-7b5a-4e1b-a191-c4f4df076a3b")
@@ -9356,6 +10095,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e54e7a03-662d-4562-82b3-4c0bfaba96e1")
+	)
+	(junction
+		(at 322.58 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea9019a4-9669-4dd3-9924-47f472376ccb")
 	)
 	(junction
 		(at 24.13 62.23)
@@ -9430,6 +10175,16 @@
 			(type solid)
 		)
 		(uuid "01b1a4a8-c7d9-494d-a831-2330e7f99207")
+	)
+	(wire
+		(pts
+			(xy 313.69 129.54) (xy 313.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021b4260-77ce-4912-82e6-e64cc4e9ea1a")
 	)
 	(wire
 		(pts
@@ -9553,7 +10308,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 158.75) (xy 293.37 158.75)
+			(xy 323.85 158.75) (xy 330.2 158.75)
 		)
 		(stroke
 			(width 0)
@@ -9753,7 +10508,17 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 161.29) (xy 297.18 161.29)
+			(xy 307.34 142.24) (xy 307.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcd9e30-ec0d-4d3a-a5f3-9c924ee0151a")
+	)
+	(wire
+		(pts
+			(xy 331.47 161.29) (xy 334.01 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9793,7 +10558,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 190.5) (xy 83.82 190.5)
+			(xy 88.9 193.04) (xy 83.82 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9873,6 +10638,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 134.62) (xy 374.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17118a66-dd41-4d71-acac-82462ed6fc42")
+	)
+	(wire
+		(pts
 			(xy 76.2 199.39) (xy 76.2 204.47)
 		)
 		(stroke
@@ -9930,16 +10705,6 @@
 			(type solid)
 		)
 		(uuid "1d18924f-b873-46e7-b3b7-a3f11eae0f4e")
-	)
-	(wire
-		(pts
-			(xy 337.82 130.81) (xy 342.9 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d84f917-3bc8-4e67-a065-9179430f8ce4")
 	)
 	(wire
 		(pts
@@ -10063,7 +10828,17 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 140.97) (xy 360.68 140.97)
+			(xy 307.34 144.78) (xy 307.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c34f3f6-9dcf-45f7-9198-bd9382b7a04b")
+	)
+	(wire
+		(pts
+			(xy 394.97 140.97) (xy 397.51 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10103,6 +10878,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 139.7) (xy 334.01 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6b9661-c434-4ca5-a5f6-dcc03ba2e4ab")
+	)
+	(wire
+		(pts
 			(xy 260.35 194.31) (xy 260.35 195.58)
 		)
 		(stroke
@@ -10123,7 +10908,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 161.29) (xy 284.48 161.29)
+			(xy 304.8 161.29) (xy 321.31 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10153,7 +10938,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 166.37) (xy 342.9 166.37)
+			(xy 374.65 166.37) (xy 379.73 166.37)
 		)
 		(stroke
 			(width 0)
@@ -10223,7 +11008,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 190.5) (xy 132.08 190.5)
+			(xy 137.16 193.04) (xy 132.08 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10253,7 +11038,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 147.32) (xy 297.18 147.32)
+			(xy 320.04 147.32) (xy 334.01 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10273,7 +11058,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 190.5) (xy 100.33 190.5)
+			(xy 104.14 193.04) (xy 100.33 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10343,6 +11128,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 127) (xy 331.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41dc8458-bbff-4b77-99b9-2bcddd67c0b9")
+	)
+	(wire
+		(pts
 			(xy 119.38 92.71) (xy 137.16 92.71)
 		)
 		(stroke
@@ -10370,16 +11165,6 @@
 			(type default)
 		)
 		(uuid "43a224bb-f7aa-46d0-bf1d-f1362d0ee26a")
-	)
-	(wire
-		(pts
-			(xy 119.38 82.55) (xy 137.16 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4571d22b-e8b9-4d9e-b208-4f8c2759946d")
 	)
 	(wire
 		(pts
@@ -10503,6 +11288,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 134.62) (xy 369.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bb7179-a284-4b16-b313-b7afaf48be18")
+	)
+	(wire
+		(pts
 			(xy 119.38 102.87) (xy 137.16 102.87)
 		)
 		(stroke
@@ -10533,7 +11328,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 140.97) (xy 342.9 140.97)
+			(xy 374.65 140.97) (xy 379.73 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10653,6 +11448,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 144.78) (xy 307.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62725ef6-abbe-479d-bd7d-beb73755435c")
+	)
+	(wire
+		(pts
 			(xy 173.99 252.73) (xy 187.96 252.73)
 		)
 		(stroke
@@ -10723,7 +11528,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 190.5) (xy 76.2 190.5)
+			(xy 81.28 193.04) (xy 76.2 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11003,17 +11808,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 191.77) (xy 144.78 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca6a57f-deb2-4d89-9b70-72db4a45d818")
-	)
-	(wire
-		(pts
-			(xy 144.78 190.5) (xy 139.7 190.5)
+			(xy 140.97 193.04) (xy 139.7 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11143,7 +11938,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 158.75) (xy 297.18 158.75)
+			(xy 330.2 158.75) (xy 334.01 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11193,7 +11988,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 152.4) (xy 293.37 158.75)
+			(xy 330.2 152.4) (xy 330.2 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11203,7 +11998,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 190.5) (xy 100.33 210.82)
+			(xy 100.33 193.04) (xy 100.33 210.82)
 		)
 		(stroke
 			(width 0)
@@ -11223,6 +12018,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 139.7) (xy 300.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ad74a6-a959-4213-a830-4f44b85b3475")
+	)
+	(wire
+		(pts
 			(xy 140.97 238.76) (xy 142.24 238.76)
 		)
 		(stroke
@@ -11233,13 +12038,33 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 158.75) (xy 276.86 158.75)
+			(xy 327.66 139.7) (xy 331.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a792ef-c018-4463-8f67-be20f40dd175")
+	)
+	(wire
+		(pts
+			(xy 304.8 158.75) (xy 313.69 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "969ad50c-83d1-43b8-bf31-fb2b5eeb8831")
+	)
+	(wire
+		(pts
+			(xy 379.73 130.81) (xy 393.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b7da56-de1b-4c6f-8155-a0e39680e5d4")
 	)
 	(wire
 		(pts
@@ -11333,13 +12158,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 191.77) (xy 88.9 190.5)
+			(xy 298.45 146.05) (xy 307.34 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2745a84-dcee-4426-9876-18d6608ce9a4")
+		(uuid "a1c79d33-303e-4e14-9525-3f9464e18923")
 	)
 	(wire
 		(pts
@@ -11363,17 +12188,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 186.69) (xy 367.03 181.61)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a4a99c8f-855f-4468-b8b6-c6cab2b95db3")
-	)
-	(wire
-		(pts
-			(xy 113.03 190.5) (xy 106.68 190.5)
+			(xy 113.03 193.04) (xy 106.68 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11383,7 +12198,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 152.4) (xy 283.21 152.4)
+			(xy 316.23 152.4) (xy 320.04 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11400,6 +12215,16 @@
 			(type solid)
 		)
 		(uuid "a6b37c83-1399-4ef9-9479-6d2ac5162a0b")
+	)
+	(wire
+		(pts
+			(xy 313.69 127) (xy 322.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6df4505-3dcd-4cd1-a442-406e6c4737fa")
 	)
 	(wire
 		(pts
@@ -11433,7 +12258,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 203.2) (xy 113.03 190.5)
+			(xy 113.03 203.2) (xy 113.03 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11483,7 +12308,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 190.5) (xy 76.2 199.39)
+			(xy 76.2 193.04) (xy 76.2 199.39)
 		)
 		(stroke
 			(width 0)
@@ -11653,6 +12478,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 127) (xy 331.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b973f87c-ed27-4bf0-bc77-18ac862fbd60")
+	)
+	(wire
+		(pts
 			(xy 119.38 90.17) (xy 137.16 90.17)
 		)
 		(stroke
@@ -11660,6 +12495,16 @@
 			(type solid)
 		)
 		(uuid "b9fe7405-1dbb-49b1-a4f0-deab0cc0d298")
+	)
+	(wire
+		(pts
+			(xy 313.69 137.16) (xy 313.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb37721a-fbc5-4459-a907-949c894a969e")
 	)
 	(wire
 		(pts
@@ -11690,6 +12535,16 @@
 			(type default)
 		)
 		(uuid "bc6ee0df-ec42-45d6-9c98-7505a217512d")
+	)
+	(wire
+		(pts
+			(xy 300.99 142.24) (xy 307.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5bafdb-6d4d-4729-921e-5b41753293f8")
 	)
 	(wire
 		(pts
@@ -11793,7 +12648,17 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 144.78) (xy 297.18 144.78)
+			(xy 331.47 137.16) (xy 331.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44883aa-b680-405c-818e-853531f4fa05")
+	)
+	(wire
+		(pts
+			(xy 320.04 144.78) (xy 334.01 144.78)
 		)
 		(stroke
 			(width 0)
@@ -11893,7 +12758,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 140.97) (xy 345.44 140.97)
+			(xy 379.73 140.97) (xy 382.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -11953,6 +12818,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 193.04) (xy 140.97 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ab1176-bbdd-4228-ac94-f580db77d825")
+	)
+	(wire
+		(pts
 			(xy 30.48 260.35) (xy 38.1 260.35)
 		)
 		(stroke
@@ -12000,6 +12875,16 @@
 			(type default)
 		)
 		(uuid "d7f5334e-dd87-43e0-b2aa-6cad21335e90")
+	)
+	(wire
+		(pts
+			(xy 307.34 144.78) (xy 300.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87a6de2-0f11-4f1f-a94a-0b9dd7faf016")
 	)
 	(wire
 		(pts
@@ -12073,6 +12958,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 139.7) (xy 317.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9018ad-9fca-4dd4-a808-56299efbade3")
+	)
+	(wire
+		(pts
 			(xy 26.67 194.31) (xy 38.1 194.31)
 		)
 		(stroke
@@ -12080,6 +12975,16 @@
 			(type default)
 		)
 		(uuid "e16ba0e6-ebc9-43fa-a585-010e60996ae2")
+	)
+	(wire
+		(pts
+			(xy 374.65 125.73) (xy 374.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37bcf98-d4c9-4bc2-9112-d981e373ecd9")
 	)
 	(wire
 		(pts
@@ -12100,6 +13005,16 @@
 			(type solid)
 		)
 		(uuid "e48051bd-d4ad-4d64-9708-0a11e0e98fea")
+	)
+	(wire
+		(pts
+			(xy 369.57 134.62) (xy 374.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59ca06d-4638-42a3-acb5-6b17bd784832")
 	)
 	(wire
 		(pts
@@ -12143,16 +13058,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 204.47) (xy 367.03 215.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ea412b85-3b4e-4c78-8db0-a411c8b41f34")
-	)
-	(wire
-		(pts
 			(xy 143.51 199.39) (xy 143.51 201.93)
 		)
 		(stroke
@@ -12170,6 +13075,16 @@
 			(type default)
 		)
 		(uuid "ea612d61-c5c4-432d-a165-95c4cced4ab1")
+	)
+	(wire
+		(pts
+			(xy 300.99 137.16) (xy 313.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2a0fee-1bbe-44e2-972d-c7e2d39937a1")
 	)
 	(wire
 		(pts
@@ -12220,6 +13135,16 @@
 			(type solid)
 		)
 		(uuid "ee6dfc45-c4db-43ac-ba21-fc3b5524b30e")
+	)
+	(wire
+		(pts
+			(xy 140.97 191.77) (xy 144.78 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04cf0d9-d240-4f45-bc0b-08f2ea8c1223")
 	)
 	(wire
 		(pts
@@ -12343,6 +13268,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 125.73) (xy 374.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44e2931-8a75-4d3f-8401-e45b9a526a76")
+	)
+	(wire
+		(pts
 			(xy 186.69 151.13) (xy 190.5 151.13)
 		)
 		(stroke
@@ -12363,7 +13298,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 148.59) (xy 358.14 148.59)
+			(xy 374.65 148.59) (xy 394.97 148.59)
 		)
 		(stroke
 			(width 0)
@@ -12403,7 +13338,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 190.5) (xy 132.08 199.39)
+			(xy 132.08 193.04) (xy 132.08 199.39)
 		)
 		(stroke
 			(width 0)
@@ -12451,16 +13386,6 @@
 		)
 		(uuid "fee9a242-890a-45d2-868e-e8a5ab259533")
 	)
-	(wire
-		(pts
-			(xy 337.82 138.43) (xy 337.82 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff11c920-27f3-4766-bd6e-bf02633033bc")
-	)
 	(label "SPI_MOSI"
 		(at 173.99 247.65 0)
 		(effects
@@ -12492,7 +13417,7 @@
 		(uuid "190e3be9-15a7-40a1-9131-d139c158ef3b")
 	)
 	(label "GPS_ANT_ACTIVE"
-		(at 342.9 148.59 0)
+		(at 379.73 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12570,16 +13495,6 @@
 			(justify left bottom)
 		)
 		(uuid "38ac9e1f-c4c4-4639-8596-6c1be7dc56a0")
-	)
-	(label "STATUS_LED"
-		(at 367.03 215.9 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ab22a89-eb85-404e-bd34-0f79787f581a")
 	)
 	(label "SCL"
 		(at 45.72 102.87 0)
@@ -12671,16 +13586,6 @@
 		)
 		(uuid "57c41748-f471-4370-9aae-7f7410ab2e99")
 	)
-	(label "STATUS_LED"
-		(at 121.92 82.55 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "59f59cc7-5830-49c7-a82a-9277c030761e")
-	)
 	(label "RXD_GPS"
 		(at 45.72 54.61 0)
 		(effects
@@ -12713,7 +13618,7 @@
 		(uuid "5defa683-f528-443e-847e-00b7e583a950")
 	)
 	(label "GPS_RESET"
-		(at 283.21 144.78 0)
+		(at 320.04 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12723,7 +13628,7 @@
 		(uuid "602c3034-ff91-4b8e-9ad6-477b9155ac4d")
 	)
 	(label "TXD_GPS"
-		(at 267.97 158.75 0)
+		(at 304.8 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12913,7 +13818,7 @@
 		(uuid "9702b17f-e5f2-4cfe-916a-2d7b31e4af26")
 	)
 	(label "RXD_GPS"
-		(at 267.97 161.29 0)
+		(at 304.8 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13145,7 +14050,7 @@
 		(uuid "efbef4db-2545-4ba6-9e71-7f00badbea06")
 	)
 	(label "GPS_WAKEUP"
-		(at 283.21 147.32 0)
+		(at 320.04 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13747,8 +14652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_")
-		(at 138.43 185.42 90)
+		(lib_id "SM02B-GHS-TB:SM02B-GHS-TB")
+		(at 139.7 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13759,7 +14664,7 @@
 		(fields_autoplaced yes)
 		(uuid "09cdef2b-f31d-4136-acbe-bd3d4a0009a0")
 		(property "Reference" "P3"
-			(at 143.51 182.2449 90)
+			(at 143.51 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13770,7 +14675,7 @@
 			)
 		)
 		(property "Value" "JST_BTN_3"
-			(at 143.51 184.7849 90)
+			(at 143.51 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13780,8 +14685,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 138.43 185.42 0)
+		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13793,7 +14698,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
-			(at 138.43 185.42 0)
+			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13803,8 +14708,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)"
-			(at 138.43 185.42 0)
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.049 (1.25mm)"
+			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13816,7 +14721,7 @@
 			)
 		)
 		(property "MF" "JST Sales"
-			(at 138.43 185.42 0)
+			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13827,8 +14732,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "S2B-PH-SM4-TB (LF)(SN)"
-			(at 138.43 185.42 0)
+		(property "MP" "SM02B-GHS-TB"
+			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13840,7 +14745,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 138.43 185.42 0)
+			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13851,8 +14756,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 138.43 185.42 90)
+		(property "MPN" "SM02B-GHS-TB"
+			(at 139.7 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13862,8 +14767,8 @@
 				)
 			)
 		)
-		(property "PRICE" "0.37"
-			(at 138.43 185.42 90)
+		(property "PRICE" "0.26"
+			(at 139.7 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13871,6 +14776,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "455-1564-1-ND"
+			(at 139.7 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -13961,6 +14878,173 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
+		(at 300.99 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a670960-d344-43da-907f-62a42f59851f")
+		(property "Reference" "D12"
+			(at 292.354 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 279.146 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TPD1E05U06DPYR:DIO_TPD1E05U06DPYR"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.5-pF, 5.5-V, ±12-kV ESD protection diode in 0402 package for High Speed Interfaces"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "X1SON-2 Texas Instruments"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/Texas+Instruments/view-part/?ref=snap"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/Texas+Instruments/view-part/?ref=eda"
+			(at 300.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "47d5a46d-3510-407b-a470-62555d32eb5c")
+		)
+		(pin "1"
+			(uuid "b08c15a8-935c-4cba-b458-04c325d4ad08")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -15342,6 +16426,136 @@
 		)
 	)
 	(symbol
+		(lib_id "BAV199:BAV199")
+		(at 396.24 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19274874-fa6f-4112-aeb0-3678cba3d050")
+		(property "Reference" "D2"
+			(at 400.558 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV199"
+			(at 398.526 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BAV199:SOT23"
+			(at 396.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/bav99.pdf"
+			(at 396.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Small Signal Diode, SOT-23, 85V, 0.14A, 150°C"
+			(at 396.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Diotec Semiconductor"
+			(at 396.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BAV199"
+			(at 396.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "BAV199"
+			(at 396.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 396.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9be28dab-6934-4b91-a2f0-9f4a2cd18447")
+		)
+		(pin "3"
+			(uuid "cd3228e2-7690-4bf0-b014-91c7d07aef14")
+		)
+		(pin "1"
+			(uuid "d0624aae-e41d-40b6-8f4f-0a1d7c72603c")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
 		(at 134.62 40.64 90)
 		(unit 1)
@@ -15492,6 +16706,96 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 331.47 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b7bc237-d3e9-4ce1-9a90-0379fb7ed4ee")
+		(property "Reference" "C30"
+			(at 333.76 133.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NM"
+			(at 329.17 133.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 331.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W106K6R3CC"
+			(at 331.47 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf92c018-6784-4417-8858-dc869f7037c3")
+		)
+		(pin "2"
+			(uuid "58ed3465-dcce-42bf-8fc2-a9a95f22527c")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -16551,7 +17855,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 342.9 168.91 0)
+		(at 379.73 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16561,7 +17865,7 @@
 		(dnp no)
 		(uuid "2faeb278-3486-4a6d-a8cc-8f0c1d45f1af")
 		(property "Reference" "#U$039"
-			(at 342.9 168.91 0)
+			(at 379.73 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16572,7 +17876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 341.376 171.45 0)
+			(at 378.206 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16583,7 +17887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 342.9 168.91 0)
+			(at 379.73 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16594,7 +17898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 168.91 0)
+			(at 379.73 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16605,7 +17909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 168.91 0)
+			(at 379.73 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18710,6 +20014,174 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 298.45 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "546d0436-fd0b-495a-b276-ac7cbc1ccef6")
+		(property "Reference" "#U$091"
+			(at 298.45 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 296.926 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55c6dd32-92a8-43b7-b5b4-dd4b5b6016a3")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 313.69 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54b317ad-2a56-4496-b36b-4268ac954233")
+		(property "Reference" "C29"
+			(at 315.98 133.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NM"
+			(at 311.39 133.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 313.69 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W106K6R3CC"
+			(at 313.69 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c005dd33-cec9-49ea-b78d-5bbeddfd85a4")
+		)
+		(pin "2"
+			(uuid "443a1155-4c0b-48b4-b160-1f8bacc6aecb")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
 		(at 228.6 251.46 0)
 		(unit 1)
 		(body_style 1)
@@ -19022,7 +20494,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 281.94 158.75 0)
+		(at 318.77 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19032,7 +20504,7 @@
 		(dnp no)
 		(uuid "59fe9da3-9a99-4d0c-bd19-8ec43a36a1c6")
 		(property "Reference" "R10"
-			(at 281.94 156.21 0)
+			(at 318.77 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19042,7 +20514,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 281.94 158.75 0)
+			(at 318.77 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19054,7 +20526,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 281.94 158.75 0)
+			(at 318.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19065,7 +20537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 158.75 0)
+			(at 318.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19076,7 +20548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 158.75 0)
+			(at 318.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19087,7 +20559,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 281.94 158.75 0)
+			(at 318.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19114,7 +20586,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 288.29 152.4 180)
+		(at 325.12 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19124,7 +20596,7 @@
 		(dnp no)
 		(uuid "5b0412cf-b2c7-48c0-bebc-dab66273dc27")
 		(property "Reference" "R7"
-			(at 288.29 154.94 0)
+			(at 325.12 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19134,7 +20606,7 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 288.29 152.4 0)
+			(at 325.12 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19146,7 +20618,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 288.29 152.4 0)
+			(at 325.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19157,7 +20629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 152.4 0)
+			(at 325.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19168,7 +20640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 152.4 0)
+			(at 325.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19179,7 +20651,7 @@
 			)
 		)
 		(property "MPN" "RT0603BRE075KL"
-			(at 288.29 152.4 0)
+			(at 325.12 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20021,8 +21493,8 @@
 		)
 	)
 	(symbol
-		(lib_id "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_")
-		(at 212.09 135.89 0)
+		(lib_id "SM02B-GHS-TB:SM02B-GHS-TB")
+		(at 217.17 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20032,7 +21504,7 @@
 		(dnp no)
 		(uuid "678e7bb1-0142-4c95-b2c2-ac7dea6fb52f")
 		(property "Reference" "ONOFF1"
-			(at 211.074 141.224 0)
+			(at 212.852 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20043,7 +21515,7 @@
 			)
 		)
 		(property "Value" "JST_ONOFF"
-			(at 211.074 143.764 0)
+			(at 212.852 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20053,8 +21525,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 212.09 135.89 0)
+		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20066,7 +21538,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
-			(at 212.09 135.89 0)
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20076,8 +21548,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)"
-			(at 212.09 135.89 0)
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.049 (1.25mm)"
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20089,7 +21561,7 @@
 			)
 		)
 		(property "MF" "JST Sales"
-			(at 212.09 135.89 0)
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20100,8 +21572,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "S2B-PH-SM4-TB (LF)(SN)"
-			(at 212.09 135.89 0)
+		(property "MP" "SM02B-GHS-TB"
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20113,7 +21585,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 212.09 135.89 0)
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20124,8 +21596,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 212.09 135.89 0)
+		(property "MPN" "SM02B-GHS-TB"
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20135,8 +21607,8 @@
 				)
 			)
 		)
-		(property "PRICE" "0.37"
-			(at 212.09 135.89 0)
+		(property "PRICE" "0.26"
+			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20144,6 +21616,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "455-1564-1-ND"
+			(at 217.17 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -20241,7 +21725,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 276.86 152.4 270)
+		(at 313.69 152.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20251,7 +21735,7 @@
 		(dnp no)
 		(uuid "69f5cbe4-bf9b-4178-9367-b4d04ebf9717")
 		(property "Reference" "#U$024"
-			(at 276.86 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20262,7 +21746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 150.876 0)
+			(at 311.15 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20273,7 +21757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20284,7 +21768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20295,7 +21779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20397,7 +21881,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 289.56 161.29 180)
+		(at 326.39 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20407,7 +21891,7 @@
 		(dnp no)
 		(uuid "6bbce221-77f4-4b7c-82a5-037c7c5b2bbb")
 		(property "Reference" "R11"
-			(at 289.56 163.83 0)
+			(at 326.39 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20417,7 +21901,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 289.56 161.29 0)
+			(at 326.39 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20429,7 +21913,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 289.56 161.29 0)
+			(at 326.39 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20440,7 +21924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 161.29 0)
+			(at 326.39 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20451,7 +21935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 161.29 0)
+			(at 326.39 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20462,7 +21946,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 289.56 161.29 0)
+			(at 326.39 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22549,8 +24033,8 @@
 		)
 	)
 	(symbol
-		(lib_id "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_")
-		(at 82.55 185.42 90)
+		(lib_id "SM02B-GHS-TB:SM02B-GHS-TB")
+		(at 83.82 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22561,7 +24045,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a35303e-fe84-447b-a31f-b4eaaaa2cfc3")
 		(property "Reference" "P1"
-			(at 87.63 182.2449 90)
+			(at 87.63 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22572,7 +24056,7 @@
 			)
 		)
 		(property "Value" "JST_BTN_1"
-			(at 87.63 184.7849 90)
+			(at 87.63 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22582,8 +24066,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 82.55 185.42 0)
+		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+			(at 83.82 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22595,7 +24079,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
-			(at 82.55 185.42 0)
+			(at 83.82 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22605,8 +24089,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)"
-			(at 82.55 185.42 0)
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.049 (1.25mm)"
+			(at 83.82 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22618,7 +24102,7 @@
 			)
 		)
 		(property "MF" "JST Sales"
-			(at 82.55 185.42 0)
+			(at 83.82 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22629,8 +24113,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "S2B-PH-SM4-TB (LF)(SN)"
-			(at 82.55 185.42 0)
+		(property "MP" "SM02B-GHS-TB"
+			(at 83.82 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22642,7 +24126,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 82.55 185.42 0)
+			(at 83.82 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22653,8 +24137,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 82.55 185.42 90)
+		(property "MPN" "SM02B-GHS-TB"
+			(at 83.82 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22664,8 +24148,8 @@
 				)
 			)
 		)
-		(property "PRICE" "0.37"
-			(at 82.55 185.42 90)
+		(property "PRICE" "0.26"
+			(at 83.82 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22673,6 +24157,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "455-1564-1-ND"
+			(at 83.82 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -22781,8 +24277,8 @@
 		)
 	)
 	(symbol
-		(lib_id "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_")
-		(at 105.41 185.42 90)
+		(lib_id "SM02B-GHS-TB:SM02B-GHS-TB")
+		(at 106.68 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22793,7 +24289,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ba14899-14ca-4e01-817c-cf0462476504")
 		(property "Reference" "P2"
-			(at 110.49 182.2449 90)
+			(at 110.49 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22804,7 +24300,7 @@
 			)
 		)
 		(property "Value" "JST_BTN_2"
-			(at 110.49 184.7849 90)
+			(at 110.49 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22814,8 +24310,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 105.41 185.42 0)
+		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22827,7 +24323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
-			(at 105.41 185.42 0)
+			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22837,8 +24333,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)"
-			(at 105.41 185.42 0)
+		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.049 (1.25mm)"
+			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22850,7 +24346,7 @@
 			)
 		)
 		(property "MF" "JST Sales"
-			(at 105.41 185.42 0)
+			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22861,8 +24357,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "S2B-PH-SM4-TB (LF)(SN)"
-			(at 105.41 185.42 0)
+		(property "MP" "SM02B-GHS-TB"
+			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22874,7 +24370,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 105.41 185.42 0)
+			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22885,8 +24381,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 105.41 185.42 90)
+		(property "MPN" "SM02B-GHS-TB"
+			(at 106.68 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22896,8 +24392,8 @@
 				)
 			)
 		)
-		(property "PRICE" "0.37"
-			(at 105.41 185.42 90)
+		(property "PRICE" "0.26"
+			(at 106.68 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22905,6 +24401,18 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DigiKey_Part_Number" "455-1564-1-ND"
+			(at 106.68 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -24218,8 +25726,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:LED0603_NOOUTLINE")
-		(at 367.03 189.23 90)
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 322.58 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24227,29 +25735,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9986796f-6e2a-4db4-a747-272ee46e68fc")
-		(property "Reference" "D2"
-			(at 362.585 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 369.824 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 367.03 189.23 0)
+		(uuid "9b079994-1bd8-4365-adbc-6e8e952874c7")
+		(property "Reference" "#U$040"
+			(at 322.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24259,8 +25747,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
-			(at 367.03 189.23 0)
+		(property "Value" "GND"
+			(at 321.056 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24271,7 +25781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 367.03 189.23 0)
+			(at 322.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24280,39 +25790,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "LTST-C191KRKT"
-			(at 367.03 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" "0.10"
-			(at 367.03 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a60c9377-e1f8-4828-966a-256ee2319405")
 		)
 		(pin "1"
-			(uuid "ee9783c6-6d5c-4ca5-8462-4cab1d2e70c2")
+			(uuid "05365e3f-573e-4aa7-9cbe-0e0d0f2fae3a")
 		)
 		(instances
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
-					(reference "D2")
+					(reference "#U$040")
 					(unit 1)
 				)
 			)
@@ -24739,6 +26224,153 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RECE_20369_001E_01:RECE.20369.001E.01")
+		(at 300.99 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2050426-53b2-4c30-a86a-e838de98e046")
+		(property "Reference" "J3"
+			(at 290.83 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPEX"
+			(at 290.83 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RECE.20369:RECE20369001E01"
+			(at 274.32 60.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn.taoglas.com/datasheets/RECE.20369.001E.01.pdf"
+			(at 274.32 -39.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RF Connectors / Coaxial Connectors Standard Receptacle IPEX MHFIII(W.Flcomp"
+			(at 300.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.05"
+			(at 274.32 -239.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "960-RECE.20369001E01"
+			(at 274.32 -339.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taoglas/RECE.20369.001E.01?qs=DRkmTr78QATTXEmgGw9Tjg%3D%3D"
+			(at 274.32 -439.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Taoglas"
+			(at 274.32 -539.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RECE.20369.001E.01"
+			(at 274.32 -639.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "0cce73f6-46f3-45f7-b7d0-0e041b1f8183")
+		)
+		(pin "4"
+			(uuid "01a04d3c-1b36-4a18-bee7-31ce6b6b622e")
+		)
+		(pin "3"
+			(uuid "b5aac42f-e919-49ab-ae02-fc509db922e0")
+		)
+		(pin "2"
+			(uuid "c1089a9f-2d04-4698-ba96-86750b6a9f4c")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -25277,84 +26909,6 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 369.57 181.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0eb35fb-8b27-44bc-a535-8efeab20dd24")
-		(property "Reference" "#U$040"
-			(at 369.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 372.11 183.134 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 369.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95577a4c-5534-4434-9e64-316bdff53288")
-		)
-		(instances
-			(project "Medallion_Board"
-				(path "/0c161f28-8075-4403-a867-35208f463636"
-					(reference "#U$040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
 		(at 93.98 276.86 0)
 		(unit 1)
 		(body_style 1)
@@ -25575,7 +27129,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 367.03 199.39 90)
+		(at 322.58 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25583,9 +27137,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b6789c20-ef1a-43a5-b22a-882e2290f292")
+		(uuid "bba78873-597e-4a1b-9b21-a598d6a3fdab")
 		(property "Reference" "R14"
-			(at 364.49 199.39 0)
+			(at 322.58 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25594,8 +27148,8 @@
 				)
 			)
 		)
-		(property "Value" "5K"
-			(at 367.03 199.39 0)
+		(property "Value" "0R"
+			(at 322.58 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25606,8 +27160,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 367.03 199.39 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 322.58 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25618,7 +27172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 367.03 199.39 0)
+			(at 322.58 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25629,7 +27183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 367.03 199.39 0)
+			(at 322.58 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25640,7 +27194,7 @@
 			)
 		)
 		(property "MPN" "RT0603BRE075KL"
-			(at 367.03 199.39 0)
+			(at 322.58 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25650,11 +27204,11 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "7d5c8208-3781-414e-9db2-01e4f0f3094e")
-		)
 		(pin "2"
-			(uuid "6ecf5259-bcf7-406e-8dc5-6028c7ea3190")
+			(uuid "80e79c2e-2628-41c3-a2bd-f6d61ede5113")
+		)
+		(pin "1"
+			(uuid "4aec228c-65fd-401e-96fb-cfc205e326a5")
 		)
 		(instances
 			(project "Medallion_Board"
@@ -26499,7 +28053,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
-		(at 337.82 128.27 0)
+		(at 369.57 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26509,7 +28063,7 @@
 		(dnp no)
 		(uuid "c983dc4b-23ff-4f61-93a5-d8b11e284ce1")
 		(property "Reference" "#U$014"
-			(at 337.82 128.27 0)
+			(at 369.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26520,7 +28074,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 336.296 127.254 0)
+			(at 368.046 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26531,7 +28085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 128.27 0)
+			(at 369.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26542,7 +28096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 128.27 0)
+			(at 369.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26553,7 +28107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 128.27 0)
+			(at 369.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27175,7 +28729,7 @@
 	)
 	(symbol
 		(lib_id "LC86LICMD:LC86LICMD")
-		(at 317.5 151.13 0)
+		(at 354.33 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27186,7 +28740,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3d6e4e1-45c9-48c5-ba70-dd07c80f2bbd")
 		(property "Reference" "U3"
-			(at 317.5 130.81 0)
+			(at 354.33 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27196,7 +28750,7 @@
 			)
 		)
 		(property "Value" "LC86LICMD"
-			(at 317.5 133.35 0)
+			(at 354.33 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27206,7 +28760,7 @@
 			)
 		)
 		(property "Footprint" "LC86LICMD:MODULE_LC86LICMD"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27218,7 +28772,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7133/Quectel_LC86L_GNSS_Specification_V1.4.pdf"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27229,7 +28783,7 @@
 			)
 		)
 		(property "Description" "Navigation Galileo, GLONASS, GPS, GNSS Transceiver Module 1.575GHz, 1.601GHz Integrated, Ceramic Patch Surface Mount"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27241,7 +28795,7 @@
 			)
 		)
 		(property "MF" "Quectel Wireless Solutions Co., Ltd"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27253,7 +28807,7 @@
 			)
 		)
 		(property "MP" "LC86LICMD"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27265,7 +28819,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/LC86LICMD/?ref=eda"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27277,7 +28831,7 @@
 			)
 		)
 		(property "MPN" "LC86LICMD"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27288,7 +28842,7 @@
 			)
 		)
 		(property "PRICE" "12.69"
-			(at 317.5 151.13 0)
+			(at 354.33 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28669,7 +30223,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 342.9 135.89 270)
+		(at 379.73 135.89 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28679,7 +30233,7 @@
 		(dnp no)
 		(uuid "ef3a1e46-4196-4e8e-9f91-481e33bb7c77")
 		(property "Reference" "R5"
-			(at 345.44 135.89 0)
+			(at 382.27 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28689,7 +30243,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 342.9 135.89 0)
+			(at 379.73 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28701,7 +30255,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 342.9 135.89 0)
+			(at 379.73 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28712,7 +30266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 135.89 0)
+			(at 379.73 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28723,7 +30277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 135.89 0)
+			(at 379.73 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28734,7 +30288,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 342.9 135.89 0)
+			(at 379.73 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28761,7 +30315,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 363.22 140.97 90)
+		(at 400.05 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28771,7 +30325,7 @@
 		(dnp no)
 		(uuid "f217013b-9849-4908-ade6-dd55b2c6e8f5")
 		(property "Reference" "#U$020"
-			(at 363.22 140.97 0)
+			(at 400.05 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28782,7 +30336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 142.494 0)
+			(at 402.59 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28793,7 +30347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 140.97 0)
+			(at 400.05 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28804,7 +30358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 140.97 0)
+			(at 400.05 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28815,7 +30369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 140.97 0)
+			(at 400.05 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28995,7 +30549,7 @@
 	)
 	(symbol
 		(lib_id "XH414HG-IV01E:XH414HG-IV01E")
-		(at 350.52 140.97 90)
+		(at 387.35 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29006,7 +30560,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7075a85-60e8-4829-b560-304074073aae")
 		(property "Reference" "C8"
-			(at 351.2151 133.35 90)
+			(at 388.0451 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29016,7 +30570,7 @@
 			)
 		)
 		(property "Value" "100mF"
-			(at 351.2151 135.89 90)
+			(at 388.0451 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29026,7 +30580,7 @@
 			)
 		)
 		(property "Footprint" "KW-5R5C104-R:CAPPRD500W60D1000H3150"
-			(at 350.52 140.97 0)
+			(at 387.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29038,7 +30592,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/us/en-us/skuPage.KW-5R5C104-R.pdf#tab-2"
-			(at 350.52 140.97 0)
+			(at 387.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29049,7 +30603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 350.52 140.97 0)
+			(at 387.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29061,7 +30615,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 350.52 140.97 0)
+			(at 387.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29073,7 +30627,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 350.52 140.97 0)
+			(at 387.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29085,7 +30639,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 350.52 140.97 0)
+			(at 387.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29097,7 +30651,7 @@
 			)
 		)
 		(property "MPN" "KW-5R5C104-R"
-			(at 350.52 140.97 90)
+			(at 387.35 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29108,7 +30662,7 @@
 			)
 		)
 		(property "PRICE" "6.63"
-			(at 350.52 140.97 90)
+			(at 387.35 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29303,7 +30857,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 88.9 194.31 0)
+		(at 88.9 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29313,7 +30867,7 @@
 		(dnp no)
 		(uuid "f8f0a150-a0e5-4fd2-b0ed-32f864dc608c")
 		(property "Reference" "#U$052"
-			(at 88.9 194.31 0)
+			(at 88.9 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29324,7 +30878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.376 196.85 0)
+			(at 87.376 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29335,7 +30889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 194.31 0)
+			(at 88.9 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29346,7 +30900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 194.31 0)
+			(at 88.9 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29357,7 +30911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 194.31 0)
+			(at 88.9 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29982,7 +31536,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ffa79060-7a9f-48a0-b8ff-4cbf260867e8")
 		(property "Reference" "#PWR01"
 			(at 128.27 36.83 0)
