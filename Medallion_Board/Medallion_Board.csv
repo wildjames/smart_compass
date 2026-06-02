@@ -16,6 +16,7 @@
 "J1","1","SWD HEADER","DNP","","","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","","",""
 "J2","1","EXPANSION","DNP","","","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","","",""
 "J3","1","IPEX","","","","RECE.20369:RECE20369001E01","https://cdn.taoglas.com/datasheets/RECE.20369.001E.01.pdf","RECE.20369.001E.01","0.77"
+"J4","1","FH12-24S-0.5SH_55_","","","","FH12-24S-0.5SH_55_:HRS_FH12-24S-0.5SH_55_","https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en","FH12-24S-0.5SH(55)","1.44"
 "L1","1","10uH","","","","LQM18DN100M70L:INDC1608X95N","https://www.mouser.co.uk/datasheet/3/76/2/JELF243B_0086.pdf","LQM18DN100M70L ","0.09"
 "LRA1","1","Conn_01x02","DNP","","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://www.digikey.co.uk/en/products/detail/vybronics-inc/VG1040003D/10285886","VG1040003D","4.47"
 "ONOFF1","1","JST_ONOFF","","","","SM02B-GHS-TB:JST_SM02B-GHS-TB","https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf","SM02B-GHS-TB","0.26"

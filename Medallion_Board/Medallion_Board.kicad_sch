@@ -4641,6 +4641,828 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:MBR0530"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MBR0530"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MBR0530_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR0530_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FH12-24S-0.5SH_55_:FH12-24S-0.5SH_55_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J4"
+				(at 0 24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FH12-24S-0.5SH_55_"
+				(at 0 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FH12-24S-0.5SH_55_:HRS_FH12-24S-0.5SH_55_"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "24 Position FFC, FPC Connector Contacts, Bottom 0.020 (0.50mm) Surface Mount, Right Angle"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Hirose"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.2mm"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "FH12-24S-0.5SH(55)"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=523070&manufacturer=Hirose&part_name=FH12-24S-0.5SH(55)&search_term=fh12-24s-0.5sh(55)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Hirose"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "FH12-24S-0.5SH(55)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PRICE" "1.44"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FH12-24S-0.5SH_55__0_0"
+				(rectangle
+					(start -5.08 19.05)
+					(end 7.62 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "TSCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "BS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "BUSY"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 5.08)
+					(name "RES"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -8.89 0)
+					(length 5.08)
+					(name "D/C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -11.43 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 8.89 180)
+					(length 5.08)
+					(name "VCI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 6.35 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 1.27 180)
+					(length 5.08)
+					(name "VPP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 5.08)
+					(name "VSH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 5.08)
+					(name "VGH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 5.08)
+					(name "VSL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -8.89 180)
+					(length 5.08)
+					(name "VGL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -11.43 180)
+					(length 5.08)
+					(name "VCOM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -30.48 0)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "FH12-24S-0.5SH_55__1_0"
+				(pin no_connect line
+					(at -10.16 16.51 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 13.97 0)
+					(length 5.08)
+					(name "GDR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 11.43 0)
+					(length 5.08)
+					(name "RESE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 8.89 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 6.35 0)
+					(length 5.08)
+					(name "VSH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "TSDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 16.51 180)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 13.97 180)
+					(length 5.08)
+					(name "SDi"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 11.43 180)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LC86LICMD:LC86LICMD"
 			(pin_names
 				(offset 1.016)
@@ -9022,6 +9844,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:Si1308EDL"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Si1308EDL"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "30V Vds, 1.4A Id, N-Channel MOSFET, SC-70"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?323*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Si1308EDL_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Si1308EDL_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USB4085-GF-A:USB4085-GF-A"
 			(pin_names
 				(offset 1.016)
@@ -10571,6 +11708,18 @@
 		(uuid "cf988761-9ea1-4102-ba32-0c44f51a6671")
 	)
 	(rectangle
+		(start 163.83 221.615)
+		(end 299.085 281.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cfc2ebda-50dc-4a1a-9a27-9a7809dde0a9")
+	)
+	(rectangle
 		(start 13.97 124.46)
 		(end 160.02 172.72)
 		(stroke
@@ -10752,6 +11901,16 @@
 		)
 		(uuid "85bfd14a-95dd-44d9-8f90-5defe88744f7")
 	)
+	(text "NEEDS REVIEW\nhttps://files.waveshare.com/wiki/1.54inch%20e-Paper%20Module%20(G)/1.54inch_e-Paper_(G).pdf\nPAGE 44"
+		(exclude_from_sim no)
+		(at 247.904 276.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "895effd5-33ab-493c-885b-a596ebfb1d5c")
+	)
 	(text "USB\n"
 		(exclude_from_sim no)
 		(at 117.602 226.314 0)
@@ -10803,6 +11962,16 @@
 			)
 		)
 		(uuid "e0cb6b7d-9a22-4354-a021-a35845ffd9ab")
+	)
+	(text "E-INK DISPLAY"
+		(exclude_from_sim no)
+		(at 172.974 225.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e212540c-e37f-4dbd-9db5-dadd50127276")
 	)
 	(text "FUEL GAUGE"
 		(exclude_from_sim no)
@@ -10915,6 +12084,12 @@
 		(uuid "23550ca9-796f-46b2-b897-5e49c1d8a5f0")
 	)
 	(junction
+		(at 194.31 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b3bf7f1-4ab4-4bab-92e2-3e20642e84ec")
+	)
+	(junction
 		(at 346.71 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10925,6 +12100,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33d66924-c3ae-4172-91cc-09a145103a34")
+	)
+	(junction
+		(at 194.31 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "394e4705-db93-450c-8ec2-db18ac695abe")
 	)
 	(junction
 		(at 36.83 90.17)
@@ -10969,6 +12150,12 @@
 		(uuid "5288335a-469b-4d91-8139-e0271df54bc1")
 	)
 	(junction
+		(at 214.63 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57fef989-3840-43f5-b38a-e4060ce39d49")
+	)
+	(junction
 		(at 359.41 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11005,10 +12192,28 @@
 		(uuid "613334c2-3282-41d8-987a-24883157e5f4")
 	)
 	(junction
+		(at 292.1 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6433eee2-6fa1-4b08-8c9a-d448682e799e")
+	)
+	(junction
 		(at 295.91 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "655c798b-8518-4514-abd4-349a00b9870a")
+	)
+	(junction
+		(at 194.31 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c0fa4b-93fe-48b7-a003-1aa225f1a60e")
+	)
+	(junction
+		(at 292.1 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69fa9cf0-2c7f-4658-9b49-541de47fb03f")
 	)
 	(junction
 		(at 93.98 270.51)
@@ -11027,6 +12232,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ba4fa40-e0bc-4cd5-9671-ae412db899e7")
+	)
+	(junction
+		(at 231.14 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d6f08db-d193-47e3-811d-bc99dbd11254")
+	)
+	(junction
+		(at 168.91 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e00e323-2b25-485e-8cc8-228b7f0b5d54")
+	)
+	(junction
+		(at 199.39 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e209bc0-89c3-484e-807b-5f05503ee455")
 	)
 	(junction
 		(at 323.85 24.13)
@@ -11065,6 +12288,12 @@
 		(uuid "8b461898-3384-4a25-af3b-29112e42712f")
 	)
 	(junction
+		(at 271.78 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "921bedef-b5bd-45bb-b58f-20c50fcd33d6")
+	)
+	(junction
 		(at 363.22 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11083,6 +12312,12 @@
 		(uuid "97926f35-96cb-4408-ab28-ebe849f6c28c")
 	)
 	(junction
+		(at 292.1 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "992559c5-a60b-4fb8-82fc-87b819dbbe47")
+	)
+	(junction
 		(at 100.33 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11099,6 +12334,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9faf1d42-e709-4446-8910-486b7d43d7a6")
+	)
+	(junction
+		(at 184.15 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2985c9c-3023-49a0-9221-50998fc07507")
+	)
+	(junction
+		(at 292.1 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a43586b3-e5a8-4c78-ad7e-c5f8b89e2d92")
 	)
 	(junction
 		(at 203.2 134.62)
@@ -11123,6 +12370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b74ef1d5-3697-4725-b3be-71790ddc2347")
+	)
+	(junction
+		(at 194.31 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec2d05a-2687-43e2-a449-1624a9ab13ce")
 	)
 	(junction
 		(at 148.59 139.7)
@@ -11159,6 +12412,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d229a248-ca74-4a77-add0-2a549d6f9b3c")
+	)
+	(junction
+		(at 292.1 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2cca85d-ddea-4f50-ae98-bc6855cb896d")
+	)
+	(junction
+		(at 292.1 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3d48e91-9c19-45e1-a9f4-16af4b40c2f5")
 	)
 	(junction
 		(at 163.83 189.23)
@@ -11247,6 +12512,10 @@
 		(uuid "705148e6-5ab8-4688-a91c-bfcc86910d31")
 	)
 	(no_connect
+		(at 243.84 252.73)
+		(uuid "72d0ff2b-0870-4c75-859a-8342376d53a3")
+	)
+	(no_connect
 		(at 137.16 252.73)
 		(uuid "7cfa8659-4e5d-42d1-836c-d00122055b2e")
 	)
@@ -11261,6 +12530,10 @@
 	(no_connect
 		(at 38.1 242.57)
 		(uuid "996ae6d2-6319-49a8-b74b-02710d58e6bf")
+	)
+	(no_connect
+		(at 243.84 250.19)
+		(uuid "a6b4e7d4-3599-4157-a581-c64096b02333")
 	)
 	(no_connect
 		(at 137.16 255.27)
@@ -11293,6 +12566,16 @@
 			(type solid)
 		)
 		(uuid "00d83472-e28d-4f3a-82dd-a27d06e82d7c")
+	)
+	(wire
+		(pts
+			(xy 168.91 245.11) (xy 168.91 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e6e7de-22f7-4b2c-afb2-ceaf3a4fa315")
 	)
 	(wire
 		(pts
@@ -11353,6 +12636,16 @@
 			(type default)
 		)
 		(uuid "02c07a32-c630-4d63-9395-d99ef5202902")
+	)
+	(wire
+		(pts
+			(xy 266.7 247.65) (xy 292.1 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031662fe-e3e6-452b-8177-13d140ffffa7")
 	)
 	(wire
 		(pts
@@ -11526,6 +12819,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 265.43) (xy 283.21 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a4774b-5efe-4bbc-bb58-ccf4da602867")
+	)
+	(wire
+		(pts
 			(xy 393.7 54.61) (xy 392.43 54.61)
 		)
 		(stroke
@@ -11696,6 +12999,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 275.59) (xy 194.31 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddb8652-f65b-42b4-94b1-303fe77bde94")
+	)
+	(wire
+		(pts
+			(xy 284.48 245.11) (xy 292.1 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4d30e2-2491-4794-bfb2-1a479e28c116")
+	)
+	(wire
+		(pts
 			(xy 45.72 54.61) (xy 63.5 54.61)
 		)
 		(stroke
@@ -11783,6 +13106,16 @@
 			(type default)
 		)
 		(uuid "10d67008-361a-485d-b1b6-3ca6b5315220")
+	)
+	(wire
+		(pts
+			(xy 203.2 250.19) (xy 194.31 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111f31ea-c3b8-4b13-861b-cb8d640931f9")
 	)
 	(wire
 		(pts
@@ -11876,6 +13209,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 248.92) (xy 194.31 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1429af34-1844-4bb6-ae41-55445fdb90de")
+	)
+	(wire
+		(pts
 			(xy 173.99 204.47) (xy 181.61 204.47)
 		)
 		(stroke
@@ -11883,6 +13226,16 @@
 			(type default)
 		)
 		(uuid "152cab54-2020-4643-8dc5-2ac38c702451")
+	)
+	(wire
+		(pts
+			(xy 210.82 231.14) (xy 223.52 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155f028c-81b7-49dd-8ee9-8f50678f38cc")
 	)
 	(wire
 		(pts
@@ -11986,6 +13339,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 257.81) (xy 243.84 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac7d231-cba8-4135-b771-12c2c8b1a4c6")
+	)
+	(wire
+		(pts
 			(xy 251.46 201.93) (xy 267.97 201.93)
 		)
 		(stroke
@@ -11993,6 +13356,16 @@
 			(type default)
 		)
 		(uuid "1c446759-2f52-4c8e-9147-d062b62d2a0c")
+	)
+	(wire
+		(pts
+			(xy 241.3 247.65) (xy 243.84 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c84887d-fb92-4151-859f-cdc24a3db321")
 	)
 	(wire
 		(pts
@@ -12086,6 +13459,26 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 245.11) (xy 276.86 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230b27db-f4bd-42f2-bad1-49bc6abb175d")
+	)
+	(wire
+		(pts
+			(xy 214.63 254) (xy 214.63 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2333b2d5-fcc8-4471-a40b-c6b4d4d86e43")
+	)
+	(wire
+		(pts
 			(xy 140.97 62.23) (xy 151.13 62.23)
 		)
 		(stroke
@@ -12093,6 +13486,16 @@
 			(type default)
 		)
 		(uuid "23f60f03-1d3a-448f-8adf-da723c2456ed")
+	)
+	(wire
+		(pts
+			(xy 292.1 247.65) (xy 292.1 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2465ae59-812d-447d-a925-1c12242ff0ca")
 	)
 	(wire
 		(pts
@@ -12196,6 +13599,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 242.57) (xy 243.84 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c888d18-c92c-4e87-964a-cfac4e5621e3")
+	)
+	(wire
+		(pts
 			(xy 234.95 44.45) (xy 234.95 48.26)
 		)
 		(stroke
@@ -12213,6 +13626,16 @@
 			(type solid)
 		)
 		(uuid "2d337db1-a9aa-4ef1-be94-8c5fe02ef8fd")
+	)
+	(wire
+		(pts
+			(xy 214.63 241.3) (xy 214.63 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d37b27d-442c-4676-818e-de1fd1efcfce")
 	)
 	(wire
 		(pts
@@ -12236,6 +13659,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 236.22) (xy 199.39 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9e82c4-0db5-4bef-b458-b5dad1d5c988")
+	)
+	(wire
+		(pts
 			(xy 340.36 54.61) (xy 340.36 55.88)
 		)
 		(stroke
@@ -12243,6 +13676,16 @@
 			(type default)
 		)
 		(uuid "2febe58e-50a6-4fe8-b484-62c682f74001")
+	)
+	(wire
+		(pts
+			(xy 177.8 259.08) (xy 184.15 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fcdd9e-dcd9-460a-b777-3ce76ab4c6a3")
 	)
 	(wire
 		(pts
@@ -12396,6 +13839,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 231.14) (xy 203.2 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382e451a-d805-47aa-8f8d-f758872ec7ac")
+	)
+	(wire
+		(pts
 			(xy 337.82 209.55) (xy 337.82 210.82)
 		)
 		(stroke
@@ -12506,6 +13959,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 264.16) (xy 203.2 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d89cd5f-27bd-405f-aadd-012df3835ef6")
+	)
+	(wire
+		(pts
 			(xy 104.14 193.04) (xy 100.33 193.04)
 		)
 		(stroke
@@ -12523,6 +13986,16 @@
 			(type solid)
 		)
 		(uuid "3db3fda6-a5f4-47fb-b811-40852d6a1572")
+	)
+	(wire
+		(pts
+			(xy 194.31 236.22) (xy 194.31 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0b2c19-650c-4667-a383-597216ca60a7")
 	)
 	(wire
 		(pts
@@ -12623,6 +14096,16 @@
 			(type default)
 		)
 		(uuid "42881348-be26-45ae-adab-4e7a14180bd7")
+	)
+	(wire
+		(pts
+			(xy 168.91 261.62) (xy 168.91 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a500d3-1746-4f5f-bca3-642b7ed8cd4f")
 	)
 	(wire
 		(pts
@@ -12776,6 +14259,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 248.92) (xy 168.91 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f563002-2f09-4856-843e-86787b822555")
+	)
+	(wire
+		(pts
 			(xy 298.45 196.85) (xy 302.26 196.85)
 		)
 		(stroke
@@ -12866,6 +14359,26 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 262.89) (xy 292.1 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56722c40-776f-458a-b3c4-d8fa68fc9e5f")
+	)
+	(wire
+		(pts
+			(xy 292.1 255.27) (xy 292.1 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e60926-8047-4397-990e-681bff1921f0")
+	)
+	(wire
+		(pts
 			(xy 38.1 255.27) (xy 34.29 255.27)
 		)
 		(stroke
@@ -12936,6 +14449,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 255.27) (xy 292.1 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c73a2c7-c694-46f5-b607-b8cc15bff1bb")
+	)
+	(wire
+		(pts
 			(xy 179.07 191.77) (xy 179.07 189.23)
 		)
 		(stroke
@@ -12973,6 +14496,16 @@
 			(type default)
 		)
 		(uuid "5e1e7970-c793-474d-97ae-934c02e26cb0")
+	)
+	(wire
+		(pts
+			(xy 292.1 245.11) (xy 292.1 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7cfe05-3437-48ef-a0a0-bff147dbde0f")
 	)
 	(wire
 		(pts
@@ -13023,6 +14556,16 @@
 			(type default)
 		)
 		(uuid "615c6de9-f290-42a9-97d4-14a4abca15be")
+	)
+	(wire
+		(pts
+			(xy 184.15 256.54) (xy 186.69 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619e0732-397c-41ca-9b53-47a4419b6e96")
 	)
 	(wire
 		(pts
@@ -13136,6 +14679,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 250.19) (xy 203.2 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e5c4db-187b-40e4-86a7-76123e1f6627")
+	)
+	(wire
+		(pts
 			(xy 243.84 165.1) (xy 245.11 165.1)
 		)
 		(stroke
@@ -13193,6 +14746,16 @@
 			(type solid)
 		)
 		(uuid "6c3711e0-843e-47a9-b5a9-ff0d18a62b55")
+	)
+	(wire
+		(pts
+			(xy 292.1 250.19) (xy 292.1 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c48fbde-2cf8-4ed7-9f46-5c673c3f33eb")
 	)
 	(wire
 		(pts
@@ -13296,6 +14859,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 260.35) (xy 292.1 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7014e521-a2c3-42c3-a137-fc26eeef89ca")
+	)
+	(wire
+		(pts
 			(xy 160.02 236.22) (xy 160.02 238.76)
 		)
 		(stroke
@@ -13326,6 +14899,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 255.27) (xy 276.86 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73441fbc-26f2-409b-8e8c-e9f66fbfef30")
+	)
+	(wire
+		(pts
 			(xy 321.31 24.13) (xy 323.85 24.13)
 		)
 		(stroke
@@ -13333,6 +14916,16 @@
 			(type default)
 		)
 		(uuid "739b6818-2212-45a3-ba9e-875b7d8941cc")
+	)
+	(wire
+		(pts
+			(xy 214.63 252.73) (xy 223.52 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ff1457-c4eb-4d1f-b03b-f614e64ff99c")
 	)
 	(wire
 		(pts
@@ -13376,6 +14969,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 264.16) (xy 194.31 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761816d5-ec84-41b3-99b4-300219882e21")
+	)
+	(wire
+		(pts
 			(xy 24.13 64.77) (xy 26.67 64.77)
 		)
 		(stroke
@@ -13383,6 +14986,16 @@
 			(type default)
 		)
 		(uuid "76c90100-2b8f-4460-b5c6-9f4967fdec45")
+	)
+	(wire
+		(pts
+			(xy 266.7 257.81) (xy 276.86 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770e6acf-3a4d-436f-9420-44b7b5e866f5")
 	)
 	(wire
 		(pts
@@ -13536,6 +15149,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 265.43) (xy 292.1 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd03595-9f40-4302-a212-fdef17cfeaed")
+	)
+	(wire
+		(pts
 			(xy 26.67 201.93) (xy 38.1 201.93)
 		)
 		(stroke
@@ -13543,6 +15166,26 @@
 			(type default)
 		)
 		(uuid "7ebedd38-0118-4310-a40c-0dcb05c37874")
+	)
+	(wire
+		(pts
+			(xy 210.82 252.73) (xy 214.63 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efdee10-a91e-41e1-ade2-ccb50fc8c9c7")
+	)
+	(wire
+		(pts
+			(xy 284.48 250.19) (xy 292.1 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f30b209-bc09-4b16-9d34-5d103b9ba08e")
 	)
 	(wire
 		(pts
@@ -13583,6 +15226,16 @@
 			(type default)
 		)
 		(uuid "819cc883-b697-4876-a6bd-4123ca96cd05")
+	)
+	(wire
+		(pts
+			(xy 292.1 265.43) (xy 292.1 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e076e5-71e9-4bd4-80a1-73bb3e7ea6a7")
 	)
 	(wire
 		(pts
@@ -13676,6 +15329,36 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 259.08) (xy 184.15 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c7a9bd-cb43-4dfe-ad9b-68183d69b4e3")
+	)
+	(wire
+		(pts
+			(xy 199.39 241.3) (xy 203.2 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8819962a-b13f-4618-b675-8896747e272d")
+	)
+	(wire
+		(pts
+			(xy 199.39 236.22) (xy 199.39 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886db22e-4cac-4afc-b725-759a2cf79d47")
+	)
+	(wire
+		(pts
 			(xy 318.77 158.75) (xy 322.58 158.75)
 		)
 		(stroke
@@ -13713,6 +15396,16 @@
 			(type solid)
 		)
 		(uuid "8bd1b3f7-ed48-476e-94c0-dfe118df49f6")
+	)
+	(wire
+		(pts
+			(xy 236.22 240.03) (xy 243.84 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3775a4-648c-4d70-b252-ab1cd4ac37e0")
 	)
 	(wire
 		(pts
@@ -13773,6 +15466,16 @@
 			(type default)
 		)
 		(uuid "91ad74a6-a959-4213-a830-4f44b85b3475")
+	)
+	(wire
+		(pts
+			(xy 266.7 250.19) (xy 276.86 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928a5a52-50c3-4ce8-9471-3d0afa6f79d6")
 	)
 	(wire
 		(pts
@@ -13936,6 +15639,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 241.3) (xy 214.63 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea91371-cd70-4664-8e3e-b74c2b6d945d")
+	)
+	(wire
+		(pts
 			(xy 17.78 36.83) (xy 24.13 36.83)
 		)
 		(stroke
@@ -14026,6 +15739,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 260.35) (xy 292.1 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f99165-9bf8-4e14-9e1d-653bf5cbf237")
+	)
+	(wire
+		(pts
 			(xy 220.98 163.83) (xy 220.98 166.37)
 		)
 		(stroke
@@ -14066,6 +15789,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 262.89) (xy 243.84 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a925b6ab-820c-4c28-bd40-8f2ab17045a8")
+	)
+	(wire
+		(pts
 			(xy 113.03 203.2) (xy 113.03 193.04)
 		)
 		(stroke
@@ -14093,6 +15826,16 @@
 			(type solid)
 		)
 		(uuid "aa4892a4-7958-4e14-82cd-5dab29e4f8bb")
+	)
+	(wire
+		(pts
+			(xy 194.31 250.19) (xy 194.31 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa917b79-9f59-4da6-983a-1b6e9bbe5c55")
 	)
 	(wire
 		(pts
@@ -14133,6 +15876,16 @@
 			(type default)
 		)
 		(uuid "ac8c086c-1063-4203-af25-b3ab5730fb90")
+	)
+	(wire
+		(pts
+			(xy 199.39 231.14) (xy 199.39 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3f92a2-6b7b-4389-b37d-6669180c894f")
 	)
 	(wire
 		(pts
@@ -14206,6 +15959,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 260.35) (xy 283.21 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1afcaa6-4755-4202-b561-2cbbd35e0f5e")
+	)
+	(wire
+		(pts
 			(xy 372.11 196.85) (xy 388.62 196.85)
 		)
 		(stroke
@@ -14256,6 +16019,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 247.65) (xy 231.14 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b450c5d3-51b2-4fb3-ac37-284e92c8608f")
+	)
+	(wire
+		(pts
 			(xy 151.13 144.78) (xy 151.13 162.56)
 		)
 		(stroke
@@ -14283,6 +16056,16 @@
 			(type solid)
 		)
 		(uuid "b561b33a-0f9e-45e9-b372-b72af9f4f08d")
+	)
+	(wire
+		(pts
+			(xy 194.31 250.19) (xy 194.31 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bf0c99-0e50-46d0-9d27-f236ace84020")
 	)
 	(wire
 		(pts
@@ -14316,6 +16099,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 247.65) (xy 231.14 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7339abe-03c0-42fe-888c-42b51dca3a3c")
+	)
+	(wire
+		(pts
 			(xy 379.73 199.39) (xy 379.73 200.66)
 		)
 		(stroke
@@ -14323,6 +16116,16 @@
 			(type default)
 		)
 		(uuid "b86b1a44-4c1c-4e13-90cd-8b6e514717e6")
+	)
+	(wire
+		(pts
+			(xy 231.14 255.27) (xy 243.84 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f7647c-3bc2-40a9-93b9-990d3c1cd3b1")
 	)
 	(wire
 		(pts
@@ -14403,6 +16206,16 @@
 			(type default)
 		)
 		(uuid "be5bafdb-6d4d-4729-921e-5b41753293f8")
+	)
+	(wire
+		(pts
+			(xy 184.15 256.54) (xy 184.15 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be971934-eebc-4a14-9a00-69277af30a35")
 	)
 	(wire
 		(pts
@@ -14493,6 +16306,16 @@
 			(type default)
 		)
 		(uuid "c310af49-4a1c-4e85-bea5-0d8150289ea9")
+	)
+	(wire
+		(pts
+			(xy 194.31 261.62) (xy 194.31 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3215589-ee7e-4595-aedd-b6c16239576e")
 	)
 	(wire
 		(pts
@@ -14696,6 +16519,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 248.92) (xy 194.31 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b2a50b-02ef-4e0b-b94b-8ff6df75a40c")
+	)
+	(wire
+		(pts
 			(xy 203.2 134.62) (xy 207.01 134.62)
 		)
 		(stroke
@@ -14703,6 +16536,16 @@
 			(type default)
 		)
 		(uuid "d2a7dc89-66c5-4078-9660-02a5af45de60")
+	)
+	(wire
+		(pts
+			(xy 168.91 248.92) (xy 171.45 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2aaaa00-d3d3-4b69-8d5b-bbfb5c303906")
 	)
 	(wire
 		(pts
@@ -14823,6 +16666,16 @@
 			(type default)
 		)
 		(uuid "d9abc5c7-a808-4aa9-98d6-d079f855e2b0")
+	)
+	(wire
+		(pts
+			(xy 266.7 262.89) (xy 276.86 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad520ff-9494-460c-92a6-b1633c775f1a")
 	)
 	(wire
 		(pts
@@ -14966,6 +16819,36 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 242.57) (xy 271.78 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6354a29-daee-4e09-b491-775d5acce061")
+	)
+	(wire
+		(pts
+			(xy 271.78 245.11) (xy 266.7 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66b723a-9093-4f20-bb2d-eb7013e76260")
+	)
+	(wire
+		(pts
+			(xy 266.7 242.57) (xy 271.78 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ac585b-b07b-491a-88be-7974403d5bbd")
+	)
+	(wire
+		(pts
 			(xy 45.72 110.49) (xy 63.5 110.49)
 		)
 		(stroke
@@ -14983,6 +16866,16 @@
 			(type default)
 		)
 		(uuid "e79b2f5d-543f-4cfa-a72c-d11ef6163dd7")
+	)
+	(wire
+		(pts
+			(xy 284.48 262.89) (xy 292.1 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a50a5c-ed56-403e-a068-bc6100de6794")
 	)
 	(wire
 		(pts
@@ -15023,6 +16916,16 @@
 			(type default)
 		)
 		(uuid "ea612d61-c5c4-432d-a165-95c4cced4ab1")
+	)
+	(wire
+		(pts
+			(xy 236.22 265.43) (xy 243.84 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae3f273-652e-4911-b59f-8a3eb1dae2bc")
 	)
 	(wire
 		(pts
@@ -15103,6 +17006,26 @@
 			(type solid)
 		)
 		(uuid "ee6dfc45-c4db-43ac-ba21-fc3b5524b30e")
+	)
+	(wire
+		(pts
+			(xy 236.22 260.35) (xy 243.84 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8e38c7-ed45-42bc-ac31-6f6f2027dd1a")
+	)
+	(wire
+		(pts
+			(xy 266.7 240.03) (xy 281.94 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee4648d-d46f-437b-b81e-4e1cce80c4b8")
 	)
 	(wire
 		(pts
@@ -15316,6 +17239,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 237.49) (xy 281.94 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae1c729-0297-47d8-83d3-0054d2d59d09")
+	)
+	(wire
+		(pts
 			(xy 21.59 204.47) (xy 38.1 204.47)
 		)
 		(stroke
@@ -15403,6 +17336,56 @@
 			(justify left bottom)
 		)
 		(uuid "00e9e489-78b2-495a-b656-702a4a68abae")
+	)
+	(label "SPI_MOSI"
+		(at 269.24 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0203f8cc-a0ff-4734-8897-ad231860cee1")
+	)
+	(label "GDR"
+		(at 236.22 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "060c7fb5-3c6f-473f-bf7a-ef6e49a17594")
+	)
+	(label "BS"
+		(at 233.68 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f1e6799-bc26-43b8-b96d-dded993bae82")
+	)
+	(label "D{slash}C"
+		(at 236.22 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10cfe4f1-ccae-4ad0-ae1a-f1d801dc28c3")
+	)
+	(label "GDR"
+		(at 177.8 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11a191e8-2090-40e6-ba6a-181175952edb")
 	)
 	(label "GPIO15"
 		(at 26.67 191.77 0)
@@ -15574,6 +17557,16 @@
 		)
 		(uuid "45fcd45e-b391-4160-bd9a-929ea1330ecb")
 	)
+	(label "SPI_SCK"
+		(at 269.24 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46e16888-dcac-45af-b78b-dfd04194697b")
+	)
 	(label "LORA_NRST"
 		(at 45.72 105.41 0)
 		(effects
@@ -15705,6 +17698,16 @@
 		)
 		(uuid "6179202e-2dac-4e95-9fa7-0f07b79a7a21")
 	)
+	(label "PREVGH"
+		(at 266.7 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "623f32fe-c3af-413f-b917-f4b1ac4eb0a0")
+	)
 	(label "GPIO17"
 		(at 45.72 77.47 0)
 		(effects
@@ -15755,6 +17758,16 @@
 		)
 		(uuid "6ad56488-a14e-4bf9-bd29-eba7a038b085")
 	)
+	(label "RES"
+		(at 236.22 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b09423f-32ec-4c33-b8ed-fdaa9a3e40d7")
+	)
 	(label "LORA_BUSY"
 		(at 377.19 196.85 0)
 		(effects
@@ -15764,6 +17777,16 @@
 			(justify left bottom)
 		)
 		(uuid "6bd996c9-5e72-4e1c-8d84-f87c74f53954")
+	)
+	(label "BUSY"
+		(at 236.22 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cd27c63-8e8f-4df4-9c93-70be55ff29d0")
 	)
 	(label "SPI_SCK"
 		(at 251.46 199.39 0)
@@ -15814,6 +17837,16 @@
 			(justify left bottom)
 		)
 		(uuid "814b23cf-6341-484c-9f8d-7de10f14c43d")
+	)
+	(label "CS"
+		(at 236.22 265.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85b9da1c-fb6b-4eba-bdb5-032e3d093d8e")
 	)
 	(label "D+"
 		(at 121.92 54.61 0)
@@ -15885,6 +17918,16 @@
 		)
 		(uuid "9524c80f-ae23-405f-8982-d3ceef01b465")
 	)
+	(label "PREVGH"
+		(at 215.9 252.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95304999-5ed3-42ca-8e68-b98332518484")
+	)
 	(label "uC_RESET"
 		(at 140.97 62.23 0)
 		(effects
@@ -15904,6 +17947,16 @@
 			(justify left bottom)
 		)
 		(uuid "9702b17f-e5f2-4cfe-916a-2d7b31e4af26")
+	)
+	(label "PREVGL"
+		(at 266.7 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ba329f6-3ad0-49c8-a78d-298420cda979")
 	)
 	(label "RXD_GPS"
 		(at 293.37 161.29 0)
@@ -16005,6 +18058,16 @@
 		)
 		(uuid "b21af466-6163-4fb5-bc66-76c18a62dcbf")
 	)
+	(label "RESE"
+		(at 198.12 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b845e521-90b2-4523-941f-f722ea93650e")
+	)
 	(label "D-"
 		(at 151.13 247.65 0)
 		(effects
@@ -16067,6 +18130,16 @@
 		)
 		(uuid "c55502b3-4919-4d60-8027-bd052d75c2ad")
 	)
+	(label "PREVGL"
+		(at 215.9 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccbf35f1-ab19-49a2-8bfd-336a48084f19")
+	)
 	(label "SPI_MOSI"
 		(at 251.46 201.93 0)
 		(effects
@@ -16117,6 +18190,16 @@
 		)
 		(uuid "dc84c4f3-742c-47f3-bfcc-5c27a99a44f1")
 	)
+	(label "VCOM"
+		(at 266.7 265.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dec7e40e-21fb-4012-8a0d-1eeec0b4c6b6")
+	)
 	(label "SPI_MISO"
 		(at 325.12 196.85 0)
 		(effects
@@ -16166,6 +18249,16 @@
 			(justify left bottom)
 		)
 		(uuid "f2b923bc-532e-44ce-9496-1af03e1cf32b")
+	)
+	(label "RESE"
+		(at 236.22 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6c15b9b-cfcb-4283-a10b-a75623e135cf")
 	)
 	(label "NEOPIX"
 		(at 121.92 87.63 0)
@@ -16251,6 +18344,107 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 281.94 262.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00a74cc3-197f-4990-96e1-7c7a63dcbe9d")
+		(property "Reference" "C50"
+			(at 277.622 261.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 283.464 261.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 281.94 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 281.94 262.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 281.94 262.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "219cfdff-2c5a-4dad-954c-3eb5b2725b07")
+		)
+		(pin "2"
+			(uuid "17aa7e6d-91ba-427d-b8eb-ba7bece74b20")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -16713,6 +18907,94 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Si1308EDL")
+		(at 191.77 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0642bfde-fc18-4b61-937d-d59679e51819")
+		(property "Reference" "Q2"
+			(at 198.12 255.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Si1308EDL"
+			(at 198.12 257.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 196.85 258.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
+			(at 196.85 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 1.4A Id, N-Channel MOSFET, SC-70"
+			(at 191.77 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cec6653b-ee20-4dbf-8e00-cd7ab369b93c")
+		)
+		(pin "1"
+			(uuid "f2a39928-140c-4d84-9fb4-a71a4097e5b7")
+		)
+		(pin "3"
+			(uuid "3279a21b-3b6f-418b-b367-2174dcccecd4")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -20505,6 +22787,107 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 281.94 245.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24cfcf6a-05aa-480f-bc9d-eda3963be1f1")
+		(property "Reference" "C46"
+			(at 277.876 244.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 283.464 244.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 281.94 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 281.94 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 281.94 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9d34e55-20de-471a-9d1f-849acd20f809")
+		)
+		(pin "2"
+			(uuid "f3ce044e-e057-46c0-8dc5-02c89e32a799")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
 		(at 135.89 199.39 270)
 		(unit 1)
 		(body_style 1)
@@ -21351,6 +23734,86 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR0530")
+		(at 207.01 252.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "320600ef-b34e-4e99-b983-aec70da6cc05")
+		(property "Reference" "D23"
+			(at 207.3275 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0530"
+			(at 207.3275 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 207.01 248.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 207.01 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 207.01 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c4938c88-8944-4a80-b7cd-34ec16e4715e")
+		)
+		(pin "1"
+			(uuid "7c9d75fc-d2ab-4130-9d73-9631ab33c6bb")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -23476,6 +25939,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:MBR0530")
+		(at 207.01 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438c1d90-9b1b-4ccc-a56f-bc7e5fd88741")
+		(property "Reference" "D21"
+			(at 206.6925 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0530"
+			(at 206.6925 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 207.01 235.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 207.01 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 207.01 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c4a1697-6b1f-4d2e-976e-c54b7c0b3655")
+		)
+		(pin "1"
+			(uuid "1cf8ee2a-eacf-4e91-8619-9d0008a4a8ad")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:VREG_SOT23-5")
 		(at 208.28 153.67 0)
 		(unit 1)
@@ -24178,6 +26721,185 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 281.94 250.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b36c766-7fdb-45db-8e21-a58efe0409df")
+		(property "Reference" "C47"
+			(at 277.622 249.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 283.464 249.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 281.94 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 281.94 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 281.94 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88318be2-f8f1-437b-8777-4549e1ef710a")
+		)
+		(pin "2"
+			(uuid "939e59d0-3e90-454a-8dc7-e210338b0179")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 214.63 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b87d7d2-ad48-47a2-842b-9075c98dab03")
+		(property "Reference" "#U$0127"
+			(at 214.63 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.106 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e238a5e1-6b1c-4a2a-9e84-8b9291c333c1")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0127")
 					(unit 1)
 				)
 			)
@@ -29060,6 +31782,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 168.91 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "853ed965-0f10-4fe6-a3e4-b564b6914b58")
+		(property "Reference" "C43"
+			(at 166.62 255.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 171.21 255.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 168.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 168.91 256.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 168.91 256.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bab8324-4b97-4c08-8d60-2602ed250d6f")
+		)
+		(pin "2"
+			(uuid "81d117a6-d926-41d5-98e4-2bed392dc665")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 300.99 54.61 90)
 		(mirror x)
@@ -29156,6 +31979,84 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 231.14 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8886c560-17d7-4a6a-9446-2fe12af618f2")
+		(property "Reference" "#U$0124"
+			(at 231.14 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.616 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49ac6f86-a07c-4440-a604-197284c89ade")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0124")
 					(unit 1)
 				)
 			)
@@ -29329,6 +32230,107 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 288.29 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89568194-5178-4208-a1ee-751f7b5e220a")
+		(property "Reference" "C49"
+			(at 283.972 259.334 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 289.814 259.334 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 288.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 288.29 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 288.29 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfd766da-9298-43a6-9386-459668c9ba4c")
+		)
+		(pin "2"
+			(uuid "0967100b-47fc-4aa8-8d79-f95314908bb7")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -30081,6 +33083,187 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 168.91 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9215650f-8fec-4348-a2e5-68191151056b")
+		(property "Reference" "#U$0126"
+			(at 168.91 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.386 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e77a2738-3ed1-44f2-848c-78729194067d")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
+		(at 194.31 270.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9240424f-b73e-48e0-815e-aed42672cc14")
+		(property "Reference" "R24"
+			(at 196.85 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2R"
+			(at 194.31 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 194.31 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 194.31 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 194.31 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "460bcebc-5247-4d6a-93d3-4be9f4ac80f7")
+		)
+		(pin "2"
+			(uuid "3a8e378b-d691-4318-b24e-bc50bb004023")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCP73831T-2ACI_OT:MCP73831T-2ACI_OT")
 		(at 59.69 156.21 0)
 		(unit 1)
@@ -30527,6 +33710,84 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "RESET1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
+		(at 168.91 242.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "950b742f-f6e9-45e6-acca-64e626ac28ee")
+		(property "Reference" "#U$0125"
+			(at 168.91 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 167.386 241.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc918608-d743-461d-bbcd-05b80f1fa167")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0125")
 					(unit 1)
 				)
 			)
@@ -32082,6 +35343,182 @@
 		)
 	)
 	(symbol
+		(lib_id "LQM18DN100M70L:LQM18DN100M70L")
+		(at 181.61 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5055176-f382-4d8c-99a6-367e8d75a6bd")
+		(property "Reference" "L2"
+			(at 181.61 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uH 500mA"
+			(at 181.61 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor with Inductance 10uH Tol.+/-20% Package 0603 (1608)"
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.95mm"
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "LQM18DN100M70L"
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" " "
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 181.61 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a899065a-d017-4df3-823b-46f07e7d9fc8")
+		)
+		(pin "2"
+			(uuid "63819c05-6674-4cc5-80e4-78196d2de686")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:VBAT")
 		(at 394.97 19.05 0)
 		(unit 1)
@@ -32257,6 +35694,107 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 214.63 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a934b918-1b02-4208-a897-bf2d4ee1c72e")
+		(property "Reference" "C45"
+			(at 212.34 257.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 216.93 257.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 214.63 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 214.63 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 214.63 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b26e1275-412b-4a91-8799-aa479ad2ea01")
+		)
+		(pin "2"
+			(uuid "8ef6ae46-9db6-403e-8c31-8eaca01a514d")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -33174,6 +36712,86 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "BATT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR0530")
+		(at 207.01 241.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba142891-cb0a-4d59-b9f6-1848953265e5")
+		(property "Reference" "D22"
+			(at 207.3275 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0530"
+			(at 207.3275 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 207.01 236.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 207.01 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67d80031-d2df-43e3-ab11-1aa814ab5ebe")
+		)
+		(pin "1"
+			(uuid "740bdc48-b563-40fe-a160-0ec5838d6662")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -34264,6 +37882,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
+		(at 184.15 270.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5424ab9-dd13-4f67-9e18-feda58a76ed9")
+		(property "Reference" "R23"
+			(at 186.69 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 184.15 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.15 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 184.15 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 184.15 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f51e0bf-dcea-467c-95d0-3d572ecba5d1")
+		)
+		(pin "2"
+			(uuid "1ff03d94-6769-46ce-8172-c0410d6dd38b")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:VBAT")
 		(at 346.71 49.53 0)
 		(mirror y)
@@ -34337,6 +38058,107 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 194.31 240.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7f5e268-21e9-4268-be62-ed1333f04462")
+		(property "Reference" "C44"
+			(at 196.6 241.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 192.01 241.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 194.31 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 194.31 240.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab041a10-60ad-4252-a715-6b53b6f69829")
+		)
+		(pin "2"
+			(uuid "b186000a-9041-4508-9754-f15564fa9002")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -36094,6 +39916,266 @@
 		)
 	)
 	(symbol
+		(lib_id "FH12-24S-0.5SH_55_:FH12-24S-0.5SH_55_")
+		(at 254 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd10a8e-24de-466f-b3d1-ef6f74aaf613")
+		(property "Reference" "J4"
+			(at 254 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH12-24S-0.5SH_55_"
+			(at 254 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FH12-24S-0.5SH_55_:HRS_FH12-24S-0.5SH_55_"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "24 Position FFC, FPC Connector Contacts, Bottom 0.020 (0.50mm) Surface Mount, Right Angle"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Hirose"
+			(at 254 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.2mm"
+			(at 254 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 254 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" ""
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "FH12-24S-0.5SH(55)"
+			(at 254 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=523070&manufacturer=Hirose&part_name=FH12-24S-0.5SH(55)&search_term=fh12-24s-0.5sh(55)"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Hirose"
+			(at 254 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "FH12-24S-0.5SH(55)"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "1.44"
+			(at 254 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "9efe3799-db71-4ee0-95b9-3bcbb7dc13d8")
+		)
+		(pin "10"
+			(uuid "04dbd033-0e98-4005-aa68-3ecf9c29c4dd")
+		)
+		(pin "2"
+			(uuid "8675e72f-a070-4a86-bbf6-56e2d5944dba")
+		)
+		(pin "1"
+			(uuid "9b002305-7af6-431a-9f66-4fe5d2561a34")
+		)
+		(pin "4"
+			(uuid "38c0712a-d8df-4674-b3c4-9d294eaf1ac9")
+		)
+		(pin "5"
+			(uuid "763bcb24-f053-4e9e-97c9-9f07bcf88fbc")
+		)
+		(pin "8"
+			(uuid "6a051cec-c69e-4336-9baa-017892e0aefb")
+		)
+		(pin "9"
+			(uuid "f86db0d6-4c9e-4a6e-9426-6e8365e75a00")
+		)
+		(pin "3"
+			(uuid "fd3a0b71-17e2-4147-a387-2a7ae3691e00")
+		)
+		(pin "13"
+			(uuid "dd550d08-9384-4b3c-a7c6-a56f8fe56522")
+		)
+		(pin "14"
+			(uuid "a76dacdd-a72f-45b7-9c9f-b60bc36a2660")
+		)
+		(pin "6"
+			(uuid "be251248-6590-453d-9046-5e6d6f28efb2")
+		)
+		(pin "7"
+			(uuid "66571e7a-0a2e-4743-be8b-f0c02693acc2")
+		)
+		(pin "18"
+			(uuid "96c14bf6-30f0-4d64-8c1e-189bde1d6bb4")
+		)
+		(pin "19"
+			(uuid "fd6da5f8-bd91-406c-b66c-a0e752136ee2")
+		)
+		(pin "21"
+			(uuid "329cef12-f633-46b3-bb53-f26c9c25f58c")
+		)
+		(pin "23"
+			(uuid "6729e993-1246-4e0f-977d-34498e417445")
+		)
+		(pin "P1"
+			(uuid "b5305b17-6142-4d03-b02f-31f392919437")
+		)
+		(pin "P2"
+			(uuid "dbb84e10-26e7-4fb4-aca0-c67d9a2214ac")
+		)
+		(pin "12"
+			(uuid "88d20952-a9ce-4104-8cfe-99f48cc53cd6")
+		)
+		(pin "15"
+			(uuid "77c3f274-9c68-413c-8f30-e320e69c0941")
+		)
+		(pin "16"
+			(uuid "0b4e4956-cdfd-41dd-abec-4711522cf84d")
+		)
+		(pin "17"
+			(uuid "245847b8-10d0-4ef7-b6e9-1b14337c187b")
+		)
+		(pin "20"
+			(uuid "9350a207-3118-495f-94a7-09a214dbeecf")
+		)
+		(pin "22"
+			(uuid "3535d222-ac07-43ea-be73-d321b6631032")
+		)
+		(pin "24"
+			(uuid "d1d1af0a-57a7-43f5-a615-6259aa347cc1")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
 		(at 228.6 143.51 0)
 		(unit 1)
@@ -36267,6 +40349,107 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 288.29 265.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ded43c9e-6a75-4638-b0df-ea3d42a565a5")
+		(property "Reference" "C51"
+			(at 283.972 264.414 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 289.814 264.414 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 288.29 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 288.29 265.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 288.29 265.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87901086-db6d-4890-9dd1-44a4b48c487c")
+		)
+		(pin "2"
+			(uuid "73ec1df8-2249-4fc5-b3ec-b0f2e732fc31")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -36816,6 +40999,84 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 292.1 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3263db9-8973-482d-b96f-83a2e0249331")
+		(property "Reference" "#U$0130"
+			(at 292.1 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.576 273.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "984ede84-aedf-44b9-8365-db7c9f40899e")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
 		(at 240.03 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -36888,6 +41149,107 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 238.76 247.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e52ef035-25e4-4b93-939b-6fcf6ab7f6fe")
+		(property "Reference" "C42"
+			(at 237.51 249.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 237.51 245.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 238.76 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 238.76 247.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 238.76 247.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ece8e89-2bdb-4144-912e-45ab9315f45d")
+		)
+		(pin "2"
+			(uuid "a943463f-d3f6-40ef-8b5f-1841e30323ca")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -37148,6 +41510,185 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO")
+		(at 281.94 255.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea5120c1-5f95-420b-9721-2a8cf9eae6cd")
+		(property "Reference" "C48"
+			(at 277.622 254.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 283.464 254.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 281.94 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603B105K100XD"
+			(at 281.94 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 281.94 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc88ddcc-ecd0-4a28-a339-ab955f055520")
+		)
+		(pin "2"
+			(uuid "1d86af06-c577-4c50-a990-5faac5e288ee")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 214.63 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eafdcef6-b562-4fb6-8044-e37de9aaf629")
+		(property "Reference" "#U$0128"
+			(at 214.63 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.106 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25852409-d60c-4fe5-ae0c-b87d577cd5f5")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0128")
 					(unit 1)
 				)
 			)
@@ -37664,6 +42205,84 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 194.31 278.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eecb1062-9351-4a72-b1bd-9b2e27068ba8")
+		(property "Reference" "#U$0129"
+			(at 194.31 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 192.786 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95b263b3-0c94-4a77-8a8e-27886aafbe84")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0129")
 					(unit 1)
 				)
 			)
