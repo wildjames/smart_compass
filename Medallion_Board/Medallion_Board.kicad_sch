@@ -5,8 +5,8 @@
 	(uuid "0c161f28-8075-4403-a867-35208f463636")
 	(paper "A3")
 	(title_block
-		(title "Off-grid People Tracking Puck")
-		(date "2026-05-29")
+		(title "Smart Compass")
+		(date "2026-06-02")
 	)
 	(lib_symbols
 		(symbol "114993390:114993390"
@@ -10137,7 +10137,7 @@
 	)
 	(rectangle
 		(start 165.735 221.615)
-		(end 243.205 281.94)
+		(end 242.57 281.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -10994,6 +10994,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 24.13) (xy 248.92 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064bddc3-4298-43db-81ad-1b9672e08704")
+	)
+	(wire
+		(pts
 			(xy 26.67 199.39) (xy 38.1 199.39)
 		)
 		(stroke
@@ -11224,6 +11234,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 24.13) (xy 248.92 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed32708-fb63-4bd6-bc0d-6aaa26503638")
+	)
+	(wire
+		(pts
 			(xy 151.13 162.56) (xy 151.13 163.83)
 		)
 		(stroke
@@ -11381,16 +11401,6 @@
 			(type default)
 		)
 		(uuid "152cab54-2020-4643-8dc5-2ac38c702451")
-	)
-	(wire
-		(pts
-			(xy 248.92 22.86) (xy 248.92 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155c369a-7818-4130-8627-8cc8519a1bb7")
 	)
 	(wire
 		(pts
@@ -14894,7 +14904,7 @@
 		(uuid "5b487899-fb2f-4537-a89f-52cdd4050962")
 	)
 	(label "NEOPIX"
-		(at 248.92 22.86 180)
+		(at 252.73 24.13 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -31690,7 +31700,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv2605l.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1780420623353&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fdrv2605l"
 			(at 199.39 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31737,42 +31747,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "VSSOP-10 Texas Instruments"
-			(at 199.39 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 199.39 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DRV2605LDGSR/Texas+Instruments/view-part/?ref=eda"
-			(at 199.39 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "STANDARD" "IPC-7351B"
 			(at 199.39 201.93 0)
 			(hide yes)
@@ -31786,18 +31760,6 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 199.39 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV2605LDGSR/Texas+Instruments/view-part/?ref=snap"
 			(at 199.39 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31833,7 +31795,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 199.39 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31845,7 +31807,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "MPN" "DRV2605LDGSR"
 			(at 199.39 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -31854,7 +31816,17 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "PRICE" "1.69"
+			(at 199.39 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -37972,7 +37944,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc12c7c0-40b1-4fc6-b9cd-81ee0c4cee44")
 		(property "Reference" "LRA1"
@@ -38008,7 +37980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.co.uk/en/products/detail/vybronics-inc/VG1040003D/10285886"
 			(at 224.79 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -38020,6 +37992,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 224.79 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "VG1040003D"
+			(at 224.79 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "4.47"
 			(at 224.79 187.96 0)
 			(hide yes)
 			(show_name no)
