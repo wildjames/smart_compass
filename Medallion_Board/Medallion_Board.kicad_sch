@@ -7503,6 +7503,357 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MX25R6435FZAIH0:MX25R6435FZAIH0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -12.7345 10.697 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MX25R6435FZAIH0"
+				(at -12.7395 -12.7395 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MX25R6435FZAIH0:SON80P400X400X60-9N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "FLASH - NOR Memory IC 64Mb (8M x 8) SPI - Quad I/O 80 MHz 8-USON (4x4)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Macronix"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MX25R6435FZAIH0/Macronix/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MX25R6435FZAIH0/Macronix/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "MX25R6435FZAIH0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=548491&manufacturer=Macronix&part_name=MX25R6435FZAIH0&search_term=mx25r6435fzaih0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Macronix"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "MX25R6435FZAIH0_0_0"
+				(rectangle
+					(start -12.7 -10.16)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "CS#"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "SO/SIO1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "WP#/SIO2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "SI/SIO0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "RESET#/SIO3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RECE_20369_001E_01:RECE.20369.001E.01"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10136,8 +10487,8 @@
 		(uuid "4ba3979f-b5a1-4146-a562-7965f63329fa")
 	)
 	(rectangle
-		(start 165.735 221.615)
-		(end 242.57 281.94)
+		(start 316.23 174.625)
+		(end 393.7 219.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -10182,6 +10533,18 @@
 			(type none)
 		)
 		(uuid "afeb473b-9c0f-4ba3-8a27-e1fd1e60dbcd")
+	)
+	(rectangle
+		(start 244.475 174.625)
+		(end 314.325 219.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b78caec2-d3dc-4a86-902b-7ed6a4606f77")
 	)
 	(rectangle
 		(start 59.69 174.625)
@@ -10230,6 +10593,17 @@
 			(type none)
 		)
 		(uuid "fecdedf1-d42f-48fa-8dc9-827f3bed8db9")
+	)
+	(text "FLASH"
+		(exclude_from_sim no)
+		(at 249.428 179.832 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "066a51f6-1c3b-469d-a407-6fb7e5928c26")
 	)
 	(text "1.0K  = 1000mA"
 		(exclude_from_sim no)
@@ -10283,6 +10657,16 @@
 			(justify left bottom)
 		)
 		(uuid "48463807-6abd-4ac7-befb-5db7330a8844")
+	)
+	(text "V_BCKP enables much faster \nlocation acquisition\n30s -> 2s"
+		(exclude_from_sim no)
+		(at 390.906 155.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a477e1d-d782-4f4b-b5f1-99fa8e123941")
 	)
 	(text "Neopixel Ring"
 		(exclude_from_sim no)
@@ -10339,7 +10723,7 @@
 	)
 	(text "LORA RADIO"
 		(exclude_from_sim no)
-		(at 173.355 224.155 0)
+		(at 324.485 177.165 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10379,6 +10763,16 @@
 		)
 		(uuid "aea4288f-7fc3-4555-ad75-027b04419271")
 	)
+	(text "Unused but \nimplemented \njust in case"
+		(exclude_from_sim no)
+		(at 277.368 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf5d6f90-1989-4603-9f4b-e182c5fa6abc")
+	)
 	(text "2.0K  = 500mA"
 		(exclude_from_sim no)
 		(at 16.256 143.764 0)
@@ -10389,6 +10783,16 @@
 			(justify left bottom)
 		)
 		(uuid "d6517411-2782-4703-a7e2-249aaf8add43")
+	)
+	(text "From the datasheet\nSection 12:\nPlease note that a pull-up resistor\non CS# may ensure a safe and proper \npower-up/down level."
+		(exclude_from_sim no)
+		(at 281.686 182.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d80a38a4-6a88-42ca-8545-8be35f57bd5a")
 	)
 	(text "nRF52840 MODULE"
 		(exclude_from_sim no)
@@ -10463,6 +10867,18 @@
 		(uuid "104c64b6-971b-4dca-b63c-33b0167322d1")
 	)
 	(junction
+		(at 261.62 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14026cab-0a14-4724-ac5b-03b45685fcf1")
+	)
+	(junction
+		(at 140.97 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1521edf6-206c-4799-9c47-620aa77dd30d")
+	)
+	(junction
 		(at 234.95 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10485,6 +10901,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f5860b-ff6a-416d-983c-e4444bcc348f")
+	)
+	(junction
+		(at 302.26 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213e2bc5-b698-4cda-b205-579f33ceb01f")
 	)
 	(junction
 		(at 190.5 151.13)
@@ -10517,13 +10939,19 @@
 		(uuid "45c59687-62aa-4504-bdcc-b319ac83721b")
 	)
 	(junction
-		(at 330.2 158.75)
+		(at 318.77 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45e40b63-4b5d-425d-bff4-89e2f6571710")
 	)
 	(junction
-		(at 331.47 139.7)
+		(at 243.84 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46697cc6-4bc1-4ca2-82b7-5464242d4b8a")
+	)
+	(junction
+		(at 320.04 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dba93a7-5e0b-4e49-b856-99553f173efb")
@@ -10547,7 +10975,7 @@
 		(uuid "5eedcfc3-6960-4adb-9edb-d459c4b230f6")
 	)
 	(junction
-		(at 313.69 137.16)
+		(at 302.26 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f28d52c-d797-45ff-ac32-2e9a8a826a7f")
@@ -10577,7 +11005,7 @@
 		(uuid "613334c2-3282-41d8-987a-24883157e5f4")
 	)
 	(junction
-		(at 307.34 144.78)
+		(at 295.91 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "655c798b-8518-4514-abd4-349a00b9870a")
@@ -10619,12 +11047,6 @@
 		(uuid "7a6167d0-cbb6-430e-901c-1a5759fb3ce7")
 	)
 	(junction
-		(at 140.97 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f7d3b51-4848-441d-9d68-424e0e3d633a")
-	)
-	(junction
 		(at 275.59 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10637,7 +11059,13 @@
 		(uuid "83db1428-235a-45d8-8986-07aefab099e9")
 	)
 	(junction
-		(at 374.65 134.62)
+		(at 254 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b461898-3384-4a25-af3b-29112e42712f")
+	)
+	(junction
+		(at 363.22 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95113035-eaee-429e-8231-a1b5c049d357")
@@ -10649,7 +11077,7 @@
 		(uuid "9722298c-24d5-4a23-9168-11189360344e")
 	)
 	(junction
-		(at 307.34 142.24)
+		(at 295.91 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97926f35-96cb-4408-ab28-ebe849f6c28c")
@@ -10665,6 +11093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9da48267-500b-422b-8929-b2b17fd45d55")
+	)
+	(junction
+		(at 311.15 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9faf1d42-e709-4446-8910-486b7d43d7a6")
 	)
 	(junction
 		(at 203.2 134.62)
@@ -10733,7 +11167,7 @@
 		(uuid "d4c5eef4-158e-46fb-a7f0-d6638012d280")
 	)
 	(junction
-		(at 379.73 140.97)
+		(at 368.3 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d60f86ab-7b5a-4e1b-a191-c4f4df076a3b")
@@ -10749,12 +11183,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e54e7a03-662d-4562-82b3-4c0bfaba96e1")
-	)
-	(junction
-		(at 322.58 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea9019a4-9669-4dd3-9924-47f472376ccb")
 	)
 	(junction
 		(at 24.13 62.23)
@@ -10775,6 +11203,12 @@
 		(uuid "ef4198e2-bbe3-41ee-819f-1417bc461bb8")
 	)
 	(junction
+		(at 302.26 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f13a9ed4-5b2a-42e8-b2f2-27f790112beb")
+	)
+	(junction
 		(at 186.69 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10791,6 +11225,54 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fffbc692-6439-43cd-b624-8d3dd7dc4c80")
+	)
+	(no_connect
+		(at 298.45 212.09)
+		(uuid "104b6102-4eb3-45b0-a528-a60ca351659f")
+	)
+	(no_connect
+		(at 240.03 66.04)
+		(uuid "1bf80f6c-9f30-4748-80d6-573b994e6f20")
+	)
+	(no_connect
+		(at 81.28 250.19)
+		(uuid "4611f76d-e049-4272-914a-21b0301130e6")
+	)
+	(no_connect
+		(at 137.16 250.19)
+		(uuid "5b8a6080-d569-4c81-b21e-5f073bab3a22")
+	)
+	(no_connect
+		(at 372.11 201.93)
+		(uuid "705148e6-5ab8-4688-a91c-bfcc86910d31")
+	)
+	(no_connect
+		(at 137.16 252.73)
+		(uuid "7cfa8659-4e5d-42d1-836c-d00122055b2e")
+	)
+	(no_connect
+		(at 137.16 257.81)
+		(uuid "8202161a-7d73-426e-9a1c-49878ba02b79")
+	)
+	(no_connect
+		(at 363.22 146.05)
+		(uuid "85c76b68-aaca-4313-adae-0a1cb1902135")
+	)
+	(no_connect
+		(at 38.1 242.57)
+		(uuid "996ae6d2-6319-49a8-b74b-02710d58e6bf")
+	)
+	(no_connect
+		(at 137.16 255.27)
+		(uuid "c1fd8df7-56da-41d3-8714-15c5b93a1a67")
+	)
+	(no_connect
+		(at 38.1 262.89)
+		(uuid "c2487bb7-9070-457c-9f22-c280b3ed3f6f")
+	)
+	(no_connect
+		(at 81.28 247.65)
+		(uuid "e98144c5-9562-410d-a286-c0efcb6c33bb")
 	)
 	(wire
 		(pts
@@ -10844,7 +11326,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 129.54) (xy 313.69 127)
+			(xy 302.26 129.54) (xy 302.26 127)
 		)
 		(stroke
 			(width 0)
@@ -10984,7 +11466,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 158.75) (xy 330.2 158.75)
+			(xy 312.42 158.75) (xy 318.77 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11001,6 +11483,16 @@
 			(type default)
 		)
 		(uuid "064bddc3-4298-43db-81ad-1b9672e08704")
+	)
+	(wire
+		(pts
+			(xy 311.15 128.27) (xy 311.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06514c91-f323-40e1-b4a5-97a6d0263966")
 	)
 	(wire
 		(pts
@@ -11031,16 +11523,6 @@
 			(type default)
 		)
 		(uuid "075dd042-a4f0-4110-a82f-ba936d34c75c")
-	)
-	(wire
-		(pts
-			(xy 182.88 260.35) (xy 182.88 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08972793-dd32-428c-81dd-f25ee832f46d")
 	)
 	(wire
 		(pts
@@ -11094,7 +11576,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 156.21) (xy 243.84 148.59)
+			(xy 233.68 144.78) (xy 233.68 138.43)
 		)
 		(stroke
 			(width 0.1524)
@@ -11111,16 +11593,6 @@
 			(type default)
 		)
 		(uuid "0baf671c-ed6a-453b-9e9a-bec5fa36a5b6")
-	)
-	(wire
-		(pts
-			(xy 187.96 260.35) (xy 182.88 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc7d260-ed92-41b6-89ed-7f7e793d5a48")
 	)
 	(wire
 		(pts
@@ -11274,7 +11746,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 142.24) (xy 307.34 139.7)
+			(xy 295.91 142.24) (xy 295.91 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11284,7 +11756,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 161.29) (xy 334.01 161.29)
+			(xy 320.04 161.29) (xy 322.58 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11321,6 +11793,16 @@
 			(type solid)
 		)
 		(uuid "11bb267f-aede-4742-9051-fa133bd0745b")
+	)
+	(wire
+		(pts
+			(xy 251.46 199.39) (xy 267.97 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11beb8ed-10d5-4ee6-84ab-2fc282a2da76")
 	)
 	(wire
 		(pts
@@ -11414,13 +11896,23 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 134.62) (xy 374.65 138.43)
+			(xy 363.22 134.62) (xy 363.22 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17118a66-dd41-4d71-acac-82462ed6fc42")
+	)
+	(wire
+		(pts
+			(xy 243.84 154.94) (xy 245.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17afb3b2-1638-49fb-a888-a7d00c22bc0d")
 	)
 	(wire
 		(pts
@@ -11494,6 +11986,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 201.93) (xy 267.97 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c446759-2f52-4c8e-9147-d062b62d2a0c")
+	)
+	(wire
+		(pts
+			(xy 251.46 212.09) (xy 267.97 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cef64a6-37fb-42cb-bd62-989964a08193")
+	)
+	(wire
+		(pts
 			(xy 137.16 245.11) (xy 139.7 245.11)
 		)
 		(stroke
@@ -11534,13 +12046,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 257.81) (xy 175.26 257.81)
+			(xy 339.09 209.55) (xy 337.82 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "221b4c80-4c08-416a-89e1-73ec2846028d")
+	)
+	(wire
+		(pts
+			(xy 243.84 154.94) (xy 243.84 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225f3cd3-34b2-4878-ae1f-49c6957fbc4e")
 	)
 	(wire
 		(pts
@@ -11594,6 +12116,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 154.94) (xy 254 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "279c085f-686e-43a2-a417-e10333ccd526")
+	)
+	(wire
+		(pts
+			(xy 298.45 209.55) (xy 302.26 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29515ea3-825c-429a-afb6-601e8d466e1a")
+	)
+	(wire
+		(pts
 			(xy 177.8 151.13) (xy 186.69 151.13)
 		)
 		(stroke
@@ -11624,7 +12166,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 144.78) (xy 307.34 142.24)
+			(xy 295.91 144.78) (xy 295.91 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11634,7 +12176,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 140.97) (xy 397.51 140.97)
+			(xy 383.54 140.97) (xy 386.08 140.97)
 		)
 		(stroke
 			(width 0)
@@ -11674,7 +12216,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 139.7) (xy 334.01 139.7)
+			(xy 320.04 139.7) (xy 322.58 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11714,7 +12256,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 161.29) (xy 321.31 161.29)
+			(xy 293.37 161.29) (xy 309.88 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11741,6 +12283,16 @@
 			(type default)
 		)
 		(uuid "31ac1552-5d0d-4c5d-90ca-278fd42717c2")
+	)
+	(wire
+		(pts
+			(xy 251.46 209.55) (xy 267.97 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320d5883-33d2-40c6-8159-61f4f628d780")
 	)
 	(wire
 		(pts
@@ -11774,7 +12326,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 166.37) (xy 379.73 166.37)
+			(xy 363.22 166.37) (xy 368.3 166.37)
 		)
 		(stroke
 			(width 0)
@@ -11834,7 +12386,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 135.89) (xy 243.84 146.05)
+			(xy 233.68 132.08) (xy 233.68 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -11844,13 +12396,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 257.81) (xy 175.26 259.08)
+			(xy 337.82 209.55) (xy 337.82 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "385a0904-9331-4fa4-b531-d61d793581c2")
+	)
+	(wire
+		(pts
+			(xy 261.62 196.85) (xy 267.97 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e408f1-3beb-4ded-8319-086db78d2971")
 	)
 	(wire
 		(pts
@@ -11904,7 +12466,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 147.32) (xy 334.01 147.32)
+			(xy 308.61 147.32) (xy 322.58 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11974,7 +12536,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 247.65) (xy 228.6 247.65)
+			(xy 372.11 199.39) (xy 379.73 199.39)
 		)
 		(stroke
 			(width 0)
@@ -12034,7 +12596,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 127) (xy 331.47 129.54)
+			(xy 320.04 127) (xy 320.04 129.54)
 		)
 		(stroke
 			(width 0)
@@ -12174,6 +12736,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 209.55) (xy 309.88 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6ed0b8-1a7d-4145-96ad-1ae403b98901")
+	)
+	(wire
+		(pts
 			(xy 375.92 54.61) (xy 375.92 55.88)
 		)
 		(stroke
@@ -12204,6 +12776,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 196.85) (xy 302.26 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcda366-9d25-45b4-965a-ffc9258ae4e6")
+	)
+	(wire
+		(pts
 			(xy 198.12 156.21) (xy 198.12 166.37)
 		)
 		(stroke
@@ -12214,7 +12796,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 247.65) (xy 187.96 247.65)
+			(xy 325.12 199.39) (xy 339.09 199.39)
 		)
 		(stroke
 			(width 0)
@@ -12244,7 +12826,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 149.86) (xy 88.9 152.4)
+			(xy 92.71 149.86) (xy 92.71 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12264,7 +12846,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 134.62) (xy 369.57 132.08)
+			(xy 358.14 134.62) (xy 358.14 132.08)
 		)
 		(stroke
 			(width 0)
@@ -12294,7 +12876,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 140.97) (xy 379.73 140.97)
+			(xy 363.22 140.97) (xy 368.3 140.97)
 		)
 		(stroke
 			(width 0)
@@ -12444,7 +13026,17 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 144.78) (xy 307.34 146.05)
+			(xy 302.26 204.47) (xy 302.26 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c748c7-268b-4ac9-8fe2-0fd6ea23eff3")
+	)
+	(wire
+		(pts
+			(xy 295.91 144.78) (xy 295.91 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12454,7 +13046,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 252.73) (xy 187.96 252.73)
+			(xy 325.12 204.47) (xy 339.09 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12544,6 +13136,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 165.1) (xy 245.11 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a03fb40-3605-4e00-a711-b7af2e778d46")
+	)
+	(wire
+		(pts
 			(xy 81.28 193.04) (xy 76.2 193.04)
 		)
 		(stroke
@@ -12604,6 +13206,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 152.4) (xy 102.87 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6db6b236-3d15-4794-9d40-17d0ad7196f9")
+	)
+	(wire
+		(pts
 			(xy 149.86 245.11) (xy 154.94 245.11)
 		)
 		(stroke
@@ -12621,6 +13233,16 @@
 			(type default)
 		)
 		(uuid "6e25dfb8-37ba-4303-ada8-41f58ba4e6e5")
+	)
+	(wire
+		(pts
+			(xy 135.89 127) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3ffeae-f523-4c7a-96c2-f14da44162bc")
 	)
 	(wire
 		(pts
@@ -12734,6 +13356,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 212.09) (xy 339.09 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74628971-2589-4d43-93ff-59ae606bf4cc")
+	)
+	(wire
+		(pts
 			(xy 140.97 59.69) (xy 151.13 59.69)
 		)
 		(stroke
@@ -12764,7 +13396,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 157.48) (xy 102.87 157.48)
+			(xy 97.79 157.48) (xy 102.87 157.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -12854,6 +13486,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 209.55) (xy 309.88 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c98f8a3-6c49-4c25-85fb-fbc25ea96510")
+	)
+	(wire
+		(pts
 			(xy 328.93 54.61) (xy 328.93 63.5)
 		)
 		(stroke
@@ -12934,6 +13576,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 193.04) (xy 261.62 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819cc883-b697-4876-a6bd-4123ca96cd05")
+	)
+	(wire
+		(pts
 			(xy 24.13 74.93) (xy 24.13 76.2)
 		)
 		(stroke
@@ -12971,6 +13623,16 @@
 			(type default)
 		)
 		(uuid "84f14391-4012-4a58-9208-81fb2f32ea7b")
+	)
+	(wire
+		(pts
+			(xy 302.26 186.69) (xy 302.26 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b2f917-1a70-4dcc-a168-23c2006ac7ed")
 	)
 	(wire
 		(pts
@@ -13014,7 +13676,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 158.75) (xy 334.01 158.75)
+			(xy 318.77 158.75) (xy 322.58 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13054,7 +13716,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 152.4) (xy 330.2 158.75)
+			(xy 318.77 152.4) (xy 318.77 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13104,7 +13766,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 139.7) (xy 300.99 139.7)
+			(xy 295.91 139.7) (xy 289.56 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13124,7 +13786,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 139.7) (xy 331.47 139.7)
+			(xy 316.23 139.7) (xy 320.04 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13144,7 +13806,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 158.75) (xy 313.69 158.75)
+			(xy 293.37 158.75) (xy 302.26 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13154,7 +13816,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 130.81) (xy 393.7 130.81)
+			(xy 368.3 130.81) (xy 382.27 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13284,7 +13946,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 146.05) (xy 307.34 146.05)
+			(xy 290.83 146.05) (xy 295.91 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13334,7 +13996,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 152.4) (xy 320.04 152.4)
+			(xy 304.8 152.4) (xy 308.61 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13344,17 +14006,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 152.4) (xy 93.98 152.4)
+			(xy 254 165.1) (xy 252.73 165.1)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "a6b37c83-1399-4ef9-9479-6d2ac5162a0b")
+		(uuid "a699b72e-6c50-425f-851c-c07248ab078e")
 	)
 	(wire
 		(pts
-			(xy 313.69 127) (xy 322.58 127)
+			(xy 302.26 127) (xy 311.15 127)
 		)
 		(stroke
 			(width 0)
@@ -13544,7 +14206,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 245.11) (xy 237.49 245.11)
+			(xy 372.11 196.85) (xy 388.62 196.85)
 		)
 		(stroke
 			(width 0)
@@ -13604,6 +14266,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 207.01) (xy 321.31 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53c6df7-b60f-4781-afe6-d4e644756a39")
+	)
+	(wire
+		(pts
 			(xy 195.58 138.43) (xy 203.2 138.43)
 		)
 		(stroke
@@ -13644,7 +14316,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 247.65) (xy 228.6 248.92)
+			(xy 379.73 199.39) (xy 379.73 200.66)
 		)
 		(stroke
 			(width 0)
@@ -13654,7 +14326,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 127) (xy 331.47 127)
+			(xy 311.15 127) (xy 320.04 127)
 		)
 		(stroke
 			(width 0)
@@ -13684,7 +14356,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 137.16) (xy 313.69 139.7)
+			(xy 302.26 137.16) (xy 302.26 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13724,7 +14396,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 142.24) (xy 307.34 142.24)
+			(xy 289.56 142.24) (xy 295.91 142.24)
 		)
 		(stroke
 			(width 0)
@@ -13764,7 +14436,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 149.86) (xy 88.9 149.86)
+			(xy 102.87 149.86) (xy 92.71 149.86)
 		)
 		(stroke
 			(width 0)
@@ -13834,7 +14506,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 137.16) (xy 331.47 139.7)
+			(xy 320.04 137.16) (xy 320.04 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13844,7 +14516,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 144.78) (xy 334.01 144.78)
+			(xy 308.61 144.78) (xy 322.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -13894,7 +14566,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 250.19) (xy 187.96 250.19)
+			(xy 325.12 201.93) (xy 339.09 201.93)
 		)
 		(stroke
 			(width 0)
@@ -13914,6 +14586,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 165.1) (xy 254 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa15dd7-f3d1-44c9-9318-8b30566bc6aa")
+	)
+	(wire
+		(pts
 			(xy 25.4 163.83) (xy 25.4 166.37)
 		)
 		(stroke
@@ -13924,7 +14606,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 245.11) (xy 173.99 245.11)
+			(xy 339.09 196.85) (xy 325.12 196.85)
 		)
 		(stroke
 			(width 0)
@@ -13954,7 +14636,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 140.97) (xy 382.27 140.97)
+			(xy 368.3 140.97) (xy 370.84 140.97)
 		)
 		(stroke
 			(width 0)
@@ -14034,6 +14716,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 152.4) (xy 243.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30e644b-f96d-4f89-8d06-57e04c729b05")
+	)
+	(wire
+		(pts
 			(xy 30.48 262.89) (xy 30.48 260.35)
 		)
 		(stroke
@@ -14084,13 +14776,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 255.27) (xy 187.96 255.27)
+			(xy 325.12 207.01) (xy 339.09 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6292225-0f1a-41b7-8dfe-863b346e2c97")
+	)
+	(wire
+		(pts
+			(xy 140.97 127) (xy 140.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67b68c3-cf3b-444a-8adf-54f8e0364ac0")
 	)
 	(wire
 		(pts
@@ -14104,7 +14806,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 144.78) (xy 300.99 144.78)
+			(xy 295.91 144.78) (xy 289.56 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14194,7 +14896,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 139.7) (xy 317.5 139.7)
+			(xy 302.26 139.7) (xy 306.07 139.7)
 		)
 		(stroke
 			(width 0)
@@ -14214,7 +14916,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 125.73) (xy 374.65 134.62)
+			(xy 363.22 125.73) (xy 363.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -14224,7 +14926,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 242.57) (xy 187.96 242.57)
+			(xy 325.12 194.31) (xy 339.09 194.31)
 		)
 		(stroke
 			(width 0)
@@ -14244,13 +14946,23 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 134.62) (xy 374.65 134.62)
+			(xy 358.14 134.62) (xy 363.22 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e59ca06d-4638-42a3-acb5-6b17bd784832")
+	)
+	(wire
+		(pts
+			(xy 251.46 196.85) (xy 261.62 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e1fb0b-fefe-4e00-828a-104858c192d4")
 	)
 	(wire
 		(pts
@@ -14304,7 +15016,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 242.57) (xy 237.49 242.57)
+			(xy 372.11 194.31) (xy 388.62 194.31)
 		)
 		(stroke
 			(width 0)
@@ -14324,7 +15036,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 137.16) (xy 313.69 137.16)
+			(xy 289.56 137.16) (xy 302.26 137.16)
 		)
 		(stroke
 			(width 0)
@@ -14384,7 +15096,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 163.83) (xy 236.22 166.37)
+			(xy 252.73 154.94) (xy 254 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -14514,6 +15226,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 204.47) (xy 267.97 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38943f0-72e4-4c96-83a5-6b0b5a4a054d")
+	)
+	(wire
+		(pts
 			(xy 132.08 199.39) (xy 132.08 204.47)
 		)
 		(stroke
@@ -14534,7 +15256,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 125.73) (xy 374.65 125.73)
+			(xy 384.81 125.73) (xy 363.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -14574,7 +15296,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 148.59) (xy 394.97 148.59)
+			(xy 363.22 148.59) (xy 383.54 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14673,7 +15395,7 @@
 		(uuid "fee9a242-890a-45d2-868e-e8a5ab259533")
 	)
 	(label "SPI_MOSI"
-		(at 173.99 247.65 0)
+		(at 325.12 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14702,8 +15424,18 @@
 		)
 		(uuid "190e3be9-15a7-40a1-9131-d139c158ef3b")
 	)
+	(label "FLASH_RST"
+		(at 251.46 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d9b00e7-540b-43a6-be81-de79f98a2e35")
+	)
 	(label "GPS_ANT_ACTIVE"
-		(at 379.73 148.59 0)
+		(at 368.3 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14742,8 +15474,18 @@
 		)
 		(uuid "2a21c22f-fe74-449d-8b15-812b5f5b2d36")
 	)
+	(label "FLASH_WP"
+		(at 251.46 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b6df214-d136-4161-af50-21296d54bb42")
+	)
 	(label "LORA_NRST"
-		(at 173.99 252.73 0)
+		(at 325.12 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14763,7 +15505,7 @@
 		(uuid "31175219-0f17-4873-8d03-f0577c0fd566")
 	)
 	(label "SCL"
-		(at 96.52 152.4 0)
+		(at 97.79 152.4 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -14914,7 +15656,7 @@
 		(uuid "5defa683-f528-443e-847e-00b7e583a950")
 	)
 	(label "GPS_RESET"
-		(at 320.04 144.78 0)
+		(at 308.61 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14924,7 +15666,7 @@
 		(uuid "602c3034-ff91-4b8e-9ad6-477b9155ac4d")
 	)
 	(label "TXD_GPS"
-		(at 304.8 158.75 0)
+		(at 293.37 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14993,6 +15735,16 @@
 		)
 		(uuid "68e606d5-61cc-46fa-bcff-c0cd6f7acde2")
 	)
+	(label "FLASH_CS"
+		(at 251.46 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3b5b22-0cdd-451c-9300-1d24948326b5")
+	)
 	(label "GPS_RESET"
 		(at 121.92 107.95 0)
 		(effects
@@ -15004,7 +15756,7 @@
 		(uuid "6ad56488-a14e-4bf9-bd29-eba7a038b085")
 	)
 	(label "LORA_BUSY"
-		(at 226.06 245.11 0)
+		(at 377.19 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15013,8 +15765,18 @@
 		)
 		(uuid "6bd996c9-5e72-4e1c-8d84-f87c74f53954")
 	)
+	(label "SPI_SCK"
+		(at 251.46 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "745cc029-f881-4638-8fcf-1571a595aaed")
+	)
 	(label "LORA_NSS"
-		(at 173.99 255.27 0)
+		(at 325.12 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15024,7 +15786,7 @@
 		(uuid "749d737d-8a2e-4c32-9699-0d6f9bf9a8bc")
 	)
 	(label "LORA_RF_SW"
-		(at 173.99 242.57 0)
+		(at 325.12 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15042,6 +15804,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ae29780-d934-4c96-8d2f-a8ccc0316035")
+	)
+	(label "SPI_MISO"
+		(at 251.46 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "814b23cf-6341-484c-9f8d-7de10f14c43d")
 	)
 	(label "D+"
 		(at 121.92 54.61 0)
@@ -15074,7 +15846,7 @@
 		(uuid "8b5dc9a3-9629-4558-a7bc-cc8d9ede56e1")
 	)
 	(label "SPI_SCK"
-		(at 173.99 250.19 0)
+		(at 325.12 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15134,7 +15906,7 @@
 		(uuid "9702b17f-e5f2-4cfe-916a-2d7b31e4af26")
 	)
 	(label "RXD_GPS"
-		(at 304.8 161.29 0)
+		(at 293.37 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15204,7 +15976,7 @@
 		(uuid "a518971f-7dad-4047-b3c2-90b38ba48e16")
 	)
 	(label "SDA"
-		(at 96.52 157.48 0)
+		(at 97.79 157.48 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15224,7 +15996,7 @@
 		(uuid "a9a938f7-30f4-46ef-a030-93508c585b79")
 	)
 	(label "LORA_DIO1"
-		(at 226.06 242.57 0)
+		(at 377.19 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15295,6 +16067,16 @@
 		)
 		(uuid "c55502b3-4919-4d60-8027-bd052d75c2ad")
 	)
+	(label "SPI_MOSI"
+		(at 251.46 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d16a65ee-596c-41fb-b935-0a3a02260a0c")
+	)
 	(label "D-"
 		(at 121.92 57.15 0)
 		(effects
@@ -15336,7 +16118,7 @@
 		(uuid "dc84c4f3-742c-47f3-bfcc-5c27a99a44f1")
 	)
 	(label "SPI_MISO"
-		(at 173.99 245.11 0)
+		(at 325.12 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15376,7 +16158,7 @@
 		(uuid "efbef4db-2545-4ba6-9e71-7f00badbea06")
 	)
 	(label "GPS_WAKEUP"
-		(at 320.04 147.32 0)
+		(at 308.61 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16427,7 +17209,7 @@
 	)
 	(symbol
 		(lib_id "TPD1E05U06DPYR:TPD1E05U06DPYR")
-		(at 300.99 156.21 90)
+		(at 293.37 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16437,7 +17219,7 @@
 		(dnp no)
 		(uuid "0a670960-d344-43da-907f-62a42f59851f")
 		(property "Reference" "D12"
-			(at 292.354 154.94 90)
+			(at 284.734 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16448,7 +17230,7 @@
 			)
 		)
 		(property "Value" "TPD1E05U06DPYR"
-			(at 279.146 157.48 90)
+			(at 271.526 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16459,7 +17241,7 @@
 			)
 		)
 		(property "Footprint" "TPD1E05U06DPYR:DIO_TPD1E05U06DPYR"
-			(at 300.99 156.21 0)
+			(at 293.37 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16471,7 +17253,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e05u06"
-			(at 300.99 156.21 0)
+			(at 293.37 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16482,7 +17264,7 @@
 			)
 		)
 		(property "Description" "0.5-pF, 5.5-V, ±12-kV ESD protection diode in 0402 package for High Speed Interfaces"
-			(at 300.99 156.21 0)
+			(at 293.37 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16494,7 +17276,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 300.99 156.21 0)
+			(at 293.37 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16506,7 +17288,7 @@
 			)
 		)
 		(property "MP" "TPD1E05U06DPYR"
-			(at 300.99 156.21 0)
+			(at 293.37 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16518,7 +17300,7 @@
 			)
 		)
 		(property "MPN" "TPD1E05U06DPYR"
-			(at 300.99 156.21 90)
+			(at 293.37 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16529,7 +17311,7 @@
 			)
 		)
 		(property "PRICE" "0.29"
-			(at 300.99 156.21 90)
+			(at 293.37 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18089,8 +18871,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
-		(at 260.35 167.64 270)
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
+		(at 302.26 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18098,10 +18880,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "131fcb4b-c6f3-481b-be8b-30f2121f1f8a")
-		(property "Reference" "#U$031"
-			(at 260.35 167.64 0)
-			(hide yes)
+		(uuid "14ec881c-4d45-49b2-b2d6-546bbfb31e14")
+		(property "Reference" "C41"
+			(at 299.97 200.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18110,19 +18891,18 @@
 				)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 261.366 166.116 0)
+		(property "Value" "0.1uF"
+			(at 304.56 200.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 260.35 167.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 302.26 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18133,7 +18913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 167.64 0)
+			(at 302.26 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18144,7 +18924,39 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 167.64 0)
+			(at 302.26 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "C"
+			(at 302.26 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160HI"
+			(at 302.26 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 302.26 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18155,12 +18967,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "be70b799-97c1-489c-80e3-557eaa81995f")
+			(uuid "1d92ea6c-a332-4d13-8eeb-d509e8192236")
+		)
+		(pin "2"
+			(uuid "9f5f9280-9c5d-430c-b676-8f47a19cadea")
 		)
 		(instances
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
-					(reference "#U$031")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -18247,7 +19062,7 @@
 	)
 	(symbol
 		(lib_id "BAV199:BAV199")
-		(at 396.24 130.81 90)
+		(at 384.81 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18257,7 +19072,7 @@
 		(dnp no)
 		(uuid "19274874-fa6f-4112-aeb0-3678cba3d050")
 		(property "Reference" "D2"
-			(at 400.558 130.556 0)
+			(at 389.128 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18267,7 +19082,7 @@
 			)
 		)
 		(property "Value" "BAV199"
-			(at 398.526 130.556 0)
+			(at 387.096 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18277,7 +19092,7 @@
 			)
 		)
 		(property "Footprint" "BAV199:SOT23"
-			(at 396.24 130.81 0)
+			(at 384.81 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18289,7 +19104,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/bav99.pdf"
-			(at 396.24 130.81 0)
+			(at 384.81 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18300,7 +19115,7 @@
 			)
 		)
 		(property "Description" "Small Signal Diode, SOT-23, 85V, 0.14A, 150°C"
-			(at 396.24 130.81 0)
+			(at 384.81 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18312,7 +19127,7 @@
 			)
 		)
 		(property "MF" "Diotec Semiconductor"
-			(at 396.24 130.81 0)
+			(at 384.81 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18324,7 +19139,7 @@
 			)
 		)
 		(property "MP" "BAV199"
-			(at 396.24 130.81 0)
+			(at 384.81 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18336,7 +19151,7 @@
 			)
 		)
 		(property "MPN" "BAV199"
-			(at 396.24 130.81 0)
+			(at 384.81 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18347,7 +19162,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 396.24 130.81 0)
+			(at 384.81 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18533,7 +19348,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 88.9 154.94 0)
+		(at 92.71 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18543,7 +19358,7 @@
 		(dnp no)
 		(uuid "1b70c5dd-2763-416b-af44-93753e5e5303")
 		(property "Reference" "#U$026"
-			(at 88.9 154.94 0)
+			(at 92.71 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18554,7 +19369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.376 157.48 0)
+			(at 91.186 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18565,7 +19380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 154.94 0)
+			(at 92.71 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18576,7 +19391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 154.94 0)
+			(at 92.71 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18587,7 +19402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 154.94 0)
+			(at 92.71 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18611,7 +19426,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 331.47 132.08 180)
+		(at 320.04 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18621,7 +19436,7 @@
 		(dnp yes)
 		(uuid "1b7bc237-d3e9-4ce1-9a90-0379fb7ed4ee")
 		(property "Reference" "C30"
-			(at 333.76 133.33 90)
+			(at 322.33 133.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18631,7 +19446,7 @@
 			)
 		)
 		(property "Value" "NM"
-			(at 329.17 133.33 90)
+			(at 317.74 133.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18641,7 +19456,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 331.47 132.08 0)
+			(at 320.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18652,7 +19467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 132.08 0)
+			(at 320.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18663,7 +19478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 132.08 0)
+			(at 320.04 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18674,7 +19489,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 331.47 132.08 90)
+			(at 320.04 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19351,6 +20166,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
+		(at 309.88 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2204bf7c-6476-4a21-afde-f6ce3e2264ce")
+		(property "Reference" "#U$0122"
+			(at 309.88 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.356 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6aa8d762-fe80-4b71-8c29-5aa16a4aba2b")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WS2812B2020:WS2812B2020")
 		(at 320.04 66.04 0)
 		(mirror y)
@@ -19534,7 +20427,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 175.26 261.62 0)
+		(at 337.82 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19544,7 +20437,7 @@
 		(dnp no)
 		(uuid "230d0e3f-41d4-4d8d-af31-859a0dcba38d")
 		(property "Reference" "#U$086"
-			(at 175.26 261.62 0)
+			(at 337.82 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19555,7 +20448,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.736 264.16 0)
+			(at 336.296 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19566,7 +20459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 261.62 0)
+			(at 337.82 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19577,7 +20470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 261.62 0)
+			(at 337.82 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19588,7 +20481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 261.62 0)
+			(at 337.82 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19869,7 +20762,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 252.73 167.64 270)
+		(at 250.19 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19879,7 +20772,7 @@
 		(dnp no)
 		(uuid "29e54741-7875-46c6-82d6-edd7d0b71e32")
 		(property "Reference" "C14"
-			(at 253.98 165.35 90)
+			(at 248.94 167.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19889,7 +20782,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 253.98 169.94 90)
+			(at 248.94 162.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19899,7 +20792,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 252.73 167.64 0)
+			(at 250.19 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19910,7 +20803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 167.64 0)
+			(at 250.19 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19921,7 +20814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 167.64 0)
+			(at 250.19 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19932,7 +20825,7 @@
 			)
 		)
 		(property "MPN" "0805W106K6R3CC"
-			(at 252.73 167.64 90)
+			(at 250.19 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19943,7 +20836,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 252.73 167.64 90)
+			(at 250.19 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20283,7 +21176,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 379.73 168.91 0)
+		(at 368.3 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20293,7 +21186,7 @@
 		(dnp no)
 		(uuid "2faeb278-3486-4a6d-a8cc-8f0c1d45f1af")
 		(property "Reference" "#U$039"
-			(at 379.73 168.91 0)
+			(at 368.3 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20304,7 +21197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 378.206 171.45 0)
+			(at 366.776 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20315,7 +21208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 168.91 0)
+			(at 368.3 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20326,7 +21219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 168.91 0)
+			(at 368.3 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20337,7 +21230,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 168.91 0)
+			(at 368.3 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21626,7 +22519,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:VBAT")
-		(at 243.84 133.35 0)
+		(at 233.68 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21636,7 +22529,7 @@
 		(dnp no)
 		(uuid "3cc76548-c11e-44d8-9002-ef580f6ae840")
 		(property "Reference" "#U$018"
-			(at 243.84 133.35 0)
+			(at 233.68 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21647,7 +22540,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 242.316 132.334 0)
+			(at 232.156 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21658,7 +22551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 133.35 0)
+			(at 233.68 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21669,7 +22562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 133.35 0)
+			(at 233.68 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21680,7 +22573,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 133.35 0)
+			(at 233.68 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23649,7 +24542,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 298.45 167.64 0)
+		(at 290.83 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23659,7 +24552,7 @@
 		(dnp no)
 		(uuid "546d0436-fd0b-495a-b276-ac7cbc1ccef6")
 		(property "Reference" "#U$091"
-			(at 298.45 167.64 0)
+			(at 290.83 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23670,7 +24563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 296.926 170.18 0)
+			(at 289.306 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23681,7 +24574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 167.64 0)
+			(at 290.83 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23692,7 +24585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 167.64 0)
+			(at 290.83 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23703,7 +24596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 167.64 0)
+			(at 290.83 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23727,7 +24620,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 313.69 132.08 180)
+		(at 302.26 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23737,7 +24630,7 @@
 		(dnp yes)
 		(uuid "54b317ad-2a56-4496-b36b-4268ac954233")
 		(property "Reference" "C29"
-			(at 315.98 133.33 90)
+			(at 304.55 133.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23747,7 +24640,7 @@
 			)
 		)
 		(property "Value" "NM"
-			(at 311.39 133.33 90)
+			(at 299.96 133.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23757,7 +24650,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 313.69 132.08 0)
+			(at 302.26 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23768,7 +24661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 132.08 0)
+			(at 302.26 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23779,7 +24672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 132.08 0)
+			(at 302.26 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23790,7 +24683,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 313.69 132.08 90)
+			(at 302.26 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23817,7 +24710,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 228.6 251.46 0)
+		(at 379.73 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23827,7 +24720,7 @@
 		(dnp no)
 		(uuid "553f1cf6-ce80-457c-b9c0-20efa18841f9")
 		(property "Reference" "#U$084"
-			(at 228.6 251.46 0)
+			(at 379.73 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23838,7 +24731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.076 254 0)
+			(at 378.206 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23849,7 +24742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 251.46 0)
+			(at 379.73 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23860,7 +24753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 251.46 0)
+			(at 379.73 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23871,7 +24764,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 251.46 0)
+			(at 379.73 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24208,7 +25101,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 318.77 158.75 0)
+		(at 307.34 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24218,7 +25111,7 @@
 		(dnp no)
 		(uuid "59fe9da3-9a99-4d0c-bd19-8ec43a36a1c6")
 		(property "Reference" "R10"
-			(at 318.77 156.21 0)
+			(at 307.34 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24228,7 +25121,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 318.77 158.75 0)
+			(at 307.34 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24240,7 +25133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 318.77 158.75 0)
+			(at 307.34 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24251,7 +25144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 158.75 0)
+			(at 307.34 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24262,7 +25155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 158.75 0)
+			(at 307.34 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24273,7 +25166,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 318.77 158.75 0)
+			(at 307.34 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24284,7 +25177,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 318.77 158.75 0)
+			(at 307.34 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24311,7 +25204,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 325.12 152.4 180)
+		(at 313.69 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24321,7 +25214,7 @@
 		(dnp no)
 		(uuid "5b0412cf-b2c7-48c0-bebc-dab66273dc27")
 		(property "Reference" "R7"
-			(at 325.12 154.94 0)
+			(at 313.69 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24331,7 +25224,7 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 325.12 152.4 0)
+			(at 313.69 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24343,7 +25236,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 325.12 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24354,7 +25247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24365,7 +25258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24376,7 +25269,7 @@
 			)
 		)
 		(property "MPN" "RT0603BRE075KL"
-			(at 325.12 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24387,7 +25280,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 325.12 152.4 0)
+			(at 313.69 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24772,7 +25665,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
-		(at 236.22 153.67 0)
+		(at 243.84 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24782,7 +25675,7 @@
 		(dnp no)
 		(uuid "5ef7fbe6-8faa-42f2-9e60-1355a42f122e")
 		(property "Reference" "#U$025"
-			(at 236.22 153.67 0)
+			(at 243.84 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24793,7 +25686,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 234.696 152.654 0)
+			(at 242.316 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24804,7 +25697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 153.67 0)
+			(at 243.84 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24815,7 +25708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 153.67 0)
+			(at 243.84 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24826,7 +25719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 153.67 0)
+			(at 243.84 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25100,84 +25993,6 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "#U$05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 236.22 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "667d6257-355a-4920-836e-00e520db3c4a")
-		(property "Reference" "#U$038"
-			(at 236.22 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.696 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b595e45-2e0d-42f3-be49-46a911952a61")
-		)
-		(instances
-			(project "Medallion_Board"
-				(path "/0c161f28-8075-4403-a867-35208f463636"
-					(reference "#U$038")
 					(unit 1)
 				)
 			)
@@ -25494,7 +26309,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 313.69 152.4 270)
+		(at 302.26 152.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25504,7 +26319,7 @@
 		(dnp no)
 		(uuid "69f5cbe4-bf9b-4178-9367-b4d04ebf9717")
 		(property "Reference" "#U$024"
-			(at 313.69 152.4 0)
+			(at 302.26 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25515,7 +26330,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 311.15 150.876 0)
+			(at 299.72 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25526,7 +26341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 152.4 0)
+			(at 302.26 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25537,7 +26352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 152.4 0)
+			(at 302.26 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25548,7 +26363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 152.4 0)
+			(at 302.26 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25650,7 +26465,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 326.39 161.29 180)
+		(at 314.96 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25660,7 +26475,7 @@
 		(dnp no)
 		(uuid "6bbce221-77f4-4b7c-82a5-037c7c5b2bbb")
 		(property "Reference" "R11"
-			(at 326.39 163.83 0)
+			(at 314.96 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25670,7 +26485,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 326.39 161.29 0)
+			(at 314.96 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25682,7 +26497,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 326.39 161.29 0)
+			(at 314.96 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25693,7 +26508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 161.29 0)
+			(at 314.96 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25704,7 +26519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 161.29 0)
+			(at 314.96 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25715,7 +26530,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 326.39 161.29 0)
+			(at 314.96 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25726,7 +26541,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 326.39 161.29 0)
+			(at 314.96 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25933,7 +26748,7 @@
 	)
 	(symbol
 		(lib_id "114993390:114993390")
-		(at 187.96 242.57 0)
+		(at 339.09 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25944,7 +26759,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c3c2b4e-ebff-4435-814b-79675db22103")
 		(property "Reference" "IC1"
-			(at 204.47 234.95 0)
+			(at 355.6 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25954,7 +26769,7 @@
 			)
 		)
 		(property "Value" "Wio-SX1262"
-			(at 204.47 237.49 0)
+			(at 355.6 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25964,7 +26779,7 @@
 			)
 		)
 		(property "Footprint" "114993390:114993390"
-			(at 217.17 337.49 0)
+			(at 368.3 289.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25976,7 +26791,7 @@
 			)
 		)
 		(property "Datasheet" "https://files.seeedstudio.com/products/SenseCAP/Wio_SX1262/Wio-SX1262_Module_Datasheet.pdf"
-			(at 217.17 437.49 0)
+			(at 368.3 389.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25988,7 +26803,7 @@
 			)
 		)
 		(property "Description" "RF Modules Wio-SX1262 Wireless Module (Bulk), SX1262 embedded, supports LoRa&LoRaWAN on EU868 & US915"
-			(at 187.96 242.57 0)
+			(at 339.09 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25999,7 +26814,7 @@
 			)
 		)
 		(property "Height" "3.15"
-			(at 217.17 637.49 0)
+			(at 368.3 589.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26011,7 +26826,7 @@
 			)
 		)
 		(property "Mouser Part Number" "713-114993390"
-			(at 217.17 737.49 0)
+			(at 368.3 689.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26023,7 +26838,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Seeed-Studio/114993390?qs=NeOn4crkEuu9JWV37oJsXg%3D%3D"
-			(at 217.17 837.49 0)
+			(at 368.3 789.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26035,7 +26850,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Seeed Studio"
-			(at 217.17 937.49 0)
+			(at 368.3 889.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26047,7 +26862,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "114993390"
-			(at 217.17 1037.49 0)
+			(at 368.3 989.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26059,7 +26874,7 @@
 			)
 		)
 		(property "MPN" "114993390"
-			(at 187.96 242.57 0)
+			(at 339.09 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26070,7 +26885,7 @@
 			)
 		)
 		(property "PRICE" "4.41"
-			(at 187.96 242.57 0)
+			(at 339.09 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26486,6 +27301,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
+		(at 261.62 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fad0cf5-eade-479e-84e4-2e34f224fda8")
+		(property "Reference" "R22"
+			(at 259.08 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 261.62 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 261.62 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 261.62 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 261.62 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63911f85-3395-46ef-8074-99066389393e")
+		)
+		(pin "2"
+			(uuid "f055b412-eddf-4dbc-9b43-7759990bafc0")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WS2812B2020:WS2812B2020")
 		(at 350.52 35.56 0)
 		(unit 1)
@@ -26668,7 +27586,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 243.84 158.75 0)
+		(at 233.68 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26678,7 +27596,7 @@
 		(dnp no)
 		(uuid "70e85da4-604d-478b-af11-9bd9bd5009f0")
 		(property "Reference" "#U$027"
-			(at 243.84 158.75 0)
+			(at 233.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26689,7 +27607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.316 161.29 0)
+			(at 232.156 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26700,7 +27618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 158.75 0)
+			(at 233.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26711,7 +27629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 158.75 0)
+			(at 233.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26722,7 +27640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 158.75 0)
+			(at 233.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28244,6 +29162,179 @@
 		)
 	)
 	(symbol
+		(lib_id "MX25R6435FZAIH0:MX25R6435FZAIH0")
+		(at 283.21 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8926e176-1ffc-4fbe-b53b-047bd0bd35c3")
+		(property "Reference" "U8"
+			(at 283.21 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX25R6435FZAIH0"
+			(at 283.21 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX25R6435FZAIH0:SON80P400X400X60-9N"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8868/MX25R6435F,%20Wide%20Range,%2064Mb,%20v1.6.pdf"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FLASH - NOR Memory IC 64Mb (8M x 8) SPI - Quad I/O 80 MHz 8-USON (4x4)"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Macronix"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MX25R6435FZAIH0"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=548491&manufacturer=Macronix&part_name=MX25R6435FZAIH0&search_term=mx25r6435fzaih0"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Macronix"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "MX25R6435FZAIH0"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "2.04"
+			(at 283.21 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea616b77-08b2-4023-8d69-1f5df83df53e")
+		)
+		(pin "9"
+			(uuid "4952d0a7-bc0a-496c-b76b-7cbe1d8bdd5c")
+		)
+		(pin "3"
+			(uuid "7af7f8bf-56bd-4af8-b9c0-f83742cf5179")
+		)
+		(pin "2"
+			(uuid "f037d94f-049c-442e-a08c-76e1e1f0083b")
+		)
+		(pin "5"
+			(uuid "fde7a7a8-08ac-49ed-bfde-a5f871990cf0")
+		)
+		(pin "4"
+			(uuid "6700ef15-2aed-4ffb-860c-41ea452917a3")
+		)
+		(pin "6"
+			(uuid "ceb3e4a6-542a-4957-acd6-b8ee083f0f11")
+		)
+		(pin "8"
+			(uuid "add26743-dd4f-4669-b9f5-dc762e862608")
+		)
+		(pin "7"
+			(uuid "f7781dc8-9040-4fba-8454-34f866a50a2e")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:VBAT")
 		(at 270.51 19.05 0)
 		(unit 1)
@@ -28477,7 +29568,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 236.22 161.29 0)
+		(at 250.19 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28487,7 +29578,7 @@
 		(dnp no)
 		(uuid "8a9220b4-d3dd-44ff-ba7f-3af107bc93c4")
 		(property "Reference" "C12"
-			(at 233.93 160.04 90)
+			(at 248.94 157.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28497,7 +29588,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 238.52 160.04 90)
+			(at 248.94 152.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28507,7 +29598,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 236.22 161.29 0)
+			(at 250.19 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28518,7 +29609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 161.29 0)
+			(at 250.19 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28529,7 +29620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 161.29 0)
+			(at 250.19 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28540,7 +29631,7 @@
 			)
 		)
 		(property "MPN" "0805W106K6R3CC"
-			(at 236.22 161.29 90)
+			(at 250.19 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28551,7 +29642,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 236.22 161.29 90)
+			(at 250.19 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29599,7 +30690,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 140.97 128.27 180)
+		(at 135.89 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29609,7 +30700,7 @@
 		(dnp no)
 		(uuid "9698c4c2-c401-4344-a88f-fa37ff88e675")
 		(property "Reference" "#U$013"
-			(at 140.97 128.27 0)
+			(at 135.89 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29620,7 +30711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.494 125.73 0)
+			(at 134.366 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29631,7 +30722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 128.27 0)
+			(at 135.89 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29642,7 +30733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 128.27 0)
+			(at 135.89 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29653,7 +30744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 128.27 0)
+			(at 135.89 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30229,7 +31320,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 322.58 129.54 0)
+		(at 311.15 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30239,7 +31330,7 @@
 		(dnp no)
 		(uuid "9b079994-1bd8-4365-adbc-6e8e952874c7")
 		(property "Reference" "#U$040"
-			(at 322.58 129.54 0)
+			(at 311.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30250,7 +31341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.056 132.08 0)
+			(at 309.626 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30261,7 +31352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 129.54 0)
+			(at 311.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30272,7 +31363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 129.54 0)
+			(at 311.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30283,7 +31374,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 129.54 0)
+			(at 311.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30823,7 +31914,7 @@
 	)
 	(symbol
 		(lib_id "RECE_20369_001E_01:RECE.20369.001E.01")
-		(at 300.99 144.78 180)
+		(at 289.56 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30833,7 +31924,7 @@
 		(dnp no)
 		(uuid "a2050426-53b2-4c30-a86a-e838de98e046")
 		(property "Reference" "J3"
-			(at 290.83 129.54 0)
+			(at 279.4 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30843,7 +31934,7 @@
 			)
 		)
 		(property "Value" "IPEX"
-			(at 290.83 132.08 0)
+			(at 279.4 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30853,7 +31944,7 @@
 			)
 		)
 		(property "Footprint" "RECE.20369:RECE20369001E01"
-			(at 274.32 60.02 0)
+			(at 262.89 60.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30865,7 +31956,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.taoglas.com/datasheets/RECE.20369.001E.01.pdf"
-			(at 274.32 -39.98 0)
+			(at 262.89 -39.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30877,7 +31968,7 @@
 			)
 		)
 		(property "Description" "RF Connectors / Coaxial Connectors Standard Receptacle IPEX MHFIII(W.Flcomp"
-			(at 300.99 144.78 0)
+			(at 289.56 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30888,7 +31979,7 @@
 			)
 		)
 		(property "Height" "1.05"
-			(at 274.32 -239.98 0)
+			(at 262.89 -239.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30900,7 +31991,7 @@
 			)
 		)
 		(property "Mouser Part Number" "960-RECE.20369001E01"
-			(at 274.32 -339.98 0)
+			(at 262.89 -339.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30912,7 +32003,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taoglas/RECE.20369.001E.01?qs=DRkmTr78QATTXEmgGw9Tjg%3D%3D"
-			(at 274.32 -439.98 0)
+			(at 262.89 -439.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30924,7 +32015,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Taoglas"
-			(at 274.32 -539.98 0)
+			(at 262.89 -539.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30936,7 +32027,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RECE.20369.001E.01"
-			(at 274.32 -639.98 0)
+			(at 262.89 -639.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30948,7 +32039,7 @@
 			)
 		)
 		(property "MPN" "RECE.20369.001E.01"
-			(at 300.99 144.78 0)
+			(at 289.56 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30959,7 +32050,7 @@
 			)
 		)
 		(property "PRICE" "0.77"
-			(at 300.99 144.78 0)
+			(at 289.56 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31948,7 +33039,7 @@
 	)
 	(symbol
 		(lib_id "S2B-PH-SM4-TB_LF__SN_:S2B-PH-SM4-TB_LF__SN_")
-		(at 248.92 147.32 0)
+		(at 238.76 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31959,7 +33050,7 @@
 		(fields_autoplaced yes)
 		(uuid "b59fff39-1a1d-4a42-aca5-42b518dc758b")
 		(property "Reference" "BATT1"
-			(at 255.27 146.0499 0)
+			(at 245.11 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31970,7 +33061,7 @@
 			)
 		)
 		(property "Value" "JST_PH"
-			(at 255.27 148.5899 0)
+			(at 245.11 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31981,7 +33072,7 @@
 			)
 		)
 		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31993,7 +33084,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32004,7 +33095,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32016,7 +33107,7 @@
 			)
 		)
 		(property "MF" "JST Sales"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32028,7 +33119,7 @@
 			)
 		)
 		(property "MP" "S2B-PH-SM4-TB (LF)(SN)"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32040,7 +33131,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32052,7 +33143,7 @@
 			)
 		)
 		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32063,7 +33154,7 @@
 			)
 		)
 		(property "PRICE" "0.37"
-			(at 248.92 147.32 0)
+			(at 238.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32169,7 +33260,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 322.58 139.7 0)
+		(at 311.15 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32179,7 +33270,7 @@
 		(dnp no)
 		(uuid "bba78873-597e-4a1b-9b21-a598d6a3fdab")
 		(property "Reference" "R14"
-			(at 322.58 137.16 0)
+			(at 311.15 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32189,7 +33280,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 322.58 139.7 0)
+			(at 311.15 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32201,7 +33292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 322.58 139.7 0)
+			(at 311.15 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32212,7 +33303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 139.7 0)
+			(at 311.15 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32223,7 +33314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 139.7 0)
+			(at 311.15 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32234,7 +33325,7 @@
 			)
 		)
 		(property "MPN" "RT0603BRE075KL"
-			(at 322.58 139.7 0)
+			(at 311.15 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32245,7 +33336,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 322.58 139.7 0)
+			(at 311.15 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32752,6 +33843,84 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
+		(at 261.62 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c216a0f9-d004-4cca-ac86-5dfbcd341140")
+		(property "Reference" "#U$0123"
+			(at 261.62 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 260.096 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a55b164a-da48-4038-8655-64fe25a19566")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0123")
 					(unit 1)
 				)
 			)
@@ -33410,7 +34579,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
-		(at 369.57 129.54 0)
+		(at 358.14 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33420,7 +34589,7 @@
 		(dnp no)
 		(uuid "c983dc4b-23ff-4f61-93a5-d8b11e284ce1")
 		(property "Reference" "#U$014"
-			(at 369.57 129.54 0)
+			(at 358.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33431,7 +34600,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 368.046 128.524 0)
+			(at 356.616 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33442,7 +34611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 129.54 0)
+			(at 358.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33453,7 +34622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 129.54 0)
+			(at 358.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33464,7 +34633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 369.57 129.54 0)
+			(at 358.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34209,7 +35378,7 @@
 	)
 	(symbol
 		(lib_id "LC86LICMD:LC86LICMD")
-		(at 354.33 151.13 0)
+		(at 342.9 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34220,7 +35389,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3d6e4e1-45c9-48c5-ba70-dd07c80f2bbd")
 		(property "Reference" "U3"
-			(at 354.33 130.81 0)
+			(at 342.9 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34230,7 +35399,7 @@
 			)
 		)
 		(property "Value" "LC86LICMD"
-			(at 354.33 133.35 0)
+			(at 342.9 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34240,7 +35409,7 @@
 			)
 		)
 		(property "Footprint" "LC86LICMD:MODULE_LC86LICMD"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34252,7 +35421,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7133/Quectel_LC86L_GNSS_Specification_V1.4.pdf"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34263,7 +35432,7 @@
 			)
 		)
 		(property "Description" "Navigation Galileo, GLONASS, GPS, GNSS Transceiver Module 1.575GHz, 1.601GHz Integrated, Ceramic Patch Surface Mount"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34275,7 +35444,7 @@
 			)
 		)
 		(property "MF" "Quectel Wireless Solutions Co., Ltd"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34287,7 +35456,7 @@
 			)
 		)
 		(property "MP" "LC86LICMD"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34299,7 +35468,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/LC86LICMD/?ref=eda"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34311,7 +35480,7 @@
 			)
 		)
 		(property "MPN" "LC86LICMD"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34322,7 +35491,7 @@
 			)
 		)
 		(property "PRICE" "12.69"
-			(at 354.33 151.13 0)
+			(at 342.9 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34372,6 +35541,84 @@
 			(project "Medallion_Board"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
+		(at 302.26 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3e4d684-af83-48e3-8308-43f58d16e18e")
+		(property "Reference" "#U$0121"
+			(at 302.26 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 300.736 183.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3be23e70-94d2-4184-ab4a-e57f95b612b6")
+		)
+		(instances
+			(project "Medallion_Board"
+				(path "/0c161f28-8075-4403-a867-35208f463636"
+					(reference "#U$0121")
 					(unit 1)
 				)
 			)
@@ -34535,7 +35782,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 247.65 167.64 270)
+		(at 257.81 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34545,7 +35792,7 @@
 		(dnp no)
 		(uuid "d9fa7f08-56d6-4060-8f08-b5ff759cc20d")
 		(property "Reference" "#U$030"
-			(at 247.65 167.64 0)
+			(at 257.81 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34556,7 +35803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 166.116 0)
+			(at 256.286 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34567,7 +35814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 167.64 0)
+			(at 257.81 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34578,7 +35825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 167.64 0)
+			(at 257.81 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34589,7 +35836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 167.64 0)
+			(at 257.81 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36346,7 +37593,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:3.3V")
-		(at 182.88 264.16 180)
+		(at 321.31 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36356,7 +37603,7 @@
 		(dnp no)
 		(uuid "eeab9656-ecdb-4400-997a-a5528e645e0b")
 		(property "Reference" "#U$087"
-			(at 182.88 264.16 0)
+			(at 321.31 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36367,7 +37614,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 184.404 265.176 0)
+			(at 319.786 203.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36378,7 +37625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 264.16 0)
+			(at 321.31 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36389,7 +37636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 264.16 0)
+			(at 321.31 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36400,7 +37647,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 264.16 0)
+			(at 321.31 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36424,7 +37671,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:RESISTOR_0603_NOOUT")
-		(at 379.73 135.89 270)
+		(at 368.3 135.89 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36434,7 +37681,7 @@
 		(dnp no)
 		(uuid "ef3a1e46-4196-4e8e-9f91-481e33bb7c77")
 		(property "Reference" "R5"
-			(at 382.27 135.89 0)
+			(at 370.84 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36444,7 +37691,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 379.73 135.89 0)
+			(at 368.3 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36456,7 +37703,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 379.73 135.89 0)
+			(at 368.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36467,7 +37714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 135.89 0)
+			(at 368.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36478,7 +37725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 135.89 0)
+			(at 368.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36489,7 +37736,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 379.73 135.89 0)
+			(at 368.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36500,7 +37747,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 379.73 135.89 0)
+			(at 368.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36527,7 +37774,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:GND")
-		(at 400.05 140.97 90)
+		(at 388.62 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36537,7 +37784,7 @@
 		(dnp no)
 		(uuid "f217013b-9849-4908-ade6-dd55b2c6e8f5")
 		(property "Reference" "#U$020"
-			(at 400.05 140.97 0)
+			(at 388.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36548,7 +37795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 402.59 142.494 0)
+			(at 391.16 142.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36559,7 +37806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 400.05 140.97 0)
+			(at 388.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36570,7 +37817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 400.05 140.97 0)
+			(at 388.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36581,7 +37828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 400.05 140.97 0)
+			(at 388.62 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37259,7 +38506,7 @@
 	)
 	(symbol
 		(lib_id "XH414HG-IV01E:XH414HG-IV01E")
-		(at 387.35 140.97 90)
+		(at 375.92 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37270,7 +38517,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7075a85-60e8-4829-b560-304074073aae")
 		(property "Reference" "C8"
-			(at 388.0451 133.35 90)
+			(at 376.6151 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37280,7 +38527,7 @@
 			)
 		)
 		(property "Value" "100mF"
-			(at 388.0451 135.89 90)
+			(at 376.6151 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37290,7 +38537,7 @@
 			)
 		)
 		(property "Footprint" "KW-5R5C104-R:CAPPRD500W60D1000H3150"
-			(at 387.35 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37302,7 +38549,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/us/en-us/skuPage.KW-5R5C104-R.pdf#tab-2"
-			(at 387.35 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37313,7 +38560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 387.35 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37325,7 +38572,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 387.35 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37337,7 +38584,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 387.35 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37349,7 +38596,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 387.35 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37361,7 +38608,7 @@
 			)
 		)
 		(property "MPN" "KW-5R5C104-R"
-			(at 387.35 140.97 90)
+			(at 375.92 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37372,7 +38619,7 @@
 			)
 		)
 		(property "PRICE" "6.63"
-			(at 387.35 140.97 90)
+			(at 375.92 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
