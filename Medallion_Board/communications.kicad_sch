@@ -7,6 +7,7 @@
 	(title_block
 		(title "Smart Compass")
 		(date "2026-06-04")
+		(rev "0.2")
 	)
 	(lib_symbols
 		(symbol "114993390:114993390"
@@ -2769,7 +2770,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 118.11) (xy 74.93 118.11)
+			(xy 68.58 119.38) (xy 68.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2786,6 +2787,16 @@
 			(type default)
 		)
 		(uuid "557ee87a-f820-4af4-a65b-2dce0f36a6ac")
+	)
+	(wire
+		(pts
+			(xy 68.58 118.11) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5860aa6f-c831-4752-a949-55a8c5a29609")
 	)
 	(wire
 		(pts
@@ -3559,6 +3570,7 @@
 		)
 		(property "Value" "GND"
 			(at 38.1 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3854,6 +3866,7 @@
 		)
 		(property "Value" "GND"
 			(at 45.72 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4137,6 +4150,7 @@
 		)
 		(property "Value" "GND"
 			(at 80.01 41.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4511,6 +4525,7 @@
 		)
 		(property "Value" "GND"
 			(at 127 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4731,6 +4746,7 @@
 		)
 		(property "Value" "GND"
 			(at 105.41 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4989,6 +5005,7 @@
 		)
 		(property "Value" "GND"
 			(at 77.47 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5067,6 +5084,7 @@
 		)
 		(property "Value" "GND"
 			(at 154.94 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5771,7 +5789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 118.11 0)
+		(at 68.58 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5782,7 +5800,7 @@
 		(fields_autoplaced yes)
 		(uuid "c886b351-3d4e-4bb3-8350-1a37c29743b5")
 		(property "Reference" "#PWR0127"
-			(at 68.58 124.46 0)
+			(at 68.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +5811,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 123.19 0)
+			(at 68.58 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5803,7 +5822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 118.11 0)
+			(at 68.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5814,7 +5833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 118.11 0)
+			(at 68.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,7 +5844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 118.11 0)
+			(at 68.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5872,6 +5891,7 @@
 		)
 		(property "Value" "GND"
 			(at 134.62 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

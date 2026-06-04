@@ -7,6 +7,7 @@
 	(title_block
 		(title "Smart Compass")
 		(date "2026-06-04")
+		(rev "0.2")
 	)
 	(lib_symbols
 		(symbol "ABS07-32.768KHZ-7-T:ABS07-32.768KHZ-7-T"
@@ -4449,6 +4450,16 @@
 		)
 		(uuid "361fa311-fb86-4680-941b-82eccf74e2e3")
 	)
+	(text "The product here is a smart compass. \n\nIt has GNSS and an IMU for positioning in the world,\nand LoRa and BLE for comms. \n\nIt uses a ring of RGB LED, an e-ink display, and haptic \nfeedback for user interaction, along with 3 buttons. \n\nBattery powered, with USB-C charging."
+		(exclude_from_sim no)
+		(at 239.014 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53b22426-9665-467f-92e3-fe8c21a5a1e3")
+	)
 	(text "LOW FREQUENCY PINS\n(<10kHz)\n\nP0.28-0.31, P0.02, P0.03, P0.09, P0.10\nP1.01-1.07, P1.10-1.15"
 		(exclude_from_sim no)
 		(at 34.798 119.634 0)
@@ -8697,6 +8708,7 @@
 		)
 		(property "Value" "GND"
 			(at 138.43 34.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8896,6 +8908,7 @@
 		)
 		(property "Value" "GND"
 			(at 172.72 154.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9052,6 +9065,7 @@
 		)
 		(property "Value" "GND"
 			(at 274.32 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9233,6 +9247,7 @@
 		)
 		(property "Value" "GND"
 			(at 275.59 160.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9389,6 +9404,7 @@
 		)
 		(property "Value" "GND"
 			(at 270.51 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10166,6 +10182,7 @@
 		)
 		(property "Value" "GND"
 			(at 207.01 110.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10594,6 +10611,7 @@
 		)
 		(property "Value" "GND"
 			(at 36.83 58.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10860,6 +10878,7 @@
 		)
 		(property "Value" "GND"
 			(at 132.08 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10938,6 +10957,7 @@
 		)
 		(property "Value" "GND"
 			(at 118.11 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11172,6 +11192,7 @@
 		)
 		(property "Value" "GND"
 			(at 72.39 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11364,6 +11385,7 @@
 		)
 		(property "Value" "GND"
 			(at 250.19 105.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

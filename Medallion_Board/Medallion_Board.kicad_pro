@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -805,7 +805,7 @@
         "uuid": "0c161f28-8075-4403-a867-35208f463636"
       }
     ],
-    "used_designators": "D1-25,L1,CHG1,#PWR1-129,BATT1,HAPTIC1,C1-52,J1-5,IC1,R1-25,ONOFF1,P1-3,Q1-2,RESET1,U1-8,X1,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

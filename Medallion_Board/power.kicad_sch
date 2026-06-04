@@ -7,6 +7,7 @@
 	(title_block
 		(title "Smart Compass")
 		(date "2026-06-04")
+		(rev "0.2")
 	)
 	(lib_symbols
 		(symbol "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0603_NO"
@@ -5599,6 +5600,7 @@
 		)
 		(property "Value" "GND"
 			(at 74.93 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5995,6 +5997,7 @@
 		)
 		(property "Value" "GND"
 			(at 170.18 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6530,6 +6533,7 @@
 		)
 		(property "Value" "GND"
 			(at 147.32 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6999,6 +7003,7 @@
 		)
 		(property "Value" "GND"
 			(at 88.9 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7189,6 +7194,7 @@
 		)
 		(property "Value" "GND"
 			(at 36.83 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7427,6 +7433,7 @@
 		)
 		(property "Value" "GND"
 			(at 30.48 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7505,6 +7512,7 @@
 		)
 		(property "Value" "GND"
 			(at 207.01 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7853,6 +7861,7 @@
 		)
 		(property "Value" "GND"
 			(at 177.8 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7931,6 +7940,7 @@
 		)
 		(property "Value" "GND"
 			(at 156.21 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8410,6 +8420,7 @@
 		)
 		(property "Value" "GND"
 			(at 101.6 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9023,6 +9034,7 @@
 		)
 		(property "Value" "GND"
 			(at 135.89 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9327,6 +9339,7 @@
 		)
 		(property "Value" "GND"
 			(at 116.84 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9405,6 +9418,7 @@
 		)
 		(property "Value" "GND"
 			(at 182.88 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

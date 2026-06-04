@@ -2,10 +2,12 @@
 
 I need to eventually name the project.
 
-The product is a smart compass, something similar to the compass in the Pirates of the Caribbean. It has a ring of LEDs that indicate the direction you need to walk in to get to the place you want to be. This can be other devices, paired phones (under certain circumstances), waypoints on a navigation route (e.g. hiking), or Atlas Obscura sites for the city you're in, or a "find my phone" style functionalty.
+The product is a smart compass, something similar to the compass in the Pirates of the Caribbean. It has a ring of LEDs that indicate the direction you need to walk in to get to the place you want to be. This can be other devices in a tracking group, waypoints on a navigation route (e.g. hiking), Atlas Obscura sites for the city you're in, or some location you pinned (e.g. where you parked your car, or something like that).
+Locations will be loaded to the device using a companion app on a phone, and commuinicating with that means that the device needs BLE. The nRF52840 module give that.
 
-The device has a GPS antenna for getting its own location, a barometer for altitude sensing, and a 9-axis IMU for the compass orientation.
-It has a LoRa radio for kilometer-range mesh networking, allowing it to maintain an off-grid communication layer in cases where the cell network is either unavailable (e.g. rural locations, mountains) or overloaded (e.g. music festivals and other large events).
+The device has a GNSS module for getting its own location, and a 9-axis IMU for the compass orientation.
+It has a LoRa radio for kilometer-range mesh networking, allowing it to maintain an off-grid communication layer in cases where the cell network is either unavailable (e.g. rural locations, mountains), or overloaded (e.g. music festivals and other large events) - or if you just don't want to be carrying a phone (e.g. a kid being set loose in a shopping centre).
+
 For typical single-device operation, however, the compass will rely on a companion phone app to augment it. Using the app, the user can navigate to desired without referring to their phone. These can be user-defined, like setting the navigation destination on Maps, or get a list of Locations of Interest (LoI) from something like Atlas Obscura.
 
 ## Design requirements
