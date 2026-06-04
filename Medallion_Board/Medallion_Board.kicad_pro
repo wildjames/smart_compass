@@ -506,6 +506,10 @@
       {
         "netclass": "Default",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SDA"
       }
     ]
   },
@@ -801,13 +805,25 @@
         "uuid": "0c161f28-8075-4403-a867-35208f463636"
       }
     ],
-    "used_designators": "C42-51,D21-23,L2,#U$124-130,Q2,R23-24",
+    "used_designators": "D1-25,L1,CHG1,#PWR1-129,BATT1,HAPTIC1,C1-52,J1-5,IC1,R1-25,ONOFF1,P1-3,Q1-2,RESET1,U1-8,X1,Y1",
     "variants": []
   },
   "sheets": [
     [
       "0c161f28-8075-4403-a867-35208f463636",
       "Root"
+    ],
+    [
+      "44fc6246-5945-463a-870f-e1f278c176e3",
+      "Power and USB"
+    ],
+    [
+      "f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1",
+      "User IO"
+    ],
+    [
+      "532cebe2-e8c2-4fda-a0f3-a2d547e7adef",
+      "Communications"
     ]
   ],
   "text_variables": {},

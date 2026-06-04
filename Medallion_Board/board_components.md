@@ -7,12 +7,15 @@ This page reflects the current schematic at `Medallion_Board.kicad_sch` only.
 | Function | Part / Value | Notes |
 | -------- | ------------ | ----- |
 
+
+For the user button leads, use this connector: [GHR-02V-S](https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/GHR-02V-S/807814?s=N4IgjCBcoBw1oDGUBmBDANgZwKYBoQB7KAbXACYwBmcgNhAF0CAHAFyhAGVWAnASwB2AcxABfUQXKkQAKU4AVAAQBxABKLGooA)
+
 ## Bus / Interface Connections
 
 ```mermaid
 flowchart LR
     subgraph "USB"
-        USBC[USB-C X1] -->|D+ / D-| MCU[MCU MDBT50Q]
+        USBC[USB-C X1] -->|D+ / D-| MCU[nRF52840]
         USBC -->|VBUS| CHARGER[Charger MCP73831]
     end
 
