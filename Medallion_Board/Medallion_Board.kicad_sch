@@ -4541,12 +4541,6 @@
 		(uuid "3f24c038-e74d-4e12-9bc4-94a7419f51d1")
 	)
 	(junction
-		(at 267.97 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48181247-4d30-40a2-8251-0faf773103f6")
-	)
-	(junction
 		(at 118.11 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4563,12 +4557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5350d7ec-f043-46ca-a26c-1310bd3482cf")
-	)
-	(junction
-		(at 267.97 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55722fb3-94be-4f08-bce1-034f14db893f")
 	)
 	(junction
 		(at 118.11 135.89)
@@ -4649,10 +4637,22 @@
 		(uuid "c35304e6-6fcb-42c7-acbc-ec9cf95023d2")
 	)
 	(junction
+		(at 267.97 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d55cb6b4-76cf-4c65-b832-08159f665d75")
+	)
+	(junction
 		(at 118.11 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0672c56-13ad-4d32-8470-3655a9090c4b")
+	)
+	(junction
+		(at 267.97 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e192d51f-6c0b-463d-8923-6c734d8eb052")
 	)
 	(junction
 		(at 207.01 104.14)
@@ -4892,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 146.05) (xy 267.97 151.13)
+			(xy 267.97 148.59) (xy 267.97 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5452,6 +5452,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 100.33) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c343495-fd06-4b91-b826-ae3363dac227")
+	)
+	(wire
+		(pts
 			(xy 134.62 59.69) (xy 134.62 63.5)
 		)
 		(stroke
@@ -5569,16 +5579,6 @@
 			(type default)
 		)
 		(uuid "7ebedd38-0118-4310-a40c-0dcb05c37874")
-	)
-	(wire
-		(pts
-			(xy 113.03 100.33) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828aad9b-9245-4876-a48d-748c1941cd1a")
 	)
 	(wire
 		(pts
@@ -5712,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 102.87) (xy 132.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98931937-6653-4b1e-a707-831293f45e2e")
+	)
+	(wire
+		(pts
 			(xy 113.03 125.73) (xy 118.11 125.73)
 		)
 		(stroke
@@ -5822,6 +5832,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 105.41) (xy 132.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8d7a49-97d3-4a32-a83e-32f1b5ff085a")
+	)
+	(wire
+		(pts
 			(xy 118.11 135.89) (xy 118.11 138.43)
 		)
 		(stroke
@@ -5839,16 +5859,6 @@
 			(type default)
 		)
 		(uuid "ad2918a2-09c5-4cb0-8cf4-00735ff74a4c")
-	)
-	(wire
-		(pts
-			(xy 132.08 105.41) (xy 113.03 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5718c2-7fd9-4233-bb8a-89efbd0971ab")
 	)
 	(wire
 		(pts
@@ -6082,6 +6092,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 140.97) (xy 267.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce58699e-d100-4aef-9540-4d5e83029dd2")
+	)
+	(wire
+		(pts
 			(xy 43.18 44.45) (xy 41.91 44.45)
 		)
 		(stroke
@@ -6309,16 +6329,6 @@
 			(type solid)
 		)
 		(uuid "e83b22ff-35e9-4646-b131-f7fe0f9d4e2a")
-	)
-	(wire
-		(pts
-			(xy 113.03 102.87) (xy 132.08 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88d5ee4-a667-4707-8e59-aab2a2b089de")
 	)
 	(wire
 		(pts
@@ -7672,6 +7682,16 @@
 		)
 		(uuid "1f6dc69a-873d-4b7e-a85d-6063324c84fa")
 	)
+	(label "FLASH_WP"
+		(at 132.08 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "226b283c-deff-48b0-84e2-4fe7b2568d19")
+	)
 	(label "GPIO05"
 		(at 177.8 130.81 0)
 		(effects
@@ -7703,16 +7723,6 @@
 		)
 		(uuid "2c027f27-1ffa-42b7-bc27-48c839d7dd77")
 	)
-	(label "SPI_SCK"
-		(at 132.08 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e356697-df1d-449e-91b7-4f217f10e47d")
-	)
 	(label "OSC1"
 		(at 194.31 54.61 180)
 		(effects
@@ -7722,16 +7732,6 @@
 			(justify right bottom)
 		)
 		(uuid "3eaf47c9-7217-4154-9c7d-59eb8cec0b03")
-	)
-	(label "SPI_MOSI"
-		(at 132.08 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f4ce867-b1a7-4caf-9a03-499cc02b6dfa")
 	)
 	(label "HAPTIC_EN"
 		(at 194.31 44.45 180)
@@ -7773,6 +7773,16 @@
 		)
 		(uuid "5840d2aa-d811-4beb-ab6b-42bfd40dd789")
 	)
+	(label "FLASH_CS"
+		(at 132.08 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a5b13b5-64be-4fae-967a-954da9e568c5")
+	)
 	(label "uC_RESET"
 		(at 78.74 35.56 180)
 		(effects
@@ -7782,6 +7792,16 @@
 			(justify right bottom)
 		)
 		(uuid "5b98fc75-8be1-4fa9-b070-17073f8f0364")
+	)
+	(label "FLASH_RST"
+		(at 132.08 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "634dac57-014a-4480-b93b-466df3c984b9")
 	)
 	(label "SCL"
 		(at 120.65 92.71 180)
@@ -7925,6 +7945,16 @@
 		)
 		(uuid "90996732-a650-44dd-b4fa-146372ecac1b")
 	)
+	(label "SPI_SCK"
+		(at 73.66 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c09cbc0-4e2d-4169-9320-85f0b47e41c5")
+	)
 	(label "FLASH_WP"
 		(at 217.17 153.67 0)
 		(effects
@@ -7945,6 +7975,16 @@
 		)
 		(uuid "a3341f1d-acce-45d5-9cd9-8cccc1aec3a4")
 	)
+	(label "SPI_MOSI"
+		(at 73.66 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a830418f-19ac-45bf-a2dc-4ef4d365587a")
+	)
 	(label "SDA"
 		(at 177.8 140.97 0)
 		(effects
@@ -7964,16 +8004,6 @@
 			(justify right bottom)
 		)
 		(uuid "ab3af3cd-6341-455e-a180-a3bb18350692")
-	)
-	(label "SPI_MISO"
-		(at 132.08 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b470180a-8841-4b08-add9-6f48718db178")
 	)
 	(label "D-"
 		(at 264.16 80.01 180)
@@ -8014,6 +8044,16 @@
 			(justify left bottom)
 		)
 		(uuid "c5007546-139a-4a74-bb3c-f7bd1bdbe2bc")
+	)
+	(label "SPI_MISO"
+		(at 73.66 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbee6a80-7ea9-423c-993e-1ba51748ffb6")
 	)
 	(label "SCL"
 		(at 177.8 143.51 0)
@@ -8590,7 +8630,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "4.7K"
 			(at 128.27 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8635,7 +8675,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-074K7L"
 			(at 128.27 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10466,7 +10506,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 8MB No PSRAM-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 267.97 143.51 0)
+		(at 267.97 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10476,7 +10516,7 @@
 		(dnp no)
 		(uuid "87ca29ef-250f-406c-9fdf-2c150441f144")
 		(property "Reference" "C6"
-			(at 265.68 142.26 90)
+			(at 265.68 144.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10486,7 +10526,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 270.27 142.26 90)
+			(at 270.27 144.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10496,7 +10536,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 267.97 143.51 0)
+			(at 267.97 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10507,7 +10547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 143.51 0)
+			(at 267.97 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10518,7 +10558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 143.51 0)
+			(at 267.97 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10569,7 @@
 			)
 		)
 		(property "REV" "C"
-			(at 267.97 143.51 0)
+			(at 267.97 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10539,7 +10579,7 @@
 			)
 		)
 		(property "MPN" "0402B104K160HI"
-			(at 267.97 143.51 90)
+			(at 267.97 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +10590,7 @@
 			)
 		)
 		(property "PRICE" "0.02134"
-			(at 267.97 143.51 90)
+			(at 267.97 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10561,7 +10601,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 267.97 143.51 90)
+			(at 267.97 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11267,7 +11307,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "4.7K"
 			(at 128.27 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11312,7 +11352,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-074K7L"
 			(at 128.27 95.25 0)
 			(hide yes)
 			(show_name no)
