@@ -2780,6 +2780,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 59.69) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5409c559-1702-4e53-a0c9-478fa927355a")
+	)
+	(wire
+		(pts
 			(xy 114.3 30.48) (xy 114.3 33.02)
 		)
 		(stroke
@@ -3658,7 +3668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4501,7 +4511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 58.42 0)
+		(at 127 59.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4513,7 +4523,7 @@
 		(fields_autoplaced yes)
 		(uuid "65b46473-ab7b-4d60-844a-076e646914be")
 		(property "Reference" "#PWR0123"
-			(at 127 64.77 0)
+			(at 127 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 63.5 0)
+			(at 127 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 58.42 0)
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4546,7 +4556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 58.42 0)
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,7 +4567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 58.42 0)
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5170,7 @@
 				)
 			)
 		)
-		(property "Value" "100mF"
+		(property "Value" "0.1F"
 			(at 142.9351 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,7 +5988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 106.68 0)
 			(hide yes)
 			(show_name no)

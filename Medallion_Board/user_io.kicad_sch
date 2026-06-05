@@ -8315,7 +8315,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0402X5R475K6R3NTC"
+		(property "MPN" "C0402X5R475M100NTC"
 			(at 44.45 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -8326,7 +8326,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.0185"
+		(property "PRICE" "0.2223"
 			(at 44.45 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -8522,7 +8522,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7158/5272_SI1308EDL-EV.pdf"
 			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8556,7 +8556,18 @@
 				)
 			)
 		)
-		(property "MPN" "Si1308EDL"
+		(property "MPN" "SI1308EDL-EV"
+			(at 41.91 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.32"
 			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8728,7 +8739,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0402X5R475K6R3NTC"
+		(property "MPN" "C0402X5R475M100NTC"
 			(at 19.05 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +8750,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.0185"
+		(property "PRICE" "0.2223"
 			(at 19.05 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -11586,7 +11597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 19.05 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11619,7 +11630,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM158C80E226ME15J"
+		(property "MPN" "C0603X5R226M100NTK"
 			(at 19.05 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -11630,7 +11641,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.06"
+		(property "PRICE" "0.05187"
 			(at 19.05 44.45 90)
 			(hide yes)
 			(show_name no)
