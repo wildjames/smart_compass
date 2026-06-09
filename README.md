@@ -130,19 +130,25 @@ This is the process to use the app to search for another device that is not near
 #### Device individual tracking
 
 
+-----
+
+
+## Archived KiCAD packages
+
+- 0.1: First edition.
+- 0.2: Submitted to reddit for hope of review. First hierarchical schematic.
+- 0.3: Reviewed connections, fixed a few bugs with USB and SPI.
+- 0.4: Rerouted the board to place the e-ink connector correctly, and the MCU more centrally. Also made the antenna placement more seriously, with proper clearance zone and via stitching.
+
 
 -----
 
 ## Thoughts
 
-Should I add haptics or sound for the first version? More complexity and the board is already pretty complex... I'm getting doubtful of my ability to one-shot this with no mistakes!
-
-The component cost per device is up to ~£50. The boards are about £5 per board for the first run (some heavy discounts, I shouldn't squander that). Assembled, the first shipment of 5 boards would cost $115 plus ~$60 in components per board makes that up to $400. That's a hefty chunk of cash!!! I could try getting just two assembled for this initial run, which brings it down to like, $200, but that's still pricey.
+The component cost per device is up to ~£50. The boards are about £5 per board for the first run (some heavy discounts, I shouldn't squander that). Assembled, the first shipment of 5 boards would cost $115 plus ~$60 in components per board makes that up to $400. That's a hefty chunk of cash. I could try getting just two assembled for this initial run, which brings it down to like, $200, but that's still pricey.
 
 ## TODO list
 
-- Haptics are easy-ish to add. [Driver](https://www.digikey.co.uk/en/products/detail/texas-instruments/DRV2605LDGSR/5014144), [LDA](https://www.digikey.co.uk/en/products/detail/vybronics-inc/VG1040003D/10285886). However, the actuator is 10mm thick, so may contribute meaningfully to the package size. Remember, I still need to fit in a lipo to the back of this thing
-- Need to add flash storage for settings and possible images: [digikey](https://www.digikey.com/en/products/detail/macronix/MX25R6435FZAIH0/5957730), [snapeda](https://www.snapeda.com/parts/MX25R6435FZAIH0/Macronix/view-part/?ref=search&t=MX25R6435FZAIH0&ab_test_case=b). Arduino library [here](https://github.com/adafruit/Adafruit_SPIFlash)
-- Need to add a small e-ink display: Red/Yellow/Black/White for $5 [here](https://www.waveshare.com/1.54inch-e-paper-g.htm?sku=30441). SPI interface
+- Haptics are easy to add hardware-wise. [Driver](https://www.digikey.co.uk/en/products/detail/texas-instruments/DRV2605LDGSR/5014144), [LDA](https://www.digikey.co.uk/en/products/detail/vybronics-inc/VG1040003D/10285886). However, the actuator is 10mm thick, so may contribute meaningfully to the package size. Remember, I still need to fit in a lipo to the back of this thing
 - Should I add a speaker, and the supporting chip to drive it with audio? [2-4 kHz Piezo driver](https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8904JER/4898819) would be easy, but high-pitch and maybe unpleasant, since I'd only have square waves.
-- Need to expand to 16 leds on the ring. In software, I'll mix between them like a CCD moving charge.
+- I need to move from a ceramic patch antenna to a chip antenna. When doing the PCB, I need to impedence-match the resistor.
