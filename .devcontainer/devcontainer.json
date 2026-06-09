@@ -4,14 +4,19 @@
     "dockerfile": "Dockerfile"
   },
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/rust:1": {
+      "targets": "thumbv7em-none-eabihf"
+    }
   },
   "postCreateCommand": "bash .devcontainer/post-create.sh",
   "customizations": {
     "vscode": {
       "extensions": [
         "github.copilot",
-        "github.copilot-chat"
+        "github.copilot-chat",
+        "rust-lang.rust-analyzer",
+        "probe-rs.probe-rs-debugger"
       ]
     }
   }

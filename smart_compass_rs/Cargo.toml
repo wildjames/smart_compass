@@ -1,0 +1,17 @@
+[package]
+name = "smart_compass_rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.5"
+defmt = "1.1.0"
+defmt-rtt = "1.2.0"
+embassy-executor = { version = "0.10.0", features = ["defmt", "embassy-time-driver", "platform-cortex-m"] }
+embassy-nrf = { version = "0.10.0", features = ["nrf52840", "time-driver-rtc1"] }
+embassy-time = { version = "0.5.1", features = ["defmt", "tick-hz-32_768_000"] }
+embedded-hal = "1.0.0"
+embedded-hal-async = "1.0.0"
+nrf-sdc = { version = "0.3.0", features = ["defmt", "peripheral"] }
+trouble-host = { version = "0.6.0", features = ["peripheral", "scan", "gatt"] }
