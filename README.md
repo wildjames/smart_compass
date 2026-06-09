@@ -149,6 +149,5 @@ The component cost per device is up to ~£50. The boards are about £5 per board
 
 ## TODO list
 
-- Haptics are easy to add hardware-wise. [Driver](https://www.digikey.co.uk/en/products/detail/texas-instruments/DRV2605LDGSR/5014144), [LDA](https://www.digikey.co.uk/en/products/detail/vybronics-inc/VG1040003D/10285886). However, the actuator is 10mm thick, so may contribute meaningfully to the package size. Remember, I still need to fit in a lipo to the back of this thing
-- Should I add a speaker, and the supporting chip to drive it with audio? [2-4 kHz Piezo driver](https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8904JER/4898819) would be easy, but high-pitch and maybe unpleasant, since I'd only have square waves.
-- I need to move from a ceramic patch antenna to a chip antenna. When doing the PCB, I need to impedence-match the resistor.
+- I can apparently use a pi pico 2 as an SWD programmer, to flash the bootloader, and from there I can just upload via the native USB.
+- I will do the programming in Rust, using the Embassy ecosystem. This will give me the memory safety and speed of rust (nice when there is no easy way to see crashes on the device), but also the fearless concurrency will be a massive boon with all the ICs that need to be interfaced with.
