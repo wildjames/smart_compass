@@ -1,12 +1,14 @@
 # Smart Compass
 
-The product is a smart compass, something similar to the compass in the Pirates of the Caribbean. It has a ring of LEDs that indicate the direction you need to walk in to get to the place you want to be, which can be other devices in a tracking group, waypoints on a navigation route (e.g. hiking), Atlas Obscura sites for the city you're in, or some location you pinned (e.g. where you parked your car, or something like that).
+The product is going to be something similar to the compass in the Pirates of the Caribbean.
+
+It has a ring of LEDs that indicate the direction you need to walk in to get to the place you want to be, which can be other devices in a tracking group, waypoints on a navigation route (e.g. hiking), Atlas Obscura sites for the city you're in, or some location you pinned (e.g. where you parked your car, or something like that).
 Locations will be either pins dropped by the compass itself, or loaded to the device using a companion app on a phone - communicating with that means the device needs BLE. The nRF52840 module gives that.
 
 The compass has a GNSS module for getting its own location, and a 9-axis IMU for the compass orientation.
 It has a LoRa radio for kilometer-range mesh networking, allowing it to maintain an off-grid communication layer in cases where the cell network is either unavailable (e.g. rural locations, mountains), or overloaded (e.g. music festivals and other large events) - or if you just don't want to be carrying a phone (e.g. a kid being set loose in a shopping centre).
 
-For typical single-device operation, however, the compass will rely on a companion phone app to augment it. Using the app, the user can navigate to desired location without referring to their phone. These can be user-defined, like setting the navigation destination on Maps, or get a list of Locations of Interest (LoI) from something like Atlas Obscura. I plan on also having
+For typical single-device operation, however, the compass will rely on a companion phone app. Using the app, the user can navigate to desired location without referring to their phone. These can be user-defined, like setting the navigation destination on Maps, or get a list of Locations of Interest (LoI) from something like Atlas Obscura. I could also do a "hot/cold" thing with phone RSSI signal strength to get a kind of phone finder feature, but that may not be very useful.
 
 ## Design requirements
 
@@ -18,11 +20,11 @@ The device has a few core requirements:
 - Communication between devices must be long-range. Kilometer ranges between peers is a requirement, and longer ranges with a mesh network is also necessary.
 - The battery must last for at least a day, but 3 day battery life is the target. Deep sleep, low power, and high polling modes should be used to assist this.
 - The device must be handheld. No external antenna is ideal, but the option to add one may be worthwhile.
+- The device must have flash storage
 - The device needs an on-board way to communicate the direction and distance of paired devices.
   - The device must have a ring of addressable RGB LEDs for peer indication.
   - The device must have a haptic engine for feedback
-  - The device must have a speaker for feedback.
-- The device must have flash storage
+  - The device may have a speaker for feedback.
 
 
 
@@ -35,6 +37,8 @@ TODO: There are a lot of features here, so I want to roadmap from the beginning 
 
 I'm gonna split this into two parts - first, from the users' perspective, and then from the technical perspective.
 
+For IO, the compass will have 3 user buttons, which will generally fill the role of up, down, and select. There is the e-ink screen for low-cadence information, and the LED ring for high-cadence information. There is also a haptic engine for vibrations.
+
 ### User perspective
 
 As far as the user is concerned, the device has:
@@ -43,46 +47,118 @@ As far as the user is concerned, the device has:
 
 and a few modes:
 - Tracking mode (where the LEDs light up to show the intended direction of travel)
-  - LoI
   - Devices/phones
   - Navigation waypoints
+  - LoI
 - Silent mode (where the device stops reporting its location, but can still track other devices)
 - Low-frequency polling mode
-- high frequenct polling mode
+- high frequency polling mode
 
 #### Phone pairing
 
-I turn on the device
-I open the bluetooth menu on my phone
-I long-press the pairing button on the device
-I see the device as "Medallion XYZ123" in the available devices menu and connect to it
-I open the app on my phone
-The app knows that a new device has been connected and needs pairing
-The app prompts me for a device name
-I enter it and submit
-After a few moments, I see a confirmation page telling me the device is ready to use
+- I turn on the device
+- I open the bluetooth menu on my phone
+- I long-press the pairing button on the device
+- I see the device as "Medallion XYZ123" in the available devices menu and connect to it
+- I open the app on my phone
+- The app knows that a new device has been connected and needs pairing
+- The app prompts me for a device name
+- I enter it and submit
+- After a few moments, I see a confirmation page telling me the device is ready to use
 
 #### On-device device pairing
 
-I have a device that is already set up
-I long-press the pairing button on device A
-I long-press the pairing button on device B
-I hold the two devices close to each other
-The devices each send a pairing request to each other, and the LEDs indicate a pairing request by flashing the same random colour and pattern
-I long press the pairing button to accept, or tap the pairing button to reject
-If/when connected to a companion phone, the device updates it with the current tracked device list
+- I have a device that is already set up
+- I long-press the pairing button on device A
+- I long-press the pairing button on device B
+- I hold the two devices close to each other
+- The devices each send a pairing request to each other, and the LEDs indicate a pairing request by flashing the same random colour and pattern
+- I long press the pairing button to accept, or tap the pairing button to reject
+- If/when connected to a companion phone, the device updates it with the current tracked device list
 
 
 #### In-app device pairing
+
+- I have paired a phone to the device
+- I open the app and navigate to the "add friend" page
+- I search for that friend's username or email
+- The other party recieves a request to track
+- The other party accepts the request
+- I can now track the other party
+
 #### Start location broadcasting
+
+- I have a device set up and paired with a phone
+- I turn on the power switch for the device
+- The device is not currently broadcasting its location
+- I simultaneously press the left and right user buttons together for 1s
+- The device screen indicates that broadcasting has begun
+- The device LED ring indicates that broadcasting has begun
+
 #### Stop location broadcasting
+
+- I have a device set up and paired with a phone
+- The device is broadcasting its location
+- I simultaneously press the left and right user buttons together for 1s
+- The device screen indicates that broadcasting has stopped
+- The device LED ring indicates that broadcasting has stopped
+
 #### Start HTR broadcasting
+
+- I have a device set up and paired with a phone
+- The device is currently broadcasting a location
+- I use the 3 user buttons to navigate the on-screen menu to the location broadcasting page
+- I select the "Start HTR sharing" option
+
 #### Stop HTR broadcasting
+
+- I have a device set up and paired with a phone
+- The device is currently broadcasting a location
+- I use the 3 user buttons to navigate the on-screen menu to the location broadcasting page
+- I select the "Stop HTR sharing" option
+
 #### Set navigation route
+
+- I have a device set up and paired with a phone
+- The device is currently connected to the phone
+- I open the app and navigate to the "Navigation" page
+- I type in a destination to the search box
+- The app returns results from Google Maps
+- I select a target location
+- The app indicates that navigation has started
+- The app shows the route
+- The device screen indicates that navigation has started, and displays key information about the route
+- The device LED ring indicates that navigation has started, then points to the first waypoint along the route
+
 #### Track LoI nearby
 
+- I have a device set up and paired with a phone
+- The device is currently connected to the phone
+- I use the 3 user buttons to navigate to "Track nearby LoI"
+- The LED ring indicates the direction of the 3 nearest LoI
+- The screen shows the name of the LoI that is currently closest to 0 degrees, and the distance
 
-### Techical perspective
+#### Start tracking a specific person
+
+- I have a device set up
+- I use the 3 user buttons to navigate to "Track person"
+- The LED ring indicates the direction of the person being tracked
+- The device screen shows the name of the person being tracked
+
+#### Define a tracking group
+
+Done in-app
+
+#### Start tracking a group of people
+
+Done by navigating to menu on device
+
+#### Stop tracking
+
+done by long pressing the "select" user button
+
+
+### Technical perspective
 
 Each device contains the following information about itself:
 - The device name (human-readable)
