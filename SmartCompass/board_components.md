@@ -24,7 +24,7 @@ This page reflects the current schematic at `Medallion_Board.kicad_sch`.
 | IMU | U6 | BNO085 | 9-axis, I²C |
 | Flash Memory | U2 | MX25R6435FZAIH0 | 64 Mbit, SPI |
 | E-Ink Connector | J3 | FH12A-24S-0.5SH(55) | 24-pin FPC |
-| WS2812 LEDs | D3–D18 | WS2812B-2020 | ×16, 1-Wire chain |
+| WS2812 LEDs | D3–D18 | WS2812B-2020 | x16, 1-Wire chain |
 | Haptic Driver | U7 | DRV2605LDGSR | I²C |
 | Haptic Connector | HAPTIC1 | SM02B-GHS-TB | JST GH |
 | Button 1 | P1 | SM02B-GHS-TB | JST GH |
@@ -33,10 +33,10 @@ This page reflects the current schematic at `Medallion_Board.kicad_sch`.
 | Reset Switch | RESET1 | KMR221NG LFS | SMD tactile |
 | Crystal | Y1 | ABS07-32.768KHZ-7-T | 32.768 kHz |
 | Inductor | L1 | NR3015T470M | 47 µH / 500 mA |
-| Schottky Diodes | D1, D19–D21 | MBR0540 | ×4 |
+| Schottky Diodes | D1, D19–D21 | MBR0540 | x4 |
 | Dual Diode | D2 | BAV199 | |
-| SWD Header | J1 | 1×5 pin header | DNP |
-| Expansion Header | J2 | 1×8 pin header | DNP |
+| SWD Header | J1 | 1x5 pin header | DNP |
+| Expansion Header | J2 | 1x8 pin header | DNP |
 
 
 For the user button leads, use this connector: [GHR-02V-S](https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/GHR-02V-S/807814?s=N4IgjCBcoBw1oDGUBmBDANgZwKYBoQB7KAbXACYwBmcgNhAF0CAHAFyhAGVWAnASwB2AcxABfUQXKkQAKU4AVAAQBxABKLGooA)

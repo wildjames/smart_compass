@@ -168,13 +168,10 @@ TODO
 
 TODO
 
-### Charging
-
-TODO
 
 ### Firmware update
 
-TODO
+TODO - Is OTA updating feasible? Perhaps that's the first feature to implement. Can I do it from the app? Directly from a PC?
 
 ### Remove a friend
 
@@ -186,7 +183,24 @@ TODO
 
 ### Delete a tracking group
 
-TODO
+#### On-device
+
+- I have set up a tracking group previously
+- I navigate to the device settings > "Delete tracked thing" menu on the device screen using the 3 user buttons
+- I see a menu of "Groups", "Friends", "Locations"
+- I select "Groups", and see a list of my tracking group names
+- I select the group to delete, and see a "Are you sure?" screen, which contains the group name
+- I select "yes" or "no".
+- After selection, I return to the list of groups
+
+#### In-app
+
+- I have set up a tracking group previously
+- I navigate to the "Manage Tracking Groups" page in the app
+- I select the group to delete
+- I select the "Delete" button
+- I am presented with a confirmation page, and choose an option
+- I am returned either to the selected group management page if I do not delete it, or the list of groups page if I did delete the group.
 
 ### Tracked person goes offline
 
@@ -194,7 +208,7 @@ TODO
 
 ### Tracked person enters silent mode
 
-TODO
+TODO - should this look the same as the person going offline, or should I communicate the silent mode to the tracker?
 
 
 ## Technical perspective

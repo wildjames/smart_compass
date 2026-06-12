@@ -8,6 +8,7 @@ cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
 cortex-m-rt = "0.7.5"
 defmt = "1.1.0"
 defmt-rtt = "1.2.0"
+embassy-boot-nrf = { version = "0.11.0", features = ["defmt"] }
 embassy-executor = { version = "0.10.0", features = ["defmt", "embassy-time-driver", "platform-cortex-m"] }
 embassy-nrf = { version = "0.10.0", features = ["nrf52840", "time-driver-rtc1"] }
 embassy-time = { version = "0.5.1", features = ["defmt", "tick-hz-32_768_000"] }
