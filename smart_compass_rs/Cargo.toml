@@ -11,8 +11,8 @@ defmt-rtt = "1.2.0"
 embassy-boot-nrf = { version = "0.11.0", features = ["defmt"] }
 embassy-executor = { version = "0.10.0", features = ["defmt", "embassy-time-driver", "platform-cortex-m"] }
 embassy-nrf = { version = "0.10.0", features = ["nrf52840", "time-driver-rtc1"] }
-embassy-time = { version = "0.5.1", features = ["defmt", "tick-hz-32_768_000"] }
+embassy-time = { version = "0.5.1", features = ["defmt"] }
 embedded-hal = "1.0.0"
 embedded-hal-async = "1.0.0"
-nrf-sdc = { version = "0.3.0", features = ["defmt", "peripheral"] }
+nrf-sdc = { version = "0.3.0", features = ["defmt", "peripheral", "nrf52840"] }
 trouble-host = { version = "0.6.0", features = ["peripheral", "scan", "gatt"] }
