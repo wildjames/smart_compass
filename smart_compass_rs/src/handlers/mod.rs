@@ -1,1 +1,1 @@
-use fuel_gauge_MAX::*;
+pub mod fuel_gauge_max;

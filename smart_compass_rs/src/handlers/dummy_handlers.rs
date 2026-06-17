@@ -1,17 +1,27 @@
+// UART
 struct LC86LGNSS {}
 
+// I2C
 struct BNO085IMU {}
 
-struct WioE5LoRa {}
-
-struct FlashMemory {}
-
-struct EInkDisplay {}
-
-struct NeopixelChain {}
-
+// Fuel Gauge is also I2C
+// I2C
 struct HapticMotor {}
 
+// SPI
+struct WioE5LoRa {}
+
+// SPI
+struct FlashMemory {}
+
+// SPI
+struct EInkDisplay {}
+
+// GPIO
+struct NeopixelChain {}
+
+// GPIO
 struct Button {}
 
+// Internal
 struct Bluetooth {}
