@@ -1,0 +1,25 @@
+[package]
+name = "compass_sim"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+smart_compass_rs = { path = "../smart_compass_rs" }
+
+embassy-sync = "0.8.0"
+embassy-time = { version = "0.5.1", features = ["defmt", "std", "generic-queue-8"] }
+embassy-embedded-hal = "0.6.0"
+embassy-futures = "0.1.2"
+embedded-hal = "1.0.0"
+embedded-hal-async = "1.0.0"
+static_cell = "2.1"
+critical-section = { version = "1", features = ["std"] }
+
+# Async runtime for the simulator
+tokio = { version = "1", features = ["macros", "rt", "time"] }
+embassy-executor = { version = "0.10.0", features = ["defmt"] }
+
+# Logging
+defmt = "1.1.0"
+log = "0.4"
+env_logger = "0.11"

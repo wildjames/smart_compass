@@ -15,6 +15,8 @@ use embassy_sync::mutex::Mutex;
 use embassy_time::{Duration, Timer};
 use panic_probe as _;
 
+type HwCompass = compass::Compass<Twim<'static>>;
+
 bind_interrupts!(struct Irqs {
     // TWIM - Twin Wire Interface Master (I2C)
     TWISPI0 => twim::InterruptHandler<peripherals::TWISPI0>;
@@ -38,7 +40,7 @@ async fn main(_spawner: Spawner) {
     compass_handler.start().await;
 
     for _ in 0..10 {
-        if let Some(report) = compass_handler.read_fuel_gauge() {
+        if let Some(report) = HwCompass::read_fuel_gauge() {
             defmt::info!(
                 "Voltage: {}, SoC: {}%",
                 report.voltage,
@@ -48,5 +50,5 @@ async fn main(_spawner: Spawner) {
 
         Timer::after(Duration::from_secs(5)).await;
     }
-    compass_handler.stop();
+    HwCompass::stop();
 }

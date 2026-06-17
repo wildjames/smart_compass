@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "smart_compass_rs",
+    "compass_sim",
+]
+resolver = "3"

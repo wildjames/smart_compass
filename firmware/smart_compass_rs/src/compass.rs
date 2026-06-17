@@ -18,8 +18,13 @@ impl<BUS: embedded_hal_async::i2c::I2c + 'static> Compass<BUS> {
         }
     }
 
-    /// Read the latest fuel gauge data (non-blocking, returns last published value)
-    pub fn read_fuel_gauge(&self) -> Option<FuelGaugeReport> {
+    pub fn set_fuel_gauge_polling_interval(&mut self, interval_secs: u64) {
+        self.fuel_gauge.set_polling_interval(interval_secs);
+    }
+
+    /// Read the latest fuel gauge data (non-blocking, returns last published value).
+    /// This is an associated function — it reads from a static channel, not instance state.
+    pub fn read_fuel_gauge() -> Option<FuelGaugeReport> {
         let mut receiver = FuelGaugeMAX::<I2cDevice<'static, NoopRawMutex, BUS>>::receiver();
         receiver.try_get()
     }
@@ -28,7 +33,9 @@ impl<BUS: embedded_hal_async::i2c::I2c + 'static> Compass<BUS> {
         self.fuel_gauge.start().await;
     }
 
-    pub fn stop(&self) {
+    /// Signal the polling loop to stop.
+    /// This is an associated function — it signals a static channel, not instance state.
+    pub fn stop() {
         FuelGaugeMAX::<I2cDevice<'static, NoopRawMutex, BUS>>::stop();
     }
 }
