@@ -4,16 +4,16 @@
 mod compass;
 mod handlers;
 
+use defmt_rtt as _;
 use embassy_executor::Spawner;
-use embassy_nrf::peripherals;
 use embassy_nrf::Peripherals;
-use embassy_nrf::twim::{self, Twim};
 use embassy_nrf::bind_interrupts;
+use embassy_nrf::peripherals;
+use embassy_nrf::twim::{self, Twim};
 use embassy_sync::blocking_mutex::raw::NoopRawMutex;
 use embassy_sync::mutex::Mutex;
 use embassy_time::{Duration, Timer};
 use panic_probe as _;
-use defmt_rtt as _;
 
 bind_interrupts!(struct Irqs {
     // TWIM - Twin Wire Interface Master (I2C)
@@ -39,7 +39,11 @@ async fn main(_spawner: Spawner) {
 
     for _ in 0..10 {
         if let Some(report) = compass_handler.read_fuel_gauge() {
-            defmt::info!("Voltage: {}, SoC: {}%", report.voltage, report.state_of_charge);
+            defmt::info!(
+                "Voltage: {}, SoC: {}%",
+                report.voltage,
+                report.state_of_charge
+            );
         }
 
         Timer::after(Duration::from_secs(5)).await;

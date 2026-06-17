@@ -1,9 +1,9 @@
 #![allow(dead_code)]
 
+use embassy_futures::select::{Either, select};
 use embassy_sync::blocking_mutex::raw::CriticalSectionRawMutex;
 use embassy_sync::signal::Signal;
 use embassy_sync::watch::Watch;
-use embassy_futures::select::{select, Either};
 use embassy_time::{Duration, Timer};
 use embedded_hal_async::i2c::I2c;
 
@@ -49,7 +49,7 @@ pub enum FuelGaugeHibernateMode {
 }
 
 pub enum FuelGaugeStatus {
-    RESET,
+    Reset,
     VoltageHigh,
     VoltageLot,
     VoltageReset,
@@ -67,8 +67,8 @@ impl<I: I2c> FuelGaugeMAX<I> {
     }
 
     /// Returns a receiver that always holds the latest fuel gauge reading.
-    pub fn receiver() -> embassy_sync::watch::Receiver<'static, CriticalSectionRawMutex, FuelGaugeReport, 2>
-    {
+    pub fn receiver()
+    -> embassy_sync::watch::Receiver<'static, CriticalSectionRawMutex, FuelGaugeReport, 2> {
         FUEL_GAUGE_DATA.receiver().unwrap()
     }
 
@@ -102,13 +102,19 @@ impl<I: I2c> FuelGaugeMAX<I> {
 
     async fn write_register(&mut self, reg: u8, value: u16) {
         let bytes = value.to_be_bytes();
-        let _ = self.i2c.write(MAX17043_ADDR, &[reg, bytes[0], bytes[1]]).await;
+        let _ = self
+            .i2c
+            .write(MAX17043_ADDR, &[reg, bytes[0], bytes[1]])
+            .await;
     }
 
     async fn poll(&mut self) -> FuelGaugeReport {
         let voltage = self.get_voltage().await;
         let state_of_charge = self.get_state_of_charge().await;
-        FuelGaugeReport { voltage, state_of_charge }
+        FuelGaugeReport {
+            voltage,
+            state_of_charge,
+        }
     }
 
     //--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
