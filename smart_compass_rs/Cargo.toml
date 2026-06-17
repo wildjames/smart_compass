@@ -3,24 +3,50 @@ name = "smart_compass_rs"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "smart_compass_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "smart_compass_rs"
+path = "src/main.rs"
+required-features = ["embedded"]
+
+[features]
+embedded = [
+    "dep:cortex-m",
+    "dep:cortex-m-rt",
+    "dep:defmt-rtt",
+    "dep:embassy-boot-nrf",
+    "dep:embassy-executor",
+    "dep:embassy-nrf",
+    "dep:nrf-sdc",
+    "dep:trouble-host",
+    "dep:panic-probe",
+]
+
 [dependencies]
-cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
-cortex-m-rt = "0.7.5"
+# Platform-independent dependencies (used by lib and tests)
 defmt = "1.1.0"
-defmt-rtt = "1.2.0"
-embassy-boot-nrf = { version = "0.12.0", features = ["defmt"] }
-embassy-executor = { version = "0.10.0", features = ["defmt", "platform-cortex-m", "executor-thread"] }
-embassy-nrf = { version = "0.11.0", features = ["nrf52840", "time-driver-rtc1"] }
-embassy-time = { version = "0.5.1", features = ["defmt"] }
 embassy-sync = "0.8.0"
 embassy-futures = "0.1.2"
+embassy-time = { version = "0.5.1", features = ["defmt"] }
 embassy-embedded-hal = "0.6.0"
 embedded-hal = "1.0.0"
 embedded-hal-async = "1.0.0"
 static_cell = "2.1"
-nrf-sdc = { version = "0.3.0", features = ["defmt", "peripheral", "nrf52840"] }
-trouble-host = { version = "0.6.0", features = ["peripheral", "scan", "gatt"] }
-panic-probe = { version = "0.3", features = ["print-defmt"] }
 
-[build]
-target = "thumbv7em-none-eabihf"
+# Hardware-specific dependencies (only for embedded target)
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"], optional = true }
+cortex-m-rt = { version = "0.7.5", optional = true }
+defmt-rtt = { version = "1.2.0", optional = true }
+embassy-boot-nrf = { version = "0.12.0", features = ["defmt"], optional = true }
+embassy-executor = { version = "0.10.0", features = ["defmt", "platform-cortex-m", "executor-thread"], optional = true }
+embassy-nrf = { version = "0.11.0", features = ["nrf52840", "time-driver-rtc1"], optional = true }
+nrf-sdc = { version = "0.3.0", features = ["defmt", "peripheral", "nrf52840"], optional = true }
+trouble-host = { version = "0.6.0", features = ["peripheral", "scan", "gatt"], optional = true }
+panic-probe = { version = "0.3", features = ["print-defmt"], optional = true }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt"] }
+critical-section = { version = "1", features = ["std"] }
