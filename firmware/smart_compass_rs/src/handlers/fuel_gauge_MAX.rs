@@ -62,7 +62,7 @@ impl<I: I2c> FuelGaugeMAX<I> {
     pub fn new(i2c: I) -> Self {
         FuelGaugeMAX {
             i2c,
-            polling_interval: Duration::from_secs(10),
+            polling_interval: Duration::from_millis(60000),
         }
     }
 
@@ -72,8 +72,8 @@ impl<I: I2c> FuelGaugeMAX<I> {
         FUEL_GAUGE_DATA.receiver().unwrap()
     }
 
-    pub fn set_polling_interval(&mut self, interval_secs: u64) {
-        self.polling_interval = Duration::from_secs(interval_secs);
+    pub fn set_polling_interval(&mut self, millis: u64) {
+        self.polling_interval = Duration::from_millis(millis);
     }
 
     pub async fn start(&mut self) {

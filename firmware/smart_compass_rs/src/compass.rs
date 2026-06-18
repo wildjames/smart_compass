@@ -18,8 +18,8 @@ impl<BUS: embedded_hal_async::i2c::I2c + 'static> Compass<BUS> {
         }
     }
 
-    pub fn set_fuel_gauge_polling_interval(&mut self, interval_secs: u64) {
-        self.fuel_gauge.set_polling_interval(interval_secs);
+    pub fn set_fuel_gauge_polling_interval(&mut self, interval_millis: u64) {
+        self.fuel_gauge.set_polling_interval(interval_millis);
     }
 
     /// Read the latest fuel gauge data (non-blocking, returns last published value).

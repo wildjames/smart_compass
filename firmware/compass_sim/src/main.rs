@@ -28,7 +28,7 @@ fn main() {
     let i2c_bus: &'static Mutex<NoopRawMutex, _> = Box::leak(Box::new(Mutex::new(bus)));
 
     let mut compass = SimCompass::new(i2c_bus);
-    compass.set_fuel_gauge_polling_interval(1);
+    compass.set_fuel_gauge_polling_interval(100);
 
     // Run a short simulation using tokio
     tokio::runtime::Builder::new_current_thread()
@@ -39,7 +39,7 @@ fn main() {
             // Scenario task: adjust simulated state, read results, then stop
             let sim_scenario = async {
                 // Let the compass poll a few times
-                embassy_time::Timer::after(embassy_time::Duration::from_secs(3)).await;
+                embassy_time::Timer::after(embassy_time::Duration::from_millis(500)).await;
 
                 if let Some(report) = SimCompass::read_fuel_gauge() {
                     println!(
@@ -54,7 +54,7 @@ fn main() {
                 ctrl.set_battery(3.5, 30.0);
                 println!("\n--- Battery draining: 3.50V, 30.0% ---");
 
-                embassy_time::Timer::after(embassy_time::Duration::from_secs(3)).await;
+                embassy_time::Timer::after(embassy_time::Duration::from_millis(500)).await;
 
                 if let Some(report) = SimCompass::read_fuel_gauge() {
                     println!(
@@ -67,7 +67,7 @@ fn main() {
                 ctrl.set_battery(2.9, 5.0);
                 println!("\n--- Critical battery: 2.90V, 5.0% ---");
 
-                embassy_time::Timer::after(embassy_time::Duration::from_secs(3)).await;
+                embassy_time::Timer::after(embassy_time::Duration::from_millis(500)).await;
 
                 if let Some(report) = SimCompass::read_fuel_gauge() {
                     println!(
