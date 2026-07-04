@@ -48,5 +48,7 @@ The component cost per device is up to ~£50. The boards are about £5 per board
 
 ## TODO list
 
-- I can apparently use a pi pico 2 as an SWD programmer, to flash the bootloader, and from there I can just upload via the native USB.
+- Consider breaking the LED and display out to a daughter board, which may make the housing assembly easier and more modifiable.
+  - Similarly, it may be worth breaking the LoRa and GNSS out to a daughter board, which may make the antenna placement easier. Less compelling though, and probably not worth the extra thickness.
+- I can apparently use a pi pico 2 as an SWD programmer, to flash the bootloader, and from there I can just upload via the native USB. I need to prove this out though.
 - I will do the programming in Rust, using the Embassy ecosystem. This will give me the memory safety and speed of rust (nice when there is no easy way to see crashes on the device), but also the fearless concurrency will be a massive boon with all the ICs that need to be interfaced with.
