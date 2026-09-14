@@ -1,0 +1,111 @@
+** Drc report for Medallion_Board.kicad_pcb **
+** Created on 2026-05-31T22:41:22 **
+** Report includes: Errors, Warnings **
+
+** Found 25 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1550 mm)
+    Local override; error
+    @(114.3942 mm, 119.6148 mm): Pad 2 [VBAT] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1550 mm)
+    Local override; error
+    @(114.3942 mm, 120.1148 mm): Pad 3 [VBAT] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1550 mm)
+    Local override; error
+    @(112.4242 mm, 120.6148 mm): Pad 5 [/LOW_BATT] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1550 mm)
+    Local override; error
+    @(112.4242 mm, 119.6148 mm): Pad 7 [/SCL] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1550 mm)
+    Local override; error
+    @(112.4242 mm, 119.1148 mm): Pad 8 [/SDA] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer In2.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(50.0000 mm, 50.0000 mm): Zone 'GND' [GND] on In2.Cu, priority 1
+    @(114.2113 mm, 126.8901 mm): PTH pad B1 [GND] of X1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer In2.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(50.0000 mm, 50.0000 mm): Zone 'GND' [GND] on In2.Cu, priority 1
+    @(108.7143 mm, 129.1671 mm): PTH pad B12 [GND] of X1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(114.3942 mm, 119.6148 mm): Pad 2 [VBAT] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(114.3942 mm, 120.1148 mm): Pad 3 [VBAT] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(112.4242 mm, 120.6148 mm): Pad 5 [/LOW_BATT] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(112.4242 mm, 119.6148 mm): Pad 7 [/SCL] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(112.4242 mm, 119.1148 mm): Pad 8 [/SDA] of U2 on B.Cu
+    @(113.4092 mm, 119.8648 mm): Pad 9 [GND] of U2 on B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 100.0000 mm): Circle on Edge.Cuts
+    @(109.0169 mm, 133.8043 mm): Segment of X1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 100.0000 mm): Circle on Edge.Cuts
+    @(109.1508 mm, 134.1276 mm): Segment of X1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 100.0000 mm): Circle on Edge.Cuts
+    @(117.4103 mm, 130.7065 mm): Segment of X1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'MODULE_LC86LICMD' does not match copy in library 'LC86LICMD'
+    Local override; warning
+    @(116.0000 mm, 92.0000 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'GCT_USB4085-GF-A_REVB' does not match copy in library 'USB4085-GF-A'
+    Local override; warning
+    @(112.6147 mm, 130.8095 mm): Footprint X1
+[lib_footprint_mismatch]: Footprint 'XCVR_MDBT50Q-1MV2' does not match copy in library 'MDBT50Q-1MV2'
+    Local override; warning
+    @(90.1405 mm, 79.5835 mm): Footprint U1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(81.3436 mm, 88.7930 mm): Reference field of U6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(96.0000 mm, 89.5000 mm): Reference field of Y1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(108.7820 mm, 104.5814 mm): Reference field of D12
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(87.0000 mm, 89.0000 mm): Reference field of L1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(112.0000 mm, 110.3400 mm): Reference field of C10
+    @(114.1750 mm, 109.4750 mm): Pad MP2 [<no net>] of ONOFF1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.5500 mm, 114.0000 mm): Reference field of C9
+    @(118.9500 mm, 115.2150 mm): Pad 2 [/VHI] of D1 on F.Cu
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(115.3446 mm, 119.0070 mm): Segment of C7 on B.Silkscreen
+    @(115.3542 mm, 119.1148 mm): Circle of U2 on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

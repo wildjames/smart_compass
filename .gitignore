@@ -1,0 +1,9 @@
+.history
+.DS_Store
+*.lck
+*backups
+
+# KiCad scratch files
+fp-info-cache
+~*.kicad_*
+.env
