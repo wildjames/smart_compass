@@ -37,7 +37,7 @@ flowchart LR
     MCU[nRF52840] <-->|UART| GNSS[LC86LICMD GNSS]
     MCU -->|GPIO: GNSS_RESET| GNSS
 
-    MCU <-->|I²C| IMU[BNO085 IMU]
+    MCU <-->|I²C| IMU[BNO086 IMU]
     MCU -->|GPIO: BNO_NINT BNO_NRST| IMU
 ```
 

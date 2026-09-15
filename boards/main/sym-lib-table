@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "smart_compass_main") (type "KiCad") (uri "${KIPRJMOD}/../../libs/smart_compass_main.kicad_sym") (options "") (descr "Main board symbols, lifted from the original SnapEDA and Eagle imports"))
+)

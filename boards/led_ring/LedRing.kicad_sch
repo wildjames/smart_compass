@@ -279,6 +279,396 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x10"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x10_1_1"
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -544,6 +934,193 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "smart_compass:IN-PI15TAT5R5G5B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IN-PI15TAT5R5G5B"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Addressable RGB LED; SMD; 1515; 1.5x1.5x0.65mm; 3.5-5.5V; single-wire 800kbps GRB; 5mA/colour"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "Inolux"
+				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "IN-PI15TAT5R5G5B"
+				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "IN-PI15TAT5R5G5B_0_0"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
 					)
 				)
 			)
@@ -832,17 +1409,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "smart_compass:IN-PI15TAT5R5G5B"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "smart_compass_main:RESISTOR_0603_NOOUT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 7.366 0)
+			(property "Reference" "R"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -851,29 +1425,19 @@
 					)
 				)
 			)
-			(property "Value" "IN-PI15TAT5R5G5B"
-				(at 0 4.826 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(thickness 0.2032)
+						(bold yes)
 					)
 				)
 			)
-			(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
-				(at 1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
+			(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:0603-NO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -884,8 +1448,8 @@
 					)
 				)
 			)
-			(property "Description" "Addressable RGB LED; SMD; 1515; 1.5x1.5x0.65mm; 3.5-5.5V; single-wire 800kbps GRB; 5mA/colour"
-				(at 1.27 0 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -893,11 +1457,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Manufacturer" "Inolux"
-				(at -6.35 0 0)
+			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -905,113 +1468,99 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MPN" "IN-PI15TAT5R5G5B"
-				(at -6.35 0 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
-				(at -6.35 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "RESISTOR_0603_NOOUT_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
 					)
-					(justify bottom)
-				)
-			)
-			(symbol "IN-PI15TAT5R5G5B_0_0"
-				(rectangle
-					(start -3.81 3.81)
-					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 5.08)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin power_in line
-					(at 8.89 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 5.08)
-					(name "DIN"
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0 0)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0 0)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 8.89 2.54 180)
-					(length 5.08)
-					(name "VDD"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0 0)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 0 0)
 							)
 						)
 					)
@@ -1033,7 +1582,7 @@
 	)
 	(text "Just for ERC staisfaction"
 		(exclude_from_sim no)
-		(at 88.646 63.754 0)
+		(at 84.836 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1054,7 +1603,7 @@
 	)
 	(text "Bulk decoupling capacitor \nplace near headers"
 		(exclude_from_sim no)
-		(at 47.752 96.774 0)
+		(at 47.752 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1425,6 +1974,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 91.44) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc3cb36-252e-4197-a247-f6fd07c3ece8")
+	)
+	(wire
+		(pts
 			(xy 165.1 138.43) (xy 165.1 143.51)
 		)
 		(stroke
@@ -1785,6 +2344,28 @@
 	)
 	(global_label "Vdrive"
 		(shape bidirectional)
+		(at 43.18 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c2ecb01-5844-4dd4-80c6-13448569e6da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Vdrive"
+		(shape bidirectional)
 		(at 166.37 193.04 180)
 		(effects
 			(font
@@ -1817,28 +2398,6 @@
 		(uuid "3a2bd5da-0d0c-41c5-a4f4-e7ed3f8f81ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.23 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Vdrive"
-		(shape bidirectional)
-		(at 43.18 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3cc88b96-ccdd-4e7c-8cb9-3e5c1ff930d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,6 +2650,28 @@
 			)
 		)
 	)
+	(global_label "NEOPIX_RET"
+		(shape bidirectional)
+		(at 34.29 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b7b14b4-cff3-4068-975d-5dc8c45875dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape bidirectional)
 		(at 165.1 152.4 270)
@@ -2103,28 +2684,6 @@
 		(uuid "5b960269-908e-4739-913d-be15b128d998")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.1 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Vdrive"
-		(shape bidirectional)
-		(at 43.18 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d42cb94-9c37-45cd-8e23-469278d4f76a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,7 +2826,7 @@
 			)
 		)
 	)
-	(global_label "NEOPIX_RET"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 43.18 86.36 180)
 		(effects
@@ -2276,7 +2835,7 @@
 			)
 			(justify right)
 		)
-		(uuid "69f61d54-b92d-446a-b774-1f29d1fc7d12")
+		(uuid "693aff61-456c-4fe2-9fb3-ce72b6ec120b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.18 86.36 0)
 			(hide yes)
@@ -2323,6 +2882,28 @@
 		(uuid "6c1ba297-18cf-4cd7-9fda-2d210abf71ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 269.24 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Vdrive"
+		(shape bidirectional)
+		(at 43.18 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e4fcaa3-1105-4542-b697-dc65a3f442ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,6 +3048,50 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
+		(at 43.18 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88d1c646-995b-4a8c-9323-82538f689a41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "NEOPIX"
+		(shape bidirectional)
+		(at 43.18 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "890bce61-65c1-4ccd-b686-98a65e9c1f40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
 		(at 325.12 148.59 0)
 		(effects
 			(font
@@ -2489,7 +3114,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 87.63 69.85 270)
+		(at 83.82 107.95 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2498,7 +3123,7 @@
 		)
 		(uuid "8fe52868-154b-4548-a4bc-56a09395c4f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 69.85 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2533,7 +3158,7 @@
 	)
 	(global_label "Vdrive"
 		(shape bidirectional)
-		(at 87.63 82.55 270)
+		(at 83.82 120.65 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2542,7 +3167,7 @@
 		)
 		(uuid "9232f0a7-338e-4422-8b4b-b2372e876517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 82.55 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2609,6 +3234,28 @@
 		(uuid "99bd4680-d560-4152-825d-0a34d7c1d687")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 269.24 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Vdrive"
+		(shape bidirectional)
+		(at 43.18 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a20b526-76d2-4030-8b23-75c26a48919d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,6 +3444,28 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
+		(at 43.18 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1f923b3-ee22-4f05-8c3d-1c1b5c520c09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
 		(at 140.97 36.83 0)
 		(effects
 			(font
@@ -2839,28 +3508,6 @@
 			)
 		)
 	)
-	(global_label "NEOPIX"
-		(shape bidirectional)
-		(at 43.18 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba4d83f6-f1b4-4699-95f4-b0c7ae7d07ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape bidirectional)
 		(at 152.4 41.91 270)
@@ -2885,7 +3532,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 48.26 116.84 270)
+		(at 48.26 123.19 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2894,7 +3541,7 @@
 		)
 		(uuid "c0dd8e4e-b7b4-4029-94f3-3c46c09eb080")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.26 116.84 0)
+			(at 48.26 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,6 +3564,28 @@
 		(uuid "c111a521-e39b-4827-a216-7aab5efdcb66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 298.45 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 43.18 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5abab2b-783a-416f-a8b6-f77255300b56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3081,6 +3750,28 @@
 			)
 		)
 	)
+	(global_label "Vdrive"
+		(shape bidirectional)
+		(at 43.18 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce217749-cc09-4412-81d1-6b2d149ed9f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape bidirectional)
 		(at 151.13 148.59 0)
@@ -3203,28 +3894,6 @@
 		(uuid "d709e2f2-8e76-4fae-aa03-f4c97df0ef0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.25 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 43.18 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da8472e6-1e66-4f45-85b8-421319bc7601")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,31 +4036,9 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 43.18 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea0a30a5-50c5-4269-a0e5-bc005f44a7bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "Vdrive"
 		(shape bidirectional)
-		(at 48.26 109.22 90)
+		(at 48.26 115.57 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3400,7 +4047,7 @@
 		)
 		(uuid "ea340728-5f58-457a-af25-1c3dabc2b44b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.26 109.22 0)
+			(at 48.26 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,47 +4258,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 274.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 274.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 274.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 274.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 274.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3737,47 +4394,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 152.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 152.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 152.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 152.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 152.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3863,38 +4530,46 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
 			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sourcing_Note" "V_IH is specified as 3.4V absolute at VDD=5.0V, NOT as a ratio of VDD. The Vdrive diode-drop scheme assumes it scales at 0.7xVDD (3.4/5.0 = 0.68, and V_IL 1.8/5.0 = 0.36, so it almost certainly does) - but Inolux does not state this. Confirm with the manufacturer before committing, because 3.3V logic cannot meet a fixed 3.4V threshold at any supply. Also note the 3.5V minimum supply: same headroom problem as the WS2812B-2020 it replaces."
 			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3920,7 +4595,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 87.63 82.55 0)
+		(at 83.82 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3930,7 +4605,7 @@
 		(dnp no)
 		(uuid "0989f24a-38ac-4942-b6dc-d7ac0aae0dda")
 		(property "Reference" "#FLG01"
-			(at 93.98 79.756 0)
+			(at 90.17 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3940,7 +4615,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 94.996 82.296 0)
+			(at 91.186 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +4625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 82.55 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +4636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 82.55 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +4647,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 82.55 0)
+			(at 83.82 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,47 +4737,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 345.44 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 345.44 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 345.44 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 345.44 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 345.44 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4122,7 +4807,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 113.03 0)
+		(at 48.26 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4132,7 +4817,7 @@
 		(dnp no)
 		(uuid "0ae1645f-d4f3-48a7-bc14-8dad0540e79f")
 		(property "Reference" "C25"
-			(at 52.07 113.03 0)
+			(at 52.07 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4143,7 +4828,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 52.07 114.3 0)
+			(at 52.07 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4154,7 +4839,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.225 109.22 0)
+			(at 49.225 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4165,7 +4850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 113.03 0)
+			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4861,7 @@
 			)
 		)
 		(property "Description" "Ring bulk capacitance, sited at the load end of the FFC so the cable inductance is not in the path. The per-LED 0.1uF parts handle the fast edges."
-			(at 48.26 113.03 0)
+			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,48 +4872,58 @@
 			)
 		)
 		(property "MPN" "CL21A226KPCLRNC"
-			(at 48.26 113.03 0)
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 48.26 113.03 0)
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6786-1-ND"
-			(at 48.26 113.03 0)
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "10V"
-			(at 48.26 113.03 0)
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 48.26 113.03 0)
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4314,25 +5009,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 307.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 307.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 307.34 88.9 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 307.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a73a23b7-39ef-4728-9f58-1a8656087439")
 		)
@@ -4349,6 +5056,154 @@
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 48.26 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d37b3e2-81aa-450b-a75d-10a072400100")
+		(property "Reference" "J10"
+			(at 52.578 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FH12-10S-0.5SH(55)"
+			(at 50.546 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
+			(at 48.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 48.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FH12-10S-0.5SH(55)"
+			(at 48.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hirose Electric Co Ltd"
+			(at 48.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "HFJ110CT-ND"
+			(at 48.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "The four spare ways double up the supply and return: Vdrive on 1-4, GND on 5, 6, 8, 9, NEOPIX on 7, NEOPIX_RET on 10. Mates with J6 on the main board."
+			(at 48.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e66644d0-8090-4376-af93-fe30314d26ee")
+		)
+		(pin "10"
+			(uuid "4524e63a-902a-4fcd-83be-cbfb57e16e6e")
+		)
+		(pin "2"
+			(uuid "6406b30b-1d5f-4a43-898c-b99d98e6f541")
+		)
+		(pin "3"
+			(uuid "f6533d9d-115b-4f6d-96bb-b96878fd799f")
+		)
+		(pin "4"
+			(uuid "d8a1df13-a3bf-4d81-a23b-4d6cde99de42")
+		)
+		(pin "5"
+			(uuid "c3d2c607-6e5e-4639-a36b-a6a3fc36fb03")
+		)
+		(pin "6"
+			(uuid "83b3cfef-3393-40cb-bb40-765d612443d2")
+		)
+		(pin "7"
+			(uuid "e6d1f653-81cb-4435-8902-f4394497db1a")
+		)
+		(pin "8"
+			(uuid "eb079fa6-3846-4a78-8997-6a6557746c93")
+		)
+		(pin "9"
+			(uuid "46a0d7a7-9281-44d8-bb37-788240f02d49")
+		)
+		(instances
+			(project "LedRing"
+				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4422,47 +5277,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 269.24 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 269.24 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 269.24 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 269.24 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 269.24 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4548,47 +5413,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 222.25 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 222.25 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 222.25 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 222.25 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 222.25 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4674,25 +5549,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 143.51 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 143.51 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 143.51 200.66 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 143.51 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4bbe4266-8f95-4c45-928e-62f3ad8b93a6")
 		)
@@ -4709,133 +5596,6 @@
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 48.26 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b901e84-9c2f-4ac6-979a-53792b759303")
-		(property "Reference" "J10"
-			(at 48.26 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FH12-6S-0.5SH(55)"
-			(at 48.26 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
-			(at 48.26 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "6-way 0.5mm pitch FFC/FPC connector, bottom contacts, right angle, ZIF flip-lock. Ring end of the main-board link; mates with J6 via a 6-way flat cable."
-			(at 48.26 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "FH12-6S-0.5SH(55)"
-			(at 48.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hirose Electric Co Ltd"
-			(at 48.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_PN" "HFJ106CT-ND"
-			(at 48.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sourcing_Note" "Digi-Key stock 0, 16-week factory lead. Must be resolved together with J6 on the main board - see the note there."
-			(at 48.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2471e857-5934-4b75-a42e-ff6c466aa76f")
-		)
-		(pin "2"
-			(uuid "93cbd1b9-598c-44cd-87a9-841b9b8a7b9c")
-		)
-		(pin "3"
-			(uuid "dbfe6a10-2852-4722-9687-33166db33b84")
-		)
-		(pin "4"
-			(uuid "6880dbd8-b72c-4e42-aace-ce819be22f21")
-		)
-		(pin "5"
-			(uuid "ac39ec2c-8197-4e28-8e73-d0b7aad8e636")
-		)
-		(pin "6"
-			(uuid "def8592f-d285-4a58-811d-5ae5b07499f7")
-		)
-		(instances
-			(project "LedRing"
-				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4909,47 +5669,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5035,25 +5805,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 247.65 34.29 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d28cc9c-d48c-4601-9b72-d90032738d44")
 		)
@@ -5143,47 +5925,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 222.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 222.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 222.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 222.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 222.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5269,47 +6061,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 283.21 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 283.21 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 283.21 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 283.21 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 283.21 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5395,47 +6197,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 330.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 330.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 330.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 330.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 330.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5521,47 +6333,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 210.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5647,25 +6469,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 260.35 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 260.35 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 260.35 200.66 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 260.35 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a610c23-0b6e-4086-9fdb-f1102e99577e")
 		)
@@ -5755,47 +6589,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 280.67 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 280.67 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 280.67 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 280.67 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 280.67 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5881,25 +6725,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 252.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 252.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 252.73 90.17 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 252.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7432288-cb54-4bb8-be8f-3d55076689eb")
 		)
@@ -5989,25 +6845,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 198.12 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 198.12 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 198.12 90.17 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 198.12 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e3fee1d-14a8-4410-8013-ed0cde0015d4")
 		)
@@ -6097,25 +6965,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 142.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 142.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 142.24 146.05 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 142.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "def7db16-62c0-4f53-9c92-42bf1eb04cee")
 		)
@@ -6205,47 +7085,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 339.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 339.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 339.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 339.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 339.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6258,6 +7148,164 @@
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smart_compass_main:RESISTOR_0603_NOOUT")
+		(at 39.37 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f8dd58f-aefb-4c9b-9da9-9a1da933ad20")
+		(property "Reference" "R13"
+			(at 39.37 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500R"
+			(at 39.37 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRC07500RL"
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "13-RT0603BRC07500RLCT-ND"
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "500R is not an E24 value, so this is a 0.1% thin-film part at $0.25. For a series damping resistor a 5% 510R (RC0603JR-07511RL) would do the same job for about $0.01."
+			(at 39.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da519ed9-0a03-4440-8044-d2275434770e")
+		)
+		(pin "2"
+			(uuid "3dd9fdef-4916-421b-9faa-7b77328c82f1")
+		)
+		(instances
+			(project "LedRing"
+				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6331,25 +7379,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 142.24 90.17 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 142.24 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f28b5407-d3f3-4d1a-bc56-36b2b78ff361")
 		)
@@ -6439,28 +7499,48 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 318.77 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 318.77 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 318.77 199.39 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Chain DOUT returns to the main board as NEOPIX_RET. The Inolux typical application circuit recommends a ~500 ohm series resistor at the chain's output terminal as well as its input - R13 covers the input end only." (at 318.77 199.39 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 318.77 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Chain DOUT returns to the main board as NEOPIX_RET. The Inolux typical application circuit recommends a ~500 ohm series resistor at the chain's output terminal as well as its input - R13 covers the input end only."
+			(at 318.77 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62a9990a-c267-4024-a925-376d725fd07b")
 		)
@@ -6550,25 +7630,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 190.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 190.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 190.5 34.29 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 190.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e1204c6-cdca-41fb-b0d5-883b3a5fdb93")
 		)
@@ -6658,25 +7750,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 316.23 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 316.23 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 316.23 146.05 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 316.23 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98121bec-79b8-4525-a121-cf939daee61b")
 		)
@@ -6766,25 +7870,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 199.39 200.66 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 199.39 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05b6c42d-31fc-4a8f-a910-b649170d8224")
 		)
@@ -6874,47 +7990,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 166.37 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 166.37 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 166.37 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 166.37 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 166.37 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6934,7 +8060,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 87.63 69.85 0)
+		(at 83.82 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6944,7 +8070,7 @@
 		(dnp no)
 		(uuid "b7f6e5fb-1a2d-456c-ac09-da6d0ef4abfc")
 		(property "Reference" "#FLG02"
-			(at 92.964 67.564 0)
+			(at 89.154 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6954,7 +8080,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 94.234 70.358 0)
+			(at 90.424 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6964,7 +8090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 69.85 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,7 +8101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 69.85 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6986,7 +8112,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 69.85 0)
+			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7076,25 +8202,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 199.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 199.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 199.39 146.05 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 199.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f1d88789-6f18-4548-99d0-77653be05b57")
 		)
@@ -7184,25 +8322,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 300.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 300.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 300.99 34.29 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 300.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b373dfa6-78df-4d29-9c07-8678a355618a")
 		)
@@ -7292,25 +8442,37 @@
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
 			(at 257.81 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Inolux"
 			(at 257.81 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 257.81 146.05 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 257.81 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1121ca8-a7e4-4d3d-bfea-fdddee60a401")
 		)
@@ -7400,47 +8562,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 165.1 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 165.1 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 165.1 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 165.1 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 165.1 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7526,47 +8698,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 322.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 322.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 322.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 322.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 322.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7652,47 +8834,57 @@
 		)
 		(property "MPN" "CL05B104KO5VPNC"
 			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
 			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "16V"
 			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
 			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

@@ -1483,7 +1483,7 @@
 					)
 				)
 			)
-			(property "Value" "FH12A-24S-0.5SH(55)"
+			(property "Value" "FH12-24S-0.5SH(55)"
 				(at 1.27 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2322,7 +2322,7 @@
 		)
 		(uuid "1671cab6-82cf-4b88-bd75-f9cc33d8cdf4")
 	)
-	(text "Decoupling caps and ribbon cable connector"
+	(text "Decoupling caps and display connector"
 		(exclude_from_sim no)
 		(at 105.41 146.812 0)
 		(effects
@@ -4080,21 +4080,61 @@
 				)
 			)
 		)
-    (property "MPN" "SRN3015TA-100M" (at 128.27 77.47 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Bourns Inc." (at 128.27 77.47 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "SRN3015TA-100MCT-ND" (at 128.27 77.47 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Current_Rating" "800mA (750mA Isat)" (at 128.27 77.47 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Replaces the NR3015T100M suggested in boards/README.md, which Digi-Key now lists as Obsolete with a last-buy date of 2026-03-31. This Bourns part is the same 3.0x3.0x1.5mm shielded drum-core outline, so it should drop into the existing L_Taiyo-Yuden_NR-30xx land - verify pad geometry against the Bourns drawing before layout." (at 128.27 77.47 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "SRN3015TA-100M"
+			(at 128.27 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 128.27 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "SRN3015TA-100MCT-ND"
+			(at 128.27 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current_Rating" "800mA (750mA Isat)"
+			(at 128.27 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Replaces the NR3015T100M suggested in boards/README.md, which Digi-Key now lists as Obsolete with a last-buy date of 2026-03-31. This Bourns part is the same 3.0x3.0x1.5mm shielded drum-core outline, so it should drop into the existing L_Taiyo-Yuden_NR-30xx land - verify pad geometry against the Bourns drawing before layout."
+			(at 128.27 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d762dbf-be8a-481c-9df5-8a3ecccee1da")
 		)
@@ -4176,24 +4216,72 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Gate-rail decoupling - check the working voltage against the SSD1681 reference circuit, 25V is marginal." (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Gate-rail decoupling - check the working voltage against the SSD1681 reference circuit, 25V is marginal."
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da72fe47-05f8-4233-81a6-cf0c049423ef")
 		)
@@ -4275,21 +4363,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 95.25 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 95.25 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 95.25 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 95.25 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 95.25 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 95.25 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 95.25 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 95.25 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 95.25 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 95.25 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02637e60-e79c-4d80-83bf-b8c6cb2a6529")
 		)
@@ -4371,21 +4499,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL21A106KPFNNNG" (at 80.01 110.49 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 80.01 110.49 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-6456-1-ND" (at 80.01 110.49 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "10V" (at 80.01 110.49 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X5R" (at 80.01 110.49 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL21A106KPFNNNG"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-6456-1-ND"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fd5c782-6b61-4c7e-9782-3a5bc6e606a0")
 		)
@@ -4465,15 +4633,39 @@
 				)
 			)
 		)
-    (property "MPN" "FH12-10S-0.5SH(55)" (at 50.8 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Hirose Electric Co Ltd" (at 50.8 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "HFJ110CT-ND" (at 50.8 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "FH12-10S-0.5SH(55)"
+			(at 50.8 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hirose Electric Co Ltd"
+			(at 50.8 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "HFJ110CT-ND"
+			(at 50.8 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72fb4dcf-ae79-44f0-abc3-c68b4af8ddb5")
 		)
@@ -4579,21 +4771,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 132.08 171.45 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 132.08 171.45 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 132.08 171.45 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 132.08 171.45 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 132.08 171.45 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07753d9b-e34e-402b-b899-4fbd719adb08")
 		)
@@ -4675,24 +4907,72 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 168.91 74.93 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 168.91 74.93 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 168.91 74.93 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 168.91 74.93 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 168.91 74.93 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Sits on PREVGH at roughly +20V. A 25V X7R has very little margin here once DC bias is accounted for - a 50V part in the same 0603 land is the safer choice." (at 168.91 74.93 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Sits on PREVGH at roughly +20V. A 25V X7R has very little margin here once DC bias is accounted for - a 50V part in the same 0603 land is the safer choice."
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a7494fe-e88e-4831-a637-8a0619666dc5")
 		)
@@ -4772,15 +5052,39 @@
 				)
 			)
 		)
-    (property "MPN" "MBR0540-TP" (at 160.02 68.58 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "MCC (Micro Commercial Components)" (at 160.02 68.58 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "MBR0540TPMSCT-ND" (at 160.02 68.58 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "MBR0540-TP"
+			(at 160.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MCC (Micro Commercial Components)"
+			(at 160.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
+			(at 160.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ede03ba-1d54-4464-874f-1afa14d06925")
 		)
@@ -4936,18 +5240,50 @@
 				)
 			)
 		)
-    (property "MPN" "RC0603FR-0710KL" (at 139.7 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "YAGEO" (at 139.7 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "311-10.0KHRCT-ND" (at 139.7 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Tolerance" "1%" (at 139.7 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "RC0603FR-0710KL"
+			(at 139.7 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 139.7 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-10.0KHRCT-ND"
+			(at 139.7 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 139.7 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5913d644-c9b0-4c96-b5e5-3dd20d117343")
 		)
@@ -5032,18 +5368,50 @@
 				)
 			)
 		)
-    (property "MPN" "SI1308EDL-T1-GE3" (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Vishay Siliconix" (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "SI1308EDL-T1-GE3CT-ND" (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Exactly one reel (3000 pcs) in Digi-Key stock and a 55-week factory lead - the longest on the whole design. Worth identifying a second source for any build beyond prototypes." (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "SI1308EDL-T1-GE3"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Siliconix"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "SI1308EDL-T1-GE3CT-ND"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Exactly one reel (3000 pcs) in Digi-Key stock and a 55-week factory lead - the longest on the whole design. Worth identifying a second source for any build beyond prototypes."
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "970fe50f-b857-490c-82d8-c07fa42d5c48")
 		)
@@ -5128,21 +5496,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL05A475MP5NRNC" (at 138.43 63.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 138.43 63.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1482-1-ND" (at 138.43 63.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "10V" (at 138.43 63.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X5R" (at 138.43 63.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1482-1-ND"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 138.43 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a6f8cb0-02b9-4bd0-a38d-e6a8c4a7edc2")
 		)
@@ -5224,21 +5632,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 107.95 176.53 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 107.95 176.53 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 107.95 176.53 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 107.95 176.53 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 107.95 176.53 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ece0571f-af0b-4907-abd8-5fdb7ae3d45c")
 		)
@@ -5394,18 +5842,50 @@
 				)
 			)
 		)
-    (property "MPN" "RC0603FR-073RL" (at 152.4 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "YAGEO" (at 152.4 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "13-RC0603FR-073RLCT-ND" (at 152.4 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Tolerance" "1%" (at 152.4 105.41 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "RC0603FR-073RL"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "13-RC0603FR-073RLCT-ND"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df6a7761-e1ce-4688-906c-fcc5ff758cba")
 		)
@@ -5442,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Value" "FH12A-24S-0.5SH(55)"
+		(property "Value" "FH12-24S-0.5SH(55)"
 			(at 81.28 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5487,18 +5967,50 @@
 				(justify bottom)
 			)
 		)
-    (property "MPN" "FH12A-24S-0.5SH(55)" (at 80.01 175.26 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Hirose Electric Co Ltd" (at 80.01 175.26 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "HFK124CT-ND" (at 80.01 175.26 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Contacts TOP, unlike the FH12-xS parts used for J6/J7/J10 which are contacts BOTTOM. The panel flex and the interconnect cable therefore need opposite stiffener sides - worth marking on the assembly drawing." (at 80.01 175.26 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "FH12-24S-0.5SH(55)"
+			(at 80.01 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hirose Electric Co Ltd"
+			(at 80.01 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "HFJ124CT-ND"
+			(at 80.01 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Contacts BOTTOM, matching J6/J7/J10 so every FFC on the product presents its contacts to the board and all four connectors take a cable with the stiffener on the same face. Corrects a part-number error: Value/MPN/DigiKey_PN previously read FH12A-24S-0.5SH(55) (HFK124CT-ND), the contacts-TOP variant, while this symbol, its HRS_FH12-24S-0.5SH_55_ land and its Description were always the contacts-BOTTOM FH12-24S-0.5SH(55). Same series, same 2.00mm height above board, same land pattern - no layout change. Active, ~15,300 in stock, $2.41/1 cut tape."
+			(at 80.01 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64a1ebf0-0cb6-4f2f-88a5-f4f156ed7020")
 		)
@@ -5652,24 +6164,72 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 107.95 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 107.95 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 107.95 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 107.95 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 107.95 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Sits on PREVGL at roughly -20V. 25V rating is marginal - consider a 50V part." (at 107.95 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 107.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 107.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 107.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 107.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 107.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Sits on PREVGL at roughly -20V. 25V rating is marginal - consider a 50V part."
+			(at 107.95 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e307ea84-1c8f-499f-b59f-b5b4ca268040")
 		)
@@ -5751,21 +6311,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 114.3 166.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 114.3 166.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 114.3 166.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 114.3 166.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 114.3 166.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 114.3 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 114.3 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 114.3 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 114.3 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 114.3 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21cdbc5a-94b0-4a48-af50-27271b876919")
 		)
@@ -5847,21 +6447,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL05A475MP5NRNC" (at 119.38 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 119.38 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1482-1-ND" (at 119.38 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "10V" (at 119.38 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X5R" (at 119.38 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1482-1-ND"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "086c1783-04bb-43e6-8b91-cd87448da37a")
 		)
@@ -5941,15 +6581,39 @@
 				)
 			)
 		)
-    (property "MPN" "MBR0540-TP" (at 149.86 39.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "MCC (Micro Commercial Components)" (at 149.86 39.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "MBR0540TPMSCT-ND" (at 149.86 39.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "MBR0540-TP"
+			(at 149.86 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MCC (Micro Commercial Components)"
+			(at 149.86 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
+			(at 149.86 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2a81870-6c9a-4ce9-94e8-a243b2a09e2e")
 		)
@@ -6031,21 +6695,61 @@
 				)
 			)
 		)
-    (property "MPN" "CL10B105KA8NNNC" (at 58.42 168.91 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 58.42 168.91 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "1276-1184-1-ND" (at 58.42 168.91 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Voltage" "25V" (at 58.42 168.91 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Dielectric" "X7R" (at 58.42 168.91 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "CL10B105KA8NNNC"
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1184-1-ND"
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e904466c-6538-4362-83e7-a3e372fbe60f")
 		)
@@ -6125,15 +6829,39 @@
 				)
 			)
 		)
-    (property "MPN" "MBR0540-TP" (at 149.86 54.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "MCC (Micro Commercial Components)" (at 149.86 54.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "MBR0540TPMSCT-ND" (at 149.86 54.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "MPN" "MBR0540-TP"
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MCC (Micro Commercial Components)"
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
+			(at 149.86 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "835dbd9a-ec91-4dc4-a01c-ddca8e59db04")
 		)

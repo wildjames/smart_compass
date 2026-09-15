@@ -10,7 +10,7 @@
 				)
 			)
 		)
-		(property "Value" "FH12A-24S-0.5SH(55)"
+		(property "Value" "FH12-24S-0.5SH(55)"
 			(at 5.35071 4.656565 90)
 			(layer "F.Fab")
 			(effects
@@ -124,7 +124,7 @@
 				)
 			)
 		)
-		(property "MPN" "FH12A-24S-0.5SH(55)"
+		(property "MPN" "FH12-24S-0.5SH(55)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
