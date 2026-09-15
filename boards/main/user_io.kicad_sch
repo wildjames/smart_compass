@@ -829,7 +829,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BNO085:BNO085"
+		(symbol "BNO086:BNO086"
 			(pin_names
 				(offset 1.016)
 			)
@@ -848,7 +848,7 @@
 					)
 				)
 			)
-			(property "Value" "BNO085"
+			(property "Value" "BNO086"
 				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -881,7 +881,7 @@
 					)
 				)
 			)
-			(property "Description" "Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I2C, SPI, UART Output"
+			(property "Description" "Accelerometer, Gyroscope, Magnetometer, Temperature, 9 Axis Sensor I2C, SPI, UART Output"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -989,7 +989,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "BNO085"
+			(property "MP" "BNO086"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1013,7 +1013,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MANUFACTURER" "Hillcrest Laboratories, Inc."
+			(property "MANUFACTURER" "CEVA Technologies, Inc."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1025,7 +1025,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "BNO085_0_0"
+			(symbol "BNO086_0_0"
 				(rectangle
 					(start -25.4 20.32)
 					(end 7.62 -22.86)
@@ -7147,7 +7147,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603B105K100XD"
+		(property "MPN" "CL10B105KA8NNNC"
 			(at 83.82 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -7180,6 +7180,18 @@
 				)
 			)
 		)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 83.82 163.83 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "1276-1184-1-ND" (at 83.82 163.83 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Voltage" "25V" (at 83.82 163.83 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Dielectric" "X7R" (at 83.82 163.83 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "f4db9c8a-5e15-4b84-a4cd-acede4d6d36e")
 		)
@@ -7241,7 +7253,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 171.45 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7345,6 +7357,12 @@
 				)
 			)
 		)
+    (property "Manufacturer" "JST Sales America Inc." (at 171.45 25.4 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "455-1564-1-ND" (at 171.45 25.4 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "643963df-bb6a-4570-a093-ed1d65a79914")
 		)
@@ -7538,6 +7556,18 @@
 				)
 			)
 		)
+    (property "Manufacturer" "YAGEO" (at 34.29 29.21 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "13-RT0603BRC07500RLCT-ND" (at 34.29 29.21 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Tolerance" "0.1%" (at 34.29 29.21 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Sourcing_Note" "500R is not an E24 value, so this is a 0.1% thin-film part at $0.25. For a series damping resistor a 5% 510R (RC0603JR-07511RL) would do the same job for about $0.01." (at 34.29 29.21 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "7a87ca1f-78ce-411d-99b8-529f9bf68371")
 		)
@@ -7554,7 +7584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BNO085:BNO085")
+		(lib_id "BNO086:BNO086")
 		(at 114.3 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -7574,15 +7604,14 @@
 				)
 			)
 		)
-		(property "Value" "BNO085"
-			(at 104.902 75.692 0)
+		(property "Value" "BNO086"
+			(at 104.902 75.692 0.0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
+				) (hide no))
 		)
 		(property "Footprint" "BNO085:IC_BNO085"
 			(at 114.3 97.79 0)
@@ -7607,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Description" "Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I2C, SPI, UART Output"
+		(property "Description" "Accelerometer, Gyroscope, Magnetometer, Temperature, 9 Axis Sensor I2C, SPI, UART Output"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7667,7 +7696,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "BNO085"
+		(property "MP" "BNO086"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7679,7 +7708,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Hillcrest Laboratories, Inc."
+		(property "MANUFACTURER" "CEVA Technologies, Inc."
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7691,7 +7720,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "BNO085"
+		(property "MPN" "BNO086"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7702,7 +7731,7 @@
 				)
 			)
 		)
-		(property "PRICE" "10.06"
+		(property "PRICE" "11.62"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7724,6 +7753,15 @@
 				)
 			)
 		)
+    (property "Manufacturer" "CEVA Technologies, Inc." (at 114.3 97.79 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "1888-BNO086CT-ND" (at 114.3 97.79 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Sourcing_Note" "BNO086 replaces the deprecated BNO085. Same 28-LGA 5.2x3.8x1.1 mm package, identical pinout and SH-2/SHTP software feature set (BNO08X datasheet rev 1.17), so no schematic or layout change. Adds an on-die temperature sensor, 14-bit accelerometer fusion, lower idle power and Interactive Calibration. Footprint field still names the IC_BNO085 library footprint, which is the same land pattern." (at 114.3 97.79 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "3"
 			(uuid "9704f5cb-bba6-4850-a9f9-d3b588107d71")
 		)
@@ -7993,6 +8031,15 @@
 				)
 			)
 		)
+    (property "Manufacturer" "YAGEO" (at 109.22 35.56 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "311-10.0KHRCT-ND" (at 109.22 35.56 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Tolerance" "1%" (at 109.22 35.56 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "7cf8a5df-555e-402c-8bf3-20bd2093b2cb")
 		)
@@ -8054,7 +8101,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 142.24 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8158,6 +8205,12 @@
 				)
 			)
 		)
+    (property "Manufacturer" "JST Sales America Inc." (at 142.24 25.4 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "455-1564-1-ND" (at 142.24 25.4 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "63914b38-1433-4bf1-86cb-65fe4498b3a2")
 		)
@@ -8470,7 +8523,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402B104K160HI"
+		(property "MPN" "CL05B104KO5VPNC"
 			(at 139.7 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -8503,6 +8556,18 @@
 				)
 			)
 		)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 139.7 48.26 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "1276-6844-1-ND" (at 139.7 48.26 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Voltage" "16V" (at 139.7 48.26 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Dielectric" "X7R" (at 139.7 48.26 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "4a49364a-be86-4fc3-99b9-4deb7319a3c6")
 		)
@@ -8739,7 +8804,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402B104K160HI"
+		(property "MPN" "CL05B104KO5VPNC"
 			(at 167.64 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -8772,6 +8837,18 @@
 				)
 			)
 		)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 167.64 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "1276-6844-1-ND" (at 167.64 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Voltage" "16V" (at 167.64 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Dielectric" "X7R" (at 167.64 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "8cecab9f-359e-4b48-bea8-3e796e0d5897")
 		)
@@ -8834,7 +8911,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 120.65 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8938,6 +9015,12 @@
 				)
 			)
 		)
+    (property "Manufacturer" "JST Sales America Inc." (at 120.65 25.4 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "455-1564-1-ND" (at 120.65 25.4 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "bc063b16-0c90-4344-8dd4-1e5776490b4b")
 		)
@@ -9153,7 +9236,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bav99.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF"
 			(at 22.86 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9200,7 +9283,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "BAV199"
+		(property "MPN" "BAV199LT1G"
 			(at 22.86 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9233,6 +9316,15 @@
 				)
 			)
 		)
+    (property "Manufacturer" "onsemi" (at 22.86 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "BAV199LT1GOSCT-ND" (at 22.86 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Sourcing_Note" "OVERSTRESSED AS DRAWN. Pin 3 is the common K1/A2 node, so only diode 1 carries current and its limit is 160mA (Nexperia) / 215mA (onsemi). The LED ring draws about 300mA at full white. Vf also rises to ~1.1V at that current, dropping Vdrive to ~3.1V - below the WS2812B-2020 minimum supply of 3.7V. Replace with a 0.5A Schottky such as MBR0540-TP (MBR0540TPMSCT-ND), already used at D1/D19-D21." (at 22.86 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "a98996e1-ae0e-4c03-8fa4-ac132e17a667")
 		)
@@ -9394,6 +9486,15 @@
 				)
 			)
 		)
+    (property "MPN" "FH12-10S-0.5SH(55)" (at 41.91 92.71 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Hirose Electric Co Ltd" (at 41.91 92.71 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "HFJ110CT-ND" (at 41.91 92.71 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "bf8057c2-be25-45a2-9a45-3548f24c0ae5")
 		)
@@ -9617,6 +9718,15 @@
 				)
 			)
 		)
+    (property "Manufacturer" "Texas Instruments" (at 55.88 156.21 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "296-40032-1-ND" (at 55.88 156.21 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Sourcing_Note" "Only ~105 pieces in Digi-Key stock with a 16-week factory lead. Enough for a prototype run, worth watching before any larger build." (at 55.88 156.21 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "9"
 			(uuid "ef39b39f-ca45-4f7b-a046-9bc04dc1265d")
 		)
@@ -9756,6 +9866,15 @@
 				)
 			)
 		)
+    (property "Manufacturer" "YAGEO" (at 66.04 91.44 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "311-10.0KHRCT-ND" (at 66.04 91.44 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Tolerance" "1%" (at 66.04 91.44 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "29f5bf57-dca3-435e-8dfb-d264ff0a34d2")
 		)
@@ -9835,7 +9954,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402B104K160HI"
+		(property "MPN" "CL05B104KO5VPNC"
 			(at 116.84 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -9868,6 +9987,18 @@
 				)
 			)
 		)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 116.84 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "1276-6844-1-ND" (at 116.84 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Voltage" "16V" (at 116.84 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Dielectric" "X7R" (at 116.84 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "487ebce8-a906-4601-8b1d-239eeed418c7")
 		)
@@ -10103,6 +10234,18 @@
 				)
 			)
 		)
+    (property "MPN" "FH12-6S-0.5SH(55)" (at 63.5 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Hirose Electric Co Ltd" (at 63.5 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "HFJ106CT-ND" (at 63.5 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Sourcing_Note" "Digi-Key stock 0, 16-week factory lead. Alternatives: standardise the ring link on FH12-10S-0.5SH(55) (HFJ110CT-ND, in stock) and leave 4 ways unused, or substitute Molex 5051100697 (900-5051100697CT-ND) or Hirose FH19C-6S-0.5SH(10) - both need a new land pattern." (at 63.5 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "6c55ff1f-1316-4c33-845b-d4200cd40f05")
 		)
@@ -10622,6 +10765,15 @@
 				)
 			)
 		)
+    (property "Manufacturer" "YAGEO" (at 132.08 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "311-10.0KHRCT-ND" (at 132.08 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Tolerance" "1%" (at 132.08 41.91 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "5d4bb73c-0469-4e3b-a17b-d544dcd681a3")
 		)
@@ -10701,7 +10853,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402B104K160HI"
+		(property "MPN" "CL05B104KO5VPNC"
 			(at 135.89 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -10734,6 +10886,18 @@
 				)
 			)
 		)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 135.89 105.41 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "1276-6844-1-ND" (at 135.89 105.41 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Voltage" "16V" (at 135.89 105.41 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Dielectric" "X7R" (at 135.89 105.41 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "142a8a45-337a-4b6a-abb9-2df7c08e6398")
 		)
@@ -10848,6 +11012,15 @@
 				)
 			)
 		)
+    (property "Manufacturer" "YAGEO" (at 160.02 35.56 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "311-10.0KHRCT-ND" (at 160.02 35.56 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Tolerance" "1%" (at 160.02 35.56 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "f24dc647-e01d-4a01-afc6-fbfaf76a4471")
 		)
@@ -11240,7 +11413,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603B105K100XD"
+		(property "MPN" "CL10B105KA8NNNC"
 			(at 20.32 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -11273,6 +11446,18 @@
 				)
 			)
 		)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 20.32 148.59 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "1276-1184-1-ND" (at 20.32 148.59 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Voltage" "25V" (at 20.32 148.59 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Dielectric" "X7R" (at 20.32 148.59 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "8d30aa73-ffa2-4310-9232-3f97ae248a60")
 		)
@@ -11335,7 +11520,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
 			(at 86.36 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11439,6 +11624,12 @@
 				)
 			)
 		)
+    (property "Manufacturer" "JST Sales America Inc." (at 86.36 144.78 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "DigiKey_PN" "455-1564-1-ND" (at 86.36 144.78 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "d52b910a-7ffe-400d-a192-bccab2a9b3c7")
 		)

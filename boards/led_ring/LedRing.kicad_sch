@@ -832,6 +832,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "smart_compass:IN-PI15TAT5R5G5B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IN-PI15TAT5R5G5B"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Addressable RGB LED; SMD; 1515; 1.5x1.5x0.65mm; 3.5-5.5V; single-wire 800kbps GRB; 5mA/colour"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "Inolux"
+				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "IN-PI15TAT5R5G5B"
+				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "IN-PI15TAT5R5G5B_0_0"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "  4    NEOPIX     data in. Series R13 500R stays on the MAIN board so the"
 		(exclude_from_sim no)
@@ -1420,7 +1607,7 @@
 			)
 		)
 	)
-	(global_label "D13_DO"
+	(global_label "D13_DOUT"
 		(shape bidirectional)
 		(at 307.34 146.05 180)
 		(effects
@@ -1508,7 +1695,7 @@
 			)
 		)
 	)
-	(global_label "D4_DO"
+	(global_label "D4_DOUT"
 		(shape bidirectional)
 		(at 199.39 34.29 0)
 		(effects
@@ -1530,7 +1717,7 @@
 			)
 		)
 	)
-	(global_label "D8_DO"
+	(global_label "D8_DOUT"
 		(shape bidirectional)
 		(at 243.84 90.17 180)
 		(effects
@@ -1574,7 +1761,7 @@
 			)
 		)
 	)
-	(global_label "D7_DO"
+	(global_label "D7_DOUT"
 		(shape bidirectional)
 		(at 151.13 90.17 0)
 		(effects
@@ -1618,7 +1805,7 @@
 			)
 		)
 	)
-	(global_label "D7_DO"
+	(global_label "D7_DOUT"
 		(shape bidirectional)
 		(at 189.23 90.17 180)
 		(effects
@@ -1662,7 +1849,7 @@
 			)
 		)
 	)
-	(global_label "D10_DO"
+	(global_label "D10_DOUT"
 		(shape bidirectional)
 		(at 133.35 146.05 180)
 		(effects
@@ -1706,7 +1893,7 @@
 			)
 		)
 	)
-	(global_label "D5_DO"
+	(global_label "D5_DOUT"
 		(shape bidirectional)
 		(at 256.54 34.29 0)
 		(effects
@@ -1750,7 +1937,7 @@
 			)
 		)
 	)
-	(global_label "D10_DO"
+	(global_label "D10_DOUT"
 		(shape bidirectional)
 		(at 316.23 88.9 0)
 		(effects
@@ -1772,7 +1959,7 @@
 			)
 		)
 	)
-	(global_label "D4_DO"
+	(global_label "D4_DOUT"
 		(shape bidirectional)
 		(at 238.76 34.29 180)
 		(effects
@@ -1794,7 +1981,7 @@
 			)
 		)
 	)
-	(global_label "D11_DO"
+	(global_label "D11_DOUT"
 		(shape bidirectional)
 		(at 151.13 146.05 0)
 		(effects
@@ -1816,7 +2003,7 @@
 			)
 		)
 	)
-	(global_label "D16_DO"
+	(global_label "D16_DOUT"
 		(shape bidirectional)
 		(at 251.46 200.66 180)
 		(effects
@@ -1838,7 +2025,7 @@
 			)
 		)
 	)
-	(global_label "D6_DO"
+	(global_label "D6_DOUT"
 		(shape bidirectional)
 		(at 133.35 90.17 180)
 		(effects
@@ -1948,7 +2135,7 @@
 			)
 		)
 	)
-	(global_label "D14_DO"
+	(global_label "D14_DOUT"
 		(shape bidirectional)
 		(at 134.62 200.66 180)
 		(effects
@@ -1970,7 +2157,7 @@
 			)
 		)
 	)
-	(global_label "D3_DO"
+	(global_label "D3_DOUT"
 		(shape bidirectional)
 		(at 140.97 34.29 0)
 		(effects
@@ -2058,7 +2245,7 @@
 			)
 		)
 	)
-	(global_label "D15_DO"
+	(global_label "D15_DOUT"
 		(shape bidirectional)
 		(at 190.5 200.66 180)
 		(effects
@@ -2124,7 +2311,7 @@
 			)
 		)
 	)
-	(global_label "D17_DO"
+	(global_label "D17_DOUT"
 		(shape bidirectional)
 		(at 269.24 200.66 0)
 		(effects
@@ -2190,7 +2377,7 @@
 			)
 		)
 	)
-	(global_label "D13_DO"
+	(global_label "D13_DOUT"
 		(shape bidirectional)
 		(at 266.7 146.05 0)
 		(effects
@@ -2212,7 +2399,7 @@
 			)
 		)
 	)
-	(global_label "D17_DO"
+	(global_label "D17_DOUT"
 		(shape bidirectional)
 		(at 309.88 199.39 180)
 		(effects
@@ -2234,7 +2421,7 @@
 			)
 		)
 	)
-	(global_label "D6_DO"
+	(global_label "D6_DOUT"
 		(shape bidirectional)
 		(at 309.88 34.29 0)
 		(effects
@@ -2322,7 +2509,7 @@
 			)
 		)
 	)
-	(global_label "D12_DO"
+	(global_label "D12_DOUT"
 		(shape bidirectional)
 		(at 248.92 146.05 180)
 		(effects
@@ -2366,7 +2553,7 @@
 			)
 		)
 	)
-	(global_label "D12_DO"
+	(global_label "D12_DOUT"
 		(shape bidirectional)
 		(at 208.28 146.05 0)
 		(effects
@@ -2388,7 +2575,7 @@
 			)
 		)
 	)
-	(global_label "D5_DO"
+	(global_label "D5_DOUT"
 		(shape bidirectional)
 		(at 292.1 34.29 180)
 		(effects
@@ -2432,7 +2619,7 @@
 			)
 		)
 	)
-	(global_label "D3_DO"
+	(global_label "D3_DOUT"
 		(shape bidirectional)
 		(at 181.61 34.29 180)
 		(effects
@@ -2520,7 +2707,7 @@
 			)
 		)
 	)
-	(global_label "D14_DO"
+	(global_label "D14_DOUT"
 		(shape bidirectional)
 		(at 325.12 146.05 0)
 		(effects
@@ -2718,7 +2905,7 @@
 			)
 		)
 	)
-	(global_label "D9_DO"
+	(global_label "D9_DOUT"
 		(shape bidirectional)
 		(at 298.45 88.9 180)
 		(effects
@@ -2850,7 +3037,7 @@
 			)
 		)
 	)
-	(global_label "D8_DO"
+	(global_label "D8_DOUT"
 		(shape bidirectional)
 		(at 207.01 90.17 0)
 		(effects
@@ -2938,7 +3125,7 @@
 			)
 		)
 	)
-	(global_label "D9_DO"
+	(global_label "D9_DOUT"
 		(shape bidirectional)
 		(at 261.62 90.17 0)
 		(effects
@@ -3048,7 +3235,7 @@
 			)
 		)
 	)
-	(global_label "D11_DO"
+	(global_label "D11_DOUT"
 		(shape bidirectional)
 		(at 190.5 146.05 180)
 		(effects
@@ -3158,7 +3345,7 @@
 			)
 		)
 	)
-	(global_label "D15_DO"
+	(global_label "D15_DOUT"
 		(shape bidirectional)
 		(at 152.4 200.66 0)
 		(effects
@@ -3246,7 +3433,7 @@
 			)
 		)
 	)
-	(global_label "D16_DO"
+	(global_label "D16_DOUT"
 		(shape bidirectional)
 		(at 208.28 200.66 0)
 		(effects
@@ -3411,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D9 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 274.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3420,6 +3607,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 274.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 274.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 274.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 274.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 274.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3492,7 +3724,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D3 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3501,6 +3733,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3519,7 +3796,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 132.08 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3539,7 +3816,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 132.08 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,7 +3826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 133.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3561,7 +3838,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 132.08 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3572,7 +3849,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 133.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3582,6 +3859,42 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing_Note" "V_IH is specified as 3.4V absolute at VDD=5.0V, NOT as a ratio of VDD. The Vdrive diode-drop scheme assumes it scales at 0.7xVDD (3.4/5.0 = 0.68, and V_IL 1.8/5.0 = 0.36, so it almost certainly does) - but Inolux does not state this. Confirm with the manufacturer before committing, because 3.3V logic cannot meet a fixed 3.4V threshold at any supply. Also note the 3.5V minimum supply: same headroom problem as the WS2812B-2020 it replaces."
+			(at 132.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3736,7 +4049,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D18 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 345.44 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -3745,6 +4058,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 345.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 345.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 345.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 345.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 345.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3817,7 +4175,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ring bulk capacitance, sited at the load end of the FFC so the cable inductance is not in the path. The per-LED 0.1uF parts handle the fast edges."
 			(at 48.26 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3826,6 +4184,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL21A226KPCLRNC"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6786-1-ND"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3844,7 +4247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 307.34 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -3864,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 307.34 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3874,7 +4277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 308.61 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3886,7 +4289,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 307.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3897,7 +4300,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 308.61 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3909,6 +4312,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 307.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 307.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 307.34 88.9 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "a73a23b7-39ef-4728-9f58-1a8656087439")
 		)
@@ -3985,7 +4409,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D5 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 269.24 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3994,6 +4418,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4066,7 +4535,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D16 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 222.25 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -4075,6 +4544,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 222.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 222.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 222.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 222.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 222.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4093,7 +4607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 143.51 200.66 0)
 		(unit 1)
 		(body_style 1)
@@ -4113,7 +4627,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 143.51 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4123,7 +4637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 144.78 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4135,7 +4649,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 143.51 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4146,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 144.78 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4158,6 +4672,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 143.51 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 143.51 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 143.51 200.66 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "4bbe4266-8f95-4c45-928e-62f3ad8b93a6")
 		)
@@ -4232,7 +4767,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "6-way 0.5mm pitch FFC/FPC connector, bottom contacts, right angle, ZIF flip-lock. Ring end of the main-board link; mates with J6 via a 6-way flat cable."
 			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4241,6 +4776,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "FH12-6S-0.5SH(55)"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hirose Electric Co Ltd"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "HFJ106CT-ND"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sourcing_Note" "Digi-Key stock 0, 16-week factory lead. Must be resolved together with J6 on the main board - see the note there."
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4325,7 +4896,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D8 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4334,6 +4905,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4352,7 +4968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 247.65 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -4372,7 +4988,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 247.65 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,7 +4998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 248.92 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4394,7 +5010,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 247.65 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4405,7 +5021,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 248.92 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4417,6 +5033,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 247.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 247.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 247.65 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "3d28cc9c-d48c-4601-9b72-d90032738d44")
 		)
@@ -4493,7 +5130,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D12 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 222.25 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4502,6 +5139,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 222.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 222.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 222.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 222.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 222.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4574,7 +5256,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D17 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 283.21 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -4583,6 +5265,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 283.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 283.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 283.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 283.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 283.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4655,7 +5382,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D10 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 330.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4664,6 +5391,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 330.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4736,7 +5508,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D4 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 210.82 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4745,6 +5517,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4763,7 +5580,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 260.35 200.66 0)
 		(unit 1)
 		(body_style 1)
@@ -4783,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 260.35 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,7 +5610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 261.62 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4805,7 +5622,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 260.35 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4816,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 261.62 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4828,6 +5645,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 260.35 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 260.35 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 260.35 200.66 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "6a610c23-0b6e-4086-9fdb-f1102e99577e")
 		)
@@ -4904,7 +5742,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D13 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 280.67 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4913,6 +5751,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 280.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 280.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 280.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 280.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 280.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4931,7 +5814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 252.73 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -4951,7 +5834,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 252.73 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4961,7 +5844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 254 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4973,7 +5856,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 252.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4984,7 +5867,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 254 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4996,6 +5879,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 252.73 90.17 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "e7432288-cb54-4bb8-be8f-3d55076689eb")
 		)
@@ -5018,7 +5922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 198.12 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -5038,7 +5942,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 198.12 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,7 +5952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 199.39 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5060,7 +5964,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 198.12 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5071,7 +5975,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 199.39 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5083,6 +5987,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 198.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 198.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 198.12 90.17 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "1e3fee1d-14a8-4410-8013-ed0cde0015d4")
 		)
@@ -5105,7 +6030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 142.24 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -5125,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 142.24 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +6060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 143.51 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5147,7 +6072,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 142.24 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5158,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 143.51 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5170,6 +6095,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 142.24 146.05 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "def7db16-62c0-4f53-9c92-42bf1eb04cee")
 		)
@@ -5246,7 +6192,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D14 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 339.09 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5255,6 +6201,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 339.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 339.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 339.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 339.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 339.09 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5273,7 +6264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 142.24 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -5293,7 +6284,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 142.24 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5303,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +6306,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 142.24 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5326,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 143.51 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5338,6 +6329,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 142.24 90.17 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "f28b5407-d3f3-4d1a-bc56-36b2b78ff361")
 		)
@@ -5360,7 +6372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 318.77 199.39 0)
 		(unit 1)
 		(body_style 1)
@@ -5380,7 +6392,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 318.77 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5390,7 +6402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 320.04 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5402,7 +6414,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 318.77 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5413,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour. Last in the chain - its DOUT returns to the main board as NEOPIX_RET."
 			(at 320.04 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -5425,6 +6437,30 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 318.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 318.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 318.77 199.39 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Sourcing_Note" "Chain DOUT returns to the main board as NEOPIX_RET. The Inolux typical application circuit recommends a ~500 ohm series resistor at the chain's output terminal as well as its input - R13 covers the input end only." (at 318.77 199.39 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "62a9990a-c267-4024-a925-376d725fd07b")
 		)
@@ -5447,7 +6483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 190.5 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -5467,7 +6503,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 190.5 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5477,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 191.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5489,7 +6525,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5500,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 191.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5512,6 +6548,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 190.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 190.5 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "3e1204c6-cdca-41fb-b0d5-883b3a5fdb93")
 		)
@@ -5534,7 +6591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 316.23 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -5554,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 316.23 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +6621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 317.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5576,7 +6633,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 316.23 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5587,7 +6644,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 317.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5599,6 +6656,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 316.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 316.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 316.23 146.05 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "98121bec-79b8-4525-a121-cf939daee61b")
 		)
@@ -5621,7 +6699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 199.39 200.66 0)
 		(unit 1)
 		(body_style 1)
@@ -5641,7 +6719,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 199.39 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5651,7 +6729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 200.66 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -5663,7 +6741,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 199.39 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -5674,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 200.66 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -5686,6 +6764,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 199.39 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 199.39 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 199.39 200.66 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "05b6c42d-31fc-4a8f-a910-b649170d8224")
 		)
@@ -5762,7 +6861,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D15 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 166.37 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -5771,6 +6870,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 166.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 166.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 166.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 166.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 166.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5865,7 +7009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 199.39 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -5885,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 199.39 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +7039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 200.66 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5907,7 +7051,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 199.39 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5918,7 +7062,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 200.66 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5930,6 +7074,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 199.39 146.05 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "f1d88789-6f18-4548-99d0-77653be05b57")
 		)
@@ -5952,7 +7117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 300.99 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -5972,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 300.99 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,7 +7147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 302.26 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5994,7 +7159,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 300.99 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6005,7 +7170,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 302.26 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6017,6 +7182,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 300.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 300.99 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 300.99 34.29 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "b373dfa6-78df-4d29-9c07-8678a355618a")
 		)
@@ -6039,7 +7225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass:WS2812B2020")
+		(lib_id "smart_compass:IN-PI15TAT5R5G5B")
 		(at 257.81 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -6059,7 +7245,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B2020"
+		(property "Value" "IN-PI15TAT5R5G5B"
 			(at 257.81 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "smart_compass:LED_WS2812B2020"
+		(property "Footprint" "smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515"
 			(at 259.08 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6081,7 +7267,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
 			(at 257.81 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6092,7 +7278,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; SMD; 2020; RGB; 2x2x0.84mm; 3.7÷5.3V; Lens: transparent; 2kHz"
+		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
 			(at 259.08 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6104,6 +7290,27 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "IN-PI15TAT5R5G5B"
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Inolux"
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND" (at 257.81 146.05 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "e1121ca8-a7e4-4d3d-bfea-fdddee60a401")
 		)
@@ -6180,7 +7387,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D11 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 165.1 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6189,6 +7396,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6261,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D6 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 322.58 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6270,6 +7522,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6342,7 +7639,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Local decoupling for D7 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 163.83 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6351,6 +7648,51 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5VPNC"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_PN" "1276-6844-1-ND"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
