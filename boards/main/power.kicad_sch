@@ -3303,7 +3303,7 @@
 		)
 		(uuid "6a0869d9-8023-4963-978f-660e2193dcf7")
 	)
-	(text "2.0K  = 500mA"
+	(text "3.9K = 256mA"
 		(exclude_from_sim no)
 		(at 27.686 47.244 0)
 		(effects
@@ -3458,6 +3458,10 @@
 		(color 0 0 0 0)
 		(uuid "f8353004-9f18-4a83-a830-b315dca43e2a")
 	)
+	(no_connect
+		(at 204.47 60.96)
+		(uuid "1e888b89-51b5-487a-a0ef-1ff039d943f5")
+	)
 	(wire
 		(pts
 			(xy 93.98 52.07) (xy 93.98 62.23)
@@ -3607,16 +3611,6 @@
 			(type default)
 		)
 		(uuid "37210976-57a6-4f46-9abd-17397d1042b6")
-	)
-	(wire
-		(pts
-			(xy 207.01 60.96) (xy 204.47 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4e77a9-550f-4147-a88a-2f57f0ad320f")
 	)
 	(wire
 		(pts
@@ -3867,16 +3861,6 @@
 			(type solid)
 		)
 		(uuid "922cb9a8-3ed8-450c-a5de-ded89807f2e6")
-	)
-	(wire
-		(pts
-			(xy 207.01 68.58) (xy 207.01 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96904575-5e1b-4c17-986a-f0e6728c3466")
 	)
 	(wire
 		(pts
@@ -7319,85 +7303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19366d04-b8bb-4008-bf33-60bf25411029")
-		(property "Reference" "#PWR036"
-			(at 207.01 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a32f114-309f-40fe-8dea-7abe9aa93409")
-		)
-		(instances
-			(project "SmartCompass"
-				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 93.98 52.07 0)
 		(unit 1)
@@ -8016,172 +7921,6 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "smart_compass_main:CAP_CERAMIC0805-NOOUTLINE")
-		(at 207.01 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2920dbff-dc30-4343-a70a-a98c0d1e667e")
-		(property "Reference" "C10"
-			(at 204.72 64.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 209.31 64.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "REV" "C"
-			(at 207.01 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05B104KO5VPNC"
-			(at 207.01 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" "0.02134"
-			(at 207.01 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 207.01 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 207.01 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2721f76a-8ca4-40ba-b5c9-9c6e0116f17c")
-		)
-		(pin "2"
-			(uuid "a91db293-42b0-41f4-bcf7-691bba615db6")
-		)
-		(instances
-			(project "SmartCompass"
-				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10679,7 +10418,7 @@
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "3.9K"
 			(at 44.45 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10724,7 +10463,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-072KL"
+		(property "MPN" "RC0603FR-073K9L"
 			(at 44.45 62.23 0)
 			(hide yes)
 			(show_name no)

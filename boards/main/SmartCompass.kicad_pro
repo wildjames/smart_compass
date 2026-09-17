@@ -868,7 +868,7 @@
         "uuid": "0c161f28-8075-4403-a867-35208f463636"
       }
     ],
-    "used_designators": "D1-2,AE1,CHG1,#PWR1-76,#PWR130,BATT1,HAPTIC1,C1-26,FB1,IC1,J1-5,R1-22,ONOFF1,P1-3,Q1,RESET1,TP1,U1-8,X1,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

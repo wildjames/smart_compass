@@ -49,8 +49,7 @@ two mating connectors both live in `user_io.kicad_sch`.
 
 The ring link used to use the 6-way `FH12-6S-0.5SH(55)`, but that part shows
 zero Digi-Key stock and a 16-week factory lead, while the 10-way has ~37,000 on
-the shelf — see [COMPONENT_SOURCING.md](COMPONENT_SOURCING.md) §1.
-Standardising on the 10-way costs a slightly wider connector on two boards and
+the shelf. Standardising on the 10-way costs a slightly wider connector on two boards and
 buys four spare conductors. Three of them are spent doubling up supply and
 return; the fourth became `RING_EN` when the ring moved to a 5 V boost, and is
 what lets the MCU switch the whole ring off.
@@ -66,8 +65,7 @@ are all **contacts bottom**. The panel connector used to be specified as the
 contacts-top `FH12A-24S-0.5SH(55)`, which would have meant the panel flex and
 the interconnect cables needing stiffeners on opposite faces; that turned out to
 be a part-number error rather than a decision — the symbol, its land pattern and
-its own description were always the contacts-bottom `FH12-24S-0.5SH(55)`. See
-[COMPONENT_SOURCING.md](COMPONENT_SOURCING.md) §3.
+its own description were always the contacts-bottom `FH12-24S-0.5SH(55)`.
 
 ### Ring interconnect — FH12-10S-0.5SH(55)
 
@@ -216,8 +214,9 @@ value read 47 µH because the mismatch was obvious. With the value corrected to
 ~~Suggested part: **Taiyo Yuden NR3015T100M**~~ — Digi-Key now lists that part as
 **Obsolete**, with a last-buy date of 2026-03-31 that has already passed. The
 schematic specifies **Bourns SRN3015TA-100M** instead: 10 µH, 800 mA / 750 mA
-saturation, shielded, same 3×3×1.5 mm outline. See
-[COMPONENT_SOURCING.md](COMPONENT_SOURCING.md) §5.
+saturation, shielded, same 3×3×1.5 mm outline. Its pads still have to be checked
+against the Bourns drawing before layout — see
+[COMPONENT_SOURCING.md](COMPONENT_SOURCING.md) §2.
 
 ## The main board split
 
