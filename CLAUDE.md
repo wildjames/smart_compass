@@ -37,7 +37,7 @@ shared parts live in [libs/](libs/) and each board has a project-scope
 | Directory | Project | What it is |
 | --------- | ------- | ---------- |
 | [boards/main/](boards/main/) | `SmartCompass` | MCU, GNSS, LoRa, IMU, flash, power tree, haptics, buttons, USB |
-| [boards/led_ring/](boards/led_ring/) | `LedRing` | The 16-LED WS2812B ring |
+| [boards/led_ring/](boards/led_ring/) | `LedRing` | The 16-LED ring (Inolux IN-PI15TAT5R5G5B) and its 5 V boost |
 | [boards/display/](boards/display/) | `Display` | E-ink connector and its charge-pump support |
 
 [boards/README.md](boards/README.md) has the interconnect pinouts and the
@@ -56,6 +56,23 @@ boards stack. Reading the `.kicad_pcb` for context is fine and often useful.
 
 When a task runs into layout, stop at the schematic and describe what the layout
 needs to achieve.
+
+### Never name parts by reference designator in documentation
+
+In `boards/README.md`, `boards/COMPONENT_SOURCING.md` and any other prose,
+commit message or table, refer to a component by **what it does** — "the QSPI
+flash", "the ring's boost converter", "the 500 Ω series damping resistor on the
+ring data line" — never by its designator. Add the value or manufacturer part
+number when that is what distinguishes one part from several like it.
+
+Designators are guaranteed to change. KiCad re-annotation renumbers parts, and
+tools that re-serialise a schematic can renumber them wholesale without being
+asked, so a designator written into prose silently comes to point at a different
+component. Manufacturer part numbers, net names, pin names and footprint names
+are stable and can be used freely.
+
+This applies to documentation only. Designators remain the identity of a
+placement inside the schematic files and in a BOM.
 
 ### Before editing a schematic
 

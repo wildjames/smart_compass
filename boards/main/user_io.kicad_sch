@@ -952,6 +952,326 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:MBR0530"
 			(pin_numbers
 				(hide yes)
@@ -5510,16 +5830,6 @@
 		)
 		(uuid "2155f569-ea47-4bf1-abbb-18d5ab00976a")
 	)
-	(text "No more than 4 pixels will be \ndriven at full brightness, \nor 8 at 1/2 brightness, at a time."
-		(exclude_from_sim no)
-		(at 32.004 58.928 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "401a65c5-1020-4391-8f0b-10064e302349")
-	)
 	(text "E-INK DISPLAY"
 		(exclude_from_sim no)
 		(at 23.114 70.358 0)
@@ -5532,7 +5842,7 @@
 	)
 	(text "Adafruit estimate 20mA for typical use\n20mA * 4 = 80mA LED load"
 		(exclude_from_sim no)
-		(at 73.66 59.182 0)
+		(at 36.576 60.198 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5584,6 +5894,12 @@
 		(uuid "10595fc2-3273-48be-b65a-cc74d423ebf5")
 	)
 	(junction
+		(at 57.15 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e04081a-e734-46ae-beff-bdb9c707d39b")
+	)
+	(junction
 		(at 78.74 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5614,24 +5930,6 @@
 		(uuid "33b531d9-386a-49de-85e0-464baf364115")
 	)
 	(junction
-		(at 46.99 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a1c0f42-6d51-4a17-9f2e-1b0c47d8e101")
-	)
-	(junction
-		(at 46.99 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a1c0f42-6d51-4a17-9f2e-1b0c47d8e102")
-	)
-	(junction
-		(at 46.99 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a1c0f42-6d51-4a17-9f2e-1b0c47d8e103")
-	)
-	(junction
 		(at 46.99 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5641,7 +5939,7 @@
 		(at 46.99 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a1c0f42-6d51-4a17-9f2e-1b0c47d8e108")
+		(uuid "3a1c0f42-6d51-4a17-9f2e-1b0c47d8e105")
 	)
 	(junction
 		(at 21.59 105.41)
@@ -5668,6 +5966,12 @@
 		(uuid "4a228a09-70e5-4084-8aae-3a7458e7e8d4")
 	)
 	(junction
+		(at 57.15 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b89aa79-3e80-4adf-a2f9-5aa4978a25c1")
+	)
+	(junction
 		(at 80.01 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5684,6 +5988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "706d651e-94a8-41e0-82df-0fef40e98ad3")
+	)
+	(junction
+		(at 39.37 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84077845-0015-4313-9488-82cf74140a38")
 	)
 	(junction
 		(at 139.7 118.11)
@@ -5708,10 +6018,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb3c3b55-f836-4c3f-bd5f-2ea9551ca42b")
-	)
-	(no_connect
-		(at 24.13 49.53)
-		(uuid "c3ea98ca-fa43-410e-920f-923e458a3ec8")
 	)
 	(wire
 		(pts
@@ -5745,13 +6051,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 34.29) (xy 34.29 39.37)
+			(xy 17.78 40.64) (xy 17.78 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05e6c032-8ced-4028-bb3a-a100eca6f154")
+		(uuid "065ff815-7003-4fdf-8726-9070281d887e")
 	)
 	(wire
 		(pts
@@ -5785,6 +6091,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfb11ee-3b6a-4164-bcae-58bdb5b17658")
+	)
+	(wire
+		(pts
 			(xy 147.32 48.26) (xy 147.32 50.8)
 		)
 		(stroke
@@ -5795,13 +6111,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 54.61 53.34)
+			(xy 55.88 46.99) (xy 55.88 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1239f243-bade-49fe-b3a5-9f7d241e28ef")
+	)
+	(wire
+		(pts
+			(xy 57.15 24.13) (xy 58.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d3eed7-cf54-4329-8c47-84cf8ce72741")
 	)
 	(wire
 		(pts
@@ -5812,6 +6138,16 @@
 			(type default)
 		)
 		(uuid "176a1a76-9b4f-4b28-ba05-49d54277017b")
+	)
+	(wire
+		(pts
+			(xy 57.15 26.67) (xy 58.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199b1c17-e040-4c09-8a8c-60aaeff14c74")
 	)
 	(wire
 		(pts
@@ -6015,16 +6351,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 38.1) (xy 24.13 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2630cd-6fae-4305-8ab0-ca4eff4e4142")
-	)
-	(wire
-		(pts
 			(xy 132.08 35.56) (xy 132.08 36.83)
 		)
 		(stroke
@@ -6052,16 +6378,6 @@
 			(type default)
 		)
 		(uuid "3fe95298-1cb1-4a6a-b758-0f67bc16af82")
-	)
-	(wire
-		(pts
-			(xy 46.99 24.13) (xy 58.42 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431f51f2-0ea1-42d3-9ea8-e76bfa1e1de6")
 	)
 	(wire
 		(pts
@@ -6115,6 +6431,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 36.83) (xy 24.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6eb11b-c449-44d5-af0d-5ea63f4408de")
+	)
+	(wire
+		(pts
 			(xy 128.27 92.71) (xy 127 92.71)
 		)
 		(stroke
@@ -6132,6 +6458,16 @@
 			(type default)
 		)
 		(uuid "4dbfe6b4-d7e6-45aa-8d2b-2ddff7e3049c")
+	)
+	(wire
+		(pts
+			(xy 39.37 20.32) (xy 39.37 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebccbfe-f78b-49be-a7ff-5183f4d73f49")
 	)
 	(wire
 		(pts
@@ -6195,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df11248-938a-4490-ae52-019da70c1bc7")
+	)
+	(wire
+		(pts
 			(xy 127 95.25) (xy 128.27 95.25)
 		)
 		(stroke
@@ -6232,16 +6578,6 @@
 			(type default)
 		)
 		(uuid "68456939-b35b-41af-bb71-c185545a1841")
-	)
-	(wire
-		(pts
-			(xy 19.05 44.45) (xy 21.59 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69f1aacb-2005-43be-af5f-081e6387d56e")
 	)
 	(wire
 		(pts
@@ -6295,7 +6631,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 31.75) (xy 58.42 31.75)
+			(xy 55.88 31.75) (xy 58.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6315,7 +6651,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 21.59) (xy 46.99 24.13)
+			(xy 39.37 19.05) (xy 39.37 20.32)
 		)
 		(stroke
 			(width 0)
@@ -6425,26 +6761,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 26.67) (xy 58.42 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df1f3df-2437-4d21-b45a-7b585bd2c765")
-	)
-	(wire
-		(pts
-			(xy 58.42 46.99) (xy 54.61 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7bd7846-3cad-407e-95b9-aed3fc02628b")
-	)
-	(wire
-		(pts
 			(xy 83.82 102.87) (xy 80.01 102.87)
 		)
 		(stroke
@@ -6452,16 +6768,6 @@
 			(type default)
 		)
 		(uuid "a816f1e0-f637-416e-bfb2-c9f4ddde602a")
-	)
-	(wire
-		(pts
-			(xy 34.29 39.37) (xy 58.42 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acac59f0-9934-4527-8307-5093b4307717")
 	)
 	(wire
 		(pts
@@ -6505,7 +6811,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 53.34) (xy 54.61 53.34)
+			(xy 40.64 53.34) (xy 55.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6525,13 +6831,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 24.13) (xy 46.99 26.67)
+			(xy 57.15 24.13) (xy 57.15 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba1afda9-780e-430b-bb09-b234a84d8803")
+	)
+	(wire
+		(pts
+			(xy 24.13 48.26) (xy 17.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babcd140-4bf9-4b81-9210-df251cfb8ec1")
 	)
 	(wire
 		(pts
@@ -6625,6 +6941,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 39.37) (xy 34.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9415e43-626f-45b5-8559-ee3d289a780e")
+	)
+	(wire
+		(pts
 			(xy 132.08 82.55) (xy 132.08 80.01)
 		)
 		(stroke
@@ -6635,7 +6961,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 26.67) (xy 46.99 29.21)
+			(xy 57.15 26.67) (xy 57.15 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6645,13 +6971,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 44.45) (xy 19.05 40.64)
+			(xy 57.15 24.13) (xy 57.15 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc156612-835f-4e27-a8c7-8635aa0c1d1a")
+		(uuid "cc1cb6c0-cf0a-4bdf-8cb6-7db53a965f9f")
 	)
 	(wire
 		(pts
@@ -6735,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 29.21) (xy 58.42 29.21)
+			(xy 57.15 29.21) (xy 58.42 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6795,16 +7121,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 29.21) (xy 46.99 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba9751e-0c6b-453a-9753-dcad72c67ce2")
-	)
-	(wire
-		(pts
 			(xy 35.56 143.51) (xy 38.1 143.51)
 		)
 		(stroke
@@ -6822,6 +7138,16 @@
 			(type default)
 		)
 		(uuid "ef7916e5-4d07-4991-b9b0-3e5cc21dbb04")
+	)
+	(wire
+		(pts
+			(xy 57.15 20.32) (xy 39.37 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03f743e-c74e-4287-8f6d-815b132f14e2")
 	)
 	(wire
 		(pts
@@ -6990,6 +7316,17 @@
 		)
 		(uuid "29f43048-5355-4301-9c1d-eb16eb50b255")
 	)
+	(hierarchical_label "RING_EN"
+		(shape input)
+		(at 55.88 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d57b357-c161-4e7c-8062-064e42c88ffe")
+	)
 	(hierarchical_label "DISP_CS"
 		(shape input)
 		(at 36.83 95.25 180)
@@ -7133,7 +7470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "078452fb-9207-49e1-8a9b-78246729a366")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR051"
 			(at 46.99 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7195,7 +7532,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0119")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7212,7 +7549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b00f789-49a8-451c-bf00-baab2e6d77f6")
-		(property "Reference" "C47"
+		(property "Reference" "C21"
 			(at 81.53 162.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7351,7 +7688,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C47")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -7391,7 +7728,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+		(property "Footprint" ""
 			(at 171.45 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7546,6 +7883,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 39.37 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24ae32f1-8757-43da-810a-a2a1d6bdc105")
+		(property "Reference" "#PWR044"
+			(at 39.37 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.132 32.512 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8d83a5e-d609-42cc-a226-0518eb812836")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 76.2 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -7556,7 +7972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc86176-bb2f-42d3-8cbf-d16555de23e8")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR060"
 			(at 76.2 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7617,7 +8033,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0104")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7755,7 +8171,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "500R is not an E24 value, so this is a 0.1% thin-film part at $0.25. For a series damping resistor a 5% 510R (RC0603JR-07511RL) would do the same job for about $0.01."
+		(property "Sourcing_Note" "500R is not an E24 value, so this is a 0.1% thin-film part at $0.25. For a series damping resistor a 5% 510R (RC0603JR-07511RL) would do the same job for about $0.01. It has a second job now the ring runs at 5V: when RING_EN is low the ring board's level shifter is unpowered, and this resistor limits the current into its input clamp if firmware drives NEOPIX high while the ring is off."
 			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7812,7 +8228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BNO085:IC_BNO085"
+		(property "Footprint" ""
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8089,7 +8505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38696f1f-8237-440e-a930-c91416cc5b8b")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR059"
 			(at 21.59 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8149,7 +8565,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0123")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8336,7 +8752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+		(property "Footprint" ""
 			(at 142.24 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8567,7 +8983,7 @@
 	)
 	(symbol
 		(lib_id "power:Vdrive")
-		(at 19.05 40.64 0)
+		(at 17.78 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8577,8 +8993,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0721d9-bb47-404a-8214-b92f48ca95fd")
-		(property "Reference" "#PWR062"
-			(at 19.05 44.45 0)
+		(property "Reference" "#PWR049"
+			(at 17.78 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8589,7 +9005,7 @@
 			)
 		)
 		(property "Value" "Vdrive"
-			(at 19.05 35.56 0)
+			(at 17.78 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8599,7 +9015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 40.64 0)
+			(at 17.78 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8610,7 +9026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 40.64 0)
+			(at 17.78 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8621,7 +9037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
-			(at 19.05 40.64 0)
+			(at 17.78 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8637,7 +9053,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR062")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8655,7 +9071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bf150f6-ed07-4d84-bda2-0703c93e54d4")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR052"
 			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8716,7 +9132,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR073")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8733,7 +9149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c7e82d0-a086-42a6-82b5-fd4bbae0e193")
-		(property "Reference" "C26"
+		(property "Reference" "C18"
 			(at 140.95 45.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8872,7 +9288,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C26")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8890,7 +9306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e970f6a-29ca-447e-a785-20fe7858a979")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR047"
 			(at 132.08 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8950,7 +9366,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR063")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8968,7 +9384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69206ba3-c5da-40b4-ab8d-5e5a762c7e80")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR065"
 			(at 76.2 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9029,7 +9445,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0116")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -9046,7 +9462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b8ce628-132d-46e7-b9a5-e321881acc5c")
-		(property "Reference" "C24"
+		(property "Reference" "C17"
 			(at 168.89 39.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9185,7 +9601,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C24")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9226,7 +9642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+		(property "Footprint" ""
 			(at 120.65 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -9391,7 +9807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7564c5-d32c-47c9-8c08-b6aa795f0d50")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR050"
 			(at 175.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +9868,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR072")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9470,7 +9886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8304ebd1-84f8-4a1a-8e61-643e521f98a4")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR045"
 			(at 109.22 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9530,181 +9946,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "smart_compass_main:BAV199")
-		(at 24.13 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "885badc8-c98f-4106-ad01-8ad55c224a07")
-		(property "Reference" "D2"
-			(at 28.448 44.196 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAV199"
-			(at 26.416 44.196 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BAV199:SOT23"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Small Signal Diode, SOT-23, 85V, 0.14A, 150°C"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Diotec Semiconductor"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "BAV199"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "BAV199LT1G"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" "0.07"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_PN" "BAV199LT1GOSCT-ND"
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sourcing_Note" "OVERSTRESSED AS DRAWN. Pin 3 is the common K1/A2 node, so only diode 1 carries current and its limit is 160mA (Nexperia) / 215mA (onsemi). The LED ring draws about 300mA at full white. Vf also rises to ~1.1V at that current, dropping Vdrive to ~3.1V - below the WS2812B-2020 minimum supply of 3.7V. Replace with a 0.5A Schottky such as MBR0540-TP (MBR0540TPMSCT-ND), already used at D1/D19-D21."
-			(at 24.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a98996e1-ae0e-4c03-8fa4-ac132e17a667")
-		)
-		(pin "3"
-			(uuid "a0957d6e-f594-4f82-b443-e2831de999e3")
-		)
-		(pin "1"
-			(uuid "cf0ef1d1-0ec1-463e-ac39-6d72508f368d")
-		)
-		(instances
-			(project "SmartCompass"
-				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "D2")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9722,7 +9964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf622af-d06e-4868-9824-b32a35950757")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR063"
 			(at 20.32 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9783,7 +10025,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0114")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9800,7 +10042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "923f3da6-1831-42a8-8fb4-bf2b06471712")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 41.91 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9919,7 +10161,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9957,7 +10199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV2605LDGSR:SOP50P490X110-10N"
+		(property "Footprint" ""
 			(at 55.88 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10340,7 +10582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e658a58-c814-43eb-8870-217a057c19da")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 66.802 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10427,7 +10669,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Standardised on the 10-way FH12 shared with the display link J7, so both interconnects are one BOM line. The four spare ways double up the supply and return: Vdrive on 1-4, GND on 5, 6, 8, 9, NEOPIX on 7, NEOPIX_RET on 10."
+		(property "Sourcing_Note" "Vdrive on 1-3, RING_EN on 4, GND on 5, 6, 8, 9, NEOPIX on 7, NEOPIX_RET on 10. Mates with J10 on the ring board. Pin 4 was a fourth Vdrive way until the ring moved to a 5V boost; it now carries the enable for the ring's boost converter, driven from U1 P1.00. Three ways still carry Vdrive, about 370mA at full white."
 			(at 63.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10471,7 +10713,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10488,7 +10730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5f4c363-ea9d-478e-b907-025feac86d8b")
-		(property "Reference" "C23"
+		(property "Reference" "C16"
 			(at 118.09 39.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,7 +10869,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C23")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10645,7 +10887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aafb1dc2-d680-4c79-8c46-d98a1de671b3")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR046"
 			(at 160.02 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10705,7 +10947,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR061")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10713,7 +10955,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 24.13 38.1 0)
+		(at 24.13 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10723,8 +10965,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b08dba5a-3070-4f32-a8c3-34ff85e4b893")
-		(property "Reference" "#PWR059"
-			(at 24.13 41.91 0)
+		(property "Reference" "#PWR048"
+			(at 24.13 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10735,7 +10977,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 24.13 33.02 0)
+			(at 24.13 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10745,7 +10987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 38.1 0)
+			(at 24.13 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +10998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 38.1 0)
+			(at 24.13 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10767,7 +11009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 24.13 38.1 0)
+			(at 24.13 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10783,7 +11025,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR059")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10801,7 +11043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e67594-bc06-4b02-83a4-d2066cf6a233")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR061"
 			(at 139.7 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10862,7 +11104,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0107")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10880,7 +11122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4877910-8b09-4c1b-b2e7-c7913af1b5e8")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR058"
 			(at 66.04 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10941,7 +11183,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0103")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10958,7 +11200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc4007cd-d977-45f4-a3c7-c076e35d6beb")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR055"
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11018,7 +11260,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0122")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11036,7 +11278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16b5d71-b9d3-4305-aff3-bfd0bd3a39cd")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR057"
 			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11097,7 +11339,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0102")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11115,7 +11357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2729bcb-b998-430b-a0c9-2e8f7f1d7a2f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR053"
 			(at 147.32 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11176,7 +11418,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR075")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11330,6 +11572,364 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 24.13 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e95c89dc-ea9a-4283-94cc-b1d98cca01cb")
+		(property "Reference" "FB1"
+			(at 20.32 45.085 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600R@100MHz"
+			(at 27.94 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 22.352 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead 600 Ohm at 100MHz, 1A, 150mOhm DCR, 0603"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Diotec Semiconductor"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "MPZ1608S601ATA00"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MPZ1608S601ATA00"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.10"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "445-MPZ1608S601ATA00CT-ND"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Replaces the BAV199 that used to drop +BATT by a diode to make Vdrive. That trick existed only so 3.3V logic could clear the LEDs' V_IH, and the 5V boost on the ring board (U9 there) now does that job properly, so the drop is pure loss and Vdrive becomes +BATT. The bead is here rather than a 0R link because it works with C61 as an LC filter, keeping the ring boost's 1MHz switching current off +BATT, which also feeds the GNSS LNA and the LoRa module. Carries about 460mA worst case (5V/250mA out of the boost from a 3.0V cell), against a 1A rating; 150mOhm costs 70mV and 32mW there."
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.digikey.com/en/products/detail/tdk/MPZ1608S601ATA00/765064"
+			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ce590e2-f26e-41a1-92ed-f77c4bfccb80")
+		)
+		(pin "2"
+			(uuid "502ee92c-85d7-49e1-945c-33155b0458d4")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e97caaf7-e1d4-4f85-9bc0-b349c979dd94")
+		(property "Reference" "C15"
+			(at 41.91 23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 41.91 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 40.335 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22uF 0805 - bulk decoupling on Vdrive at the ring connector"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Bulk capacitance on the main-board end of the ring cable. Works with FB1 as an LC filter so the ring boost's 1MHz input ripple does not travel back onto +BATT, and gives the cable's inductance something local to work against. The boost's own 10uF input capacitor (C62) sits on the ring board next to U9, where the datasheet wants it."
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A226KPCLRNC"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-6786-1-ND"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "176dbd09-ff77-4b8f-8a80-ec689381eeec")
+		)
+		(pin "2"
+			(uuid "539aad90-d150-4582-a6be-4e1de45e43a8")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "smart_compass_main:CAP_CERAMIC0603_NO")
 		(at 135.89 105.41 90)
 		(unit 1)
@@ -11340,7 +11940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e984253a-aeba-484b-9232-7984d0e3ca38")
-		(property "Reference" "C35"
+		(property "Reference" "C19"
 			(at 134.64 107.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +12079,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C35")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11644,7 +12244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efda4b6e-1bd7-4fc8-8952-5132a85073b5")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR054"
 			(at 132.08 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11704,7 +12304,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0100")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11712,7 +12312,7 @@
 	)
 	(symbol
 		(lib_id "power:Vdrive")
-		(at 46.99 21.59 0)
+		(at 39.37 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11721,8 +12321,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0844d46-ffbb-46af-b434-294a1f33c5d9")
-		(property "Reference" "#PWR0118"
-			(at 46.99 19.05 0)
+		(property "Reference" "#PWR043"
+			(at 39.37 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11733,7 +12333,7 @@
 			)
 		)
 		(property "Value" "Vdrive"
-			(at 46.99 17.78 0)
+			(at 39.37 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11743,7 +12343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 21.59 0)
+			(at 39.37 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11754,7 +12354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 21.59 0)
+			(at 39.37 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11765,7 +12365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
-			(at 46.99 21.59 0)
+			(at 39.37 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11781,7 +12381,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0118")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11799,7 +12399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18401fa-cc4c-4424-8fd2-30fbc683ecb1")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR064"
 			(at 26.67 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11860,7 +12460,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0115")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -11878,7 +12478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2946db8-4833-46b9-ad08-a3c1e40e71ac")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR066"
 			(at 83.82 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11939,7 +12539,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0117")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -11956,7 +12556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f30888ac-5886-4248-9c76-1e1b0a98ec02")
-		(property "Reference" "C46"
+		(property "Reference" "C20"
 			(at 18.03 147.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12095,7 +12695,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C46")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12136,7 +12736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+		(property "Footprint" ""
 			(at 86.36 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12301,7 +12901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5fd361c-43f6-40d9-ac01-a8319abb4618")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR062"
 			(at 20.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12361,7 +12961,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0113")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -12379,7 +12979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd38ea8e-174d-4624-9303-774b80a1edb7")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR056"
 			(at 66.04 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12439,7 +13039,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR0101")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)

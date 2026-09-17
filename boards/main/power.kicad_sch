@@ -6947,7 +6947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DMG3415U-7:SOT95P240X105-3N"
+		(property "Footprint" ""
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7165,7 +7165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
+		(property "Footprint" ""
 			(at 203.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7645,7 +7645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
+		(property "Footprint" ""
 			(at 224.79 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8990,7 +8990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX17048G_T10:SON50P200X200X80-9N"
+		(property "Footprint" ""
 			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9792,7 +9792,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RT9080-33GJ5:SOT94P280X100-5N"
+		(property "Footprint" ""
 			(at 194.31 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10337,7 +10337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP73831T-2ACI_OT:SOT95P280X145-5N"
+		(property "Footprint" ""
 			(at 71.12 59.69 0)
 			(hide yes)
 			(show_name no)
