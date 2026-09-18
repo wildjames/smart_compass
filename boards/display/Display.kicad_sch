@@ -2313,7 +2313,7 @@
 	)
 	(text "E-INK DISPLAY DAUGHTER BOARD"
 		(exclude_from_sim no)
-		(at 13.716 14.486 0)
+		(at 14.732 15.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2343,28 +2343,6 @@
 		)
 		(uuid "1c7268d8-540e-4568-9599-50bec71c252a")
 	)
-	(text "  1 +3.3V    2 GND      3 SPI_SCK   4 SPI_MOSI   5 GND"
-		(exclude_from_sim no)
-		(at 21.59 61.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cd66259-bb0a-49a3-b8d3-759739b83c5c")
-	)
-	(text "  SCK and MOSI are flanked by GND; the slow signals sit at the far end."
-		(exclude_from_sim no)
-		(at 21.59 65.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "296670d7-b30a-4ef3-ab1b-0301f71151ec")
-	)
 	(text "rails; none of them can cross a board-to-board cable."
 		(exclude_from_sim no)
 		(at 14.478 31.242 0)
@@ -2378,7 +2356,7 @@
 	)
 	(text "Reference: datasheets/1.54inch_e-paper_V2_Datasheet.pdf, sections 1.5 and 1.6."
 		(exclude_from_sim no)
-		(at 13.716 18.486 0)
+		(at 14.732 19.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2420,7 +2398,7 @@
 	)
 	(text "Panel: Waveshare 1.54inch e-Paper V2, 200x200, SSD1681 driver IC."
 		(exclude_from_sim no)
-		(at 13.716 16.486 0)
+		(at 14.732 17.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2429,9 +2407,9 @@
 		)
 		(uuid "85ca9c45-97df-4500-94dc-6e6d7531b0bb")
 	)
-	(text "Interface to main board -- J10, 10-pin 0.5mm FFC:"
+	(text "Interface to main board"
 		(exclude_from_sim no)
-		(at 21.59 59.5 0)
+		(at 38.354 67.818 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2450,17 +2428,6 @@
 			(justify left)
 		)
 		(uuid "f0473c90-0dd5-4309-ad0d-aedb376d5b39")
-	)
-	(text "  6 DISP_CS  7 DISP_DC  8 DISP_RES  9 DISP_BUSY  10 GND"
-		(exclude_from_sim no)
-		(at 21.59 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6fdcea6-1744-4082-b954-9cb03b87a918")
 	)
 	(junction
 		(at 109.22 166.37)
@@ -2493,6 +2460,12 @@
 		(uuid "75a4bf79-559d-4583-b2b7-80658cf74625")
 	)
 	(junction
+		(at 163.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dba7928-6835-4019-8c85-ba549d56381e")
+	)
+	(junction
 		(at 152.4 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2505,13 +2478,7 @@
 		(uuid "9c67d94c-c746-4f3f-bdc2-07a00eb85918")
 	)
 	(junction
-		(at 107.95 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bab885e1-6fd6-4a04-b8bb-a4becd275724")
-	)
-	(junction
-		(at 138.43 54.61)
+		(at 138.43 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d766f6bd-01b6-4a00-ac84-b448695e539a")
@@ -2584,23 +2551,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 39.37) (xy 153.67 39.37)
+			(xy 172.72 39.37) (xy 163.83 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "205ca0fc-b33f-47ed-aa12-558a0cf2e169")
-	)
-	(wire
-		(pts
-			(xy 110.49 184.15) (xy 107.95 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2062e047-4b7d-4295-88bf-c8fec9e7c4d5")
 	)
 	(wire
 		(pts
@@ -2644,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 59.69) (xy 138.43 54.61)
+			(xy 138.43 62.23) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2761,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 54.61) (xy 138.43 54.61)
+			(xy 133.35 58.42) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +2791,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 39.37) (xy 138.43 54.61)
+			(xy 153.67 39.37) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6123d1-94f4-47fd-8c32-82c2fd68647e")
+	)
+	(wire
+		(pts
+			(xy 138.43 39.37) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 54.61) (xy 153.67 54.61)
+			(xy 156.21 58.42) (xy 153.67 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2871,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 54.61) (xy 146.05 54.61)
+			(xy 138.43 58.42) (xy 146.05 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 184.15) (xy 107.95 184.15)
+			(xy 92.71 184.15) (xy 110.49 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2954,16 +2921,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 184.15) (xy 107.95 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f14a5246-6e95-4eac-bf53-d2e2a9bb86ab")
-	)
-	(wire
-		(pts
 			(xy 152.4 96.52) (xy 152.4 92.71)
 		)
 		(stroke
@@ -2974,7 +2931,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 67.31) (xy 138.43 77.47)
+			(xy 138.43 69.85) (xy 138.43 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3600,7 +3557,7 @@
 	)
 	(global_label "PREVGL"
 		(shape bidirectional)
-		(at 160.02 39.37 0)
+		(at 172.72 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3609,7 +3566,7 @@
 		)
 		(uuid "93b52b44-67bc-485d-9ec7-f3f096a4f816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 39.37 0)
+			(at 172.72 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3689,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 107.95 194.31 270)
+		(at 163.83 46.99 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3741,7 +3698,7 @@
 		)
 		(uuid "b9d67647-f10a-4eac-aacc-3665040e60bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 194.31 0)
+			(at 163.83 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,7 +3755,7 @@
 	)
 	(global_label "EPD_PUMP"
 		(shape bidirectional)
-		(at 133.35 54.61 180)
+		(at 133.35 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3807,7 +3764,7 @@
 		)
 		(uuid "c585ffcc-6d70-49e1-956b-66ea88e0bfc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 54.61 0)
+			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3821,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 160.02 54.61 0)
+		(at 156.21 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3873,7 +3830,7 @@
 		)
 		(uuid "d7710b6c-5ac3-49da-8a17-6629873305bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 54.61 0)
+			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +4118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b3cad55-bb39-428b-874e-e96b4fcdd874")
-		(property "Reference" "C43"
+		(property "Reference" "C8"
 			(at 133.858 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4248,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C43")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "214928dc-d9bf-4fab-8711-99c91b43e915")
-		(property "Reference" "C45"
+		(property "Reference" "C3"
 			(at 99.06 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4384,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C45")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b27bc67-c8bd-44a5-a39c-caa225187829")
-		(property "Reference" "C60"
+		(property "Reference" "C2"
 			(at 83.82 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4520,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C60")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4580,7 +4537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c368ace-4b21-4448-bff9-84e17f9a1088")
-		(property "Reference" "J10"
+		(property "Reference" "J1"
 			(at 50.8 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +4656,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "J10")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4716,7 +4673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a3accdf-1bb6-4c25-9316-8d77084a23dd")
-		(property "Reference" "C39"
+		(property "Reference" "C7"
 			(at 130.048 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,7 +4792,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C39")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4852,7 +4809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44efe25f-74fb-43f1-93cd-73c4e93517de")
-		(property "Reference" "C42"
+		(property "Reference" "C11"
 			(at 172.72 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4885,7 +4842,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4907,7 +4864,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4918,7 +4875,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4929,7 +4886,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-1184-1-ND"
+		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4940,7 +4897,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4962,7 +4919,18 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Sits on PREVGH at roughly +20V. A 25V X7R has very little margin here once DC bias is accounted for - a 50V part in the same 0603 land is the safer choice."
+		(property "Sourcing_Note" "Sits on PREVGH at roughly +20V. Rated 50V so that DC-bias derating at 20V still leaves useful capacitance"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
 			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4982,7 +4950,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C42")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4999,7 +4967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7029d77c-e9d2-43f1-a5b6-786b6b224fe3")
-		(property "Reference" "D21"
+		(property "Reference" "D3"
 			(at 160.02 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,7 +5062,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "D21")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5187,7 +5155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "953a804d-4bb3-4157-8684-2420e1da8260")
-		(property "Reference" "R18"
+		(property "Reference" "R1"
 			(at 143.51 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,7 +5261,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "R18")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5310,7 +5278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a05f6e2-83e7-4ce2-8d25-75a80d076983")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 158.496 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5424,7 +5392,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5432,7 +5400,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 63.5 180)
+		(at 138.43 66.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5441,8 +5409,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f358457-d190-421f-b579-cfc6cbb2bc0e")
-		(property "Reference" "C36"
-			(at 134.62 63.5 0)
+		(property "Reference" "C9"
+			(at 134.62 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5453,7 +5421,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 134.62 62.23 0)
+			(at 134.62 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5464,7 +5432,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 137.465 67.31 0)
+			(at 137.465 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 63.5 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5454,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 63.5 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5497,7 +5465,7 @@
 			)
 		)
 		(property "MPN" "CL05A475MP5NRNC"
-			(at 138.43 63.5 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5476,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 138.43 63.5 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5519,7 +5487,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-1482-1-ND"
-			(at 138.43 63.5 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +5498,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 138.43 63.5 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5541,7 +5509,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 138.43 63.5 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5528,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C36")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5577,7 +5545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a37feee5-e735-4c9f-a8e5-7f67fd69039b")
-		(property "Reference" "C40"
+		(property "Reference" "C4"
 			(at 105.918 175.006 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,7 +5664,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C40")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5789,7 +5757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0a7951c-a80d-499d-bcbd-f6056c89a279")
-		(property "Reference" "R19"
+		(property "Reference" "R2"
 			(at 156.21 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,7 +5863,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "R19")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfdd4316-cb4b-40f1-b9a7-d61dbb00cce1")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 81.28 154.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +6060,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6100,7 +6068,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 190.5 0)
+		(at 163.83 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6109,8 +6077,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2549c7b-f5ef-4c8d-91a5-2d2dc9be5845")
-		(property "Reference" "C44"
-			(at 111.76 190.5 0)
+		(property "Reference" "C10"
+			(at 167.64 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6121,7 +6089,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 111.76 191.77 0)
+			(at 167.64 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6132,7 +6100,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 108.915 186.69 0)
+			(at 164.795 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,8 +6110,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 190.5 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6154,7 +6122,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 190.5 0)
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,8 +6132,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
-			(at 107.95 190.5 0)
+		(property "MPN" "C1608X7R1H105K080AB"
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,8 +6143,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 107.95 190.5 0)
+		(property "Manufacturer" "TDK"
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,8 +6154,8 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-1184-1-ND"
-			(at 107.95 190.5 0)
+		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,8 +6165,8 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
-			(at 107.95 190.5 0)
+		(property "Voltage" "50V"
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6209,7 +6177,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 107.95 190.5 0)
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6219,8 +6187,19 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Sits on PREVGL at roughly -20V. 25V rating is marginal - consider a 50V part."
-			(at 107.95 190.5 0)
+		(property "Sourcing_Note" "Sits on PREVGL at roughly -20V. Rated 50V so that DC-bias derating at 20V still leaves useful capacitance - a 25V X7R at 20V retains very little. Same 0603 land, but the body is 1.00mm max thick against 0.90mm for the 25V part it replaced."
+			(at 163.83 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6239,7 +6218,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C44")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6256,7 +6235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df1e685b-5293-432c-a6c0-b2eced8cd9e3")
-		(property "Reference" "C37"
+		(property "Reference" "C5"
 			(at 116.078 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,7 +6354,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C37")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6392,7 +6371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e30306ed-1c06-4d14-9042-7d3f8f3dac2d")
-		(property "Reference" "C41"
+		(property "Reference" "C6"
 			(at 123.19 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6511,7 +6490,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C41")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6528,7 +6507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7009563-6383-4baa-845d-3ec6abbbe779")
-		(property "Reference" "D19"
+		(property "Reference" "D1"
 			(at 149.86 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +6602,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "D19")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6640,7 +6619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee9d7afa-7469-4507-9bbb-1d2f7f379447")
-		(property "Reference" "C38"
+		(property "Reference" "C1"
 			(at 56.515 173.863 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,7 +6738,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "C38")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6767,7 +6746,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR0530")
-		(at 149.86 54.61 180)
+		(at 149.86 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6776,8 +6755,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "febdb80a-62fa-4b53-b89d-a9de6630e021")
-		(property "Reference" "D20"
-			(at 149.606 49.53 0)
+		(property "Reference" "D2"
+			(at 149.606 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6787,7 +6766,7 @@
 			)
 		)
 		(property "Value" "MBR0540"
-			(at 149.86 51.562 0)
+			(at 149.86 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6797,7 +6776,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 149.86 59.055 0)
+			(at 149.86 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +6787,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 149.86 54.61 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6819,7 +6798,7 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 149.86 54.61 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6830,7 +6809,7 @@
 			)
 		)
 		(property "MPN" "MBR0540-TP"
-			(at 149.86 54.61 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6841,7 +6820,7 @@
 			)
 		)
 		(property "Manufacturer" "MCC (Micro Commercial Components)"
-			(at 149.86 54.61 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,7 +6831,7 @@
 			)
 		)
 		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
-			(at 149.86 54.61 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +6850,7 @@
 		(instances
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-					(reference "D20")
+					(reference "D2")
 					(unit 1)
 				)
 			)

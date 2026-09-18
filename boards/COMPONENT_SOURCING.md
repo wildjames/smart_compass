@@ -78,14 +78,6 @@ pads are not guaranteed identical:
 Standardised onto 5.1 kΩ along with the other non-critical 5 kΩ parts, which
 removed a BOM line. Keep it at 5.1 k, raise it, or remove it.
 
-### The ±20 V gate-rail capacitors are only 25 V parts
-
-The 1 µF capacitors on the display board's `PREVGH` (~+20 V) and `PREVGL`
-(~−20 V) are specified at 25 V. Class-II ceramics lose most of their capacitance
-near their rated voltage, so a 25 V X7R at 20 V delivers a fraction of its
-nominal value. **A 50 V part in the same 0603 land is the safer choice.** Flagged
-per-part in the schematic.
-
 ### The SWD and expansion headers have no part number
 
 Both are generic 2.54 mm pin headers with no MPN assigned. They are almost
@@ -95,6 +87,20 @@ omission — but if you want them populated on the prototypes they need a part.
 ---
 
 ## 4. Supply risks to watch
+
+### The 1 µF 25 V X7R capacitor is out of stock across the whole design
+
+`CL10B105KA8NNNC` — Samsung's 1 µF ±10% 25 V X7R in 0603 — shows **zero stock in
+every packaging variation** at Digi-Key, against a **39-week** factory lead. It is
+still used by nine placements across the three boards, so this is not a
+single-part problem.
+
+It came to light while sourcing the 50 V replacement for the two gate-rail
+capacitors, which no longer use it. The remaining placements are on low-voltage
+rails where 25 V is ample, so the fix is a straight second source rather than a
+change of rating: any 1 µF 25 V (or higher) X7R in the same 0603 land will do,
+and standardising them onto the TDK `C1608X7R1H105K080AB` now specified on the
+gate rails would remove a BOM line at the cost of a slightly taller body.
 
 ### The display board's switching FET has the longest lead time on the design
 
