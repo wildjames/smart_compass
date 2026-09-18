@@ -8563,7 +8563,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Peak inductor current is about 0.68A at 250mA of LED load from a 3.3V cell, against Isat 3.1A - ample. The 1.0mm height suits the medallion. LAYOUT: the footprint is the generic Inductor_SMD:L_1008_2520Metric land; check the pad geometry against the Murata drawing before committing, the outline matches but the pads are not guaranteed identical."
+		(property "Sourcing_Note" "Peak inductor current is about 0.68A at 250mA of LED load from a 3.3V cell, against Isat 3.1A - ample. 1.0mm height "
 			(at 91.44 151.13 0)
 			(hide yes)
 			(show_name no)

@@ -7,23 +7,6 @@ results — manufacturer part number, Digi-Key part number, key parameters, and 
 BOM properties, so they travel with a BOM export and reach whoever places the
 order.
 
-**This document is only what is left to do.** Finished items have been removed;
-the reasoning behind the decisions that were made is in the commit history and
-in [README.md](README.md).
-
-Stock and price figures are a snapshot taken during the review. Treat them as a
-signal about which parts are comfortable and which are tight, not as a quote, and
-re-check anything listed below as a risk before you place an order. Prices are
-single-unit Digi-Key cut tape; most drop 30–50% by quantity 10.
-
-> **A note on how this document refers to parts.** Nothing here is identified by
-> its schematic reference designator. Designators are renumbered whenever a
-> schematic is re-annotated, so any written into this file would quietly come to
-> point at the wrong component. Parts are named by what they do, and by value or
-> manufacturer part number where that is what picks one out.
-
----
-
 ## 1. Schematic faults
 
 ### The ring board's ground has no power flag
@@ -37,31 +20,11 @@ the second of the two errors standing between that board and a clean check.
 
 ## 2. Footprints and library work
 
-### Both boost inductors need their pads checked against the vendor drawing
-
-Neither is in a land drawn for the part actually specified. In both cases the
-outline matches and the existing footprint is the right starting point, but the
-pads are not guaranteed identical:
+### boost inductor needs a footprint
 
 | Where | Part | Land currently used |
 | --- | --- | --- |
-| Display board, 10 µH | Bourns `SRN3015TA-100M` | `L_Taiyo-Yuden_NR-30xx` — KiCad has no `SRN3015` footprint |
-| Ring board, 2.2 µH | Murata `DFE252010F-2R2M=P2` | the generic `Inductor_SMD:L_1008_2520Metric` |
-
----
-
-## 3. Decisions still open
-
-### The GNSS pull-down
-
-Standardised onto 5.1 kΩ along with the other non-critical 5 kΩ parts, which
-removed a BOM line. Keep it at 5.1 k, raise it, or remove it.
-
-### The SWD and expansion headers have no part number
-
-Both are generic 2.54 mm pin headers with no MPN assigned. They are almost
-certainly not fitted on a finished unit, so this looks deliberate rather than an
-omission — but if you want them populated on the prototypes they need a part.
+| Display board, 10 µH | Bourns `SRN3015BTA-100M` | `L_Taiyo-Yuden_NR-30xx` — KiCad has no `SRN3015` footprint |
 
 ---
 
