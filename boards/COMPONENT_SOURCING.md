@@ -37,27 +37,6 @@ the second of the two errors standing between that board and a clean check.
 
 ## 2. Footprints and library work
 
-### The QSPI flash land pattern has never existed
-
-The flash's `Footprint` field points at `smart_compass:SON80P400X400X60-9N`, in
-the project's own library at
-[`../libs/smart_compass.pretty/`](../libs/smart_compass.pretty/) — but **no such
-`.kicad_mod` is there, or anywhere else in the repository.** The field used to
-name a library that was registered nowhere at all, so the reference has been
-dangling since before the sourcing review; repointing it at a library that exists
-did not create the land.
-
-It has to be drawn before layout. The package is Infineon UNF008, and the
-geometry is shared exactly with the Macronix USON 4×4 the design moved away from
-and with the GigaDevice second source below, so one land serves all three:
-
-| | Dimension |
-| --- | --- |
-| Body | 4.00 × 4.00 × 0.55 nom |
-| Lead pitch | 0.80 BSC |
-| Terminal width / length | 0.30 / 0.40 |
-| Exposed pad | 3.00 × 2.30 |
-
 ### Both boost inductors need their pads checked against the vendor drawing
 
 Neither is in a land drawn for the part actually specified. In both cases the

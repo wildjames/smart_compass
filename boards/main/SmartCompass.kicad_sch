@@ -4431,7 +4431,7 @@
 	)
 	(text "From the datasheet\nSection 11.5 (Power-up and power-down):\nPlease note that a pull-up resistor\non CS# may ensure a safe and proper \npower-up/down level."
 		(exclude_from_sim no)
-		(at 247.396 123.698 0)
+		(at 256.032 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4607,6 +4607,12 @@
 		(uuid "7d3b3492-0098-48e9-896d-f0fcdf30c5c7")
 	)
 	(junction
+		(at 267.97 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "838b5b39-827a-433b-923b-b176d1cffe20")
+	)
+	(junction
 		(at 118.11 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4659,12 +4665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0672c56-13ad-4d32-8470-3655a9090c4b")
-	)
-	(junction
-		(at 267.97 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e192d51f-6c0b-463d-8923-6c734d8eb052")
 	)
 	(junction
 		(at 207.01 104.14)
@@ -4826,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 128.27) (xy 267.97 138.43)
+			(xy 267.97 135.89) (xy 267.97 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7768,12 +7768,12 @@
 		(uuid "4235c3aa-9c30-4f76-86ea-c46d95388cfc")
 	)
 	(label "RING_EN"
-		(at 194.31 41.91 0)
+		(at 194.31 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4b9271fb-0a28-4ce3-8ac1-e14cfe3eb9d9")
 	)
@@ -10911,7 +10911,8 @@
 			)
 		)
 		(property "REV" "C"
-			(at 267.97 146.05 0)
+			(at 266.954 146.812 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11539,7 +11540,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 267.97 128.27 0)
+		(at 267.97 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11550,7 +11551,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1981897-d11a-410a-87a6-f4d29a7c1d92")
 		(property "Reference" "#PWR016"
-			(at 267.97 132.08 0)
+			(at 267.97 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11561,7 +11562,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 267.97 123.19 0)
+			(at 267.97 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11571,7 +11572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 128.27 0)
+			(at 267.97 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11582,7 +11583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 128.27 0)
+			(at 267.97 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11593,7 +11594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 267.97 128.27 0)
+			(at 267.97 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12556,7 +12557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_4x4mm_P0.8mm_EP2.3x3.24mm"
 			(at 248.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13667,7 +13668,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
