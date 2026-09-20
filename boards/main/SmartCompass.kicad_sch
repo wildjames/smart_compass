@@ -12198,9 +12198,17 @@
 				)
 			)
 		)
-    (property "Tolerance" "10%" (at 210.82 97.79 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Tolerance" "10%"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d87abda-373a-4394-9d98-3559df433c09")
 		)

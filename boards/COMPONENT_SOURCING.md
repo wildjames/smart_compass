@@ -28,24 +28,6 @@ the second of the two errors standing between that board and a clean check.
 
 ---
 
-## 4. Supply risks to watch
-
-### The haptic driver's stock is thin
-
-The DRV2605L shows ~105 pieces in stock with a 16-week lead. Enough for a 5-board
-run; watch it.
-
-### The mating housing for every off-board lead is out of stock
-
-All five off-board leads — three buttons, the power switch and the haptic
-actuator — mate through the same JST `GHR-02V-S` 2-way 1.25 mm housing, and
-Digi-Key currently shows **zero in stock against a 16-week lead**. One part
-number blocks all five leads, so order it early or find another distributor. The
-crimp contact that goes with it is unaffected. See
-[EXTRA_PARTS_BOM.md](EXTRA_PARTS_BOM.md).
-
----
-
 ## 5. Checks that depend on decisions made elsewhere
 
 ### The chosen haptic actuator sits at the driver's minimum load

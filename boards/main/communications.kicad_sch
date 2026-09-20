@@ -3784,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d864ca-8204-40d2-9ee0-822e9cd54b45")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 38.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4025,7 +4025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2efb3762-3efd-4928-a88f-6c00c5e8e9ee")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 133.35 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4085,7 +4085,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4642,7 +4642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b24ffe6-1927-424a-9f71-4556e2906f73")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 123.19 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4703,7 +4703,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4979,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "416d36de-0857-469d-92d8-56582535a73e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5040,7 +5040,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "729afc8b-0739-4895-9d1c-9d34be4b128b")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 153.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +5809,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5827,7 +5827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fdf1d59-bf8e-4758-a173-4c86e33fe68c")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 34.29 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5888,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b856c15f-4475-4e3b-80be-b0f1cc586075")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 30.48 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +6247,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6265,7 +6265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22f2085-dc77-481d-8ed2-a5db3d732d5b")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 36.83 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6326,7 +6326,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6479,7 +6479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32c52e3-6d1f-4f06-8bf4-2ba27bdb11bf")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 54.61 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6540,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6559,7 +6559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee1354f-161e-4ef2-a253-e4b0402c3a52")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6620,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

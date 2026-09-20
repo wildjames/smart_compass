@@ -11,8 +11,8 @@ from Digi-Key and will drift — re-check before ordering.
 | Part | What it is | Qty | Digi-Key | Notes |
 | ---- | ---------- | --- | -------- | ----- |
 | Vybronics `VLV101040A` | Haptic actuator, 10 × 10 × 4 mm linear resonant | 1 | `1670-VLV101040A-ND` | $7.18/1, ~11,600 in stock, 9-week lead. [Datasheet](../datasheets/VLV101040A_Vybronics.pdf) |
-| JST `GHR-02V-S` | 2-way 1.25 mm housing, mates the board's GH headers | 5 | `455-1592-ND` | **Zero stock, 16-week lead.** Order early or find another distributor |
-| JST `MINI-SSHL-002T-P0.2` | Crimp socket for the above, 26–30 AWG | 10 + spares | `455-1607-1-ND` | $0.28 each. The plain `SSHL-002T-P0.2` is the same contact but only sold in 1,000-piece strips |
+| 28 AWG stranded hook-up wire, silicone insulated | All five case leads, soldered straight to the board | ~1 m | - | Silicone rather than PVC: the case halves stay tethered once the connectors are gone, so this wire gets flexed every time the unit is opened. Insulation OD should be about 1 mm to suit the pad footprints |
+| 32 or 34 AWG UL3302 | The short stub from the actuator pads to the splice | ~100 mm | - | Vybronics only permits this gauge against the actuator's pressure pads — see the notes below |
 | Waveshare 1.54inch e-Paper V2 | 200 × 200 panel, SSD1681 driver | 1 | - | The display board is built against this exact module — see [`../datasheets/1.54inch_e-paper_V2_Datasheet.pdf`](../datasheets/1.54inch_e-paper_V2_Datasheet.pdf) |
 
 ## Decided, but not yet sourced
@@ -26,8 +26,6 @@ from Digi-Key and will drift — re-check before ordering.
 
 | Part | What it is | Notes |
 | ---- | ---------- | ----- |
-| User buttons | 3 off, on the case | Two candidates in [`main/board_components.md`](main/board_components.md): side-mounted SMD tactile, or through-hole. Whichever is chosen wires back through a GH lead |
-| Power switch | 1 off, on the case | Candidates are an SMD slide switch or a larger through-hole one. Also wires back through a GH lead |
 | LoRa antenna | 1 off | A flexible PCB antenna is the plan. It plugs into the **radio module's own onboard IPEX connector**, not a connector on the main board. Band must match the module variant fitted |
 | GNSS antenna | 0 or 1 | **Optional.** The GNSS feeds an IPEX receptacle through a pi-network that can instead select the onboard chip antenna. Only needed if the external route is taken |
 
@@ -45,6 +43,21 @@ drawing.
 **The haptic actuator's contacts are not solder tabs.** It ships with pressure
 contacts intended for pogo pins or spring fingers against a PCB. Vybronics
 explicitly permits thin flexible flying leads instead — UL3302, AWG 32 or 34 —
-which is what the hand-soldered pigtail into the GH housing should use. Do not
-assume ordinary hook-up wire will do; it is too stiff for the contact pads and
-will load the moving mass.
+which is what the pigtail should use at the actuator end. Do not assume ordinary
+hook-up wire will do; it is too stiff for the contact pads and will load the
+moving mass.
+
+**The pigtail still needs a splice.** 32/34 AWG is too fine to be the whole run.
+It would be fragile against the board pads and is far below the 1 mm insulation
+the pad footprint is drawn for. So the thin wire stays a short stub at the
+actuator and is spliced to a 28 AWG run, and that run is what solders into the
+board. Two things follow,
+
+- **Keep the splice short and put it at the actuator end**, within roughly
+  10 mm of the contact pads, so the great majority of the flying lead is the
+  stiffer 28 AWG and only a stub of 32/34 AWG is unsupported.
+- **Bond the splice down.** It is the weakest joint in the whole assembly — a
+  hand-soldered butt joint in a flying lead, on the one lead attached to a
+  vibrating mass, inside a device that gets carried in a pocket. Adhesive at
+  the splice keeps the vibration out of the joint and stops the moving mass
+  being loaded by the heavier wire.
