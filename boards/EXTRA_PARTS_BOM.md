@@ -10,10 +10,11 @@ from Digi-Key and will drift; re-check before ordering.
 
 | Part | What it is | Qty | Digi-Key | Notes |
 | ---- | ---------- | --- | -------- | ----- |
-| Vybronics `VLV101040A` | Haptic actuator, 10 × 10 × 4 mm linear resonant | 1 | `1670-VLV101040A-ND` | [Datasheet](../datasheets/VLV101040A_Vybronics.pdf) |
+| Vybronics `VLV101040A` | Haptic actuator, 10 x 10 x 4 mm linear resonant | 1 | `1670-VLV101040A-ND` | [Datasheet](../datasheets/VLV101040A_Vybronics.pdf) |
 | 28 AWG stranded hook-up wire, silicone insulated | All five case leads, soldered straight to the board | ~1 m | - | Silicone rather than PVC: the case halves stay tethered once the connectors are gone, so this wire gets flexed every time the unit is opened. Insulation OD should be about 1 mm to suit the pad footprints |
 | 32 or 34 AWG UL3302 | The short stub from the actuator pads to the splice | ~100 mm | - | Vybronics only permits this gauge against the actuator's pressure pads |
-| Waveshare 1.54inch e-Paper V2 | 200 × 200 panel, SSD1681 driver | 1 | - | The display board is built against this exact module — see [`../datasheets/1.54inch_e-paper_V2_Datasheet.pdf`](../datasheets/1.54inch_e-paper_V2_Datasheet.pdf) |
+| Waveshare 1.54inch e-Paper V2 | 200 x 200 panel, SSD1681 driver | 1 | - | The display board is built against this exact module — see [`../datasheets/1.54inch_e-paper_V2_Datasheet.pdf`](../datasheets/1.54inch_e-paper_V2_Datasheet.pdf) |
+| Taoglas `FXP890.07.0100C` | LoRa antenna: 863–928 MHz flexible polyimide PCB antenna, 62.2 x 20 mm, 100 mm 1.13 mm coax ending in an I-PEX MHF1 (U.FL) plug | 1 | `931-FXP890.07.0100C-ND` | Plugs straight into the radio module's own onboard IPEX connector. [Datasheet](../datasheets/FXP890.07.0100C_Taoglas.pdf), and see the placement note below |
 
 ## Decided, but not yet sourced
 
@@ -24,13 +25,20 @@ from Digi-Key and will drift; re-check before ordering.
 | Power switch | Case-mounted, SMD or through-hole | 1 | Pulls the load switch's enable node down against a 100 kΩ pull-up, so the lead carries microamps and current rating is not a constraint here. |
 | User Buttons | Case-mounted, SMD or through-holE | 3 | These will be the primary point of contact for the user, so make sure these are good! |
 
-## Still undecided
-
-| Part | What it is | Notes |
-| ---- | ---------- | ----- |
-| LoRa antenna | 1 off | A flexible PCB antenna is the plan. It plugs into the **radio module's own onboard IPEX connector**, not a connector on the main board. Band must match the module variant fitted |
-
 ## Notes
+
+**The LoRa antenna sits in the rim.**
+Wrapped around the inside of the case, it is bent to a 40 mm radius, which
+the polyimide takes easily but which does pull the tuning slightly off the
+flat, free-space figures in the datasheet. It may be worth trying to get it
+to sit against the face, if possible, to eliminate the bend if this turns out
+to be an issue.
+
+Keep it away from the GNSS antenna and lipo as much as possible - nearby metal
+interferes with the tuning and will reduce efficiency.
+
+This is an IPEX plug, so we can always move to an external antenna later, if we
+need to.
 
 **The FFC cables are not symmetrical.** Both board-to-board links use the same
 10-way 0.5 mm connector at both ends, so one cable part number covers both — but
