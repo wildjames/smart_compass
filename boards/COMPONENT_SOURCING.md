@@ -30,20 +30,6 @@ the second of the two errors standing between that board and a clean check.
 
 ## 4. Supply risks to watch
 
-### The 1 µF 25 V X7R capacitor is out of stock across the whole design
-
-`CL10B105KA8NNNC` — Samsung's 1 µF ±10% 25 V X7R in 0603 — shows **zero stock in
-every packaging variation** at Digi-Key, against a **39-week** factory lead. It is
-still used by nine placements across the three boards, so this is not a
-single-part problem.
-
-It came to light while sourcing the 50 V replacement for the two gate-rail
-capacitors, which no longer use it. The remaining placements are on low-voltage
-rails where 25 V is ample, so the fix is a straight second source rather than a
-change of rating: any 1 µF 25 V (or higher) X7R in the same 0603 land will do,
-and standardising them onto the TDK `C1608X7R1H105K080AB` now specified on the
-gate rails would remove a BOM line at the cost of a slightly taller body.
-
 ### The display board's switching FET has the longest lead time on the design
 
 `SI1308EDL-T1-GE3` has exactly one reel (3,000) in Digi-Key stock and a

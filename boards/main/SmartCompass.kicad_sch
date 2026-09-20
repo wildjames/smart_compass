@@ -12099,7 +12099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 210.82 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12121,7 +12121,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 210.82 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -12132,7 +12132,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.05765"
+		(property "PRICE" "0.0615"
 			(at 210.82 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -12154,7 +12154,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 210.82 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12165,7 +12165,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-1184-1-ND"
+		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
 			(at 210.82 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12176,7 +12176,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 210.82 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12198,6 +12198,9 @@
 				)
 			)
 		)
+    (property "Tolerance" "10%" (at 210.82 97.79 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "8d87abda-373a-4394-9d98-3559df433c09")
 		)

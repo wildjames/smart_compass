@@ -7580,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 83.82 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7602,7 +7602,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 83.82 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -7613,7 +7613,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.05765"
+		(property "PRICE" "0.0615"
 			(at 83.82 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -7635,7 +7635,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 83.82 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7646,7 +7646,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-1184-1-ND"
+		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
 			(at 83.82 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7657,7 +7657,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 83.82 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7679,6 +7679,9 @@
 				)
 			)
 		)
+    (property "Tolerance" "10%" (at 83.82 163.83 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "f4db9c8a-5e15-4b84-a4cd-acede4d6d36e")
 		)
@@ -12587,7 +12590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 20.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12609,7 +12612,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "C1608X7R1H105K080AB"
 			(at 20.32 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -12620,7 +12623,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.05765"
+		(property "PRICE" "0.0615"
 			(at 20.32 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -12642,7 +12645,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 20.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12653,7 +12656,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-1184-1-ND"
+		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
 			(at 20.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12664,7 +12667,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 20.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12686,6 +12689,9 @@
 				)
 			)
 		)
+    (property "Tolerance" "10%" (at 20.32 148.59 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "8d30aa73-ffa2-4310-9232-3f97ae248a60")
 		)
