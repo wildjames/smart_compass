@@ -30,12 +30,6 @@ the second of the two errors standing between that board and a clean check.
 
 ## 4. Supply risks to watch
 
-### The display board's switching FET has the longest lead time on the design
-
-`SI1308EDL-T1-GE3` has exactly one reel (3,000) in Digi-Key stock and a
-**55-week** factory lead. Fine for prototypes, a genuine risk for anything
-beyond. Worth qualifying a second source now rather than later.
-
 ### The haptic driver's stock is thin
 
 The DRV2605L shows ~105 pieces in stock with a 16-week lead. Enough for a 5-board
