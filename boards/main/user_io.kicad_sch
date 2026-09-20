@@ -5335,6 +5335,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "smart_compass_main:CAP_CERAMIC0805-NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.29 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.3 1.25 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:0805-NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "smart_compass_main:DRV2605LDGSR"
 			(pin_names
 				(offset 1.016)
@@ -6442,7 +6597,7 @@
 	)
 	(rectangle
 		(start 13.97 128.905)
-		(end 112.395 173.99)
+		(end 124.46 173.99)
 		(stroke
 			(width 0)
 			(type default)
@@ -6495,7 +6650,7 @@
 	)
 	(text "Pigtail to the LRA, soldered straight to the\nboard. Thin UL3302 32/34 AWG to the actuator \npads, spliced within ~10mm to 28 AWG, and \nthat run solders into these pads."
 		(exclude_from_sim no)
-		(at 88.392 134.366 0)
+		(at 100.076 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6524,9 +6679,9 @@
 		)
 		(uuid "f3ad23f4-5dba-445f-9ec8-1ac88df3af63")
 	)
-	(text "Bond the splice down; it sits on a moving mass."
+	(text "Bond the splice down,\nit sits on a moving mass."
 		(exclude_from_sim no)
-		(at 86.868 171.958 0)
+		(at 101.6 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6619,6 +6774,12 @@
 		(uuid "84077845-0015-4313-9488-82cf74140a38")
 	)
 	(junction
+		(at 24.13 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93927932-4f1b-41b8-9d30-be2d88f5bc18")
+	)
+	(junction
 		(at 139.7 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6637,7 +6798,7 @@
 		(uuid "c64ddf20-a46f-4445-b324-7901b09d2d43")
 	)
 	(junction
-		(at 35.56 143.51)
+		(at 46.99 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce9c72fe-7882-4953-a272-c91ba194faff")
@@ -6649,20 +6810,30 @@
 		(uuid "d749be81-577f-4d49-afff-bf72a42efe1c")
 	)
 	(junction
-		(at 20.32 143.51)
+		(at 31.75 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb3c3b55-f836-4c3f-bd5f-2ea9551ca42b")
 	)
 	(wire
 		(pts
-			(xy 20.32 143.51) (xy 35.56 143.51)
+			(xy 31.75 143.51) (xy 46.99 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0074ecc3-31ab-4c46-b51c-e16ce3099895")
+	)
+	(wire
+		(pts
+			(xy 20.32 140.97) (xy 20.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007c736f-cc2e-4f7f-b9b9-14acf4e130c7")
 	)
 	(wire
 		(pts
@@ -6686,7 +6857,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 156.21) (xy 83.82 158.75)
+			(xy 95.25 156.21) (xy 95.25 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6887,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 153.67) (xy 26.67 156.21)
+			(xy 38.1 153.67) (xy 38.1 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6826,7 +6997,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 166.37) (xy 76.2 166.37)
+			(xy 85.09 166.37) (xy 87.63 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6836,7 +7007,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 158.75) (xy 38.1 158.75)
+			(xy 46.99 158.75) (xy 49.53 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6856,7 +7027,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 152.4) (xy 20.32 151.13)
+			(xy 31.75 152.4) (xy 31.75 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6876,7 +7047,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 156.21) (xy 83.82 156.21)
+			(xy 85.09 156.21) (xy 95.25 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6906,7 +7077,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 146.05) (xy 35.56 146.05)
+			(xy 49.53 146.05) (xy 46.99 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6926,7 +7097,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 153.67) (xy 26.67 153.67)
+			(xy 49.53 153.67) (xy 38.1 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6936,7 +7107,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 151.13) (xy 38.1 151.13)
+			(xy 46.99 151.13) (xy 49.53 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7033,6 +7204,16 @@
 			(type default)
 		)
 		(uuid "4a6eb11b-c449-44d5-af0d-5ea63f4408de")
+	)
+	(wire
+		(pts
+			(xy 24.13 143.51) (xy 31.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2f0847-e93b-4330-abce-080209879024")
 	)
 	(wire
 		(pts
@@ -7156,7 +7337,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 146.05) (xy 35.56 143.51)
+			(xy 46.99 146.05) (xy 46.99 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7196,7 +7377,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 161.29) (xy 38.1 161.29)
+			(xy 24.13 143.51) (xy 31.75 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7029c866-cd7d-4bdf-b2ae-a85b2eb7bedc")
+	)
+	(wire
+		(pts
+			(xy 46.99 161.29) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7306,7 +7497,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 142.24) (xy 73.66 151.13)
+			(xy 85.09 142.24) (xy 85.09 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7316,7 +7507,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 142.24) (xy 76.2 142.24)
+			(xy 85.09 142.24) (xy 87.63 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7346,13 +7537,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 140.97) (xy 20.32 143.51)
+			(xy 24.13 151.13) (xy 24.13 152.4)
 		)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.1524)
+			(type solid)
 		)
-		(uuid "b0587d6c-573c-4cdc-8bf9-74fb5f325c3e")
+		(uuid "a848871d-a30a-4248-9540-1dfece0c70e7")
 	)
 	(wire
 		(pts
@@ -7446,7 +7637,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 144.78) (xy 76.2 161.29)
+			(xy 87.63 144.78) (xy 87.63 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7676,7 +7867,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 143.51) (xy 38.1 143.51)
+			(xy 46.99 143.51) (xy 49.53 143.51)
 		)
 		(stroke
 			(width 0)
@@ -7726,13 +7917,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 161.29) (xy 76.2 161.29)
+			(xy 85.09 161.29) (xy 87.63 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f91617bf-854e-4d47-84ba-cd3e7899ef39")
+	)
+	(wire
+		(pts
+			(xy 20.32 143.51) (xy 24.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe76a760-6546-4dd9-aa16-6408d366a47d")
 	)
 	(wire
 		(pts
@@ -7821,7 +8022,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 35.56 158.75 180)
+		(at 46.99 158.75 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7898,7 +8099,7 @@
 	)
 	(hierarchical_label "HAPTIC_EN"
 		(shape input)
-		(at 35.56 151.13 180)
+		(at 46.99 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7964,7 +8165,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 35.56 161.29 180)
+		(at 46.99 161.29 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8151,7 +8352,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:CAP_CERAMIC0603_NO")
-		(at 83.82 163.83 0)
+		(at 95.25 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8161,7 +8362,7 @@
 		(dnp no)
 		(uuid "1b00f789-49a8-451c-bf00-baab2e6d77f6")
 		(property "Reference" "C20"
-			(at 81.53 162.58 90)
+			(at 92.96 162.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8171,7 +8372,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 86.12 162.58 90)
+			(at 97.55 162.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8181,7 +8382,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8192,7 +8393,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,7 +8404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8214,7 +8415,7 @@
 			)
 		)
 		(property "MPN" "C1608X7R1H105K080AB"
-			(at 83.82 163.83 90)
+			(at 95.25 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,7 +8426,7 @@
 			)
 		)
 		(property "PRICE" "0.0615"
-			(at 83.82 163.83 90)
+			(at 95.25 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +8437,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 83.82 163.83 90)
+			(at 95.25 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,7 +8448,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8258,7 +8459,7 @@
 			)
 		)
 		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8269,7 +8470,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8481,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,7 +8492,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 83.82 163.83 0)
+			(at 95.25 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8390,6 +8591,83 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 20.32 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27c179bb-591c-4950-8414-56f13f6089bf")
+		(property "Reference" "#PWR062"
+			(at 20.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 20.32 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 20.32 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f19e0c93-b275-455e-ac5f-3a1309124df6")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9232,6 +9510,173 @@
 		)
 	)
 	(symbol
+		(lib_id "smart_compass_main:CAP_CERAMIC0805-NOOUTLINE")
+		(at 24.13 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44ad3e20-b959-4e29-ab15-7818194f44aa")
+		(property "Reference" "C26"
+			(at 21.84 147.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 26.43 147.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REV" "C"
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KPFNNNG"
+			(at 24.13 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 24.13 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 24.13 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-6456-1-ND"
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 24.13 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c2b7d9f-dc49-40b2-b65a-ab42532d595b")
+		)
+		(pin "2"
+			(uuid "4db11b06-66c7-432b-aac5-9e8134bc9615")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 40.64 49.53 0)
 		(unit 1)
@@ -9621,7 +10066,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 166.37 0)
+		(at 24.13 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9630,9 +10075,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69206ba3-c5da-40b4-ab8d-5e5a762c7e80")
-		(property "Reference" "#PWR065"
-			(at 76.2 172.72 0)
+		(uuid "5f98d64f-8009-4145-a3b4-bdc04cb018b5")
+		(property "Reference" "#PWR077"
+			(at 24.13 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9643,7 +10088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 171.45 0)
+			(at 24.13 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9654,7 +10099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 166.37 0)
+			(at 24.13 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9665,7 +10110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 166.37 0)
+			(at 24.13 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9676,7 +10121,86 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 166.37 0)
+			(at 24.13 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b8c2651-65ab-461a-af57-fe9ae5844b38")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69206ba3-c5da-40b4-ab8d-5e5a762c7e80")
+		(property "Reference" "#PWR065"
+			(at 87.63 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9934,7 +10458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 152.4 0)
+		(at 31.75 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9945,7 +10469,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bf622af-d06e-4868-9824-b32a35950757")
 		(property "Reference" "#PWR063"
-			(at 20.32 158.75 0)
+			(at 31.75 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9956,7 +10480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 157.48 0)
+			(at 31.75 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9967,7 +10491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 152.4 0)
+			(at 31.75 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,7 +10502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 152.4 0)
+			(at 31.75 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,7 +10513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 152.4 0)
+			(at 31.75 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +10673,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:DRV2605LDGSR")
-		(at 55.88 156.21 0)
+		(at 67.31 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10160,7 +10684,7 @@
 		(fields_autoplaced yes)
 		(uuid "926bbc13-a2ae-4141-8c4c-770e3cde684d")
 		(property "Reference" "U7"
-			(at 55.88 135.89 0)
+			(at 67.31 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10170,7 +10694,7 @@
 			)
 		)
 		(property "Value" "DRV2605LDGSR"
-			(at 55.88 138.43 0)
+			(at 67.31 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10180,7 +10704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10192,7 +10716,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv2605l.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1780420623353&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fdrv2605l"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10203,7 +10727,7 @@
 			)
 		)
 		(property "Description" "Haptic driver for ERM/LRA with 2-V operation, waveform library & auto-resonance tracking"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10215,7 +10739,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10227,7 +10751,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10239,7 +10763,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +10775,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10263,7 +10787,7 @@
 			)
 		)
 		(property "MP" "DRV2605LDGSR"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10275,7 +10799,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=280801&manufacturer=Texas Instruments&part_name=DRV2605LDGSR&search_term=drv2605ldgsr"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +10811,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10299,7 +10823,7 @@
 			)
 		)
 		(property "MPN" "DRV2605LDGSR"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10310,7 +10834,7 @@
 			)
 		)
 		(property "PRICE" "1.69"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10321,7 +10845,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10332,7 +10856,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10343,7 +10867,7 @@
 			)
 		)
 		(property "DigiKey_PN" "296-40032-1-ND"
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10354,7 +10878,7 @@
 			)
 		)
 		(property "Sourcing_Note" "Only ~105 pieces in Digi-Key stock with a 16-week factory lead. Enough for a prototype run, worth watching before any larger build."
-			(at 55.88 156.21 0)
+			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11248,7 +11772,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 81.28 142.24 0)
+		(at 92.71 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11258,7 +11782,7 @@
 		(dnp no)
 		(uuid "bedfad18-b1d5-44c9-a1e0-37d52de1ace4")
 		(property "Reference" "HAPTIC1"
-			(at 84.46 141.61 0)
+			(at 95.89 141.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11269,7 +11793,7 @@
 			)
 		)
 		(property "Value" "HAPTIC_PADS"
-			(at 84.46 148.59 0)
+			(at 96.012 144.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11280,7 +11804,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm_Relief"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11291,7 +11815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11302,7 +11826,7 @@
 			)
 		)
 		(property "Description" "Soldered wire pads with feed-through strain relief, 2 conductors - haptic actuator pigtail"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11313,7 +11837,7 @@
 			)
 		)
 		(property "MF" "JST Sales"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +11848,7 @@
 			)
 		)
 		(property "MP" "SM02B-GHS-TB"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11335,7 +11859,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11346,7 +11870,7 @@
 			)
 		)
 		(property "MPN" "SM02B-GHS-TB"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11357,7 +11881,7 @@
 			)
 		)
 		(property "PRICE" "0.26"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +11892,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "455-1564-1-ND"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11379,7 +11903,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11390,7 +11914,7 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11401,7 +11925,7 @@
 			)
 		)
 		(property "DigiKey_PN" "455-1564-1-ND"
-			(at 81.28 142.24 0)
+			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12704,7 +13228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 156.21 0)
+		(at 38.1 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12715,7 +13239,7 @@
 		(fields_autoplaced yes)
 		(uuid "f18401fa-cc4c-4424-8fd2-30fbc683ecb1")
 		(property "Reference" "#PWR064"
-			(at 26.67 162.56 0)
+			(at 38.1 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12726,7 +13250,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 161.29 0)
+			(at 38.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12737,7 +13261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 156.21 0)
+			(at 38.1 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12748,7 +13272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 156.21 0)
+			(at 38.1 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12759,7 +13283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 156.21 0)
+			(at 38.1 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12783,7 +13307,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 166.37 0)
+		(at 95.25 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12794,7 +13318,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2946db8-4833-46b9-ad08-a3c1e40e71ac")
 		(property "Reference" "#PWR066"
-			(at 83.82 172.72 0)
+			(at 95.25 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12805,7 +13329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 171.45 0)
+			(at 95.25 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12816,7 +13340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 166.37 0)
+			(at 95.25 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12827,7 +13351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 166.37 0)
+			(at 95.25 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12838,7 +13362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 166.37 0)
+			(at 95.25 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12862,7 +13386,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:CAP_CERAMIC0603_NO")
-		(at 20.32 148.59 0)
+		(at 31.75 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12872,7 +13396,7 @@
 		(dnp no)
 		(uuid "f30888ac-5886-4248-9c76-1e1b0a98ec02")
 		(property "Reference" "C19"
-			(at 18.03 147.34 90)
+			(at 29.46 147.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12882,7 +13406,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 22.62 147.34 90)
+			(at 34.05 147.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12892,7 +13416,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12903,7 +13427,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12914,7 +13438,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12925,7 +13449,7 @@
 			)
 		)
 		(property "MPN" "C1608X7R1H105K080AB"
-			(at 20.32 148.59 90)
+			(at 31.75 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12936,7 +13460,7 @@
 			)
 		)
 		(property "PRICE" "0.0615"
-			(at 20.32 148.59 90)
+			(at 31.75 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12947,7 +13471,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 20.32 148.59 90)
+			(at 31.75 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12958,7 +13482,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12969,7 +13493,7 @@
 			)
 		)
 		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12980,7 +13504,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12991,7 +13515,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13002,7 +13526,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 20.32 148.59 0)
+			(at 31.75 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13022,84 +13546,6 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 20.32 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5fd361c-43f6-40d9-ac01-a8319abb4618")
-		(property "Reference" "#PWR062"
-			(at 20.32 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 20.32 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 20.32 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ccfc293-9bdf-47ea-8dfa-4902c4737ca6")
-		)
-		(instances
-			(project "SmartCompass"
-				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)

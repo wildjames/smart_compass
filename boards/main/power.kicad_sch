@@ -7078,7 +7078,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DMG3415U"
+		(property "Value" "DMP2045U"
 			(at 166.624 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7089,7 +7089,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7100,7 +7100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/416/DMG3415U.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2045U.pdf"
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7122,7 +7122,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMG3415U-7"
+		(property "MPN" "DMP2045U-7"
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7133,7 +7133,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.48"
+		(property "PRICE" "0.44"
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7166,7 +7166,18 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "DMG3415UDICT-ND"
+		(property "DigiKey_PN" "DMP2045U-7DICT-ND"
+			(at 163.83 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "P-channel power mux between the battery and the LDO input: drain on +BATT, source on the LDO rail, gate on VBUS with a 100k pulldown, paired with the MBR0540 Schottky that feeds the rail from USB. Replaces the DMG3415U-7, which the manufacturer marks NOT RECOMMENDED FOR NEW DESIGN and names this part as its successor. Same SOT-23 package and same G/S/D pinout, so the swap needs no layout change. Package is JEDEC TO-236AB: 2.90 x 1.30mm body, 2.40mm lead span, 0.95mm pitch, which is what Package_TO_SOT_SMD:SOT-23 is drawn for. The earlier footprint, SOT95P240X105-3N, had the same outline but lived in a per-part library that is no longer present, which is why this field had gone empty. Rds(on) is slightly higher than the old part (45mOhm vs 39mOhm at 4.5V drive, 90mOhm vs 71mOhm at 1.8V) and Ciss roughly doubles to 634pF, but neither matters here: the FET carries only the 3.3V LDO input current, a few hundred mA at most, since the LED ring's boost taps +BATT upstream through FB1. Conduction loss is a few mW against an 800mW rating, and the gate time constant through the 100k pulldown is about 60us, far quicker than the VBUS rail decays on unplug."
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
