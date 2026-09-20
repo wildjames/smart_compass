@@ -13,6 +13,12 @@ each one is its own project directory here, and the parts they share live in
 The ring and display were split off so the housing can be assembled and
 modified without the main board's position dictating where they sit.
 
+Parts that are not on any board - the haptic actuator, the panel, the cell, the
+case switches and buttons, the antennas, and the cables and housings joining
+them - are listed in [EXTRA_PARTS_BOM.md](EXTRA_PARTS_BOM.md), because they never
+appear in a BOM exported from a schematic. Outstanding sourcing work and open
+risks are in [COMPONENT_SOURCING.md](COMPONENT_SOURCING.md).
+
 > **A note on how this document refers to parts.** Nothing here is identified by
 > its schematic reference designator. Designators are renumbered whenever the
 > schematic is re-annotated, so any that were written into this file would
@@ -33,17 +39,17 @@ external boost stage, and four of those nodes are unsuitable for a cable:
 - `EPD_SW` is the inductor switch node.
 - `PREVGH` and `PREVGL` are the rectified high-voltage output rails.
 
-So the entire charge-pump cluster — the boost inductor, the switching FET, its
+So the entire charge-pump cluster - the boost inductor, the switching FET, its
 gate pulldown and current-sense resistor, the three rectifier and charge-pump
-diodes, and the rail capacitors — moves to the display board next to the panel
+diodes, and the rail capacitors - moves to the display board next to the panel
 connector, and only the digital SPI side crosses the cable. The upside is that
 this frees a large area in the centre of the main board, where the panel
 connector and its support used to sit ringed by the LEDs.
 
 ## Interconnects
 
-Both use **`FH12-10S-0.5SH(55)`**, 10-way 0.5 mm FFC — the same family as the
-24-way panel connector already uses — so the cable and connector really do stay
+Both use **`FH12-10S-0.5SH(55)`**, 10-way 0.5 mm FFC - the same family as the
+24-way panel connector already uses - so the cable and connector really do stay
 on one line in the BOM. Each daughter board carries one; on the main board the
 two mating connectors both live in `user_io.kicad_sch`.
 
@@ -56,7 +62,7 @@ what lets the MCU switch the whole ring off.
 
 Both links are now the same connector on both ends, so the same cable part
 serves both. Neither pinout is a palindrome, so a cable fitted the wrong way
-round puts `Vdrive` onto ground pins — the conductor order belongs on the
+round puts `Vdrive` onto ground pins - the conductor order belongs on the
 assembly drawing.
 
 The stiffener face no longer differs anywhere on the product: the panel
@@ -64,10 +70,10 @@ connector, both main-board interconnects and both daughter-board interconnects
 are all **contacts bottom**. The panel connector used to be specified as the
 contacts-top `FH12A-24S-0.5SH(55)`, which would have meant the panel flex and
 the interconnect cables needing stiffeners on opposite faces; that turned out to
-be a part-number error rather than a decision — the symbol, its land pattern and
+be a part-number error rather than a decision - the symbol, its land pattern and
 its own description were always the contacts-bottom `FH12-24S-0.5SH(55)`.
 
-### Ring interconnect — FH12-10S-0.5SH(55)
+### Ring interconnect - FH12-10S-0.5SH(55)
 
 | Pin | Net | Notes |
 | --- | --- | ----- |
@@ -78,7 +84,7 @@ its own description were always the contacts-bottom `FH12-24S-0.5SH(55)`.
 | 8, 9 | `GND` | |
 | 10 | `NEOPIX_RET` | `DOUT` of the last LED in the chain, divided back down to 3.2 V before it crosses. |
 
-Three ways for `Vdrive` and four for `GND` is more than the current needs — at
+Three ways for `Vdrive` and four for `GND` is more than the current needs - at
 370 mA the IR drop down a 50 mm FFC is only a few millivolts on two conductors.
 The reason to spend the spares this way is the return path: it puts a ground
 either side of `NEOPIX` and one next to `NEOPIX_RET`, and it keeps the supply
@@ -99,7 +105,7 @@ input clamp if firmware drives `NEOPIX` high with the ring off.
 
 The LEDs are specified for 3.5–5.5 V with 5.0 V typical, and their input
 threshold is **3.4 V at VDD = 5.0 V**. The old arrangement fed them `+BATT`
-minus a diode drop and relied on that threshold scaling with VDD — an
+minus a diode drop and relied on that threshold scaling with VDD - an
 assumption Inolux never wrote down, and one that still left the ring
 under-volted below about half charge. It is gone.
 
@@ -130,10 +136,10 @@ rail.
 
 `NEOPIX_RET` is new. The last LED's data output was unconnected in the original
 design; bringing it back lets firmware confirm the chain is intact. On the main
-board it lands on a test point — swap that for a spare GPIO if you ever want
+board it lands on a test point - swap that for a spare GPIO if you ever want
 firmware to read it.
 
-### Display interconnect — FH12-10S-0.5SH(55)
+### Display interconnect - FH12-10S-0.5SH(55)
 
 | Pin | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | --- | - | - | - | - | - | - | - | - | - | -- |
@@ -163,12 +169,12 @@ Checking the migrated circuit against
 faults. All four are **fixed on the display board** and all four are **still
 present on the main board**.
 
-### 1. The panel had no supply — `VCI` and `VDDIO` were floating
+### 1. The panel had no supply - `VCI` and `VDDIO` were floating
 
 Pin 16 of the panel connector (`VCI`, "Power Supply pin for the chip") and pin
 15 (`VDDIO`, "Power for interface logic pins") were connected to their 1 µF
 capacitor and to each other and to *nothing else*. KiCad had auto-named the net
-after the connector pin instead of after a rail, which is the giveaway — a net
+after the connector pin instead of after a rail, which is the giveaway - a net
 with a power symbol on it would have taken the rail's name.
 
 The reference circuit ties both pins to 3.3 V with a 1 µF. They are now on
@@ -179,10 +185,10 @@ The reference circuit ties both pins to 3.3 V with a 1 µF. They are now on
 Per §1.5, pin 21 is `VGH`, "Positive Gate driving voltage", and pin 23 is
 `VGL`, "Negative Gate driving voltage". Tracing the boost:
 
-- `PREVGH` is the rectified **positive** rail — the cathode of the rectifier
+- `PREVGH` is the rectified **positive** rail - the cathode of the rectifier
   diode fed from the inductor switch node. It belongs on **pin 21**; it was on
   pin 23.
-- `PREVGL` is the pumped **negative** rail — the anode of the charge-pump output
+- `PREVGL` is the pumped **negative** rail - the anode of the charge-pump output
   diode, driven below ground through the pump capacitor and its partner diode.
   It belongs on **pin 23**; it was on pin 21.
 
@@ -204,18 +210,18 @@ None of these were intentional, so all three are back at the reference values:
 | `RESE` current sense | 2.2 Ω | **3 Ω** | Sets peak inductor current |
 | Boost inductor | 47 µH, 500 mA | **10 µH, 1 A** | |
 
-The inductor also carried the symbol `smart_compass:LQM18DN100M70L` — a Murata
+The inductor also carried the symbol `smart_compass:LQM18DN100M70L` - a Murata
 0603 chip inductor rated about 70 mA, which never matched its 3×3 mm `NR-30xx`
 wirewound footprint. It was a stale library artifact, and harmless while the
 value read 47 µH because the mismatch was obvious. With the value corrected to
 10 µH the wrong part becomes *plausible* to order, so it is now a generic
 `Device:L`.
 
-~~Suggested part: **Taiyo Yuden NR3015T100M**~~ — Digi-Key now lists that part as
+~~Suggested part: **Taiyo Yuden NR3015T100M**~~ - Digi-Key now lists that part as
 **Obsolete**, with a last-buy date of 2026-03-31 that has already passed. The
 schematic specifies **Bourns SRN3015TA-100M** instead: 10 µH, 800 mA / 750 mA
 saturation, shielded, same 3×3×1.5 mm outline. Its pads still have to be checked
-against the Bourns drawing before layout — see
+against the Bourns drawing before layout - see
 [COMPONENT_SOURCING.md](COMPONENT_SOURCING.md) §2.
 
 ## The main board split
@@ -223,21 +229,21 @@ against the Bourns drawing before layout — see
 The main board schematic has been updated to match. `user_io.kicad_sch` no
 longer contains any of the moved circuitry:
 
-- The LED ring — the sixteen LEDs, their per-LED decoupling capacitors and the
-  ring's bulk capacitor — is gone, replaced by the ring interconnect.
-- The display cluster — the panel connector, the boost inductor, the switching
+- The LED ring - the sixteen LEDs, their per-LED decoupling capacitors and the
+  ring's bulk capacitor - is gone, replaced by the ring interconnect.
+- The display cluster - the panel connector, the boost inductor, the switching
   FET, its gate pulldown and sense resistor, the rectifier and charge-pump
-  diodes and all the rail capacitors — is gone, replaced by the display
+  diodes and all the rail capacitors - is gone, replaced by the display
   interconnect.
 
 The 500 Ω data-line damping resistor stays, as intended, still damping `NEOPIX`
 at the source end of the cable and feeding pin 7 of the ring interconnect. The
 series diode has been replaced by the ferrite bead and its bulk capacitor,
-because the ring now makes its own 5 V — see above.
+because the ring now makes its own 5 V - see above.
 
 Deleting the panel connector and its cluster removed all four faults above from
 the main board as a side effect. If the split is ever abandoned they need fixing
-in place — particularly the missing `VCI` / `VDDIO` supply, which stops the
+in place - particularly the missing `VCI` / `VDDIO` supply, which stops the
 panel working at all.
 
 ### ERC
@@ -251,7 +257,7 @@ described under [Libraries](#libraries).
 ### Still to do
 
 Update the PCB from the schematic. That is layout work and has deliberately
-been left alone — the two interconnects need placing against the enclosure, and
+been left alone - the two interconnects need placing against the enclosure, and
 the centre of the board, where the panel connector and its charge pump used to
 sit ringed by the LEDs, is now free.
 
@@ -259,13 +265,13 @@ sit ringed by the LEDs, is now free.
 
 `../libs/smart_compass.kicad_sym` and `../libs/smart_compass.pretty` hold the
 parts the boards share. They were extracted from the main board, where they had
-only ever existed embedded inside the `.kicad_sch` and `.kicad_pcb` files — they
+only ever existed embedded inside the `.kicad_sch` and `.kicad_pcb` files - they
 were never in any library table, so a new project could not place them.
 
 Only the parts the daughter boards needed were extracted: `WS2812B2020`,
 `FH12-24S-0.5SH_55_` and `LQM18DN100M70L`. A fourth symbol,
 `IN-PI15TAT5R5G5B`, was added later for the Inolux ring LED that replaced the
-WS2812B — its pin numbering is completely different, so it needed its own
+WS2812B - its pin numbering is completely different, so it needed its own
 symbol rather than a value change. `WS2812B2020` is now unused and can be
 dropped once you are happy with the substitution. A fifth, `TPS61023`, was
 drawn by hand for the ring's boost converter; KiCad ships no symbol for it.

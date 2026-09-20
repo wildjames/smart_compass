@@ -35,25 +35,39 @@ the second of the two errors standing between that board and a clean check.
 The DRV2605L shows ~105 pieces in stock with a 16-week lead. Enough for a 5-board
 run; watch it.
 
-### The QSPI flash's production life is unconfirmed
+### The mating housing for every off-board lead is out of stock
 
-The Infineon `S25FL064LABNFI043` was chosen to have production life left, not
-merely to be in stock: Active with ~50,000 on the shelf, AEC-Q100 and 105/125 °C
-grades of the same die implying a long supply commitment, datasheet still under
-revision. Against that, it is a 65 nm floating-gate part of 2016 vintage and
-Infineon's strategic push is toward SEMPER. **Infineon's flash longevity-program
-document is behind a login, so no published end-of-supply date could be
-verified** — treat it as unconfirmed.
-
-Second source on the identical land: GigaDevice `GD25Q64EQIGR`
-(`1970-GD25Q64EQIGRCT-ND`, ~5,900 in stock, $2.10). Its USON8 4×4 drawing matches
-exactly. One functional difference: its pin 7 is `IO3/HOLD#`, not `RESET#`, so
-the board's `FLASH_RST` line would become a hold line and reset would have to go
-through the 66h/99h software command. Fine as a fallback, not as the primary.
+All five off-board leads — three buttons, the power switch and the haptic
+actuator — mate through the same JST `GHR-02V-S` 2-way 1.25 mm housing, and
+Digi-Key currently shows **zero in stock against a 16-week lead**. One part
+number blocks all five leads, so order it early or find another distributor. The
+crimp contact that goes with it is unaffected. See
+[EXTRA_PARTS_BOM.md](EXTRA_PARTS_BOM.md).
 
 ---
 
 ## 5. Checks that depend on decisions made elsewhere
+
+### The chosen haptic actuator sits at the driver's minimum load
+
+The Vybronics `VLV101040A` draws 317 mA typical at its rated 2.5 V, which works
+out at roughly **7–8 Ω** — right at the haptic driver's specified 8 Ω minimum
+load, possibly a hair under. It is well clear of the 4 Ω over-current trip, and
+the 8 Ω figure is specified at 5.2 V where dissipation is worst, so at 3.3 V it
+ought to be fine. **Measure it on a sample before committing.**
+
+Two related points fall out of the same number:
+
+- **317 mA lands on the shared 3.3 V rail**, alongside the MCU, the radio module,
+  the GNSS and the IMU. The energy per buzz is trivial but the transient is not.
+  The driver has a single 1 µF at its supply pin, which is the datasheet minimum
+  and nothing more; at this current it wants real bulk capacitance there. Worth
+  deciding whether the actuator should instead run from the battery through its
+  own regulator.
+- **The actuator is rated 2.5 V against the ~2.3 V the rail can deliver**, falling
+  to ~2.0 V as the LDO drops out late in a discharge. Expect roughly 90% of rated
+  force at full battery and ~80% at the end — still well above any alternative,
+  but the headline 2.75 G will not be reached.
 
 ### The flash's supply range against the battery cutoff
 

@@ -1034,6 +1034,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Si1308EDL"
 			(pin_names
 				(offset 0)
@@ -2299,309 +2600,7 @@
 			)
 			(embedded_fonts no)
 		)
-	
-        	(symbol "Transistor_FET:Q_NMOS_GSD"
-    		(pin_names
-    			(offset 0)
-    			(hide yes)
-    		)
-    		(exclude_from_sim no)
-    		(in_bom yes)
-    		(on_board yes)
-    		(in_pos_files yes)
-    		(duplicate_pin_numbers_are_jumpers no)
-    		(property "Reference" "Q"
-    			(at 5.08 1.905 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    				(justify left)
-    			)
-    		)
-    		(property "Value" "Q_NMOS_GSD"
-    			(at 5.08 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    				(justify left)
-    			)
-    		)
-    		(property "Footprint" ""
-    			(at 5.08 2.54 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Datasheet" ""
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Description" "N-MOSFET transistor, gate/source/drain"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(symbol "Q_NMOS_GSD_0_1"
-    			(polyline
-    				(pts
-    					(xy 0.254 1.905) (xy 0.254 -1.905)
-    				)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0.254 0) (xy -2.54 0)
-    				)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0.762 2.286) (xy 0.762 1.27)
-    				)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0.762 0.508) (xy 0.762 -0.508)
-    				)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0.762 -1.27) (xy 0.762 -2.286)
-    				)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-    				)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-    				)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(circle
-    				(center 1.651 0)
-    				(radius 2.794)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 2.54 2.54) (xy 2.54 1.778)
-    				)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(circle
-    				(center 2.54 1.778)
-    				(radius 0.254)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(circle
-    				(center 2.54 -1.778)
-    				(radius 0.254)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-    				)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 2.921 0.381) (xy 3.683 0.381)
-    				)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-    				)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    		)
-    		(symbol "Q_NMOS_GSD_1_1"
-    			(pin input line
-    				(at -5.08 0 0)
-    				(length 2.54)
-    				(name "G"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 2.54 -5.08 90)
-    				(length 2.54)
-    				(name "S"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "2"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 2.54 5.08 270)
-    				(length 2.54)
-    				(name "D"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "3"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    		)
-    		(embedded_fonts no)
-    	)
-  )
+	)
 	(text "Net DISP_DC was DISP_D/C on the main board. Renamed because / is KiCad's"
 		(exclude_from_sim no)
 		(at 14.732 37.522 0)
@@ -4541,9 +4540,17 @@
 				)
 			)
 		)
-    (property "Tolerance" "10%" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Tolerance" "10%"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da72fe47-05f8-4233-81a6-cf0c049423ef")
 		)
@@ -4680,9 +4687,17 @@
 				)
 			)
 		)
-    (property "Tolerance" "10%" (at 95.25 190.5 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Tolerance" "10%"
+			(at 95.25 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02637e60-e79c-4d80-83bf-b8c6cb2a6529")
 		)
@@ -5091,9 +5106,17 @@
 				)
 			)
 		)
-    (property "Tolerance" "10%" (at 132.08 171.45 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Tolerance" "10%"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07753d9b-e34e-402b-b899-4fbd719adb08")
 		)
@@ -5835,9 +5858,17 @@
 				)
 			)
 		)
-    (property "Tolerance" "10%" (at 107.95 176.53 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Tolerance" "10%"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ece0571f-af0b-4907-abd8-5fdb7ae3d45c")
 		)
@@ -6528,9 +6559,17 @@
 				)
 			)
 		)
-    (property "Tolerance" "10%" (at 114.3 166.37 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Tolerance" "10%"
+			(at 114.3 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21cdbc5a-94b0-4a48-af50-27271b876919")
 		)
@@ -6915,9 +6954,17 @@
 				)
 			)
 		)
-    (property "Tolerance" "10%" (at 58.42 168.91 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "Tolerance" "10%"
+			(at 58.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e904466c-6538-4362-83e7-a3e372fbe60f")
 		)
@@ -6928,6 +6975,134 @@
 			(project "Display"
 				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 149.86 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f17685b0-bc49-4380-b0bb-c0d2c2e25ae7")
+		(property "Reference" "Q1"
+			(at 154.94 89.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6346"
+			(at 154.94 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 154.94 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml6346-datasheet-en.pdf"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V Vds, 3.4A Id, 63mOhm N-Channel logic-level MOSFET, SOT-23"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "IRLML6346TRPBF"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon Technologies"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "IRLML6346TRPBFCT-ND"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Replaces the Si1308EDL, which had a 55-week factory lead and a single reel in Digi-Key stock. Chosen for gate drive rather than current: Vgs(th) 1.1 V max with Rds(on) specified down to 2.5 V of gate drive (80 mOhm), so it is fully enhanced from the driver IC's 3.3 V GDR output. Its gate is a heavier load than the Si1308EDL's - Qg 2.9 nC against 1.4 nC typ, Ciss 270 pF against 105 pF, both at 4.5 V - but it matches the Si1304BDL that the panel datasheet's reference circuit offers as its own alternative (Qg 2.7 nC at 4.5 V), so it is within what the GDR output is expected to drive. Peak switch current is set by the 3 ohm sense resistor on RESE and is far below this part's rating, so the current rating is not the binding constraint. ~105,000 in stock, 20-week lead. Qualified second source: Toshiba SSM3K376R, a lighter gate still (Qg 2.2 nC, Ciss 200 pF), but it is SOT-23F flat-lead and would want its own land pattern."
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df95d722-123c-4f95-92ab-78af1bda5bc6")
+		)
+		(pin "2"
+			(uuid "d00f9dc6-ef38-4f64-8415-f84c0bf82629")
+		)
+		(pin "3"
+			(uuid "ec65c549-e036-4068-8b1c-954ff7ff8bd4")
+		)
+		(instances
+			(project "Display"
+				(path "/5bea690c-773f-4a31-824a-9096c0b28e28"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7045,89 +7220,7 @@
 			)
 		)
 	)
-	  (symbol (lib_id "Transistor_FET:Q_NMOS_GSD") (at 149.86 87.63 0) (unit 1)
-    (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no)
-    (uuid "f17685b0-bc49-4380-b0bb-c0d2c2e25ae7")
-    (property "Reference" "Q1"
-      (at 154.94 89.535 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    				(justify left)
-    			)
-    )
-    (property "Value" "IRLML6346"
-      (at 154.94 87.63 0)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    				(justify left)
-    			)
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-      (at 154.94 90.17 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml6346-datasheet-en.pdf"
-      (at 149.86 87.63 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "Description" "30V Vds, 3.4A Id, 63mOhm N-Channel logic-level MOSFET, SOT-23"
-      (at 149.86 87.63 0)
-      (hide yes)
-      (show_name no)
-      (do_not_autoplace no)
-      (effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    )
-    (property "MPN" "IRLML6346TRPBF" (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Manufacturer" "Infineon Technologies" (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "DigiKey_PN" "IRLML6346TRPBFCT-ND" (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (property "Sourcing_Note" "Replaces the Si1308EDL, which had a 55-week factory lead and a single reel in Digi-Key stock. Chosen for gate drive rather than current: Vgs(th) 1.1 V max with Rds(on) specified down to 2.5 V of gate drive (80 mOhm), so it is fully enhanced from the driver IC's 3.3 V GDR output. Its gate is a heavier load than the Si1308EDL's - Qg 2.9 nC against 1.4 nC typ, Ciss 270 pF against 105 pF, both at 4.5 V - but it matches the Si1304BDL that the panel datasheet's reference circuit offers as its own alternative (Qg 2.7 nC at 4.5 V), so it is within what the GDR output is expected to drive. Peak switch current is set by the 3 ohm sense resistor on RESE and is far below this part's rating, so the current rating is not the binding constraint. ~105,000 in stock, 20-week lead. Qualified second source: Toshiba SSM3K376R, a lighter gate still (Qg 2.2 nC, Ciss 200 pF), but it is SOT-23F flat-lead and would want its own land pattern." (at 149.86 87.63 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (pin "1" (uuid "df95d722-123c-4f95-92ab-78af1bda5bc6"))
-    (pin "2" (uuid "d00f9dc6-ef38-4f64-8415-f84c0bf82629"))
-    (pin "3" (uuid "ec65c549-e036-4068-8b1c-954ff7ff8bd4"))
-    (instances
-      (project "Display"
-        (path "/5bea690c-773f-4a31-824a-9096c0b28e28"
-          (reference "Q1")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (sheet_instances
+	(sheet_instances
 		(path "/"
 			(page "1")
 		)
