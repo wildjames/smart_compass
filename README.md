@@ -26,11 +26,9 @@ The device has a few core requirements:
   - The device must have a haptic engine for feedback
   - The device may have a speaker for feedback.
 
-
 I'm writing down user flows as I think of them in the [User Flow Library](UserFlowLibrary.md) page.
 
 -----
-
 
 ## Archived KiCAD packages
 
@@ -38,7 +36,6 @@ I'm writing down user flows as I think of them in the [User Flow Library](UserFl
 - 0.2: Submitted to reddit for hope of review. First hierarchical schematic.
 - 0.3: Reviewed connections, fixed a few bugs with USB and SPI.
 - 0.4: Rerouted the board to place the e-ink connector correctly, and the MCU more centrally. Also made the antenna placement more seriously, with proper clearance zone and via stitching.
-
 
 -----
 

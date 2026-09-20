@@ -7,17 +7,6 @@ results — manufacturer part number, Digi-Key part number, key parameters, and 
 BOM properties, so they travel with a BOM export and reach whoever places the
 order.
 
-## 1. Schematic faults
-
-### The ring board's ground has no power flag
-
-The only `PWR_FLAG` on the ring board is on `Vdrive`. Every ground pin on that
-board is a `power_in` or a passive pin, so ERC has no source for the net and
-reports it as undriven. Bookkeeping rather than an electrical fault, but it is
-the second of the two errors standing between that board and a clean check.
-
----
-
 ## 2. Footprints and library work
 
 ### boost inductor needs a footprint
