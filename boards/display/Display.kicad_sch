@@ -4305,7 +4305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:L_Bourns_SRN3015BTA"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4316,7 +4316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN3015BTA.pdf"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4327,7 +4327,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor with Inductance 10uH Tol.+/-20% Package 0603 (1608)"
+		(property "Description" "10uH +/-20% semi-shielded drum-core power inductor, 1.5A Irms, 1.0A Isat, 264mOhm max, 3.0x3.0x1.5mm"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4338,7 +4338,7 @@
 				)
 			)
 		)
-		(property "MPN" "SRN3015TA-100M"
+		(property "MPN" "SRN3015BTA-100M"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4360,7 +4360,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "SRN3015TA-100MCT-ND"
+		(property "DigiKey_PN" "118-SRN3015BTA-100MCT-ND"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4371,7 +4371,7 @@
 				)
 			)
 		)
-		(property "Current_Rating" "800mA (750mA Isat)"
+		(property "Current_Rating" "1.5A (1.0A Isat)"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4382,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Replaces the NR3015T100M suggested in boards/README.md, which Digi-Key now lists as Obsolete with a last-buy date of 2026-03-31. This Bourns part is the same 3.0x3.0x1.5mm shielded drum-core outline, so it should drop into the existing L_Taiyo-Yuden_NR-30xx land - verify pad geometry against the Bourns drawing before layout."
+		(property "Sourcing_Note" "Replaces the NR3015T100M suggested in boards/README.md, which Digi-Key lists as Obsolete with a last-buy date of 2026-03-31. The SRN3015TA considered first is marked by Bourns as not recommended for new designs, so this is the current SRN3015BTA series instead - same 3.0x3.0x1.5mm semi-shielded outline, same price, and better rated at 1.5A Irms / 1.0A Isat against 800mA / 750mA. Footprint is the Bourns recommended land from the SRN3015BTA datasheet: 3.5x3.5mm overall, 1.3mm wide pads on a 0.9mm gap, drawn as smart_compass:L_Bourns_SRN3015BTA. Note this land is larger than the 3.2x3.2mm the TA series wants and than the L_Taiyo-Yuden_NR-30xx land, so allow 3.5mm square of clear copper."
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
