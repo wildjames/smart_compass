@@ -8329,6 +8329,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 162.56 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45a44888-6dc0-4b10-a0e5-10233f175c9a")
 		)
@@ -8361,7 +8372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b00f789-49a8-451c-bf00-baab2e6d77f6")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 92.96 162.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8502,6 +8513,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 95.25 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4db9c8a-5e15-4b84-a4cd-acede4d6d36e")
 		)
@@ -8511,7 +8533,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8796,7 +8818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8885,6 +8907,17 @@
 			)
 		)
 		(property "Sourcing_Note" "500R is not an E24 value, so this is a 0.1% thin-film part at $0.25. For a series damping resistor a 5% 510R (RC0603JR-07511RL) would do the same job for about $0.01. It has a second job now the ring runs at 5V: when RING_EN is low the ring board's level shifter is unpowered, and this resistor limits the current into its input clamp if firmware drives NEOPIX high while the ring is off."
+			(at 34.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9036,7 +9069,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "CEVA Technologies, Inc."
+		(property "Manufacturer" "CEVA Technologies, Inc."
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9104,6 +9137,17 @@
 			)
 		)
 		(property "Sourcing_Note" "BNO086 replaces the deprecated BNO085. Same 28-LGA 5.2x3.8x1.1 mm package, identical pinout and SH-2/SHTP software feature set (BNO08X datasheet rev 1.17), so no schematic or layout change. Adds an on-die temperature sensor, 14-bit accelerometer fusion, lower idle power and Interactive Calibration. Footprint field still names the IC_BNO085 library footprint, which is the same land pattern."
+			(at 114.3 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9406,7 +9450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 153.67 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9494,6 +9538,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 153.67 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7cf8a5df-555e-402c-8bf3-20bd2093b2cb")
 		)
@@ -9520,7 +9575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44ad3e20-b959-4e29-ab15-7818194f44aa")
-		(property "Reference" "C26"
+		(property "Reference" "C19"
 			(at 21.84 147.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,7 +9606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 24.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9661,6 +9716,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 24.13 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c2b7d9f-dc49-40b2-b65a-ab42532d595b")
 		)
@@ -9670,7 +9736,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C26")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9730,6 +9796,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 40.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9872,7 +9949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9962,6 +10039,17 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 133.35 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,7 +10164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f98d64f-8009-4145-a3b4-bdc04cb018b5")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR063"
 			(at 24.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10137,7 +10225,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR077")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10155,7 +10243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69206ba3-c5da-40b4-ab8d-5e5a762c7e80")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 87.63 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10216,7 +10304,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10264,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
 			(at 114.3 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10354,6 +10442,17 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 114.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 114.3 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10468,7 +10567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf622af-d06e-4868-9824-b32a35950757")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 31.75 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10529,7 +10628,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10577,7 +10676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
 			(at 41.91 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10622,6 +10721,17 @@
 			)
 		)
 		(property "DigiKey_PN" "HFJ110CT-ND"
+			(at 41.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 41.91 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +10920,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10878,6 +10988,17 @@
 			)
 		)
 		(property "Sourcing_Note" "Only ~105 pieces in Digi-Key stock with a 16-week factory lead. Enough for a prototype run, worth watching before any larger build."
+			(at 67.31 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11050,7 +11171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 66.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11138,6 +11259,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "29f5bf57-dca3-435e-8dfb-d264ff0a34d2")
 		)
@@ -11196,7 +11328,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
 			(at 63.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11252,6 +11384,17 @@
 			)
 		)
 		(property "Sourcing_Note" "Vdrive on 1-3, RING_EN on 4, GND on 5, 6, 8, 9, NEOPIX on 7, NEOPIX_RET on 10. Mates with J10 on the ring board. Pin 4 was a fourth Vdrive way until the ring moved to a 5V boost; it now carries the enable for the ring's boost converter, driven from U1 P1.00. Three ways still carry Vdrive, about 370mA at full white."
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 63.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11343,7 +11486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
 			(at 149.86 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11433,6 +11576,17 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 149.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 149.86 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11836,95 +11990,7 @@
 				)
 			)
 		)
-		(property "MF" "JST Sales"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" "SM02B-GHS-TB"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SM02B-GHS-TB"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" "0.26"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" "455-1564-1-ND"
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 92.71 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_PN" "455-1564-1-ND"
+		(property "DigiKey_Part_Number" ""
 			(at 92.71 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12229,7 +12295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12307,6 +12373,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 135.89 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12573,7 +12650,7 @@
 				)
 			)
 		)
-		(property "Check_prices" ""
+		(property "CHECK_PRICES" ""
 			(at 24.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12584,7 +12661,7 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "SNAPEDA_LINK" ""
 			(at 24.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12597,6 +12674,17 @@
 		)
 		(property "Purchase-URL" "https://www.digikey.com/en/products/detail/tdk/MPZ1608S601ATA00/765064"
 			(at 24.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 24.13 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12665,7 +12753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A226KPCLRNC_Spec.pdf"
 			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12753,6 +12841,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 39.37 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "176dbd09-ff77-4b8f-8a80-ec689381eeec")
 		)
@@ -12810,7 +12909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
 			(at 135.89 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12909,6 +13008,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 135.89 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "142a8a45-337a-4b6a-abb9-2df7c08e6398")
 		)
@@ -12968,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 118.11 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13046,6 +13156,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 118.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 118.11 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13238,7 +13359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18401fa-cc4c-4424-8fd2-30fbc683ecb1")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 38.1 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13299,7 +13420,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13317,7 +13438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2946db8-4833-46b9-ad08-a3c1e40e71ac")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 95.25 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13378,7 +13499,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -13395,7 +13516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f30888ac-5886-4248-9c76-1e1b0a98ec02")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 29.46 147.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13536,6 +13657,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 31.75 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d30aa73-ffa2-4310-9232-3f97ae248a60")
 		)
@@ -13545,7 +13677,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)

@@ -800,19 +800,7 @@
 			(solder_mask_margin 0.102)
 		)
 		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "FH12-24S-0.5SH_55_.step")
-				(type model)
-				(checksum "3BE1D7DDFDB4BB8A7CD4A706698604DC")
-			)
-			(file
-				(name "e-ink_1.54in.step")
-				(type model)
-				(checksum "7E1E4B73AF1418DC51F673216F75CA2D")
-			)
-		)
-		(model "kicad-embed://e-ink_1.54in.step"
+		(model "${KIPRJMOD}/../../libs/smart_compass.3dshapes/e-ink_1.54in.step"
 			(opacity 0.1400)
 			(offset
 				(xyz 0 19 3.5)
@@ -824,7 +812,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "kicad-embed://FH12-24S-0.5SH_55_.step"
+		(model "${KIPRJMOD}/../../libs/smart_compass.3dshapes/FH12-24S-0.5SH_55_.step"
 			(offset
 				(xyz 16 -9.5 -118)
 			)

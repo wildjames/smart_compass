@@ -3784,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d864ca-8204-40d2-9ee0-822e9cd54b45")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 38.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3998,6 +3998,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 39.37 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b8309c78-a17f-42ae-a851-f0ba1f1641d9")
 		)
@@ -4025,7 +4036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2efb3762-3efd-4928-a88f-6c00c5e8e9ee")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 133.35 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4085,7 +4096,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4102,7 +4113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38a7e144-9d5b-4fac-bd16-5ebfcfc815fe")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 125.98 88.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
 			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4232,6 +4243,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 128.27 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c82d1bd9-2f48-48ef-8ece-4132fb0f8590")
 		)
@@ -4241,7 +4263,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38c285a8-4694-4d9b-9504-b39a7cd6a5ae")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 32 59.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 34.29 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4388,6 +4410,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 34.29 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9aea4f1-ed44-456b-a59b-9657be9a5247")
 		)
@@ -4397,7 +4430,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4585,6 +4618,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 39.37 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "577a3c0a-bb95-49ce-bdd4-f316b4e505bb")
 		)
@@ -4642,7 +4686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b24ffe6-1927-424a-9f71-4556e2906f73")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 123.19 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4703,7 +4747,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -4848,7 +4892,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "u-blox"
+		(property "Manufacturer" "u-blox"
 			(at 96.52 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4894,6 +4938,17 @@
 			)
 		)
 		(property "DigiKey_PN" "672-MAX-M10S-00BCT-ND"
+			(at 96.52 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 96.52 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4979,7 +5034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "416d36de-0857-469d-92d8-56582535a73e")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5040,7 +5095,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5091,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 127 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5158,6 +5213,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 127 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5304,6 +5370,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 54.61 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "16f8d4d7-fab9-4f65-8444-e93bc74ed886")
 		)
@@ -5330,7 +5407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ccb4db6-b5cd-4a09-b48f-cf7f6a636d0e")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 134.87 88.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 137.16 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5460,6 +5537,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 137.16 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cbfdf2ed-6358-441c-8b57-d33af8ff71db")
 		)
@@ -5469,7 +5557,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5520,7 +5608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 134.62 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5597,6 +5685,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 134.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "284c43fc-9807-45b2-a737-566b774c9bee")
 		)
@@ -5623,7 +5722,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "685e3d7d-06bb-412c-83e6-db8987046892")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 65.79 95.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5720,6 +5819,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 63.5 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3cc0fa27-af54-47d1-a178-58a8bdbc08fd")
 		)
@@ -5729,7 +5839,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "729afc8b-0739-4895-9d1c-9d34be4b128b")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 153.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +5919,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -5827,7 +5937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fdf1d59-bf8e-4758-a173-4c86e33fe68c")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 34.29 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5998,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5905,7 +6015,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "8b9cd423-0fe6-43e7-9179-a4236969e7fe")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 48.01 95.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6002,6 +6112,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 45.72 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9530a74-a9a7-494a-820f-906b76df86cd")
 		)
@@ -6011,7 +6132,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6061,7 +6182,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 55.88 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6160,6 +6281,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 55.88 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9f4d2c9-ba02-4454-beb2-a2cf34aab787")
 		)
@@ -6187,7 +6319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b856c15f-4475-4e3b-80be-b0f1cc586075")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 30.48 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +6379,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6265,7 +6397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22f2085-dc77-481d-8ed2-a5db3d732d5b")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 36.83 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6326,7 +6458,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6455,6 +6587,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 45.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4a44458-0bfe-4637-8cf1-84b43e711eca")
 		)
@@ -6479,7 +6622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32c52e3-6d1f-4f06-8bf4-2ba27bdb11bf")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 54.61 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6540,7 +6683,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6559,7 +6702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee1354f-161e-4ef2-a253-e4b0402c3a52")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6763,7 @@
 		(instances
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6807,6 +6950,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 36.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a949cbbd-4aed-41ce-881b-1c5bc698899f")
 		)
@@ -6873,7 +7027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 142.24 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6951,6 +7105,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 142.24 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 142.24 101.6 0)
 			(hide yes)
 			(show_name no)

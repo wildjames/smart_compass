@@ -8339,7 +8339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 256.54 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8427,6 +8427,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 256.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ec02d2de-392c-47a5-bfaa-1b7dad3f08a9")
 		)
@@ -8484,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05C120JB5NNNC_Spec.pdf"
 			(at 48.26 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8583,6 +8594,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 48.26 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88a59c90-80db-4649-ae1f-0fce13da6b10")
 		)
@@ -8640,7 +8662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 127 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8739,6 +8761,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 127 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8bbb8f90-e752-4483-9526-7fe579f193e5")
 		)
@@ -8798,7 +8831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 128.27 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8865,6 +8898,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 128.27 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 128.27 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9080,6 +9124,17 @@
 			)
 		)
 		(property "DigiKey_PN" "CKN10244CT-ND"
+			(at 203.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 203.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9416,6 +9471,17 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 63.5 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 63.5 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9857,6 +9923,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 97.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d37659ff-ff87-47af-a369-ff4b9187d54e")
 		)
@@ -10148,6 +10225,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 194.31 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f1fc6c95-6500-4cc5-af9a-db6e9cae7c9e")
 		)
@@ -10223,7 +10311,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 138.43 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10322,6 +10410,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 138.43 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9b54e7e-cd10-470e-a6b2-e1053c937f80")
 		)
@@ -10381,7 +10480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 254 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10448,6 +10547,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 254 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 254 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10596,7 +10706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 227.33 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10684,6 +10794,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 227.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67382a42-a54c-46c9-9105-3d1092a29337")
 		)
@@ -10743,7 +10864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10831,6 +10952,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 203.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abf02ff2-495e-4d00-bb33-973118d823db")
 		)
@@ -10888,7 +11020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
 			(at 267.97 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10989,6 +11121,17 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 267.97 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 267.97 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11220,7 +11363,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Abracon"
+		(property "Manufacturer" "Abracon"
 			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11277,6 +11420,17 @@
 			)
 		)
 		(property "DigiKey_PN" "535-9543-1-ND"
+			(at 54.61 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11739,7 +11893,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 128.27 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11806,6 +11960,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 128.27 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11954,7 +12119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 256.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12032,6 +12197,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 256.54 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 256.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12209,6 +12385,17 @@
 				)
 			)
 		)
+		(property "DigiKey_Part_Number" ""
+			(at 210.82 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d87abda-373a-4394-9d98-3559df433c09")
 		)
@@ -12266,7 +12453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05C120JB5NNNC_Spec.pdf"
 			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12356,6 +12543,17 @@
 		)
 		(property "Dielectric" "C0G"
 			(at 48.26 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 48.26 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12639,7 +12837,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Infineon Technologies"
+		(property "Manufacturer" "Infineon Technologies"
 			(at 248.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12707,6 +12905,17 @@
 			)
 		)
 		(property "Sourcing_Note" "Replaces MX25R6435FZAIH0 (Digi-Key stock 0, 52-week lead; family siblings now NRND). Same 8-USON 4x4 land: 0.80mm pitch, b 0.30, L 0.40, e-pad 2.30x3.00 - verified against both datasheets. Same pinout, pin 7 is IO3/RESET# as before. Supply narrows to 2.7-3.6V (was 1.65-3.6V). Not a low-power part: standby 20uA typ, deep power-down 2uA typ - firmware must issue Deep Power Down (B9h) after each access. Second source on the identical land: GigaDevice GD25Q64EQIGR, but its pin 7 is IO3/HOLD#, not RESET#."
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 248.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12875,7 +13084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12942,6 +13151,17 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 254 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13153,6 +13373,17 @@
 			)
 		)
 		(property "DigiKey_PN" "2073-USB4085-GF-ACT-ND"
+			(at 236.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
 			(at 236.22 82.55 0)
 			(hide yes)
 			(show_name no)

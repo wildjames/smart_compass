@@ -719,7 +719,7 @@
           "group_by": false,
           "label": "PRICE",
           "name": "PRICE",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -755,12 +755,6 @@
           "group_by": false,
           "label": "AVAILABILITY",
           "name": "AVAILABILITY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
           "show": false
         },
         {
@@ -809,6 +803,42 @@
           "group_by": false,
           "label": "DigiKey_Part_Number",
           "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_PN",
+          "name": "DigiKey_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sourcing_Note",
+          "name": "Sourcing_Note",
           "show": false
         }
       ],
@@ -868,7 +898,7 @@
         "uuid": "0c161f28-8075-4403-a867-35208f463636"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-2,AE1,CHG1,#PWR1-77,BATT1,HAPTIC1,C1-26,FB1,IC1,J1-5,R1-22,ONOFF1,P1,Q1,RESET1,TP1,U1-8,X1,Y1",
     "variants": []
   },
   "sheets": [

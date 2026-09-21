@@ -2737,49 +2737,49 @@
 		(uuid "1595c887-759d-46e5-9aad-92cf5793dc16")
 	)
 	(junction
-		(at 146.05 113.03)
+		(at 151.13 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "324c71a0-587c-4970-8a5c-c753d858f54e")
 	)
 	(junction
-		(at 119.38 77.47)
+		(at 124.46 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "403f5205-2c09-413b-b199-b3fba8630f2d")
 	)
 	(junction
-		(at 138.43 77.47)
+		(at 143.51 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a7e3f02-f026-46e1-9fb5-77d6bcfc751a")
 	)
 	(junction
-		(at 168.91 68.58)
+		(at 173.99 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75a4bf79-559d-4583-b2b7-80658cf74625")
 	)
 	(junction
-		(at 163.83 39.37)
+		(at 168.91 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dba7928-6835-4019-8c85-ba549d56381e")
 	)
 	(junction
-		(at 152.4 77.47)
+		(at 157.48 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9513582a-b985-4f09-bd47-f609199ea689")
 	)
 	(junction
-		(at 152.4 96.52)
+		(at 157.48 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c67d94c-c746-4f3f-bdc2-07a00eb85918")
 	)
 	(junction
-		(at 138.43 58.42)
+		(at 143.51 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d766f6bd-01b6-4a00-ac84-b448695e539a")
@@ -2822,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 152.4 113.03)
+			(xy 151.13 125.73) (xy 157.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2832,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 146.05 113.03)
+			(xy 144.78 125.73) (xy 151.13 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 152.4 77.47)
+			(xy 157.48 95.25) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2852,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 39.37) (xy 163.83 39.37)
+			(xy 177.8 52.07) (xy 168.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 68.58) (xy 168.91 68.58)
+			(xy 177.8 81.28) (xy 173.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2872,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 77.47) (xy 124.46 77.47)
+			(xy 124.46 90.17) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 68.58) (xy 152.4 68.58)
+			(xy 161.29 81.28) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 62.23) (xy 138.43 58.42)
+			(xy 143.51 74.93) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 163.83 68.58)
+			(xy 173.99 81.28) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2922,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 132.08 77.47)
+			(xy 143.51 90.17) (xy 137.16 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 96.52) (xy 152.4 96.52)
+			(xy 160.02 109.22) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2962,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 119.38 77.47)
+			(xy 124.46 83.82) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2972,7 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 39.37) (xy 138.43 39.37)
+			(xy 151.13 52.07) (xy 143.51 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 77.47) (xy 119.38 83.82)
+			(xy 124.46 90.17) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2992,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 87.63) (xy 144.78 87.63)
+			(xy 144.78 100.33) (xy 149.86 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3012,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 138.43 81.28)
+			(xy 143.51 90.17) (xy 143.51 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3022,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 116.84) (xy 146.05 113.03)
+			(xy 151.13 129.54) (xy 151.13 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 138.43 58.42)
+			(xy 138.43 71.12) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 109.22)
+			(xy 144.78 125.73) (xy 144.78 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3092,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 39.37) (xy 163.83 39.37)
+			(xy 158.75 52.07) (xy 168.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 39.37) (xy 138.43 58.42)
+			(xy 143.51 52.07) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3112,7 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 168.91 71.12)
+			(xy 173.99 81.28) (xy 173.99 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 68.58) (xy 152.4 77.47)
+			(xy 157.48 81.28) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 58.42) (xy 153.67 58.42)
+			(xy 161.29 71.12) (xy 158.75 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 152.4 96.52)
+			(xy 157.48 114.3) (xy 157.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3162,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 87.63) (xy 139.7 101.6)
+			(xy 144.78 100.33) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3172,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 58.42) (xy 146.05 58.42)
+			(xy 143.51 71.12) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3182,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 152.4 77.47)
+			(xy 143.51 90.17) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3212,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 113.03) (xy 152.4 109.22)
+			(xy 157.48 125.73) (xy 157.48 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3222,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 152.4 92.71)
+			(xy 157.48 109.22) (xy 157.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3232,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 138.43 77.47)
+			(xy 143.51 82.55) (xy 143.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3242,7 +3242,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 168.91 78.74 270)
+		(at 173.99 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3251,7 +3251,7 @@
 		)
 		(uuid "045c0496-f1ad-4547-8b24-3644ff5cec67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 78.74 0)
+			(at 173.99 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3330,7 +3330,7 @@
 	)
 	(global_label "EPD_SW"
 		(shape bidirectional)
-		(at 138.43 81.28 0)
+		(at 143.51 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3339,7 +3339,7 @@
 		)
 		(uuid "27caba05-ce85-4b4c-b023-b5bca65539bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 81.28 0)
+			(at 143.51 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,7 +3484,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 119.38 91.44 270)
+		(at 124.46 104.14 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3493,7 +3493,7 @@
 		)
 		(uuid "309fbd18-649c-4001-923b-1624cde26705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 91.44 0)
+			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3528,7 @@
 	)
 	(global_label "PREVGH"
 		(shape bidirectional)
-		(at 172.72 68.58 0)
+		(at 177.8 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 		)
 		(uuid "3e135a80-4833-4231-b595-5894e8ee1eb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 68.58 0)
+			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3638,7 +3638,7 @@
 	)
 	(global_label "RESE"
 		(shape bidirectional)
-		(at 154.94 96.52 0)
+		(at 160.02 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3647,7 +3647,7 @@
 		)
 		(uuid "5c992366-ab0c-4fa2-9b4c-ae4a752fd5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 96.52 90)
+			(at 160.02 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,7 +3682,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 146.05 116.84 270)
+		(at 151.13 129.54 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3691,7 +3691,7 @@
 		)
 		(uuid "6498d4b0-2267-4e2a-a3c2-47faa043f706")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 116.84 90)
+			(at 151.13 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3858,7 +3858,7 @@
 	)
 	(global_label "PREVGL"
 		(shape bidirectional)
-		(at 172.72 39.37 0)
+		(at 177.8 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3867,7 +3867,7 @@
 		)
 		(uuid "93b52b44-67bc-485d-9ec7-f3f096a4f816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 39.37 0)
+			(at 177.8 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3946,7 +3946,7 @@
 	)
 	(global_label "GDR"
 		(shape bidirectional)
-		(at 139.7 87.63 180)
+		(at 144.78 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3955,7 +3955,7 @@
 		)
 		(uuid "b46d4b97-b0f9-4319-96c6-75d95093483c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 87.63 0)
+			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +3990,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 163.83 46.99 270)
+		(at 168.91 59.69 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3999,7 +3999,7 @@
 		)
 		(uuid "b9d67647-f10a-4eac-aacc-3665040e60bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 46.99 0)
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4034,7 @@
 	)
 	(global_label "+3.3V"
 		(shape bidirectional)
-		(at 119.38 71.12 90)
+		(at 124.46 83.82 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4043,7 +4043,7 @@
 		)
 		(uuid "bcb55cd2-3e73-4c73-a9c8-6aada765b251")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 71.12 0)
+			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,7 +4056,7 @@
 	)
 	(global_label "EPD_PUMP"
 		(shape bidirectional)
-		(at 133.35 58.42 180)
+		(at 138.43 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4065,7 +4065,7 @@
 		)
 		(uuid "c585ffcc-6d70-49e1-956b-66ea88e0bfc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 58.42 0)
+			(at 138.43 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,7 +4122,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 156.21 58.42 0)
+		(at 161.29 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4131,7 +4131,7 @@
 		)
 		(uuid "d7710b6c-5ac3-49da-8a17-6629873305bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 58.42 0)
+			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 128.27 77.47 90)
+		(at 133.35 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4286,7 +4286,7 @@
 		(dnp no)
 		(uuid "0b136b3a-ad36-43a8-9b07-4eb2685d4f9f")
 		(property "Reference" "L1"
-			(at 127.762 78.994 90)
+			(at 132.842 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4296,7 +4296,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 128.016 81.026 90)
+			(at 133.096 93.726 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4306,7 +4306,7 @@
 			)
 		)
 		(property "Footprint" "smart_compass:L_Bourns_SRN3015BTA"
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,7 +4317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN3015BTA.pdf"
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4328,7 +4328,7 @@
 			)
 		)
 		(property "Description" "10uH +/-20% semi-shielded drum-core power inductor, 1.5A Irms, 1.0A Isat, 264mOhm max, 3.0x3.0x1.5mm"
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,7 +4339,7 @@
 			)
 		)
 		(property "MPN" "SRN3015BTA-100M"
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4350,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns Inc."
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4361,7 +4361,7 @@
 			)
 		)
 		(property "DigiKey_PN" "118-SRN3015BTA-100MCT-ND"
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4372,7 @@
 			)
 		)
 		(property "Current_Rating" "1.5A (1.0A Isat)"
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +4383,7 @@
 			)
 		)
 		(property "Sourcing_Note" "Replaces the NR3015T100M suggested in boards/README.md, which Digi-Key lists as Obsolete with a last-buy date of 2026-03-31. The SRN3015TA considered first is marked by Bourns as not recommended for new designs, so this is the current SRN3015BTA series instead - same 3.0x3.0x1.5mm semi-shielded outline, same price, and better rated at 1.5A Irms / 1.0A Isat against 800mA / 750mA. Footprint is the Bourns recommended land from the SRN3015BTA datasheet: 3.5x3.5mm overall, 1.3mm wide pads on a 0.9mm gap, drawn as smart_compass:L_Bourns_SRN3015BTA. Note this land is larger than the 3.2x3.2mm the TA series wants and than the L_Taiyo-Yuden_NR-30xx land, so allow 3.5mm square of clear copper."
-			(at 128.27 77.47 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,7 +4757,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
 			(at 80.01 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4891,7 +4891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
 			(at 50.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5134,7 +5134,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 74.93 0)
+		(at 173.99 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5144,7 +5144,7 @@
 		(dnp no)
 		(uuid "44efe25f-74fb-43f1-93cd-73c4e93517de")
 		(property "Reference" "C11"
-			(at 172.72 74.93 0)
+			(at 177.8 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5155,7 +5155,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 172.72 76.2 0)
+			(at 177.8 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5166,7 +5166,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 169.875 71.12 0)
+			(at 174.955 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5177,7 +5177,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,7 +5188,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,7 +5199,7 @@
 			)
 		)
 		(property "MPN" "C1608X7R1H105K080AB"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,7 +5210,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +5221,7 @@
 			)
 		)
 		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5232,7 +5232,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,7 +5243,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5254,7 @@
 			)
 		)
 		(property "Sourcing_Note" "Sits on PREVGH at roughly +20V. Rated 50V so that DC-bias derating at 20V still leaves useful capacitance"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5265,7 +5265,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 168.91 74.93 0)
+			(at 173.99 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5292,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR0530")
-		(at 160.02 68.58 180)
+		(at 165.1 81.28 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5302,7 +5302,7 @@
 		(dnp no)
 		(uuid "7029d77c-e9d2-43f1-a5b6-786b6b224fe3")
 		(property "Reference" "D3"
-			(at 160.02 65.532 0)
+			(at 165.1 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5312,7 +5312,7 @@
 			)
 		)
 		(property "Value" "MBR0540"
-			(at 160.02 63.5 0)
+			(at 165.1 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5322,7 +5322,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 160.02 73.025 0)
+			(at 165.1 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5332,8 +5332,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 160.02 68.58 0)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MBR0520-MBR0580(SOD123).pdf"
+			(at 165.1 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,7 +5344,7 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 160.02 68.58 0)
+			(at 165.1 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,7 +5355,7 @@
 			)
 		)
 		(property "MPN" "MBR0540-TP"
-			(at 160.02 68.58 0)
+			(at 165.1 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5366,7 +5366,7 @@
 			)
 		)
 		(property "Manufacturer" "MCC (Micro Commercial Components)"
-			(at 160.02 68.58 0)
+			(at 165.1 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5377,7 +5377,7 @@
 			)
 		)
 		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
-			(at 160.02 68.58 0)
+			(at 165.1 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5480,7 +5480,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 105.41 0)
+		(at 144.78 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5490,7 +5490,7 @@
 		(dnp no)
 		(uuid "953a804d-4bb3-4157-8684-2420e1da8260")
 		(property "Reference" "R1"
-			(at 143.51 105.41 0)
+			(at 148.59 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5500,7 +5500,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 143.51 107.188 0)
+			(at 148.59 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5510,7 +5510,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.922 105.41 90)
+			(at 143.002 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,8 +5520,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 105.41 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 144.78 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5532,7 +5532,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 105.41 0)
+			(at 144.78 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5543,7 +5543,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 139.7 105.41 0)
+			(at 144.78 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5554,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 139.7 105.41 0)
+			(at 144.78 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5565,7 @@
 			)
 		)
 		(property "DigiKey_PN" "311-10.0KHRCT-ND"
-			(at 139.7 105.41 0)
+			(at 144.78 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5576,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 139.7 105.41 0)
+			(at 144.78 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5603,7 +5603,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 66.04 180)
+		(at 143.51 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5613,7 +5613,7 @@
 		(dnp no)
 		(uuid "9f358457-d190-421f-b579-cfc6cbb2bc0e")
 		(property "Reference" "C9"
-			(at 134.62 66.04 0)
+			(at 139.7 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5624,7 +5624,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 134.62 64.77 0)
+			(at 139.7 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5634,8 +5634,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 137.465 69.85 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 142.545 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5645,8 +5645,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 138.43 66.04 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B475KBHNFNE_Spec.pdf"
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5657,7 +5657,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 66.04 0)
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5667,8 +5667,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 138.43 66.04 0)
+		(property "MPN" "CL31B475KBHNFNE"
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5679,7 +5679,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 138.43 66.04 0)
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,8 +5689,8 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-1482-1-ND"
-			(at 138.43 66.04 0)
+		(property "DigiKey_PN" "1276-3179-1-ND"
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,8 +5700,8 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
-			(at 138.43 66.04 0)
+		(property "Voltage" "50V"
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,8 +5711,30 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
-			(at 138.43 66.04 0)
+		(property "Dielectric" "X7R"
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Flying capacitor in the panel's charge pump, coupling the boost switching node to the junction of the rectifier diodes that feed PREVGL and PREVGH. Section 1.6 of the panel datasheet specifies 4.7uF/50V in this position and the node works between rails at roughly -20V and +20V, so the 50V rating is required rather than precautionary. This replaces a 10V 0402 part that was under-rated for the node. Note the 1206 body is 1.80mm max thick, which makes this the tallest component on the board - the charge-pump inductor is 1.5mm."
+			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +5984,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 105.41 0)
+		(at 157.48 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5972,7 +5994,7 @@
 		(dnp no)
 		(uuid "c0a7951c-a80d-499d-bcbd-f6056c89a279")
 		(property "Reference" "R2"
-			(at 156.21 105.41 0)
+			(at 161.29 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5982,7 +6004,7 @@
 			)
 		)
 		(property "Value" "3R"
-			(at 155.956 107.696 0)
+			(at 161.036 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,7 +6014,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 150.622 105.41 90)
+			(at 155.702 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6002,8 +6024,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 152.4 105.41 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6036,7 @@
 			)
 		)
 		(property "Description" "RESE current sense - sets peak inductor current"
-			(at 152.4 105.41 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +6047,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-073RL"
-			(at 152.4 105.41 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6058,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 152.4 105.41 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,7 +6069,7 @@
 			)
 		)
 		(property "DigiKey_PN" "13-RC0603FR-073RLCT-ND"
-			(at 152.4 105.41 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6080,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 152.4 105.41 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6282,7 +6304,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 43.18 0)
+		(at 168.91 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6292,7 +6314,7 @@
 		(dnp no)
 		(uuid "d2549c7b-f5ef-4c8d-91a5-2d2dc9be5845")
 		(property "Reference" "C10"
-			(at 167.64 43.18 0)
+			(at 172.72 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6303,7 +6325,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 167.64 44.45 0)
+			(at 172.72 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6314,7 +6336,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 164.795 39.37 0)
+			(at 169.875 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +6347,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +6358,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6347,7 +6369,7 @@
 			)
 		)
 		(property "MPN" "C1608X7R1H105K080AB"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +6380,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +6391,7 @@
 			)
 		)
 		(property "DigiKey_PN" "445-C1608X7R1H105K080ABCT-ND"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6380,7 +6402,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6413,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6402,7 +6424,7 @@
 			)
 		)
 		(property "Sourcing_Note" "Sits on PREVGL at roughly -20V. Rated 50V so that DC-bias derating at 20V still leaves useful capacitance - a 25V X7R at 20V retains very little. Same 0603 land, but the body is 1.00mm max thick against 0.90mm for the 25V part it replaced."
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6413,7 +6435,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 163.83 43.18 0)
+			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6587,7 +6609,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 87.63 0)
+		(at 124.46 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6597,7 +6619,7 @@
 		(dnp no)
 		(uuid "e30306ed-1c06-4d14-9042-7d3f8f3dac2d")
 		(property "Reference" "C6"
-			(at 123.19 87.63 0)
+			(at 128.27 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6608,7 +6630,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 123.19 89.408 0)
+			(at 128.27 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6618,8 +6640,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 120.345 83.82 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 125.425 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,8 +6651,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 119.38 87.63 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31B475KBHNFNE_Spec.pdf"
+			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6641,7 +6663,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 87.63 0)
+			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,8 +6673,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A475MP5NRNC"
-			(at 119.38 87.63 0)
+		(property "MPN" "CL31B475KBHNFNE"
+			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6663,7 +6685,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 119.38 87.63 0)
+			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,8 +6695,8 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-1482-1-ND"
-			(at 119.38 87.63 0)
+		(property "DigiKey_PN" "1276-3179-1-ND"
+			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6684,8 +6706,8 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
-			(at 119.38 87.63 0)
+		(property "Voltage" "50V"
+			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,8 +6717,30 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
-			(at 119.38 87.63 0)
+		(property "Dielectric" "X7R"
+			(at 124.46 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 124.46 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing_Note" "Input capacitor on the +3.3V rail feeding the boost inductor - the C4 position in the panel reference circuit. 50V X7R is far beyond what a 3.3V rail needs; the part is shared with the charge-pump flying capacitor to keep a single 4.7uF line item across the project. The side benefit is real though: DC-bias derating is negligible at 3.3V on a 50V part, so the boost input sees close to the full 4.7uF the reference circuit intends, where a 10V 0402 delivered roughly half."
+			(at 124.46 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6767,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR0530")
-		(at 149.86 39.37 0)
+		(at 154.94 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6733,7 +6777,7 @@
 		(dnp no)
 		(uuid "e7009563-6383-4baa-845d-3ec6abbbe779")
 		(property "Reference" "D1"
-			(at 149.86 42.672 0)
+			(at 154.94 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6743,7 +6787,7 @@
 			)
 		)
 		(property "Value" "MBR0540"
-			(at 149.86 44.45 0)
+			(at 154.94 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6753,7 +6797,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 149.86 34.925 0)
+			(at 154.94 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6763,8 +6807,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 149.86 39.37 0)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MBR0520-MBR0580(SOD123).pdf"
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6819,7 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 149.86 39.37 0)
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6786,7 +6830,7 @@
 			)
 		)
 		(property "MPN" "MBR0540-TP"
-			(at 149.86 39.37 0)
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6797,7 +6841,7 @@
 			)
 		)
 		(property "Manufacturer" "MCC (Micro Commercial Components)"
-			(at 149.86 39.37 0)
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +6852,7 @@
 			)
 		)
 		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
-			(at 149.86 39.37 0)
+			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,7 +7026,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 149.86 87.63 0)
+		(at 154.94 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6992,7 +7036,7 @@
 		(dnp no)
 		(uuid "f17685b0-bc49-4380-b0bb-c0d2c2e25ae7")
 		(property "Reference" "Q1"
-			(at 154.94 89.535 0)
+			(at 160.02 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7003,7 +7047,7 @@
 			)
 		)
 		(property "Value" "IRLML6346"
-			(at 154.94 87.63 0)
+			(at 160.02 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7014,7 +7058,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 154.94 90.17 0)
+			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +7069,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml6346-datasheet-en.pdf"
-			(at 149.86 87.63 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7036,7 +7080,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 3.4A Id, 63mOhm N-Channel logic-level MOSFET, SOT-23"
-			(at 149.86 87.63 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +7091,7 @@
 			)
 		)
 		(property "MPN" "IRLML6346TRPBF"
-			(at 149.86 87.63 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,7 +7102,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 149.86 87.63 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,7 +7113,7 @@
 			)
 		)
 		(property "DigiKey_PN" "IRLML6346TRPBFCT-ND"
-			(at 149.86 87.63 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7080,7 +7124,7 @@
 			)
 		)
 		(property "Sourcing_Note" "Replaces the Si1308EDL, which had a 55-week factory lead and a single reel in Digi-Key stock. Chosen for gate drive rather than current: Vgs(th) 1.1 V max with Rds(on) specified down to 2.5 V of gate drive (80 mOhm), so it is fully enhanced from the driver IC's 3.3 V GDR output. Its gate is a heavier load than the Si1308EDL's - Qg 2.9 nC against 1.4 nC typ, Ciss 270 pF against 105 pF, both at 4.5 V - but it matches the Si1304BDL that the panel datasheet's reference circuit offers as its own alternative (Qg 2.7 nC at 4.5 V), so it is within what the GDR output is expected to drive. Peak switch current is set by the 3 ohm sense resistor on RESE and is far below this part's rating, so the current rating is not the binding constraint. ~105,000 in stock, 20-week lead. Qualified second source: Toshiba SSM3K376R, a lighter gate still (Qg 2.2 nC, Ciss 200 pF), but it is SOT-23F flat-lead and would want its own land pattern."
-			(at 149.86 87.63 0)
+			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,7 +7154,7 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR0530")
-		(at 149.86 58.42 180)
+		(at 154.94 71.12 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7120,7 +7164,7 @@
 		(dnp no)
 		(uuid "febdb80a-62fa-4b53-b89d-a9de6630e021")
 		(property "Reference" "D2"
-			(at 149.606 53.34 0)
+			(at 154.686 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7130,7 +7174,7 @@
 			)
 		)
 		(property "Value" "MBR0540"
-			(at 149.86 55.372 0)
+			(at 154.94 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7140,7 +7184,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 149.86 62.865 0)
+			(at 154.94 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7150,8 +7194,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 149.86 58.42 0)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MBR0520-MBR0580(SOD123).pdf"
+			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +7206,7 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 149.86 58.42 0)
+			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +7217,7 @@
 			)
 		)
 		(property "MPN" "MBR0540-TP"
-			(at 149.86 58.42 0)
+			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +7228,7 @@
 			)
 		)
 		(property "Manufacturer" "MCC (Micro Commercial Components)"
-			(at 149.86 58.42 0)
+			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,7 +7239,7 @@
 			)
 		)
 		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
-			(at 149.86 58.42 0)
+			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
