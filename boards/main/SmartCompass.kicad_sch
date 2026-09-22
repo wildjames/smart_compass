@@ -9795,7 +9795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:RIGADO_BMD-340-A-R"
 			(at 97.79 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11290,7 +11290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:XTAL_ABS07-32.768KHZ-7-T"
 			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13240,7 +13240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:GCT_USB4085-GF-A_REVA4"
 			(at 236.22 82.55 0)
 			(hide yes)
 			(show_name no)

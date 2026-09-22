@@ -3884,7 +3884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:DIO_TPD1E05U06DPYR"
 			(at 39.37 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4468,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:MODULE12P-1.27-11X11.6MM"
 			(at 68.58 125.4 0)
 			(hide yes)
 			(show_name no)
@@ -4785,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:XCVR_MAX-M10S-00B"
 			(at 96.52 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6507,7 +6507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:ANT_1575AT_JOT"
 			(at 45.72 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6810,7 +6810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:SMT_9.001E.01_TAL"
 			(at 10.16 24.46 0)
 			(hide yes)
 			(show_name no)

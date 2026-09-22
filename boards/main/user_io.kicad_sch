@@ -8974,7 +8974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:IC_BNO086"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10801,7 +10801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:SOP50P490X110-10N"
 			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)

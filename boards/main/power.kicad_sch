@@ -7577,7 +7577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:JST_S2B-PH-SM4-TB"
 			(at 224.79 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8843,7 +8843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:SON50P200X200X80-9N"
 			(at 58.42 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9678,7 +9678,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:SOT94P280X100-5N"
 			(at 194.31 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10245,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "smart_compass:SOT95P280X145-5N"
 			(at 71.12 59.69 0)
 			(hide yes)
 			(show_name no)
