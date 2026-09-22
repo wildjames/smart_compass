@@ -7517,6 +7517,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-100KHRCT-ND" (at 153.67 63.5 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "2657d3c7-cea0-4fe4-8874-7ad094f38de1")
 		)
@@ -9384,6 +9387,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-100KHRCT-ND" (at 181.61 39.37 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "ee94b364-29cc-41f0-852f-b87fc9bebe43")
 		)
@@ -10710,6 +10716,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-3.90KHRCT-ND" (at 44.45 62.23 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "0d84dd76-f3bf-4e84-9df9-b7ad588a8214")
 		)

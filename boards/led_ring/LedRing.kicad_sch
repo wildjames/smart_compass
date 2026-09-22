@@ -7033,6 +7033,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-3.90KHRCT-ND" (at 57.15 114.3 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "41848d4c-d769-4674-988d-72ac75095ba5")
 		)
@@ -7472,7 +7475,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "13-RT0603BRC07500RLCT-ND"
+		(property "DigiKey_PN" "311-2.20KHRCT-ND"
 			(at 50.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13651,6 +13654,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-100KHRCT-ND" (at 105.41 191.77 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "d8caec1b-bfd4-49f4-a27f-9a37d48ca424")
 		)

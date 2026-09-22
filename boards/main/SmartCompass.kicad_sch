@@ -8919,6 +8919,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-4.70KHRCT-ND" (at 128.27 92.71 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "2b3305e5-522d-408a-b82e-74cc3c3cf7b5")
 		)
@@ -10568,6 +10571,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-27.0HRCT-ND" (at 254.0 77.47 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "fd1820c4-3730-4c56-a045-799a85dd335d")
 		)
@@ -11981,6 +11987,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-4.70KHRCT-ND" (at 128.27 95.25 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "1"
 			(uuid "38f02031-ba7a-4359-b4b2-fa50badb9fd2")
 		)
@@ -13172,6 +13181,9 @@
 				)
 			)
 		)
+    (property "DigiKey_PN" "311-27.0HRCT-ND" (at 254.0 82.55 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
 		(pin "2"
 			(uuid "b0117f1c-9ade-4f06-b40a-2d517c763acd")
 		)
