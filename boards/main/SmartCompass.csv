@@ -21,7 +21,7 @@
 "ONOFF1","1","PWRSW_PADS","","","","Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm_Relief","","",""
 "P1","1","BUTTON_PADS","","","","Connector_Wire:SolderWire-0.127sqmm_1x04_P3.7mm_D0.48mm_OD1mm_Relief","","",""
 "Q1","1","DMP2045U","","","","Package_TO_SOT_SMD:SOT-23","https://www.diodes.com/assets/Datasheets/DMP2045U.pdf","DMP2045U-7","DMP2045U-7DICT-ND"
-"R1,R2,R4,R10","4","5.1K","","","","Resistor_SMD:R_0603_1608Metric","https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","RC0603FR-075K1L","311-5.10KHRCT-ND"
+"R1,R2,R4,R10","4","5.1K","","","","Resistor_SMD:R_0603_1608Metric","https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf","ERJ-3EKF5101V","P5.10KHCT-ND"
 "R3,R5","2","27R","","","","Resistor_SMD:R_0603_1608Metric","https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","RC0603FR-0727RL","311-27.0HRCT-ND"
 "R6,R7","2","4.7K","","","","Resistor_SMD:R_0603_1608Metric","https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","RC0603FR-074K7L","311-4.70KHRCT-ND"
 "R8,R14,R15,R16,R17","5","10K","","","","Resistor_SMD:R_0603_1608Metric","https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","RC0603FR-0710KL","311-10.0KHRCT-ND"

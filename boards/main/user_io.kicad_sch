@@ -9069,18 +9069,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "CEVA Technologies, Inc."
-			(at 114.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MPN" "BNO086"
 			(at 114.3 97.79 0)
 			(hide yes)
@@ -10909,18 +10897,6 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=280801&manufacturer=Texas Instruments&part_name=DRV2605LDGSR&search_term=drv2605ldgsr"
-			(at 67.31 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
 			(at 67.31 156.21 0)
 			(hide yes)
 			(show_name no)

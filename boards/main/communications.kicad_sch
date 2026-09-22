@@ -4892,18 +4892,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "u-blox"
-			(at 96.52 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MPN" "MAX-M10S-00B"
 			(at 96.52 101.6 0)
 			(hide yes)
@@ -5234,9 +5222,17 @@
 				)
 			)
 		)
-    (property "DigiKey_PN" "311-1.00KHRCT-ND" (at 127.0 109.22 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "311-1.00KHRCT-ND"
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70053d7a-ac24-490c-be89-537fd48ca4d2")
 		)
@@ -5699,9 +5695,17 @@
 				)
 			)
 		)
-    (property "DigiKey_PN" "311-1.00KHRCT-ND" (at 134.62 106.68 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "311-1.00KHRCT-ND"
+			(at 134.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "284c43fc-9807-45b2-a737-566b774c9bee")
 		)

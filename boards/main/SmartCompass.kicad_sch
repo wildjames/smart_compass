@@ -8339,7 +8339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 256.54 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8361,7 +8361,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "ERJ-3EKF5101V"
 			(at 256.54 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8394,7 +8394,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic"
 			(at 256.54 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8405,7 +8405,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-5.10KHRCT-ND"
+		(property "DigiKey_PN" "P5.10KHCT-ND"
 			(at 256.54 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8919,9 +8919,17 @@
 				)
 			)
 		)
-    (property "DigiKey_PN" "311-4.70KHRCT-ND" (at 128.27 92.71 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "311-4.70KHRCT-ND"
+			(at 128.27 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b3305e5-522d-408a-b82e-74cc3c3cf7b5")
 		)
@@ -10571,9 +10579,17 @@
 				)
 			)
 		)
-    (property "DigiKey_PN" "311-27.0HRCT-ND" (at 254.0 77.47 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "311-27.0HRCT-ND"
+			(at 254 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd1820c4-3730-4c56-a045-799a85dd335d")
 		)
@@ -10870,7 +10886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10892,7 +10908,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "ERJ-3EKF5101V"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10925,7 +10941,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10936,7 +10952,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-5.10KHRCT-ND"
+		(property "DigiKey_PN" "P5.10KHCT-ND"
 			(at 203.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11358,18 +11374,6 @@
 			)
 		)
 		(property "MP" "ABS07-32.768KHZ-7-T"
-			(at 54.61 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Abracon"
 			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11987,9 +11991,17 @@
 				)
 			)
 		)
-    (property "DigiKey_PN" "311-4.70KHRCT-ND" (at 128.27 95.25 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "311-4.70KHRCT-ND"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38f02031-ba7a-4359-b4b2-fa50badb9fd2")
 		)
@@ -12128,7 +12140,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 256.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12150,7 +12162,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-075K1L"
+		(property "MPN" "ERJ-3EKF5101V"
 			(at 256.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12183,7 +12195,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic"
 			(at 256.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12194,7 +12206,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-5.10KHRCT-ND"
+		(property "DigiKey_PN" "P5.10KHCT-ND"
 			(at 256.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12775,7 +12787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_4x4mm_P0.8mm_EP2.3x3.24mm"
+		(property "Footprint" "smart_compass:SON80P400X400X60-9N"
 			(at 248.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12835,18 +12847,6 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.digikey.com/en/products/detail/infineon-technologies/S25FL064LABNFI043/7034907"
-			(at 248.92 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Infineon Technologies"
 			(at 248.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13181,9 +13181,17 @@
 				)
 			)
 		)
-    (property "DigiKey_PN" "311-27.0HRCT-ND" (at 254.0 82.55 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "DigiKey_PN" "311-27.0HRCT-ND"
+			(at 254 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b0117f1c-9ade-4f06-b40a-2d517c763acd")
 		)
