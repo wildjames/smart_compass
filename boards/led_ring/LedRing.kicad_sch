@@ -6025,7 +6025,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D9 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 289.56 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6161,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D3 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 204.47 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6341,7 +6341,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Run at VDD = 5.0V from the on-board boost U9, which is the datasheet's typical operating point (recommended range 3.5-5.5V). This retires the old question of whether V_IH scales with VDD: the datasheet's 3.4V minimum is specified at VDD = 5.0V and is now used exactly as written, with U10 shifting the 3.3V NEOPIX line up to meet it. Static draw is 0.5mA each, 8mA for the ring, so the ring must be gated by RING_EN rather than left powered."
+		(property "Sourcing_Note" "Run at VDD = 5.0V from the on-board boost converter, which is the datasheet's typical operating point (recommended range 3.5-5.5V). This retires the old question of whether V_IH scales with VDD: the datasheet's 3.4V minimum is specified at VDD = 5.0V and is now used exactly as written, with the level-shifting buffer raising the 3.3V NEOPIX line to meet it. Static draw is 0.5mA each, 8mA for the ring, so the ring must be gated by RING_EN rather than left powered."
 			(at 182.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6504,7 +6504,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D18 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 341.63 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7497,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Was a 500R damping resistor when the ring ran at Vdrive. Now the upper leg of a divider: D18's DOUT swings to 5V and must not reach the main board's 3.3V domain. 2.2k/3.9k gives 3.20V at the connector. It still damps the return line at its source end, which is what the 500R was for."
+		(property "Sourcing_Note" "Was a 500R damping resistor when the ring ran at Vdrive. Now the upper leg of a divider: the last LED in the chain swings its DOUT to 5V, which must not reach the main board's 3.3V domain. 2.2k/3.9k gives 3.20V at the connector. It still damps the return line at its source end, which is what the 500R was for."
 			(at 50.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7741,7 +7741,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Vdrive on 1-3, RING_EN on 4, GND on 5, 6, 8, 9, NEOPIX on 7, NEOPIX_RET on 10. Mates with J6 on the main board. Pin 4 was a fourth Vdrive way before the ring moved to a 5V boost; it now carries the enable for U9, which is what lets the MCU disconnect the LEDs' 8mA static draw. Three ways still carry Vdrive, about 370mA at full white, which is well inside a 0.5mm FFC's rating."
+		(property "Sourcing_Note" "Vdrive on 1-3, RING_EN on 4, GND on 5, 6, 8, 9, NEOPIX on 7, NEOPIX_RET on 10. Mates with the main board's 10-way ring FFC connector. Pin 4 was a fourth Vdrive way before the ring moved to a 5V boost; it now carries the enable for the boost converter, which is what lets the MCU disconnect the LEDs' 8mA static draw. Three ways still carry Vdrive, about 370mA at full white, which is well inside a 0.5mm FFC's rating."
 			(at 66.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8083,7 +8083,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D5 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 289.56 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8298,7 +8298,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D16 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 250.19 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9004,7 +9004,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D8 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 248.92 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9339,7 +9339,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D12 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 248.92 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9475,7 +9475,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D17 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 290.83 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9690,7 +9690,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D10 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 335.28 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9826,7 +9826,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D4 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 247.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10082,7 +10082,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D13 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 289.56 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11199,7 +11199,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D14 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 335.28 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11414,7 +11414,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 0805 - boost input capacitor, place hard against U9 VIN and GND"
+		(property "Description" "10uF 0805 - boost input capacitor, place hard against the boost converter's VIN and GND pins"
 			(at 64.77 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12097,7 +12097,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Chain DOUT returns to the main board as NEOPIX_RET. The Inolux typical application circuit recommends a ~500 ohm series resistor at the chain's output terminal as well as its input - R13 covers the input end only."
+		(property "Sourcing_Note" "Chain DOUT returns to the main board as NEOPIX_RET. The Inolux typical application circuit recommends a ~500 ohm series resistor at the chain's output terminal as well as its input - the main board's 500 ohm series damping resistor covers the input end only."
 			(at 311.15 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12863,7 +12863,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1uF 0402 - U10 supply decoupling"
+		(property "Description" "0.1uF 0402 - supply decoupling for the level-shifting buffer"
 			(at 158.75 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13277,7 +13277,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D15 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14360,7 +14360,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D11 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 204.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -14654,7 +14654,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D6 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 335.28 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14922,7 +14922,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "Level shifter for NEOPIX. Mandatory at 5V: the Inolux part specifies V_IH = 3.4V minimum at VDD = 5.0V, which 3.3V logic cannot meet. AHCT is the right family because its TTL thresholds (V_IH 2.0V at VCC 5V) accept a 3.3V input directly. OE is tied low so the buffer is always enabled. When RING_EN is low the 5V rail is down and the MCU must hold NEOPIX low too, or it will forward-bias this input's ESD clamp - the main board's R13 (500R) limits that to a few mA, but it is a firmware rule."
+		(property "Sourcing_Note" "Level shifter for NEOPIX. Mandatory at 5V: the Inolux part specifies V_IH = 3.4V minimum at VDD = 5.0V, which 3.3V logic cannot meet. AHCT is the right family because its TTL thresholds (V_IH 2.0V at VCC 5V) accept a 3.3V input directly. OE is tied low so the buffer is always enabled. When RING_EN is low the 5V rail is down and the MCU must hold NEOPIX low too, or it will forward-bias this input's ESD clamp - the main board's 500R series damping resistor limits that to a few mA, but it is a firmware rule."
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15012,7 +15012,7 @@
 				)
 			)
 		)
-		(property "Description" "Local decoupling for D7 - keep adjacent to the LED in layout. The Inolux datasheet requires one per device for stable cascading."
+		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
 			(at 204.47 76.2 0)
 			(hide yes)
 			(show_name no)
