@@ -255,15 +255,9 @@
 		(uuid "1fafc868-d7d6-44c8-82fa-32665d1dce9a")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/wildj/Documents/GitHub/smart_compass/libs/smart_compass.3dshapes/S25FL064LABNFI043.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
+	(model "${KIPRJMOD}/../../libs/smart_compass.3dshapes/S25FL064LABNFI043.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz -90 0 0))
 	)
 )
