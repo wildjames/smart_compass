@@ -47,4 +47,9 @@
   (fp_line (start 4.47 -1.85) (end 4.47 -1.17) (layer F.SilkS) (width 0.2))
   (fp_circle (center -2.975 -5.7) (end -2.875 -5.7) (layer F.SilkS) (width 0.2))
   (fp_circle (center -2.975 -5.7) (end -2.875 -5.7) (layer F.Fab) (width 0.2))
+	(model "${KIPRJMOD}/../../libs/smart_compass.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
+		(offset (xyz -2.975 4.36 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
