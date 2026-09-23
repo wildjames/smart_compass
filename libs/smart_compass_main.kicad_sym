@@ -28,11 +28,10 @@
 				)
 			)
 		)
-		(property "Footprint" "114993390:114993390"
-			(at 29.21 -94.92 0)
+		(property "Footprint" "smart_compass:MODULE12P-1.27-11X11.6MM" (at 29.21 -94.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,11 +415,10 @@
 				)
 			)
 		)
-		(property "Footprint" "ANT_1575AT_JOT"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:ANT_1575AT_JOT" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,11 +582,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ABS07-32.768KHZ-7-T:XTAL_ABS07-32.768KHZ-7-T"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:XTAL_ABS07-32.768KHZ-7-T" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,11 +891,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BAV199:SOT23"
-			(at 0 0 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,11 +1240,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BMD-340-A-R:RIGADO_BMD-340-A-R"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:RIGADO_BMD-340-A-R" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,11 +2602,10 @@
 				)
 			)
 		)
-		(property "Footprint" "BNO085:IC_BNO085"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:IC_BNO086" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,11 +3321,10 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:0603-NO"
-			(at 0 0 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,11 +3475,10 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:0805-NO"
-			(at 0 0 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,11 +3827,10 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "DRV2605LDGSR:SOP50P490X110-10N"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:SOP50P490X110-10N" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,11 +4231,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MAX-M10S-00B:XCVR_MAX-M10S-00B"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:XCVR_MAX-M10S-00B" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,11 +4781,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MAX17048G_T10:SON50P200X200X80-9N"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:SON50P200X200X80-9N" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,11 +5107,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MCP73831T-2ACI_OT:SOT95P280X145-5N"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:SOT95P280X145-5N" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,11 +5418,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:SOT23-R"
-			(at 0 0 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,11 +6184,10 @@
 				)
 			)
 		)
-		(property "Footprint" "RECE20369001E01"
-			(at 26.67 -84.76 0)
+		(property "Footprint" "smart_compass:SMT_9.001E.01_TAL" (at 26.67 -84.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,11 +6393,10 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:0603-NO"
-			(at 0 0 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,11 +6554,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "S2B-PH-SM4-TB_LF__SN_:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:JST_S2B-PH-SM4-TB" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,11 +6790,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SM02B-GHS-TB:JST_SM02B-GHS-TB"
-			(at 0 0 0)
+		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,11 +7279,10 @@
 				)
 			)
 		)
-		(property "Footprint" "TPD1E05U06DPYR:DIO_TPD1E05U06DPYR"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:DIO_TPD1E05U06DPYR" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,11 +7479,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "USB4085-GF-A:GCT_USB4085-GF-A_REVB"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:GCT_USB4085-GF-A_REVA4" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,11 +8069,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:SOT23-5"
-			(at 0 0 0)
+		(property "Footprint" "smart_compass:SOT94P280X100-5N" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,11 +8279,10 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 0 0 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 0 0 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
