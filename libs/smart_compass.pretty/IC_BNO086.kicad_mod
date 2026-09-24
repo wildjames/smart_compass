@@ -50,4 +50,9 @@
   (fp_line (start -2.85 2.15) (end -2.85 -2.15) (layer F.CrtYd) (width 0.05))
   (fp_circle (center -2.25 -2.4) (end -2.2 -2.4) (layer F.SilkS) (width 0.1))
   (fp_circle (center -2.25 -2.4) (end -2.2 -2.4) (layer F.Fab) (width 0.1))
+	(model "${KIPRJMOD}/../../libs/smart_compass.3dshapes/BNO085.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz -90 0 0))
+	)
 )
