@@ -1165,9 +1165,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
+					(at 2.54 0 180)
 					(length 2.54)
-					(name "1"
+					(name "K"
 						(effects
 							(font
 								(size 0 0)
@@ -1183,9 +1183,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
+					(at -2.54 0 0)
 					(length 2.54)
-					(name "2"
+					(name "A"
 						(effects
 							(font
 								(size 0 0)
@@ -3175,7 +3175,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Adafruit ESP32-S3 8MB No PSRAM:SOT23-5"
+			(property "Footprint" "smart_compass:SOT94P280X100-5N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3321,10 +3321,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "P4"
+					(name "NC"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3339,7 +3339,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -3615,10 +3615,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8353004-9f18-4a83-a830-b315dca43e2a")
-	)
-	(no_connect
-		(at 204.47 60.96)
-		(uuid "1e888b89-51b5-487a-a0ef-1ff039d943f5")
 	)
 	(wire
 		(pts
@@ -9700,7 +9696,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
 			(at 194.31 58.42 0)
 			(hide yes)
 			(show_name no)

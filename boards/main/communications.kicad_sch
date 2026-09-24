@@ -659,7 +659,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "AE"
-				(at 2.2606 6.985 0)
+				(at -0.254 14.224 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -669,7 +669,7 @@
 				)
 			)
 			(property "Value" "1575AT43A0040E"
-				(at 2.2606 3.175 0)
+				(at 0.508 11.938 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -678,7 +678,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ANT_1575AT_JOT"
+			(property "Footprint" "smart_compass:ANT_1575AT_JOT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -794,10 +794,12 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 90)
+			)
+			(symbol "1575AT43A0040E_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
 					(length 2.54)
-					(name "1"
+					(name "FEED"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -805,6 +807,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2146,10 +2166,16 @@
 		(uuid "103a8161-c69f-4b22-9952-8bf68d05790c")
 	)
 	(junction
-		(at 69.85 101.6)
+		(at 41.91 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f170c98-8c36-4d7e-852d-9fe3c4fcde87")
+		(uuid "1aaa4850-a98a-4d27-beaa-1d4345b451e2")
+	)
+	(junction
+		(at 36.83 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ae88de-f6c5-4d12-abc0-3443593008c0")
 	)
 	(junction
 		(at 121.92 88.9)
@@ -2205,12 +2231,6 @@
 		(color 0 0 0 0)
 		(uuid "edfbfb2e-b182-45be-8771-3706621caf39")
 	)
-	(junction
-		(at 36.83 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2f03bea-1bce-414f-962e-eab1458c3e3f")
-	)
 	(no_connect
 		(at 119.38 86.36)
 		(uuid "0a2926af-f855-4ebf-9c26-345e69bf0a7f")
@@ -2249,23 +2269,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 119.38) (xy 69.85 101.6)
+			(xy 63.5 101.6) (xy 63.5 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0277ef5c-e703-4bc5-9ac4-fe8fecc15210")
-	)
-	(wire
-		(pts
-			(xy 60.96 119.38) (xy 69.85 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04775f60-cfaa-4270-857b-8b61f7b88e1f")
+		(uuid "05c2ce10-c890-4f4a-92eb-d7bbbb43f307")
 	)
 	(wire
 		(pts
@@ -2306,6 +2316,16 @@
 			(type default)
 		)
 		(uuid "09806b19-1117-42d4-9212-fbad9d323d27")
+	)
+	(wire
+		(pts
+			(xy 41.91 101.6) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dba894b-c40e-4372-a07d-9f99ea6d72c2")
 	)
 	(wire
 		(pts
@@ -2399,13 +2419,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 101.6) (xy 45.72 101.6)
+			(xy 36.83 101.6) (xy 41.91 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "440bc8c4-57d3-4da3-b851-4d02339e062c")
+	)
+	(wire
+		(pts
+			(xy 41.91 101.6) (xy 41.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521cf801-0c73-42d4-8589-2fb9dad60eec")
 	)
 	(wire
 		(pts
@@ -2436,16 +2466,6 @@
 			(type default)
 		)
 		(uuid "5b628c50-b5b3-4ccf-9ca9-a1aa90af499e")
-	)
-	(wire
-		(pts
-			(xy 45.72 119.38) (xy 50.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9e5260-3e18-4557-b82f-7d36362af4b4")
 	)
 	(wire
 		(pts
@@ -2539,23 +2559,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 69.85 101.6)
+			(xy 63.5 101.6) (xy 73.66 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81f57c21-b520-429e-85ef-65593a2eee0d")
-	)
-	(wire
-		(pts
-			(xy 69.85 101.6) (xy 73.66 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82228f99-bd9e-4651-ad73-73d637c0e9c1")
 	)
 	(wire
 		(pts
@@ -2599,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 115.57) (xy 63.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94df3e98-37cb-4624-9f10-97ea62e51893")
+	)
+	(wire
+		(pts
 			(xy 45.72 91.44) (xy 45.72 88.9)
 		)
 		(stroke
@@ -2619,13 +2639,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 109.22) (xy 36.83 110.49)
+			(xy 36.83 109.22) (xy 36.83 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9db2ed6b-3417-4568-8629-bf37672e0b94")
+		(uuid "a1d4f2ce-785b-4067-bb86-a727f7eee839")
 	)
 	(wire
 		(pts
@@ -2666,6 +2686,16 @@
 			(type default)
 		)
 		(uuid "b714272f-08c1-44a7-9f00-77b463576256")
+	)
+	(wire
+		(pts
+			(xy 63.5 138.43) (xy 67.31 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf9f12c-081b-4119-b341-807d4ea8e77b")
 	)
 	(wire
 		(pts
@@ -3853,7 +3883,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:TPD1E05U06DPYR")
-		(at 39.37 120.65 90)
+		(at 44.45 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3863,7 +3893,7 @@
 		(dnp no)
 		(uuid "23b81333-fe6d-404f-8bbd-0b958d090eee")
 		(property "Reference" "D2"
-			(at 30.734 119.38 90)
+			(at 35.814 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3874,7 +3904,7 @@
 			)
 		)
 		(property "Value" "TPD1E05U06DPYR"
-			(at 17.526 121.92 90)
+			(at 22.606 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3885,7 +3915,7 @@
 			)
 		)
 		(property "Footprint" "smart_compass:DIO_TPD1E05U06DPYR"
-			(at 39.37 120.65 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3897,7 +3927,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e05u06"
-			(at 39.37 120.65 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +3938,7 @@
 			)
 		)
 		(property "Description" "0.5-pF, 5.5-V, ±12-kV ESD protection diode in 0402 package for High Speed Interfaces"
-			(at 39.37 120.65 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3920,7 +3950,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 39.37 120.65 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3932,7 +3962,7 @@
 			)
 		)
 		(property "MP" "TPD1E05U06DPYR"
-			(at 39.37 120.65 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3944,7 +3974,7 @@
 			)
 		)
 		(property "MPN" "TPD1E05U06DPYR"
-			(at 39.37 120.65 90)
+			(at 44.45 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3955,7 +3985,7 @@
 			)
 		)
 		(property "PRICE" "0.29"
-			(at 39.37 120.65 90)
+			(at 44.45 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,7 +3996,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 39.37 120.65 90)
+			(at 44.45 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +4007,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 39.37 120.65 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,7 +4018,7 @@
 			)
 		)
 		(property "DigiKey_PN" "296-39341-1-ND"
-			(at 39.37 120.65 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +4029,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 39.37 120.65 90)
+			(at 44.45 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,7 +6180,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:RESISTOR_0603_NOOUT")
-		(at 55.88 119.38 180)
+		(at 63.5 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6160,7 +6190,7 @@
 		(dnp no)
 		(uuid "8ec7a104-4a49-4535-82a7-f6dc3f7320bd")
 		(property "Reference" "R22"
-			(at 55.88 121.92 0)
+			(at 66.04 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6170,7 +6200,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6182,7 +6212,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6223,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6204,7 +6234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6215,7 +6245,7 @@
 			)
 		)
 		(property "MPN" "RC0603JR-070RL"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6226,7 +6256,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6237,7 +6267,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6248,7 +6278,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +6289,7 @@
 			)
 		)
 		(property "DigiKey_PN" "311-0.0GRCT-ND"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,7 +6300,7 @@
 			)
 		)
 		(property "Tolerance" "Jumper"
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6281,7 +6311,7 @@
 			)
 		)
 		(property "Sourcing_Note" "MPN corrected: this 0R jumper previously carried RT0603BRE075KL, which is a 5 kOhm resistor. Fitting that part would have put 5k in series with the GNSS antenna feed."
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6292,7 +6322,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 55.88 119.38 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6312,6 +6342,85 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2ab308c-b8b9-4f2b-b871-d4f9c961ede7")
+		(property "Reference" "#PWR078"
+			(at 36.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19a7a718-4f64-4a3f-b977-571873fff810")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/532cebe2-e8c2-4fda-a0f3-a2d547e7adef"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6397,7 +6506,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 129.54 0)
+		(at 41.91 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6408,7 +6517,7 @@
 		(fields_autoplaced yes)
 		(uuid "c22f2085-dc77-481d-8ed2-a5db3d732d5b")
 		(property "Reference" "#PWR077"
-			(at 36.83 135.89 0)
+			(at 41.91 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,7 +6528,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 134.62 0)
+			(at 41.91 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +6539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 129.54 0)
+			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6441,7 +6550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 129.54 0)
+			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6452,7 +6561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 129.54 0)
+			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +6585,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:1575AT43A0040E")
-		(at 45.72 119.38 0)
+		(at 69.85 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6486,7 +6595,7 @@
 		(dnp no)
 		(uuid "c5b15960-945a-43a5-81eb-d56c344a9c53")
 		(property "Reference" "AE1"
-			(at 48.006 111.76 0)
+			(at 66.294 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6497,7 +6606,7 @@
 			)
 		)
 		(property "Value" "1575AT43A0040E"
-			(at 48.006 114.3 0)
+			(at 66.04 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6508,7 +6617,7 @@
 			)
 		)
 		(property "Footprint" "smart_compass:ANT_1575AT_JOT"
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,8 +6628,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.johansontechnology.com/part/1575AT43A0040001E/pdf/"
-			(at 45.72 119.38 0)
+		(property "Datasheet" "1575AT43A0040E"
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6532,7 +6641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6543,7 +6652,7 @@
 			)
 		)
 		(property "MPN" "1575AT43A0040001E"
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6663,7 @@
 			)
 		)
 		(property "PRICE" "0.68"
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6565,7 +6674,7 @@
 			)
 		)
 		(property "Manufacturer" "Johanson Technology Inc."
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,7 +6685,7 @@
 			)
 		)
 		(property "DigiKey_PN" "712-1575AT43A0040001ECT-ND"
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6587,7 +6696,7 @@
 			)
 		)
 		(property "Sourcing_Note" "MPN corrected: '1575AT43A0040E' is not an orderable Johanson part number. The catalogue part is 1575AT43A0040001E."
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +6707,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 45.72 119.38 0)
+			(at 69.85 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,6 +6719,9 @@
 		)
 		(pin "1"
 			(uuid "f4a44458-0bfe-4637-8cf1-84b43e711eca")
+		)
+		(pin "2"
+			(uuid "98b13806-ce09-4980-a206-78a92fd1b6ad")
 		)
 		(instances
 			(project "SmartCompass"

@@ -4705,6 +4705,14 @@
 		(uuid "996e2680-f615-4afe-aea0-2399ebcead2f")
 	)
 	(no_connect
+		(at 113.03 87.63)
+		(uuid "9d7fb7a0-4646-4d09-8537-817495e3a416")
+	)
+	(no_connect
+		(at 113.03 85.09)
+		(uuid "b67301b9-8359-4cc0-aca5-6243fc0e7ed5")
+	)
+	(no_connect
 		(at 113.03 72.39)
 		(uuid "b74aa417-3d2a-4022-8e43-e282928a77eb")
 	)
@@ -6546,6 +6554,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b1da41-fece-4924-92cb-30b40e2befa1")
+	)
+	(wire
+		(pts
 			(xy 179.07 44.45) (xy 194.31 44.45)
 		)
 		(stroke
@@ -6583,16 +6601,6 @@
 			(type default)
 		)
 		(uuid "fbc7ad1e-48d9-4cef-ad72-171857eb5ccd")
-	)
-	(wire
-		(pts
-			(xy 78.74 33.02) (xy 68.58 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdc03e1a-9789-462a-8bc2-7ee1bcd613f9")
 	)
 	(wire
 		(pts
@@ -7818,12 +7826,12 @@
 		(uuid "5a5b13b5-64be-4fae-967a-954da9e568c5")
 	)
 	(label "uC_RESET"
-		(at 68.58 33.02 0)
+		(at 78.74 33.02 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5b98fc75-8be1-4fa9-b070-17073f8f0364")
 	)
