@@ -8418,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 236.22 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8440,7 +8440,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KPFNNNG"
+		(property "MPN" "CGA4J3X5R1A106K125AB"
 			(at 236.22 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -8451,7 +8451,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.07"
+		(property "PRICE" "0.24"
 			(at 236.22 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +8473,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 236.22 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8484,7 +8484,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-6456-1-ND"
+		(property "DigiKey_PN" "445-6970-1-ND"
 			(at 236.22 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9843,7 +9843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 214.63 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9875,7 +9875,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KPFNNNG"
+		(property "MPN" "CGA4J3X5R1A106K125AB"
 			(at 214.63 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -9886,7 +9886,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.07"
+		(property "PRICE" "0.24"
 			(at 214.63 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -9908,7 +9908,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 214.63 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9919,7 +9919,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-6456-1-ND"
+		(property "DigiKey_PN" "445-6970-1-ND"
 			(at 214.63 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10788,7 +10788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +10810,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KPFNNNG"
+		(property "MPN" "CGA4J3X5R1A106K125AB"
 			(at 172.72 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -10821,7 +10821,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.07"
+		(property "PRICE" "0.24"
 			(at 172.72 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -10843,7 +10843,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10854,7 +10854,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-6456-1-ND"
+		(property "DigiKey_PN" "445-6970-1-ND"
 			(at 172.72 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11283,7 +11283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11305,7 +11305,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KPFNNNG"
+		(property "MPN" "CGA4J3X5R1A106K125AB"
 			(at 236.22 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -11316,7 +11316,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.07"
+		(property "PRICE" "0.24"
 			(at 236.22 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -11338,7 +11338,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11349,7 +11349,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "1276-6456-1-ND"
+		(property "DigiKey_PN" "445-6970-1-ND"
 			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)

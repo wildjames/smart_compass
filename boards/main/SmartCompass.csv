@@ -1,7 +1,7 @@
 "Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","MPN","DigiKey_PN"
 "AE1","1","1575AT43A0040E","","","","smart_compass:ANT_1575AT_JOT","https://www.johansontechnology.com/part/1575AT43A0040001E/pdf/","1575AT43A0040001E","712-1575AT43A0040001ECT-ND"
 "BATT1","1","JST_PH","","","","smart_compass:JST_S2B-PH-SM4-TB","https://www.jst-mfg.com/product/pdf/eng/ePH.pdf","S2B-PH-SM4-TB","455-S2B-PH-SM4-TBCT-ND"
-"C1,C2,C8,C9,C10,C12,C19,C22,C24","9","10uF","","","","Capacitor_SMD:C_0805_2012Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf","CL21A106KPFNNNG","1276-6456-1-ND"
+"C1,C2,C8,C9,C10,C12,C19,C22,C24","9","10uF","","","","Capacitor_SMD:C_0805_2012Metric","https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf","CGA4J3X5R1A106K125AB","445-6970-1-ND"
 "C3,C4","2","12pF","","","","Capacitor_SMD:C_0402_1005Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05C120JB5NNNC_Spec.pdf","CL05C120JB5NNNC","1276-1178-1-ND"
 "C5,C20,C21","3","1uF","","","","Capacitor_SMD:C_0603_1608Metric","https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf","C1608X7R1H105K080AB","445-C1608X7R1H105K080ABCT-ND"
 "C6,C13,C15,C16,C17,C18,C23","7","0.1uF","","","","Capacitor_SMD:C_0402_1005Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf","CL05B104KO5VPNC","1276-6844-1-ND"

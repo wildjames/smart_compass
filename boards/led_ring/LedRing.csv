@@ -1,6 +1,6 @@
 "Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","DigiKey_PN","MPN"
 "C1,C3,C4","3","22uF","","","","Capacitor_SMD:C_0805_2012Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A226KPCLRNC_Spec.pdf","1276-6786-1-ND","CL21A226KPCLRNC"
-"C2","1","10uF","","","","Capacitor_SMD:C_0805_2012Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf","1276-6456-1-ND","CL21A106KPFNNNG"
+"C2","1","10uF","","","","Capacitor_SMD:C_0805_2012Metric","https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf","445-6970-1-ND","CGA4J3X5R1A106K125AB"
 "C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21","17","0.1uF","","","","Capacitor_SMD:C_0402_1005Metric","https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf","1276-6844-1-ND","CL05B104KO5VPNC"
 "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16","16","IN-PI15TAT5R5G5B","","","","smart_compass:LED_Inolux_IN-PI15TAT5R5G5B_1515","https://www.inolux-corp.com/details.php?i=286","1830-IN-PI15TAT5R5G5BCT-ND","IN-PI15TAT5R5G5B"
 "J1","1","FH12-10S-0.5SH(55)","","","","Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal","https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en","HFJ110CT-ND","FH12-10S-0.5SH(55)"
