@@ -2505,7 +2505,7 @@
 	)
 	(text "LiPo to 5V booster"
 		(exclude_from_sim no)
-		(at 118.872 155.702 0)
+		(at 117.602 152.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2997,16 +2997,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 158.75) (xy 101.6 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "446be7a2-fff0-4674-ba6e-517732c47c2b")
-	)
-	(wire
-		(pts
 			(xy 191.77 36.83) (xy 204.47 36.83)
 		)
 		(stroke
@@ -3187,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 151.13) (xy 104.14 158.75)
+			(xy 104.14 158.75) (xy 104.14 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3464,6 +3454,16 @@
 			(type default)
 		)
 		(uuid "a03af799-7445-4af7-95b0-ef9b5b04f6fd")
+	)
+	(wire
+		(pts
+			(xy 104.14 158.75) (xy 101.6 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2aed567-436a-41ec-9a85-5868d6beb056")
 	)
 	(wire
 		(pts
@@ -5243,6 +5243,16 @@
 			"BAAAAAAggxAAAAAAgAxCAAAAAAAyCAEAAAAAyCAEAAAAACCDEAAAAACADEIAAAAAADIIAQAAAADI"
 			"IAQAAAAAIIP8f73d+0Y4eN1IAAAAAElFTkSuQmCC"
 		)
+	)
+	(label "BOOST_SW"
+		(at 104.14 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54a05a76-4034-41f8-af47-edd6f11d6790")
 	)
 	(global_label "+5V"
 		(shape bidirectional)

@@ -1,0 +1,13 @@
+(version 1)
+
+# Power nets may neck down to reach the fine-pitch pads (the connector's are
+# 0.3 mm wide), but no narrower than that.
+(rule "Power min width"
+  (condition "A.hasNetclass('LED_Power') || A.hasNetclass('Boost')")
+  (constraint track_width (min 0.3)))
+
+# The boost converter's SOT-563 pads are 0.35 mm wide at 0.5 mm pitch, leaving
+# a 0.15 mm gap - below the 0.2 mm netclass clearance.
+(rule "SOT-563 pad pitch"
+  (condition "A.memberOfFootprint('Package_TO_SOT_SMD:SOT-563') || B.memberOfFootprint('Package_TO_SOT_SMD:SOT-563')")
+  (constraint clearance (min 0.15)))
