@@ -5981,7 +5981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00d570fc-8ad4-46b8-8339-946e67d1fe39")
-		(property "Reference" "C15"
+		(property "Reference" "C6"
 			(at 293.37 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6100,7 +6100,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C15")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02983652-ecc7-4cfa-8a5c-24ae91d1aed4")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 208.28 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +6236,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6384,7 +6384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0989f24a-38ac-4942-b6dc-d7ac0aae0dda")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 54.61 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6443,7 +6443,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6460,7 +6460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09d049ff-790b-485b-a10c-aea39a87105f")
-		(property "Reference" "C21"
+		(property "Reference" "C17"
 			(at 345.44 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6579,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C21")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6596,7 +6596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ae1645f-d4f3-48a7-bc14-8dad0540e79f")
-		(property "Reference" "C1"
+		(property "Reference" "C10"
 			(at 40.132 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6715,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6732,7 +6732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b387b75-6d85-46e3-b167-94ef137bfcc8")
-		(property "Reference" "C4"
+		(property "Reference" "C21"
 			(at 127 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,7 +6851,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C4")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6869,7 +6869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c551f31-6a16-460a-8ef3-9bfb0721399f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR018"
 			(at 248.92 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6930,7 +6930,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7071,7 +7071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "102cbb32-748f-4383-9b16-9d3f752e2fd8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR05"
 			(at 320.04 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7132,7 +7132,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR034")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7150,7 +7150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f64f70-4816-4b9f-91b9-75276c8fd191")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR022"
 			(at 276.86 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7211,7 +7211,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7229,7 +7229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13ab27bf-fb02-4927-81cd-e0402c49c37d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR027"
 			(at 335.28 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7290,7 +7290,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR040")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7308,7 +7308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1513498c-6ccb-43dc-80fa-4adbd7b541be")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR019"
 			(at 30.48 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7369,7 +7369,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR01")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7542,7 +7542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a10ca14-5c14-477f-bee4-96c3f71df741")
-		(property "Reference" "D14"
+		(property "Reference" "D8"
 			(at 311.15 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7645,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D14")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7811,7 +7811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ca84ae-a246-4a4e-8fe2-412e02d35640")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7872,7 +7872,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7890,7 +7890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21cdb234-52c2-4ffc-8a5e-5aec344c42aa")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR013"
 			(at 276.86 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7951,7 +7951,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR027")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7969,7 +7969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "228f67d8-02d8-4259-8054-443d56f929bd")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR012"
 			(at 236.22 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8030,7 +8030,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR019")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8047,7 +8047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "274b91ad-227c-4bab-bfc0-872b79f1e972")
-		(property "Reference" "C14"
+		(property "Reference" "C3"
 			(at 293.37 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8166,7 +8166,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C14")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8184,7 +8184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a77162-ef2c-4cfc-ac04-288cf25f5fcc")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 290.83 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8245,7 +8245,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8262,7 +8262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29e51070-1bd4-4111-8484-64aca3e85215")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 254 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8381,7 +8381,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8399,7 +8399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c45761a-d9fb-488f-9931-4dae1045d7b4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR03"
 			(at 236.22 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8460,7 +8460,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR018")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8611,7 +8611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35edccf0-c674-4950-828e-9ef22540909d")
-		(property "Reference" "D4"
+		(property "Reference" "D13"
 			(at 182.88 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8714,7 +8714,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D4")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8732,7 +8732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36091191-56d3-4ca3-a35f-67dcfaa3979d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR035"
 			(at 341.63 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8793,7 +8793,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR041")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8811,7 +8811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "367f429e-1719-4063-b81d-edb9d1641fe5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 248.92 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8872,7 +8872,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8890,7 +8890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39fff8b8-cdc2-422e-b70f-a0acd02fffc6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR039"
 			(at 119.38 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8951,7 +8951,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR06")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8968,7 +8968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e4d7023-6084-4cf6-a442-595990bc7abe")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 252.73 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9087,7 +9087,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9104,7 +9104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e571b57-0e72-42cd-8d16-9a32e223ce00")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 267.97 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9207,7 +9207,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9225,7 +9225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb955b2-cdec-4429-a20b-ce242b32cce2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR040"
 			(at 127 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9286,7 +9286,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR07")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9439,7 +9439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47815693-117f-4e19-b00f-9c70cac0cf0e")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 294.64 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9558,7 +9558,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9576,7 +9576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a61ed2e-8857-4c59-a9c0-26b5de0e1932")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR020"
 			(at 191.77 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9637,7 +9637,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR012")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9654,7 +9654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "549ddee0-24eb-44cc-8881-e8ea359dc524")
-		(property "Reference" "C19"
+		(property "Reference" "C7"
 			(at 339.09 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9773,7 +9773,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C19")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9790,7 +9790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5548188d-b601-4cc4-93b9-cf6068e8bbdf")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 251.46 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,7 +9909,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9926,7 +9926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55821c77-1ad5-46bf-bf96-009bb25e46ac")
-		(property "Reference" "D12"
+		(property "Reference" "D15"
 			(at 267.97 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10029,7 +10029,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D12")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -10046,7 +10046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a74818e-75f4-4f03-8e99-bae576f1521a")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 293.37 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10165,7 +10165,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10183,7 +10183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e0d5ff9-2b86-4cfa-91ac-c1ec09c8aad6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR06"
 			(at 247.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10244,7 +10244,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10262,7 +10262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627f6327-f76d-4209-b1f4-45f25dee036e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 191.77 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10323,7 +10323,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR010")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10341,7 +10341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665249b2-bfbf-4e90-8273-a17bc82e09ab")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR028"
 			(at 57.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -10402,7 +10402,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR02")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10420,7 +10420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c06cdad-8f4f-4038-9311-e610d34d6e69")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR034"
 			(at 250.19 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10481,7 +10481,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10498,7 +10498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d969047-4fb9-4411-90d0-377b3d4cba82")
-		(property "Reference" "D10"
+		(property "Reference" "D7"
 			(at 267.97 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10601,7 +10601,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D10")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10739,7 +10739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ee1f3a8-b536-4497-b6a8-e70f57796420")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR029"
 			(at 191.77 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10800,7 +10800,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR013")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10818,7 +10818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "771216c5-0b7b-4da6-a8ab-ce9017a09b87")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR037"
 			(at 64.77 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10879,7 +10879,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR03")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10896,7 +10896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b744855-2df6-40d1-b34f-078c78033f40")
-		(property "Reference" "D3"
+		(property "Reference" "D9"
 			(at 182.88 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10999,7 +10999,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -11016,7 +11016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d0047a1-5139-4590-b264-7841a604fc18")
-		(property "Reference" "C3"
+		(property "Reference" "C20"
 			(at 119.38 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11146,7 +11146,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C3")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11163,7 +11163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ea73740-9e28-43d0-a3af-9d55581266b6")
-		(property "Reference" "C20"
+		(property "Reference" "C14"
 			(at 339.09 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,7 +11282,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C20")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -11300,7 +11300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ff54947-1729-46bc-85c8-01842874914b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11361,7 +11361,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11378,7 +11378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8031ae05-de69-4d15-8aba-211ec2e5ead5")
-		(property "Reference" "C2"
+		(property "Reference" "C19"
 			(at 64.77 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11508,7 +11508,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C2")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11525,7 +11525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8694c2eb-dc9e-4709-a744-3355d454fb60")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 91.44 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11654,7 +11654,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11672,7 +11672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878fd60c-9046-4dea-90fc-bcc00e9f2ca7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 236.22 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11733,7 +11733,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11750,7 +11750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88fb517b-9eb0-4dfb-b233-7047ac2a50af")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 182.88 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +11853,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11871,7 +11871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2938c2-016d-49da-bb04-60233a24dc11")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR016"
 			(at 335.28 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11932,7 +11932,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR039")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11950,7 +11950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c2613b5-a4e6-4458-a513-ab95bd2cdc82")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR038"
 			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -12011,7 +12011,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR04")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12160,7 +12160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8da534b4-6639-4c38-b5e5-a0306f15b516")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR015"
 			(at 289.56 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12221,7 +12221,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR031")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12239,7 +12239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f061982-38e5-47f8-815e-fd6be0b0e817")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12300,7 +12300,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12440,7 +12440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99e10d19-9c75-4181-885a-5e5e5379134a")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 227.33 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12543,7 +12543,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12561,7 +12561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0dd9ee-1394-4c7c-8191-2424ee30f9fb")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR033"
 			(at 204.47 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12622,7 +12622,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR017")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12640,7 +12640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cc836af-4a6a-46f6-8f94-ea8aae07ad18")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR07"
 			(at 289.56 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12701,7 +12701,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR030")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12718,7 +12718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a32e8a27-af79-4247-a17c-3427f189b7cf")
-		(property "Reference" "D15"
+		(property "Reference" "D12"
 			(at 311.15 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12821,7 +12821,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D15")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -12838,7 +12838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3dd72a2-8d6d-4df1-b8ce-b55cca0e3f69")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 158.75 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12957,7 +12957,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12974,7 +12974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac0f51b2-c0be-4a4a-bdf8-ab8dfd3e324f")
-		(property "Reference" "D8"
+		(property "Reference" "D14"
 			(at 227.33 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13077,7 +13077,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D8")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -13095,7 +13095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad9bb352-738d-4d74-a606-c9864e651d13")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR08"
 			(at 335.28 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13156,7 +13156,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR038")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13174,7 +13174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae58706d-5787-43bd-aaad-ee0d7442ba98")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR04"
 			(at 276.86 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13235,7 +13235,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR026")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13252,7 +13252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2749cb5-cea9-4863-ad03-723cdd454ab4")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 208.28 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13371,7 +13371,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13389,7 +13389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3b49025-db2a-4529-a5a8-11c11efe5de7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR026"
 			(at 289.56 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13450,7 +13450,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR032")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13467,7 +13467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c39d4ee0-f318-4b0a-af76-86cecba5b3b9")
-		(property "Reference" "D7"
+		(property "Reference" "D10"
 			(at 227.33 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13570,7 +13570,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D7")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -13710,7 +13710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd26ea7c-c821-4fcb-b097-4e1a445a2a7f")
-		(property "Reference" "D13"
+		(property "Reference" "D4"
 			(at 311.15 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13813,7 +13813,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "D13")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13831,7 +13831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0041310-60a1-4d26-be0d-c30e0f6b7132")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 204.47 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13892,7 +13892,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13909,7 +13909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1a96aef-924d-431f-8c1b-5620874a7116")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 30.48 94.615 0)
 			(hide yes)
 			(show_name no)
@@ -13969,7 +13969,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -13987,7 +13987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1deb504-1ff0-4a03-ab63-92539a771b91")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR030"
 			(at 236.22 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14048,7 +14048,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR021")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14186,7 +14186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de6e24ab-e1d2-4a04-9616-c7bebc7b5161")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14247,7 +14247,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14265,7 +14265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3cc177a-9211-491c-b85c-e929105e9c5e")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR023"
 			(at 320.04 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14326,7 +14326,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR036")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14343,7 +14343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5635c02-e336-4116-874a-c5c0aa3fa6d3")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 208.28 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14462,7 +14462,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14480,7 +14480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8fcf78e-1592-46a6-bbf5-7fb17ff66be9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 276.86 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14541,7 +14541,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14559,7 +14559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea408cb4-3d05-4337-b243-445b15239836")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR014"
 			(at 320.04 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14620,7 +14620,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR035")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14637,7 +14637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecea2ad1-b8fa-45f7-b2be-6ed1b662bd0e")
-		(property "Reference" "C18"
+		(property "Reference" "C4"
 			(at 339.09 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14756,7 +14756,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C18")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14774,7 +14774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef857f81-b055-42b1-aad4-8b4e6fb7cda9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR032"
 			(at 320.04 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14835,7 +14835,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR037")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14852,7 +14852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0dd8fd4-dcc3-4ec7-856a-c381202ab4e1")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 153.416 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14978,7 +14978,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14995,7 +14995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f10dc20a-c190-4e5d-8082-0fbac8209ae4")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 208.28 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15114,7 +15114,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15211,7 +15211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbeca252-126f-43f6-9757-ad51753c7d92")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR041"
 			(at 105.41 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15272,7 +15272,7 @@
 		(instances
 			(project "LedRing"
 				(path "/c069d6e6-059e-4cea-be19-739e18ba373e"
-					(reference "#PWR05")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
