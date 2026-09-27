@@ -7,3 +7,7 @@
 fp-info-cache
 ~*.kicad_*
 .env
+
+__pycache__/
+.venv/
+
