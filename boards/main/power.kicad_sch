@@ -11562,4 +11562,14 @@
 			)
 		)
 	)
+	(label "VSYS"
+		(at 165.1 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c670892-40aa-421a-8d7f-de35538a2bf5")
+	)
 )

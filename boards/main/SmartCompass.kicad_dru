@@ -1,0 +1,59 @@
+(version 1)
+
+# The net classes in SmartCompass.kicad_pro carry the preferred width,
+# clearance and via for each kind of net. The rules here are the limits DRC
+# enforces on top of those, and the exceptions a few footprints need.
+#
+# Widths are calculated for JLCPCB's 4-layer 1.6 mm JLC04161H-7628 stackup:
+# 1 oz (35 um) outer copper, 0.21 mm of 7628 prepreg (er 4.4) to the inner
+# layers, and 0.5 oz inner copper. Order that stackup by name - "no
+# requirement" does not guarantee it - or recalculate the RF and USB widths
+# with `uv run trace-widths --stackup <name>` from this directory.
+
+# --- Power ------------------------------------------------------------------
+
+# Battery, USB, system rail and the ring's supply are routed at 0.5 mm. They
+# may neck down to reach small pads, but not below 0.3 mm - about 1 A on an
+# outer layer for a 10 degC rise, which covers the ring's boost converter
+# drawing from a flat cell with every LED at full white.
+(rule "Power min width"
+  (condition "A.hasNetclass('Power')")
+  (constraint track_width (min 0.3)))
+
+# Inner copper is half the thickness, so the same current needs twice the
+# width. The inner layers are planes and power should rarely be routed there,
+# but where it is, keep the same copper cross-section as the outer minimum.
+(rule "Power min width, inner layers"
+  (layer inner)
+  (condition "A.hasNetclass('Power')")
+  (constraint track_width (min 0.6)))
+
+# --- GNSS RF ----------------------------------------------------------------
+
+# The antenna feed is a 50 ohm microstrip: 0.36 mm over 7628 prepreg,
+# allowing for the solder mask. The window allows for rounding, not for
+# routing at a different width.
+(rule "GNSS RF width"
+  (condition "A.hasNetclass('RF_50R')")
+  (constraint track_width (min 0.34) (opt 0.36) (max 0.38)))
+
+# A via is an impedance step and a stub. The whole feed - module, matching
+# pads, chip antenna and IPEX - sits on one side, so it never needs one.
+(rule "GNSS RF no vias"
+  (condition "A.hasNetclass('RF_50R')")
+  (constraint disallow via))
+
+# --- Fine pitch -------------------------------------------------------------
+
+# The fuel gauge's 2 x 2 mm TDFN leaves 0.155 mm between its signal pads and
+# the exposed pad, below the 0.2 mm netclass clearance and fixed by the part.
+(rule "Fuel gauge TDFN pad gap"
+  (condition "A.memberOfFootprint('smart_compass:SON50P200X200X80-9N') || B.memberOfFootprint('smart_compass:SON50P200X200X80-9N')")
+  (constraint clearance (min 0.15)))
+
+# The nRF52840 module's staggered pads leave exactly 0.6 mm between outer-row
+# pads - one 0.2 mm track at 0.2 mm clearance with no margin. Let the inner
+# row's escape tracks through at 0.15 mm.
+(rule "BMD-340 fan-out"
+  (condition "A.intersectsCourtyard('smart_compass:RIGADO_BMD-340-A-R') || B.intersectsCourtyard('smart_compass:RIGADO_BMD-340-A-R')")
+  (constraint clearance (min 0.15)))

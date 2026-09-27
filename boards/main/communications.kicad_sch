@@ -7263,4 +7263,34 @@
 			)
 		)
 	)
+	(label "GPS_RF"
+		(at 64.77 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "809046a8-66e3-4e23-b96c-a4ccf5acde90")
+	)
+	(label "GPS_ANT"
+		(at 63.5 133.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03d558e2-a55b-4d03-9e4e-6d4ee96f18b0")
+	)
+	(label "GPS_EXT"
+		(at 36.83 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "094f1b74-1489-4764-a0b9-dd749c1eeaa8")
+	)
 )
