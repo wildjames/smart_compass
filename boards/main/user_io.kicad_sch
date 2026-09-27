@@ -4107,6 +4107,316 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "smart_compass_main:ABS07-32.768KHZ-7-T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -5.0878 3.8159 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ABS07-32.768KHZ-7-T"
+				(at -5.0944 -5.0944 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ABS07-32.768KHZ-7-T:XTAL_ABS07-32.768KHZ-7-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "32.768 kHz ±20ppm Crystal 7pF 70 kOhms 2-SMD, No Lead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Abracon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SMD-2 Abracon LLC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ABS07-32.768KHZ-7-T/Abracon/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "08.19.15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ABS07-32.768KHZ-7-T/Abracon/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "ABS07-32.768KHZ-7-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Abracon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "ABS07-32.768KHZ-7-T_0_0"
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "smart_compass_main:BAV199"
 			(pin_names
 				(offset 1.016)
@@ -6561,7 +6871,7 @@
 	)
 	(rectangle
 		(start 59.69 66.675)
-		(end 147.32 127)
+		(end 175.26 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -6738,6 +7048,12 @@
 		(uuid "3f5a1c84-6b20-4d7e-9c51-8a0e2d47b913")
 	)
 	(junction
+		(at 149.86 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40ccfa02-6b6c-4c50-bb8a-f554332b0221")
+	)
+	(junction
 		(at 57.15 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6774,6 +7090,12 @@
 		(uuid "84077845-0015-4313-9488-82cf74140a38")
 	)
 	(junction
+		(at 149.86 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8423276c-a668-443f-bff2-ec34f2e06bd5")
+	)
+	(junction
 		(at 24.13 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6808,6 +7130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d749be81-577f-4d49-afff-bf72a42efe1c")
+	)
+	(junction
+		(at 162.56 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df7453e9-9d2f-42e7-91d0-2cf3c9d5779d")
 	)
 	(junction
 		(at 31.75 143.51)
@@ -6847,13 +7175,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 129.54 90.17)
+			(xy 161.29 77.47) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "015c30f7-4cd8-4cec-8f70-2565c40ab0e7")
+		(uuid "01080194-c2b4-4936-afe1-4c864ded6a4a")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ca4880-ea18-450a-a774-a19b42fd5de3")
 	)
 	(wire
 		(pts
@@ -6977,6 +7315,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 83.82) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1daed813-229c-4f94-9471-a62536695e62")
+	)
+	(wire
+		(pts
 			(xy 80.01 102.87) (xy 80.01 100.33)
 		)
 		(stroke
@@ -7057,6 +7405,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 90.17) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6afa3a-e726-4286-b793-0676cc5bcb92")
+	)
+	(wire
+		(pts
 			(xy 80.01 100.33) (xy 66.04 100.33)
 		)
 		(stroke
@@ -7124,6 +7482,16 @@
 			(type default)
 		)
 		(uuid "3b9783ca-06ab-4db3-b55e-748bfb494916")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9a7299-489f-47e7-8545-00c56b3b0ba9")
 	)
 	(wire
 		(pts
@@ -7204,6 +7572,16 @@
 			(type default)
 		)
 		(uuid "4a6eb11b-c449-44d5-af0d-5ea63f4408de")
+	)
+	(wire
+		(pts
+			(xy 162.56 77.47) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0595c4-89b5-460e-a8b0-75d61c8692e5")
 	)
 	(wire
 		(pts
@@ -7367,6 +7745,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 77.47) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee081e4-7cf8-4efb-9641-636cbc3b467f")
+	)
+	(wire
+		(pts
 			(xy 139.7 118.11) (xy 139.7 119.38)
 		)
 		(stroke
@@ -7384,6 +7772,16 @@
 			(type solid)
 		)
 		(uuid "7029c866-cd7d-4bdf-b2ae-a85b2eb7bedc")
+	)
+	(wire
+		(pts
+			(xy 127 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b55262-69f7-4247-a201-57a9ea73a618")
 	)
 	(wire
 		(pts
@@ -7437,6 +7835,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 78.74) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8651f9d9-f759-4d53-bd61-eef9ce3518bf")
+	)
+	(wire
+		(pts
 			(xy 152.4 38.1) (xy 153.67 38.1)
 		)
 		(stroke
@@ -7454,16 +7862,6 @@
 			(type default)
 		)
 		(uuid "87e0340b-c3d1-4083-b7ec-815090ec5dbe")
-	)
-	(wire
-		(pts
-			(xy 127 87.63) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87ff2177-489a-4be8-a3f3-ebd1dd9a2a29")
 	)
 	(wire
 		(pts
@@ -7544,6 +7942,16 @@
 			(type solid)
 		)
 		(uuid "a848871d-a30a-4248-9540-1dfece0c70e7")
+	)
+	(wire
+		(pts
+			(xy 153.67 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefc635d-082b-402b-b906-6e413ae29a82")
 	)
 	(wire
 		(pts
@@ -7654,6 +8062,16 @@
 			(type default)
 		)
 		(uuid "c1b79bfd-65eb-44a3-a817-f6fb451c1d16")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a83a93-b994-4f82-baf7-3a6974018030")
 	)
 	(wire
 		(pts
@@ -7837,6 +8255,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 90.17) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1783e59-d61f-4cc0-bebb-9a608340db8f")
+	)
+	(wire
+		(pts
 			(xy 157.48 53.34) (xy 118.11 53.34)
 		)
 		(stroke
@@ -7904,6 +8332,26 @@
 			(type default)
 		)
 		(uuid "f1a41a25-7efc-4416-b6e8-d13a97dbab3b")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35e86a5-c68b-4af9-a923-84f13484de63")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64769e2-fc41-4344-be13-f2dfbaf2424a")
 	)
 	(wire
 		(pts
@@ -7986,17 +8434,6 @@
 			(justify left)
 		)
 		(uuid "098c4e02-5b31-4a5d-aec8-f851941dc9d5")
-	)
-	(hierarchical_label "OSC2"
-		(shape input)
-		(at 129.54 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d72c8ca-4fae-4b09-bf35-b7d95db39080")
 	)
 	(hierarchical_label "NEOPIX"
 		(shape input)
@@ -8107,17 +8544,6 @@
 			(justify right)
 		)
 		(uuid "a70c0553-3c8f-4142-922d-9822037a74cb")
-	)
-	(hierarchical_label "OSC1"
-		(shape input)
-		(at 129.54 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "adfc01d2-46e8-4853-9f3c-01d884118a4d")
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)
@@ -10063,6 +10489,174 @@
 		)
 	)
 	(symbol
+		(lib_id "smart_compass_main:CAP_CERAMIC0805-NOOUTLINE")
+		(at 156.21 90.17 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d2a1fc8-4b5b-46d5-8b72-5a586ff87c8d")
+		(property "Reference" "C28"
+			(at 157.46 92.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 157.48 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05C100JB5NNNC_Spec.pdf"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05C100JB5NNNC"
+			(at 156.21 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.00805"
+			(at 156.21 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 156.21 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1139-1-ND"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 156.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 156.21 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1df6dca2-fe96-45da-a608-f5daad811adb")
+		)
+		(pin "2"
+			(uuid "ac23bf96-78cd-40b7-ae27-70f6f5667c3c")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 135.89 25.4 0)
 		(unit 1)
@@ -10538,6 +11132,174 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smart_compass_main:CAP_CERAMIC0805-NOOUTLINE")
+		(at 156.21 77.47 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86a42034-0d40-4bb8-8ebd-51f35129ba30")
+		(property "Reference" "C27"
+			(at 157.46 79.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10pF"
+			(at 157.48 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05C100JB5NNNC_Spec.pdf"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05C100JB5NNNC"
+			(at 156.21 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.00805"
+			(at 156.21 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 156.21 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-1139-1-ND"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 156.21 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1c3579a-2e9b-4072-ae82-be764b093d96")
+		)
+		(pin "2"
+			(uuid "4b4e169d-8806-4166-a7b5-aa9bee584f04")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11744,6 +12506,216 @@
 		)
 	)
 	(symbol
+		(lib_id "smart_compass_main:ABS07-32.768KHZ-7-T")
+		(at 149.86 83.82 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2dbb11b-3a7a-4cb5-9f92-b6d7b59ad101")
+		(property "Reference" "Y2"
+			(at 143.764 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768KHZ"
+			(at 146.05 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "smart_compass:XTAL_ABS07-32.768KHZ-7-T"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Resonators/ABS07.pdf"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "32.768 kHz +/-20ppm, CL=7pF, 3.2x1.5mm"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Abracon"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "08.19.15"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ABS07-32.768KHZ-7-T"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "ABS07-32.768KHZ-7-T"
+			(at 149.86 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.61"
+			(at 149.86 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Abracon LLC"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "535-9543-1-ND"
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 149.86 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7921d16a-b143-4099-8113-567e89dfc7bf")
+		)
+		(pin "2"
+			(uuid "9d4f8c01-4fe4-4581-8d9e-faad2e6ce2e2")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 119.38 0)
 		(unit 1)
@@ -12066,6 +13038,86 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 86.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb22617b-2972-41d2-8ec9-4f1187caf952")
+		(property "Reference" "#PWR017"
+			(at 167.64 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4136e6cc-a9dc-4d75-89a1-ef2ce6a0a5ce")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/f3daa2fb-5ae8-4cdf-84fa-d6a2260301a1"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

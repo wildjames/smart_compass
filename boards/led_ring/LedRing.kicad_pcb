@@ -303,7 +303,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at -0.000001 -1.159998 -135)
+			(at -0.000001 -1.159998 225)
 			(layer "F.SilkS")
 			(uuid "a9afc504-a350-487e-9741-ad4a76a734b9")
 			(effects
@@ -314,7 +314,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0.000001 1.159998 -135)
+			(at 0.000001 1.159998 225)
 			(layer "F.Fab")
 			(uuid "ab1dac22-728c-4cf0-85e0-6700c6b34276")
 			(effects
@@ -325,7 +325,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49445ac8-1939-4d19-993c-7bb58151d8db")
@@ -336,7 +336,7 @@
 			)
 		)
 		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
-			(at 0 0 -135)
+			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10ae9219-ed43-402c-bb91-8b8605f52049")
@@ -347,7 +347,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "06b916e1-fa13-4489-8ca4-5c9cf4ee5f4c")
@@ -359,7 +359,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5VPNC"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -372,7 +372,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -385,7 +385,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -398,7 +398,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -411,7 +411,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -474,7 +474,7 @@
 			(uuid "0aa6f971-3cd0-41b7-a6f2-bcd41e0dc967")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(layer "F.Fab")
 			(uuid "a54c1258-2408-4c74-ba9f-92f873976b57")
 			(effects
@@ -485,7 +485,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.479999 -0.000001 -135)
+			(at -0.479999 -0.000001 225)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -494,7 +494,7 @@
 			(uuid "1b7eef14-4c75-4bda-bdf5-8dc5a9335472")
 		)
 		(pad "2" smd roundrect
-			(at 0.479999 0.000001 -135)
+			(at 0.479999 0.000001 225)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -682,7 +682,7 @@
 			(uuid "b48f1b81-bb0f-40bf-8340-74e90b5b3a17")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 540)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "1a294efd-eced-4d91-b18c-90819f10e89a")
 			(effects
@@ -1283,7 +1283,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.159999 -90)
+			(at 0 -1.159999 270)
 			(layer "F.SilkS")
 			(uuid "c6ca9662-0ecd-4685-9e0e-09bd58b419a9")
 			(effects
@@ -1294,7 +1294,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.159999 -90)
+			(at 0 1.159999 270)
 			(layer "F.Fab")
 			(uuid "0de29849-b379-4a65-8dc4-a3da4fb84fba")
 			(effects
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80b795ad-fc0f-4243-98b4-edf59f0699ae")
@@ -1316,7 +1316,7 @@
 			)
 		)
 		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ce5239d-007b-4b40-a311-67b9f3702939")
@@ -1327,7 +1327,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "558b2834-7f17-4953-8449-f075a8506c80")
@@ -1339,7 +1339,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5VPNC"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1352,7 +1352,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1365,7 +1365,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1378,7 +1378,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1391,7 +1391,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1465,7 +1465,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.479999 0 -90)
+			(at -0.479999 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1474,7 +1474,7 @@
 			(uuid "74bcc3a8-8e8c-419d-9c87-d97609e1f30c")
 		)
 		(pad "2" smd roundrect
-			(at 0.479999 0 -90)
+			(at 0.479999 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1491,7 +1491,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0.000001 -1.159998 -157.5)
+			(at 0.000001 -1.159998 202.5)
 			(layer "F.SilkS")
 			(uuid "9e0c96dc-35ea-4d00-917b-dac8f12686ad")
 			(effects
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at -0.000001 1.159998 -157.5)
+			(at -0.000001 1.159998 202.5)
 			(layer "F.Fab")
 			(uuid "7e72b509-6f4b-4eef-b6c8-708da6f1edec")
 			(effects
@@ -1513,7 +1513,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d27bdd0-c356-4553-891d-9b3694f502e0")
@@ -1524,7 +1524,7 @@
 			)
 		)
 		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72554016-32c9-404b-a1cb-8f70a85845f0")
@@ -1535,7 +1535,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "360e7e0c-8cb5-4afd-8360-c7f4c6f69c7f")
@@ -1547,7 +1547,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5VPNC"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1560,7 +1560,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1573,7 +1573,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1586,7 +1586,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1599,7 +1599,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1651,7 +1651,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -0.499999 -0.25) (xy -0.499999 0.25) (xy 0.499999 0.25) (xy 0.499999 -0.25)
+				(xy -0.499999 -0.250001) (xy -0.499999 0.25) (xy 0.499999 0.250001) (xy 0.499999 -0.25)
 			)
 			(stroke
 				(width 0.1)
@@ -1662,7 +1662,7 @@
 			(uuid "527fc1d2-ba52-4435-ac2b-33056ed5eca9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(layer "F.Fab")
 			(uuid "3ac5e215-dc26-48ad-bf9e-65774cdf9824")
 			(effects
@@ -1673,7 +1673,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.479998 -0.000001 -157.5)
+			(at -0.479998 -0.000001 202.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1682,7 +1682,7 @@
 			(uuid "b3fab5e9-2b4b-4386-bd59-e940bfde4523")
 		)
 		(pad "2" smd roundrect
-			(at 0.479998 0.000001 -157.5)
+			(at 0.479998 0.000001 202.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2983,7 +2983,7 @@
 			(uuid "d9389777-c7ee-48f7-ad5a-00a56b50e672")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 517.5)
+			(at 0 0 157.5)
 			(layer "F.Fab")
 			(uuid "02004fa1-e2a5-4388-8ee9-f2b42283c3fe")
 			(effects
@@ -3191,7 +3191,7 @@
 			(uuid "515d4dde-c717-4bec-8cb0-cb300c705553")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 382.5)
+			(at 0 0 22.5)
 			(layer "F.Fab")
 			(uuid "2b08eabc-428c-49f8-8916-ea406ba07315")
 			(effects
@@ -3436,7 +3436,7 @@
 		(descr "Inolux IN-PI15TAT5R5G5B addressable RGB LED, 1515 (1.5x1.5x0.65mm), 4-pin. Pad 1 DIN, 2 VDD, 3 DOUT, 4 GND. Land pattern per datasheet v1.2 'Recommended Dimensions for PCB': 0.55mm pads on 0.95mm pitch, 0.40mm gaps.")
 		(tags "LED RGB addressable 1515 Inolux IN-PI15TAT5R5G5B")
 		(property "Reference" "D5"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5b51c831-ec96-4feb-9b2b-c8b4bac5591c")
@@ -3448,7 +3448,7 @@
 			)
 		)
 		(property "Value" "IN-PI15TAT5R5G5B"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "782d6f48-5a0e-4e61-be4e-6ba13cbb7683")
@@ -3460,7 +3460,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30f9170a-4e83-4fa8-bbea-bb5a225339e1")
@@ -3471,7 +3471,7 @@
 			)
 		)
 		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "10a3e696-63b9-432e-84e5-e071765e3487")
@@ -3482,7 +3482,7 @@
 			)
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3495,7 +3495,7 @@
 			)
 		)
 		(property "Manufacturer" "Inolux"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3508,7 +3508,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3719,7 +3719,7 @@
 			(uuid "774dcc9d-bfd6-4a65-a94b-18014962436e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fa42a99f-28cf-463f-b694-a42f3a71a624")
@@ -3731,7 +3731,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.474998 -0.474978 -90)
+			(at -0.474998 -0.474978 270)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D6_DOUT")
@@ -3740,7 +3740,7 @@
 			(uuid "cd7cce28-d31a-49da-ab99-2c612a2b4c7a")
 		)
 		(pad "2" smd rect
-			(at -0.474998 0.474978 -90)
+			(at -0.474998 0.474978 270)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -3749,7 +3749,7 @@
 			(uuid "6642203b-2a19-4740-8eb2-1d5208c4206a")
 		)
 		(pad "3" smd rect
-			(at 0.474998 0.474978 -90)
+			(at 0.474998 0.474978 270)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D5-DOUT)")
@@ -3758,7 +3758,7 @@
 			(uuid "940e83b4-981f-4408-bef0-33aba76cb7cf")
 		)
 		(pad "4" smd rect
-			(at 0.474998 -0.474978 -90)
+			(at 0.474998 -0.474978 270)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -5007,7 +5007,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.159999 -112.5)
+			(at 0 -1.159999 247.5)
 			(layer "F.SilkS")
 			(uuid "f44e42cb-1f55-459c-9c0b-e4f1b2881cd1")
 			(effects
@@ -5018,7 +5018,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.159999 -112.5)
+			(at 0 1.159999 247.5)
 			(layer "F.Fab")
 			(uuid "448219c6-eb42-40ce-845f-ea558ebc5f23")
 			(effects
@@ -5029,7 +5029,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d87a1fdd-74a9-424d-97ac-ca27a1f12a0b")
@@ -5040,7 +5040,7 @@
 			)
 		)
 		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f41b1b44-bfef-44e7-8d49-cbec2772b471")
@@ -5051,7 +5051,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1bd96aad-1730-4c49-9981-d39d48bb93b7")
@@ -5063,7 +5063,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5VPNC"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5076,7 +5076,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5089,7 +5089,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5102,7 +5102,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5115,7 +5115,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5189,7 +5189,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.479999 0 -112.5)
+			(at -0.479999 0 247.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5198,7 +5198,7 @@
 			(uuid "c1b2e03e-f1c2-4063-9858-655e40b81d32")
 		)
 		(pad "2" smd roundrect
-			(at 0.479999 0 -112.5)
+			(at 0.479999 0 247.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5215,7 +5215,7 @@
 		(descr "Inolux IN-PI15TAT5R5G5B addressable RGB LED, 1515 (1.5x1.5x0.65mm), 4-pin. Pad 1 DIN, 2 VDD, 3 DOUT, 4 GND. Land pattern per datasheet v1.2 'Recommended Dimensions for PCB': 0.55mm pads on 0.95mm pitch, 0.40mm gaps.")
 		(tags "LED RGB addressable 1515 Inolux IN-PI15TAT5R5G5B")
 		(property "Reference" "D3"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3d0f2c9d-fa7d-48b1-b2c9-71b08b22c47e")
@@ -5227,7 +5227,7 @@
 			)
 		)
 		(property "Value" "IN-PI15TAT5R5G5B"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e2a83890-085f-463e-8392-ce92ee6245f3")
@@ -5239,7 +5239,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e75052c9-22e2-4e1b-ad1d-62ed1cf05ad0")
@@ -5250,7 +5250,7 @@
 			)
 		)
 		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd016b92-053d-4a4d-9410-62140584efb3")
@@ -5261,7 +5261,7 @@
 			)
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5274,7 +5274,7 @@
 			)
 		)
 		(property "Manufacturer" "Inolux"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5287,7 +5287,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5498,7 +5498,7 @@
 			(uuid "6e6a7925-2305-45cb-8edf-557e00387a2e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a89dced2-b849-4a88-ae42-c97593b60713")
@@ -5510,7 +5510,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.474998 -0.47498 -45)
+			(at -0.474998 -0.47498 315)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D2-DOUT)")
@@ -5519,7 +5519,7 @@
 			(uuid "90b6ae66-4c74-4342-bc7f-150e7545d57a")
 		)
 		(pad "2" smd rect
-			(at -0.474999 0.474979 -45)
+			(at -0.474999 0.474979 315)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -5528,7 +5528,7 @@
 			(uuid "04b94145-957c-4bf8-9a42-4dee9f632019")
 		)
 		(pad "3" smd rect
-			(at 0.474998 0.47498 -45)
+			(at 0.474998 0.47498 315)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D3-DOUT)")
@@ -5537,7 +5537,7 @@
 			(uuid "aabdd2a9-4446-4413-9f8b-2b2af77acbf0")
 		)
 		(pad "4" smd rect
-			(at 0.474999 -0.474979 -45)
+			(at 0.474999 -0.474979 315)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -5893,7 +5893,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at -0.000001 -1.159998 -45)
+			(at -0.000001 -1.159998 315)
 			(layer "F.SilkS")
 			(uuid "57b90c22-b89d-4959-b53f-ff97cd672391")
 			(effects
@@ -5904,7 +5904,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0.000001 1.159998 -45)
+			(at 0.000001 1.159998 315)
 			(layer "F.Fab")
 			(uuid "5a8a5a67-a665-4324-ad2c-43dcfcff3a64")
 			(effects
@@ -5915,7 +5915,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62fd920e-b747-4308-b73f-85077115c4c5")
@@ -5926,7 +5926,7 @@
 			)
 		)
 		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
-			(at 0 0 -45)
+			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bda6eab6-9d62-4cef-9821-e0c84800f939")
@@ -5937,7 +5937,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "182d58e3-8bf9-49d1-b72d-f8417a57dd50")
@@ -5949,7 +5949,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5VPNC"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5962,7 +5962,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5975,7 +5975,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5988,7 +5988,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6001,7 +6001,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 -45)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6075,7 +6075,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.479999 0.000001 -45)
+			(at -0.479999 0.000001 315)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6084,7 +6084,7 @@
 			(uuid "f134baf3-1061-48d0-821b-227caf1bab74")
 		)
 		(pad "2" smd roundrect
-			(at 0.479999 -0.000001 -45)
+			(at 0.479999 -0.000001 315)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7844,7 +7844,7 @@
 		(descr "Inolux IN-PI15TAT5R5G5B addressable RGB LED, 1515 (1.5x1.5x0.65mm), 4-pin. Pad 1 DIN, 2 VDD, 3 DOUT, 4 GND. Land pattern per datasheet v1.2 'Recommended Dimensions for PCB': 0.55mm pads on 0.95mm pitch, 0.40mm gaps.")
 		(tags "LED RGB addressable 1515 Inolux IN-PI15TAT5R5G5B")
 		(property "Reference" "D8"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3831f142-f485-4960-9281-19279a5f4865")
@@ -7856,7 +7856,7 @@
 			)
 		)
 		(property "Value" "IN-PI15TAT5R5G5B"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "d808f24e-afa9-4030-bae3-6dc5b9f6fc15")
@@ -7868,7 +7868,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23593e59-349f-4d87-8600-c89fbcee8152")
@@ -7879,7 +7879,7 @@
 			)
 		)
 		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa7789d3-b67e-4b6a-a37e-b5a816195906")
@@ -7890,7 +7890,7 @@
 			)
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7903,7 +7903,7 @@
 			)
 		)
 		(property "Manufacturer" "Inolux"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7916,7 +7916,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8127,7 +8127,7 @@
 			(uuid "629a367a-fca5-477c-8dec-dca60bc8c73a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -157.5)
+			(at 0 0 202.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0b9b1ca5-ee47-4e6e-a24b-a8cda24f60fc")
@@ -8139,7 +8139,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.474998 -0.474977 -157.5)
+			(at -0.474998 -0.474977 202.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D7-DOUT)")
@@ -8148,7 +8148,7 @@
 			(uuid "5e4d753e-0bdf-4695-872f-9cbbddbd0530")
 		)
 		(pad "2" smd rect
-			(at -0.474999 0.474979 -157.5)
+			(at -0.474999 0.474979 202.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -8157,7 +8157,7 @@
 			(uuid "f2220192-cd28-4d12-a978-b7c8cfd29d61")
 		)
 		(pad "3" smd rect
-			(at 0.474998 0.474977 -157.5)
+			(at 0.474998 0.474977 202.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D10_DOUT")
@@ -8166,7 +8166,7 @@
 			(uuid "296a7fe0-2fe5-491c-b91f-f01a1a57282a")
 		)
 		(pad "4" smd rect
-			(at 0.474999 -0.474979 -157.5)
+			(at 0.474999 -0.474979 202.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -8455,7 +8455,7 @@
 			(uuid "f3a7f1e6-955d-4c04-aa6e-5cbef31acc1f")
 		)
 		(fp_circle
-			(center -0.195601 -0.474978)
+			(center -0.195602 -0.474978)
 			(end -0.1194 -0.474979)
 			(stroke
 				(width 0.0254)
@@ -8522,7 +8522,7 @@
 		(descr "Inolux IN-PI15TAT5R5G5B addressable RGB LED, 1515 (1.5x1.5x0.65mm), 4-pin. Pad 1 DIN, 2 VDD, 3 DOUT, 4 GND. Land pattern per datasheet v1.2 'Recommended Dimensions for PCB': 0.55mm pads on 0.95mm pitch, 0.40mm gaps.")
 		(tags "LED RGB addressable 1515 Inolux IN-PI15TAT5R5G5B")
 		(property "Reference" "D6"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f902eca9-ea75-4ced-8b6a-a1471eef193d")
@@ -8534,7 +8534,7 @@
 			)
 		)
 		(property "Value" "IN-PI15TAT5R5G5B"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a8d53853-dc5f-4706-98ed-57b1e0d32c91")
@@ -8546,7 +8546,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b05aee91-b8f5-4f48-972a-14936cea24e4")
@@ -8557,7 +8557,7 @@
 			)
 		)
 		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa960eb8-dd68-40e7-aa8a-d6d248a3a75d")
@@ -8568,7 +8568,7 @@
 			)
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8581,7 +8581,7 @@
 			)
 		)
 		(property "Manufacturer" "Inolux"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8594,7 +8594,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8805,7 +8805,7 @@
 			(uuid "cb9debf5-7158-4c60-bc9f-b47406bb7f07")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -112.5)
+			(at 0 0 247.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7e65b214-2b78-4f13-91ad-20039d0bcaf1")
@@ -8817,7 +8817,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.474999 -0.474979 -112.5)
+			(at -0.474999 -0.474979 247.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D5-DOUT)")
@@ -8826,7 +8826,7 @@
 			(uuid "317db505-fc8c-4b8c-8a3b-300911b9b906")
 		)
 		(pad "2" smd rect
-			(at -0.474999 0.474979 -112.5)
+			(at -0.474999 0.474979 247.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -8835,7 +8835,7 @@
 			(uuid "6d925e8f-284a-429b-bcd7-22e23451099e")
 		)
 		(pad "3" smd rect
-			(at 0.474999 0.474979 -112.5)
+			(at 0.474999 0.474979 247.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D6-DOUT)")
@@ -8844,7 +8844,7 @@
 			(uuid "ef96a5e8-de65-421c-8def-305b3dc1b2f1")
 		)
 		(pad "4" smd rect
-			(at 0.474999 -0.474979 -112.5)
+			(at 0.474999 -0.474979 247.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -9002,7 +9002,7 @@
 			(uuid "249c7bd5-c5ec-4e82-a763-cb84f73b7592")
 		)
 		(fp_line
-			(start -1.0033 -1.008379)
+			(start -1.0033 -1.008378)
 			(end -1.003299 -1.262379)
 			(stroke
 				(width 0.1524)
@@ -9013,7 +9013,7 @@
 		)
 		(fp_line
 			(start -1.008399 -1.00838)
-			(end -1.0033 -1.008379)
+			(end -1.0033 -1.008378)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -9023,7 +9023,7 @@
 		)
 		(fp_line
 			(start 1.008399 1.00838)
-			(end 1.0033 1.008379)
+			(end 1.0033 1.008378)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -9032,8 +9032,8 @@
 			(uuid "5838c85a-a390-467f-be94-6ebb6e3e0412")
 		)
 		(fp_line
-			(start 1.0033 1.008379)
-			(end 1.0033 1.008379)
+			(start 1.0033 1.008378)
+			(end 1.0033 1.008378)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -9042,7 +9042,7 @@
 			(uuid "1e5ae996-4dbb-4bdd-8d1a-534134361be4")
 		)
 		(fp_line
-			(start 1.0033 1.008379)
+			(start 1.0033 1.008378)
 			(end -1.003299 1.008378)
 			(stroke
 				(width 0.1524)
@@ -9200,7 +9200,7 @@
 		(descr "Inolux IN-PI15TAT5R5G5B addressable RGB LED, 1515 (1.5x1.5x0.65mm), 4-pin. Pad 1 DIN, 2 VDD, 3 DOUT, 4 GND. Land pattern per datasheet v1.2 'Recommended Dimensions for PCB': 0.55mm pads on 0.95mm pitch, 0.40mm gaps.")
 		(tags "LED RGB addressable 1515 Inolux IN-PI15TAT5R5G5B")
 		(property "Reference" "D4"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d7474018-f1ca-41ad-ba21-f39d8224a2cf")
@@ -9212,7 +9212,7 @@
 			)
 		)
 		(property "Value" "IN-PI15TAT5R5G5B"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e52fbfc3-c7bf-42a3-8f74-c86015e94b58")
@@ -9224,7 +9224,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d02f0eb1-fc4c-42bb-bf4f-57ea1b5b1883")
@@ -9235,7 +9235,7 @@
 			)
 		)
 		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "954ad93e-a291-4e35-9f7b-214e8607e074")
@@ -9246,7 +9246,7 @@
 			)
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9259,7 +9259,7 @@
 			)
 		)
 		(property "Manufacturer" "Inolux"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9272,7 +9272,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9291,7 +9291,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center -1.61038 -0.47498)
-			(end -1.483379 -0.47498)
+			(end -1.483378 -0.47498)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -9331,7 +9331,7 @@
 			(uuid "0453c2fe-3dd8-46f0-ab56-d7ad4683a8e3")
 		)
 		(fp_line
-			(start 1.003297 1.00838)
+			(start 1.003297 1.008381)
 			(end -1.003299 1.008378)
 			(stroke
 				(width 0.1524)
@@ -9341,8 +9341,8 @@
 			(uuid "ce471818-d1a5-4062-b1d5-448bc6e20f27")
 		)
 		(fp_line
-			(start 1.003297 1.00838)
-			(end 1.003297 1.00838)
+			(start 1.003297 1.008381)
+			(end 1.003297 1.008381)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -9352,7 +9352,7 @@
 		)
 		(fp_line
 			(start 1.008398 1.008379)
-			(end 1.003297 1.00838)
+			(end 1.003297 1.008381)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -9362,7 +9362,7 @@
 		)
 		(fp_line
 			(start -1.008398 -1.008379)
-			(end -1.003297 -1.00838)
+			(end -1.003297 -1.008381)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -9371,7 +9371,7 @@
 			(uuid "40397d7f-b157-47ae-b617-bc4fc5fa26e2")
 		)
 		(fp_line
-			(start -1.003297 -1.00838)
+			(start -1.003297 -1.008381)
 			(end -1.003298 -1.262379)
 			(stroke
 				(width 0.1524)
@@ -9483,7 +9483,7 @@
 			(uuid "4c900c89-ca64-4c2c-914d-c4203d5cad63")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f815aa66-a3fb-4e9b-a71b-59020dda1ed0")
@@ -9495,7 +9495,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.474997 -0.474979 -67.5)
+			(at -0.474997 -0.474979 292.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D3-DOUT)")
@@ -9504,7 +9504,7 @@
 			(uuid "906f3c77-a8ce-4e3b-8774-70d2454b77a3")
 		)
 		(pad "2" smd rect
-			(at -0.474999 0.474978 -67.5)
+			(at -0.474999 0.474978 292.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -9513,7 +9513,7 @@
 			(uuid "fd34e92c-20b0-4ff4-98aa-cf913d89e49d")
 		)
 		(pad "3" smd rect
-			(at 0.474997 0.474979 -67.5)
+			(at 0.474997 0.474979 292.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "D6_DOUT")
@@ -9522,7 +9522,7 @@
 			(uuid "dc05b96c-1cbd-4ed3-8917-4a57246f1f80")
 		)
 		(pad "4" smd rect
-			(at 0.474999 -0.474978 -67.5)
+			(at 0.474999 -0.474978 292.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -9985,7 +9985,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.159999 -22.5)
+			(at 0 -1.159999 337.5)
 			(layer "F.SilkS")
 			(uuid "461d4706-6901-4119-920e-75bbb16abd21")
 			(effects
@@ -9996,7 +9996,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.159999 -22.5)
+			(at 0 1.159999 337.5)
 			(layer "F.Fab")
 			(uuid "acfb8619-3fce-486f-91e8-bb050795388c")
 			(effects
@@ -10007,7 +10007,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c22762ed-49d7-43b6-8590-5086df0b80c5")
@@ -10018,7 +10018,7 @@
 			)
 		)
 		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14336e2c-eeb5-4aa3-a9d4-57de9fc459b9")
@@ -10029,7 +10029,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "584089ab-7625-482f-80c0-43aa58f665ff")
@@ -10041,7 +10041,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5VPNC"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10054,7 +10054,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10067,7 +10067,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10080,7 +10080,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10093,7 +10093,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10156,7 +10156,7 @@
 			(uuid "b3f2e552-db97-4ebd-9082-6c8e8c87589e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(layer "F.Fab")
 			(uuid "7582dad6-7808-4718-a444-fb7861ceb60e")
 			(effects
@@ -10167,7 +10167,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.479999 0.000001 -22.5)
+			(at -0.479999 0.000001 337.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10176,7 +10176,7 @@
 			(uuid "0b771ab3-8d84-49a8-8cc5-b9eb36c11b0c")
 		)
 		(pad "2" smd roundrect
-			(at 0.479999 -0.000001 -22.5)
+			(at 0.479999 -0.000001 337.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11367,7 +11367,7 @@
 		(descr "Inolux IN-PI15TAT5R5G5B addressable RGB LED, 1515 (1.5x1.5x0.65mm), 4-pin. Pad 1 DIN, 2 VDD, 3 DOUT, 4 GND. Land pattern per datasheet v1.2 'Recommended Dimensions for PCB': 0.55mm pads on 0.95mm pitch, 0.40mm gaps.")
 		(tags "LED RGB addressable 1515 Inolux IN-PI15TAT5R5G5B")
 		(property "Reference" "D7"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b4610e2d-f7a9-46e3-a13e-ded5b00bcd0b")
@@ -11379,7 +11379,7 @@
 			)
 		)
 		(property "Value" "IN-PI15TAT5R5G5B"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "79718153-7a2f-4559-8b34-e8ab251a8fcc")
@@ -11391,7 +11391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35b77368-ab6b-4b0e-b45f-b32329928f47")
@@ -11402,7 +11402,7 @@
 			)
 		)
 		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7070124b-e2d4-4e3f-8b0e-561777f67fce")
@@ -11413,7 +11413,7 @@
 			)
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11426,7 +11426,7 @@
 			)
 		)
 		(property "Manufacturer" "Inolux"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11439,7 +11439,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11650,7 +11650,7 @@
 			(uuid "f8830eb5-787b-48dd-89cf-7bad0dd840b1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ad987381-ce7f-4fac-9a05-386170dbe084")
@@ -11662,7 +11662,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.474998 -0.474978 -135)
+			(at -0.474998 -0.474978 225)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D6-DOUT)")
@@ -11671,7 +11671,7 @@
 			(uuid "4bdc4986-cbc6-42fa-89c4-a4fbe55b487a")
 		)
 		(pad "2" smd rect
-			(at -0.474998 0.474978 -135)
+			(at -0.474998 0.474978 225)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -11680,7 +11680,7 @@
 			(uuid "059c9204-d970-440a-8e43-8e7eefd84afd")
 		)
 		(pad "3" smd rect
-			(at 0.474998 0.474978 -135)
+			(at 0.474998 0.474978 225)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D7-DOUT)")
@@ -11689,7 +11689,7 @@
 			(uuid "eeca0c4e-9adf-4789-99f6-246f7dcee092")
 		)
 		(pad "4" smd rect
-			(at 0.474998 -0.474978 -135)
+			(at 0.474998 -0.474978 225)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -11706,7 +11706,7 @@
 		(descr "Inolux IN-PI15TAT5R5G5B addressable RGB LED, 1515 (1.5x1.5x0.65mm), 4-pin. Pad 1 DIN, 2 VDD, 3 DOUT, 4 GND. Land pattern per datasheet v1.2 'Recommended Dimensions for PCB': 0.55mm pads on 0.95mm pitch, 0.40mm gaps.")
 		(tags "LED RGB addressable 1515 Inolux IN-PI15TAT5R5G5B")
 		(property "Reference" "D2"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7d557830-ae3d-4f9c-a593-7d78b2557b86")
@@ -11718,7 +11718,7 @@
 			)
 		)
 		(property "Value" "IN-PI15TAT5R5G5B"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b937e475-9abe-49aa-80ac-0150a39f49c0")
@@ -11730,7 +11730,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/details.php?i=286"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc23899e-1150-4907-9241-2f9638a4f0f2")
@@ -11741,7 +11741,7 @@
 			)
 		)
 		(property "Description" "Addressable RGB LED, 1515 (1.5x1.5x0.65mm), 3.5-5.5V, single-wire 800kbps GRB, 5mA per colour"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4ed38d8-4648-4162-9620-d78a735731f7")
@@ -11752,7 +11752,7 @@
 			)
 		)
 		(property "MPN" "IN-PI15TAT5R5G5B"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11765,7 +11765,7 @@
 			)
 		)
 		(property "Manufacturer" "Inolux"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11778,7 +11778,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1830-IN-PI15TAT5R5G5BCT-ND"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11989,7 +11989,7 @@
 			(uuid "c0beebbb-7bd4-40ac-b60e-31fd6243097e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -22.5)
+			(at 0 0 337.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cfa6546a-e284-413e-b0c1-21689602ff83")
@@ -12001,7 +12001,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.474998 -0.47498 -22.5)
+			(at -0.474998 -0.47498 337.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D1-DOUT)")
@@ -12010,7 +12010,7 @@
 			(uuid "772e2a65-41a3-42f8-bd26-a2761bbd8799")
 		)
 		(pad "2" smd rect
-			(at -0.475 0.474978 -22.5)
+			(at -0.475 0.474978 337.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -12019,7 +12019,7 @@
 			(uuid "e2daa85c-217e-4f34-a5d4-c77f6be464e2")
 		)
 		(pad "3" smd rect
-			(at 0.474998 0.47498 -22.5)
+			(at 0.474998 0.47498 337.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(D2-DOUT)")
@@ -12028,7 +12028,7 @@
 			(uuid "6c677352-b0dc-4927-874c-005459d01288")
 		)
 		(pad "4" smd rect
-			(at 0.475 -0.474978 -22.5)
+			(at 0.475 -0.474978 337.5)
 			(size 0.5588 0.5588)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -12216,7 +12216,7 @@
 			(uuid "99e8c4e1-e7db-40da-b81d-f73c297acc7b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 450)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "a4055495-ec36-4d6d-b764-f9e2a8bee4d3")
 			(effects
@@ -12253,7 +12253,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0.000001 -1.159998 -67.5)
+			(at 0.000001 -1.159998 292.5)
 			(layer "F.SilkS")
 			(uuid "e13ca1a9-2c72-4bf5-b667-2b3a024a16d7")
 			(effects
@@ -12264,7 +12264,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at -0.000001 1.159998 -67.5)
+			(at -0.000001 1.159998 292.5)
 			(layer "F.Fab")
 			(uuid "d9ed7d11-64f4-477f-87cd-9e65084ae387")
 			(effects
@@ -12275,7 +12275,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B104KO5VPNC_Spec.pdf"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "163453dd-888c-4713-8b28-474d16c9cfbf")
@@ -12286,7 +12286,7 @@
 			)
 		)
 		(property "Description" "Local decoupling for an addressable LED - keep adjacent to its LED in layout. The Inolux datasheet requires one per device for stable cascading."
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45b41371-7444-460a-9690-6e3710aa6f27")
@@ -12297,7 +12297,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e44ee48f-1d40-4739-9364-b51173400e18")
@@ -12309,7 +12309,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5VPNC"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12322,7 +12322,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12335,7 +12335,7 @@
 			)
 		)
 		(property "DigiKey_PN" "1276-6844-1-ND"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12348,7 +12348,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12361,7 +12361,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 -67.5)
+			(at 0 0 292.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12435,7 +12435,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.479999 -0.000001 -67.5)
+			(at -0.479999 -0.000001 292.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12444,7 +12444,7 @@
 			(uuid "96c2b84a-ee27-47ed-964c-eb5d6f5c78c9")
 		)
 		(pad "2" smd roundrect
-			(at 0.479999 0.000001 -67.5)
+			(at 0.479999 0.000001 292.5)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12537,6 +12537,37 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "96f3fec1-5df3-420a-8505-8765375b10ba")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "Edge.Cuts")
+		(uuid "4953b389-f40f-460e-9626-1f7a84a3a44b")
+		(name "Antenna Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 87 65) (xy 93 80.5) (xy 98.5 78.994233) (xy 98.5 60.5)
+			)
+		)
 	)
 	(embedded_fonts no)
 )

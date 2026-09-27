@@ -18,7 +18,7 @@
 # drawing from a flat cell with every LED at full white.
 (rule "Power min width"
   (condition "A.hasNetclass('Power')")
-  (constraint track_width (min 0.3)))
+  (constraint track_width (min 0.3mm)))
 
 # Inner copper is half the thickness, so the same current needs twice the
 # width. The inner layers are planes and power should rarely be routed there,
@@ -26,21 +26,20 @@
 (rule "Power min width, inner layers"
   (layer inner)
   (condition "A.hasNetclass('Power')")
-  (constraint track_width (min 0.6)))
+  (constraint track_width (min 0.6mm)))
 
 # --- GNSS RF ----------------------------------------------------------------
 
 # The antenna feed is a 50 ohm microstrip: 0.36 mm over 7628 prepreg,
 # allowing for the solder mask. The window allows for rounding, not for
 # routing at a different width.
-(rule "GNSS RF width"
+#
+# It also takes no vias. A via is an impedance step and a stub, and the whole
+# feed - module, matching pads, chip antenna and IPEX - sits on one side, so
+# it never needs one.
+(rule "GNSS RF"
   (condition "A.hasNetclass('RF_50R')")
-  (constraint track_width (min 0.34) (opt 0.36) (max 0.38)))
-
-# A via is an impedance step and a stub. The whole feed - module, matching
-# pads, chip antenna and IPEX - sits on one side, so it never needs one.
-(rule "GNSS RF no vias"
-  (condition "A.hasNetclass('RF_50R')")
+  (constraint track_width (min 0.34mm) (opt 0.36mm) (max 0.38mm))
   (constraint disallow via))
 
 # --- Fine pitch -------------------------------------------------------------
@@ -49,11 +48,11 @@
 # the exposed pad, below the 0.2 mm netclass clearance and fixed by the part.
 (rule "Fuel gauge TDFN pad gap"
   (condition "A.memberOfFootprint('smart_compass:SON50P200X200X80-9N') || B.memberOfFootprint('smart_compass:SON50P200X200X80-9N')")
-  (constraint clearance (min 0.15)))
+  (constraint clearance (min 0.15mm)))
 
 # The nRF52840 module's staggered pads leave exactly 0.6 mm between outer-row
 # pads - one 0.2 mm track at 0.2 mm clearance with no margin. Let the inner
 # row's escape tracks through at 0.15 mm.
 (rule "BMD-340 fan-out"
   (condition "A.intersectsCourtyard('smart_compass:RIGADO_BMD-340-A-R') || B.intersectsCourtyard('smart_compass:RIGADO_BMD-340-A-R')")
-  (constraint clearance (min 0.15)))
+  (constraint clearance (min 0.15mm)))
