@@ -3527,6 +3527,18 @@
 		(uuid "25e09a5c-98e2-4f03-a53e-8c3e4b5c06d8")
 	)
 	(junction
+		(at 176.53 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2873b00e-c398-43ed-8129-357aa2d317ca")
+	)
+	(junction
+		(at 176.53 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f0c9a61-5d2e-4b8a-9c47-e1a6b2d8f035")
+	)
+	(junction
 		(at 87.63 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3539,10 +3551,10 @@
 		(uuid "5862572b-a8c0-4319-92d3-68b6c51b8a6d")
 	)
 	(junction
-		(at 176.53 55.88)
+		(at 163.83 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "58a87219-5d95-4f7d-b607-e1c1aa59d867")
+		(uuid "7b70da7d-8e73-43ea-912a-b4f0f366b152")
 	)
 	(junction
 		(at 59.69 41.91)
@@ -3569,6 +3581,12 @@
 		(uuid "a7099c44-d683-4392-8a50-540a42a4f8ea")
 	)
 	(junction
+		(at 194.31 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a83024ee-ba7e-43ea-ba6d-57b7188124eb")
+	)
+	(junction
 		(at 81.28 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3591,12 +3609,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca05d037-77be-40e3-b502-c8da6600d83c")
-	)
-	(junction
-		(at 189.23 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4c5b6d8-f286-4994-b18d-259887a162c4")
 	)
 	(junction
 		(at 90.17 62.23)
@@ -3635,6 +3647,16 @@
 			(type solid)
 		)
 		(uuid "048142ee-ddb0-4a4b-970e-3c5610708507")
+	)
+	(wire
+		(pts
+			(xy 176.53 43.18) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0581f038-bb44-4a9f-a61e-a971a708f0f5")
 	)
 	(wire
 		(pts
@@ -3688,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 39.37) (xy 176.53 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3565af-fa99-4a59-b698-007e4819e295")
-	)
-	(wire
-		(pts
 			(xy 163.83 55.88) (xy 172.72 55.88)
 		)
 		(stroke
@@ -3708,7 +3720,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 43.18) (xy 189.23 43.18)
+			(xy 181.61 49.53) (xy 194.31 49.53)
 		)
 		(stroke
 			(width 0.1524)
@@ -3938,17 +3950,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 43.18) (xy 189.23 39.37)
+			(xy 172.72 43.18) (xy 176.53 43.18)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "78adb5eb-1934-4493-a232-b1ed9b201105")
+		(uuid "75cd5d6e-9f2e-4211-b672-0cbd17b9a8de")
 	)
 	(wire
 		(pts
-			(xy 193.04 41.91) (xy 193.04 44.45)
+			(xy 198.12 41.91) (xy 198.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3988,6 +4000,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 39.37) (xy 194.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7536d6-18df-4b44-bbab-39ab5c3c35cd")
+	)
+	(wire
+		(pts
 			(xy 90.17 62.23) (xy 90.17 67.31)
 		)
 		(stroke
@@ -3995,16 +4017,6 @@
 			(type solid)
 		)
 		(uuid "8f4d9345-17cb-42f2-9ac8-c912685b7083")
-	)
-	(wire
-		(pts
-			(xy 186.69 39.37) (xy 189.23 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91596653-2f12-463b-9ffc-bea8edb9e3b1")
 	)
 	(wire
 		(pts
@@ -4045,6 +4057,16 @@
 			(type default)
 		)
 		(uuid "97073b6c-183a-4368-81d1-70db33b9da53")
+	)
+	(wire
+		(pts
+			(xy 194.31 43.18) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97580d8e-2e87-47dd-97aa-2fb6867ebf20")
 	)
 	(wire
 		(pts
@@ -4208,7 +4230,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 39.37) (xy 193.04 39.37)
+			(xy 176.53 43.18) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca3f5e0-c9d1-4cd8-a48b-a12ad3ee3bbf")
+	)
+	(wire
+		(pts
+			(xy 194.31 39.37) (xy 198.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4298,6 +4330,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 43.18) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a9dcbe-841a-4906-9ed7-91cb12b7fe08")
+	)
+	(wire
+		(pts
 			(xy 81.28 95.25) (xy 81.28 99.06)
 		)
 		(stroke
@@ -4325,6 +4367,16 @@
 			(type default)
 		)
 		(uuid "eb840f26-9d7f-4842-944a-8de336423d9e")
+	)
+	(wire
+		(pts
+			(xy 190.5 43.18) (xy 194.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed2ddf8-c504-434f-8429-380824ce8d22")
 	)
 	(wire
 		(pts
@@ -4368,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 43.18) (xy 181.61 58.42)
+			(xy 181.61 49.53) (xy 181.61 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -7947,7 +7999,7 @@
 				)
 			)
 		)
-		(property "Sourcing_Note" "P-channel power mux between the battery and the LDO input: drain on +BATT, source on the LDO rail, gate on VBUS with a 100k pulldown, paired with the MBR0540 Schottky that feeds the rail from USB. Replaces the DMG3415U-7, which the manufacturer marks NOT RECOMMENDED FOR NEW DESIGN and names this part as its successor. Same SOT-23 package and same G/S/D pinout, so the swap needs no layout change. Package is JEDEC TO-236AB: 2.90 x 1.30mm body, 2.40mm lead span, 0.95mm pitch, which is what Package_TO_SOT_SMD:SOT-23 is drawn for. The earlier footprint, SOT95P240X105-3N, had the same outline but lived in a per-part library that is no longer present, which is why this field had gone empty. Rds(on) is slightly higher than the old part (45mOhm vs 39mOhm at 4.5V drive, 90mOhm vs 71mOhm at 1.8V) and Ciss roughly doubles to 634pF, but neither matters here: the FET carries only the 3.3V LDO input current, a few hundred mA at most, since the LED ring's boost taps +BATT upstream through FB1. Conduction loss is a few mW against an 800mW rating, and the gate time constant through the 100k pulldown is about 60us, far quicker than the VBUS rail decays on unplug."
+		(property "Sourcing_Note" "P-channel power mux between the battery and the LDO input: drain on +BATT, source on VSYS, gate on VBUS with a 4.7k pulldown, paired with the SS1040-AU Schottky that feeds VSYS from USB. A second SS1040-AU sits across drain and source so the cell feeds VSYS through a Schottky rather than the body diode while the gate waits for VBUS to drain after unplugging; without it the 3.3V rail can dip below 2.7V for about 10ms with a low cell and a bright LED ring (see boards/main/sim/RESULTS.md). Replaces the DMG3415U-7, which the manufacturer marks NOT RECOMMENDED FOR NEW DESIGN and names this part as its successor. Same SOT-23 package and same G/S/D pinout. Package is JEDEC TO-236AB: 2.90 x 1.30mm body, 2.40mm lead span, 0.95mm pitch, which is what Package_TO_SOT_SMD:SOT-23 is drawn for. Carries the whole VSYS load on battery, the LDO and the LED ring's boost, up to about 0.6A; at 45mOhm that is under 20mW against an 800mW rating."
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8183,164 +8235,6 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "smart_compass_main:RESISTOR_0603_NOOUT")
-		(at 153.67 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1fbcce49-c96e-497e-8c3c-5d86c8d802ca")
-		(property "Reference" "R12"
-			(at 151.13 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 153.67 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-07100KL"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" "0.07"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_PN" "311-100KHRCT-ND"
-			(at 153.67 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2657d3c7-cea0-4fe4-8874-7ad094f38de1")
-		)
-		(pin "2"
-			(uuid "b9e84adc-1675-4781-ad1e-74adccd0c902")
-		)
-		(instances
-			(project "SmartCompass"
-				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9027,6 +8921,173 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
 					(reference "CHG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smart_compass_main:DIODE-SCHOTTKYSOD-123")
+		(at 170.18 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b3f0189-7e47-4003-a383-10cac2a20e7b")
+		(property "Reference" "D3"
+			(at 170.18 38.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "SS1040-AU"
+			(at 170.18 40.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS1040-AU.pdf"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky 40V 1A SOD-123"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SS1040-AU_R1_000A1"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panjit International Inc."
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "3757-SS1040-AU_R1_000A1CT-ND"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.18"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KIPRJMOD}/../../libs/spice/smart_compass.spice"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "SS1040_AU"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b82f458-e2e7-4d0f-8d6b-4683c9b79bad")
+		)
+		(pin "2"
+			(uuid "8d8ef2ee-4232-4957-a026-557b26f0d573")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10260,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:RESISTOR_0603_NOOUT")
-		(at 181.61 39.37 0)
+		(at 185.42 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10209,7 +10270,7 @@
 		(dnp no)
 		(uuid "7b4781d5-3c63-408d-a02c-1aa4fcd45f70")
 		(property "Reference" "R9"
-			(at 181.61 36.83 0)
+			(at 185.42 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10218,8 +10279,8 @@
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 181.61 39.37 0)
+		(property "Value" "1M"
+			(at 185.42 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10231,7 +10292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10242,7 +10303,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10253,7 +10314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10263,8 +10324,8 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100KL"
-			(at 181.61 39.37 0)
+		(property "MPN" "RC0603FR-071ML"
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10275,7 +10336,7 @@
 			)
 		)
 		(property "PRICE" "0.07"
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10286,7 +10347,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10297,7 +10358,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10308,7 +10369,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10319,7 +10380,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 181.61 39.37 0)
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10329,8 +10390,8 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-100KHRCT-ND"
-			(at 181.61 39.37 0)
+		(property "DigiKey_PN" "311-1.00MHRCT-ND"
+			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10514,7 +10575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 44.45 0)
+		(at 198.12 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10525,7 +10586,7 @@
 		(fields_autoplaced yes)
 		(uuid "a273541d-d37e-41f5-83ea-6f2a9b339557")
 		(property "Reference" "#PWR026"
-			(at 193.04 50.8 0)
+			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10536,7 +10597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 49.53 0)
+			(at 198.12 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10547,7 +10608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 44.45 0)
+			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10558,7 +10619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 44.45 0)
+			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10569,7 +10630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 44.45 0)
+			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10786,6 +10847,164 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smart_compass_main:RESISTOR_0603_NOOUT")
+		(at 153.67 63.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac5b0164-0396-4f55-9862-6d168d477985")
+		(property "Reference" "R12"
+			(at 151.13 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 153.67 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "0.07"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" ""
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-4.70KHRCT-ND"
+			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fd022ea-a3d4-4be5-9aca-8869ce857bad")
+		)
+		(pin "2"
+			(uuid "8e0c73e7-3d2b-4926-adfb-ca4660d6685d")
+		)
+		(instances
+			(project "SmartCompass"
+				(path "/0c161f28-8075-4403-a867-35208f463636/44fc6246-5945-463a-870f-e1f278c176e3"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11498,7 +11717,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR0540"
+		(property "Value" "SS1040-AU"
 			(at 158.75 58.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11519,7 +11738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/MBR0520-MBR0580(SOD123).pdf"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS1040-AU.pdf"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11530,7 +11749,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky 40V 500mA SOD-123"
+		(property "Description" "Schottky 40V 1A SOD-123"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11541,7 +11760,7 @@
 				)
 			)
 		)
-		(property "MPN" "MBR0540-TP"
+		(property "MPN" "SS1040-AU_R1_000A1"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11552,7 +11771,7 @@
 				)
 			)
 		)
-		(property "PRICE" "0.23"
+		(property "PRICE" "0.18"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11574,7 +11793,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MCC (Micro Commercial Components)"
+		(property "Manufacturer" "Panjit International Inc."
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11585,7 +11804,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "MBR0540TPMSCT-ND"
+		(property "DigiKey_PN" "3757-SS1040-AU_R1_000A1CT-ND"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11629,7 +11848,7 @@
 				)
 			)
 		)
-		(property "Sim.Name" "MBR0540"
+		(property "Sim.Name" "SS1040_AU"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12072,7 +12291,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 198.12 39.37 0)
+		(at 203.2 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -12082,7 +12301,7 @@
 		(dnp no)
 		(uuid "df06318c-d13e-4c8a-b406-ba2e35f5b1f2")
 		(property "Reference" "ONOFF1"
-			(at 200.66 41.91 0)
+			(at 205.74 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12093,7 +12312,7 @@
 			)
 		)
 		(property "Value" "PWRSW_PADS"
-			(at 198.12 34.29 0)
+			(at 203.2 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12103,7 +12322,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm_Relief"
-			(at 198.12 39.37 0)
+			(at 203.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12114,7 +12333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 39.37 0)
+			(at 203.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12125,7 +12344,7 @@
 			)
 		)
 		(property "Description" "Soldered wire pads with feed-through strain relief, 2 conductors - case power switch"
-			(at 198.12 39.37 0)
+			(at 203.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12136,7 +12355,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 198.12 39.37 0)
+			(at 203.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

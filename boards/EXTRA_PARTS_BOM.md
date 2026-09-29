@@ -22,7 +22,7 @@ from Digi-Key and will drift; re-check before ordering.
 | ---- | ---------- | --- | ----- |
 | 10-way 0.5 mm FFC cable | Board-to-board, ring link and display link | 2 | Both links use the same connector at both ends, so one cable part serves both. **Length and contact side still to be decided** — see the warning below |
 | LiPo cell, 504050 or 505050 | ~1000 mAh, fits behind the PCB | 1 | Almost always ships with a JST PH 2-pin plug already fitted, which mates the board's battery header directly — no crimping needed |
-| Power switch | Case-mounted, SMD or through-hole | 1 | Pulls the load switch's enable node down against a 100 kΩ pull-up, so the lead carries microamps and current rating is not a constraint here. |
+| Power switch | Case-mounted, SMD or through-hole | 1 | Pulls the load switch's enable node down against a 1M pull-up, so the lead carries microamps and current rating is not a constraint here. |
 | User Buttons | Case-mounted, SMD or through-holE | 3 | These will be the primary point of contact for the user, so make sure these are good! |
 
 ## Notes

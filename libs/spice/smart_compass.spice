@@ -27,6 +27,23 @@ D1 A K DMBR0540
 .ends MBR0540
 
 *------------------------------------------------------------------------------
+* SS1040-AU - 40 V, 1 A Schottky rectifier, SOD-123
+* Datasheet: SS1040-AU_Panjit.pdf
+* Forward, 25 C (fig. 4 and table): 1 mA at 0.22 V, 10 mA at 0.28 V,
+* 0.5 A at 0.44 V, 1 A at about 0.5 V.
+* Reverse, 25 C (fig. 3): 0.6 uA at 8 V, rising to about 4.5 uA at 40 V; the
+* model gives a flat 0.3 uA. EG/XTI track the leakage to 75 C and 125 C.
+* RS is not temperature dependent, so the forward drop at 125 C is about
+* 40 mV low.
+* Capacitance (fig. 2 and table): about 120 pF at 0 V, 45 pF at 4 V, 15 pF at
+* 40 V.
+*------------------------------------------------------------------------------
+.subckt SS1040_AU A K
+D1 A K DSS1040AU
+.model DSS1040AU D(IS=2.9e-7 N=1.05 RS=0.105 CJO=120p VJ=0.4 M=0.43 EG=0.70 XTI=2 BV=40 IBV=100u)
+.ends SS1040_AU
+
+*------------------------------------------------------------------------------
 * DMP2045U - 20 V P-channel MOSFET, SOT-23
 * Datasheet: DMP2045U_Diodes.pdf
 * VGS(th) -0.55 V typical at 25 C (datasheet range -0.3 V to -1.0 V).
