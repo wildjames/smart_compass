@@ -1,0 +1,138 @@
+* Smart Compass - SPICE models for parts used on the boards.
+*
+* Each model is fitted to the datasheet in ../../datasheets/ rather than taken
+* from a vendor, so every parameter can be traced to a figure there. The
+* discrete devices are fitted to their characteristic curves; the two power
+* ICs are behavioural and reproduce the datasheet's terminal behaviour
+* (thresholds, regulation, dropout), not the silicon.
+*
+* Subcircuit names use an underscore where the part number has a hyphen:
+* ngspice misreads a hyphen in the name of a subcircuit that takes
+* parameters.
+*
+* Temperature: the diode models scale with .temp through EG/XTI. The MOSFET
+* threshold does not, and the ICs ignore temperature (no thermal regulation).
+
+*------------------------------------------------------------------------------
+* MBR0540 - 40 V, 0.5 A Schottky rectifier, SOD-123
+* Datasheet: MBR0520-MBR0580_MCC.pdf (curves are for the MBR05xx family)
+* Forward, 25 C: 10 mA at 0.265 V, 100 mA at 0.335 V, 1 A at 0.53 V.
+* Reverse, VR = 5 V: about 1.5 uA at 25 C and 250 uA at 100 C; EG/XTI are
+* set so the saturation current tracks that leakage with temperature.
+* Capacitance: 95 pF at 0 V, 30 pF at 4 V.
+*------------------------------------------------------------------------------
+.subckt MBR0540 A K
+D1 A K DMBR0540
+.model DMBR0540 D(IS=1.6u N=1.18 RS=0.125 CJO=95p VJ=0.4 M=0.5 EG=0.69 XTI=2 BV=40 IBV=100u)
+.ends MBR0540
+
+*------------------------------------------------------------------------------
+* DMP2045U - 20 V P-channel MOSFET, SOT-23
+* Datasheet: DMP2045U_Diodes.pdf
+* VGS(th) -0.55 V typical at 25 C (datasheet range -0.3 V to -1.0 V).
+* RDS(on) 32/42/54 mOhm typical at VGS = -4.5/-2.5/-1.8 V; the square-law
+* fit gives about 31/53/77 mOhm, erring high at low gate drive.
+* Saturation: about 2.5 A at VGS = -1.2 V.
+* Body diode: 0.7 V at 1 A, about 0.6 V at 100 mA.
+* Ciss 634 pF, Crss 66 pF, gate resistance 20 Ohm.
+*------------------------------------------------------------------------------
+.subckt DMP2045U D G S
+M1 DI GI SI SI PDMP2045U
+RD D DI 5m
+RS S SI 5m
+RG G GI 20
+CGS GI SI 570p
+CGD GI DI 70p
+DBODY D S DDMP2045U
+.model PDMP2045U PMOS(LEVEL=1 VTO=-0.55 KP=12 LAMBDA=0.01)
+.model DDMP2045U D(IS=3.5e-10 N=1.2 RS=0.025 CJO=300p VJ=0.7 M=0.4 BV=20 IBV=250u TT=10n)
+.ends DMP2045U
+
+*------------------------------------------------------------------------------
+* LTST-C191KRKT - red 0603 LED
+* Datasheet: LTST-C191KRKT_LiteOn.pdf. VF 2.0 V typical at 20 mA; 40 pF.
+*------------------------------------------------------------------------------
+.subckt LTST_C191KRKT A K
+D1 A K DLTSTC191
+.model DLTSTC191 D(IS=1e-18 N=2 RS=3 CJO=40p BV=5 IBV=10u)
+.ends LTST_C191KRKT
+
+*------------------------------------------------------------------------------
+* MPZ1608S601A - 600 Ohm at 100 MHz chip bead for power lines, 0603
+* Datasheet: MPZ1608_TDK.pdf. DC resistance 0.15 Ohm max, 1 A rated.
+* Below 1 MHz a bead is its DC resistance in series with an inductance. The
+* 1.5 uH here allows for the loss of inductance under a few hundred mA of DC
+* bias, which the datasheet does not chart. The 600 Ohm shunt only matters far
+* above the frequencies this simulation looks at.
+*------------------------------------------------------------------------------
+.subckt MPZ1608S601A 1 2
+R1 1 A 0.1
+L1 A 2 1.5u
+R2 A 2 600
+.ends MPZ1608S601A
+
+*------------------------------------------------------------------------------
+* MCP73831-2 - single-cell Li-ion/Li-Po linear charger, 4.20 V
+* Datasheet: MCP73831-Family-DS20001984H.pdf. Behavioural.
+*
+* Modelled:
+*   - PROG held at 1.0 V; fast-charge current = 1000 x the PROG current,
+*     i.e. IREG = 1000 V / RPROG, so the resistor on the schematic sets it.
+*   - Constant voltage at VREG once the cell reaches it.
+*   - Preconditioning at 10 % of IREG below 66.5 % of VREG.
+*   - Undervoltage lockout (3.45 V start, 3.38 V stop, modelled at 3.42 V).
+*   - Automatic power-down when VDD falls within 50-150 mV of VBAT
+*     (modelled at 100 mV).
+*   - About 1 ms start-up delay and current ramp.
+*   - Pass transistor of 350 mOhm limiting current at low headroom.
+*   - STAT sinking (about 100 Ohm) while charging, high impedance in
+*     shutdown.
+*   - 510 uA supply current while charging, 1 uA in power-down.
+* Not modelled: charge termination (and STAT going high), thermal
+* regulation, recharge threshold, no-battery detection.
+*------------------------------------------------------------------------------
+.subckt MCP73831_2 STAT VSS VBAT VDD PROG params: VREG=4.2 KPROG=1000 RDS=0.35
+VPROG PROG VSS DC 1.0
+BEN EN VSS V = 0.5*(1+tanh((V(VDD,VSS)-3.42)/0.01)) * 0.5*(1+tanh((V(VDD,VBAT)-0.1)/0.01))
+REN EN ENF 1k
+CEN ENF VSS 1u
+BPRE PRE VSS V = 0.1 + 0.9*0.5*(1+tanh((V(VBAT,VSS)-0.665*{VREG})/0.02))
+BCHG VDD VBAT I = min(V(EN,VSS),V(ENF,VSS)) * max(0, min(min(-{KPROG}*i(VPROG)*V(PRE,VSS), ({VREG}-V(VBAT,VSS))/0.05), max(0,V(VDD,VBAT))/{RDS}))
+BSTAT STAT VSS I = V(EN,VSS) * max(0,V(STAT,VSS))/100
+BISS VDD VSS I = 1u + 509u*V(EN,VSS)
+.ends MCP73831_2
+
+*------------------------------------------------------------------------------
+* RT9080-33 - 600 mA low-dropout regulator, 3.3 V fixed
+* Datasheet: RT9080.pdf. Behavioural.
+*
+* The pass device carries whichever is smaller of two currents: a
+* transconductance GM pulling the output towards the setpoint, and what a
+* fully-on pass transistor of RON can deliver from the input. Both have a
+* slope everywhere, which is what lets the operating point converge.
+*
+* Modelled:
+*   - Enable threshold 0.66 V (datasheet 0.67 V rising, 0.64 V falling);
+*     needs VIN above about 1.2 V.
+*   - Soft start: about 300 us from enable to regulation.
+*   - Load regulation about 0.3 % at 100 mA, and the response to load steps,
+*     both from GM against the output capacitance.
+*   - Dropout: pass resistance of 0.5 Ohm at 25 C (0.31 V at 600 mA).
+*   - If VIN falls below VOUT the fully-on pass transistor conducts
+*     backwards, as a PMOS regulator without reverse-current blocking does
+*     (the datasheet limits VOUT - VIN to 0.3 V).
+*   - Internal feedback divider (2 MOhm) and quiescent current, 2 uA total.
+*   - 80 Ohm active output discharge when disabled.
+* Not modelled: the 1.1 A current limit and fold-back, over-temperature
+* shutdown, PSRR, noise, the rise of dropout with temperature.
+*------------------------------------------------------------------------------
+.subckt RT9080_33 VIN GND EN VOUT params: VNOM=3.3 RON=0.5 GM=30
+BEN ENI GND V = 0.5*(1+tanh((V(EN,GND)-0.66)/0.01)) * 0.5*(1+tanh((V(VIN,GND)-1.1)/0.05))
+BSP SP0 GND V = {VNOM}*V(ENI,GND)
+RSS SP0 SP 150
+CSS SP GND 1u
+BPASS VIN VOUT I = V(ENI,GND) * 0.5*({GM}*(V(SP,GND)-V(VOUT,GND)) + V(VIN,VOUT)/{RON} - sqrt(({GM}*(V(SP,GND)-V(VOUT,GND)) - V(VIN,VOUT)/{RON})**2 + 1e-6))
+RFB VOUT GND 2Meg
+BDIS VOUT GND I = (1-V(ENI,GND)) * V(VOUT,GND)/80
+BQ VIN GND I = 0.3u*V(ENI,GND) + 0.1u
+.ends RT9080_33

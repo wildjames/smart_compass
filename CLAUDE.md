@@ -84,6 +84,17 @@ PCB-only), so ask the user to close it rather than editing under the lock.
 
 After any schematic edit, run `validate_schematic` and `run_erc`.
 
+### SPICE
+
+The main board is set up for KiCad's simulator. See
+[boards/main/sim/README.md](boards/main/sim/README.md). Part models are in
+[libs/spice/](libs/spice/), and the test fixtures (cell, USB host, loads) are
+in `boards/main/sim/fixtures.spice`. Every new main-board symbol needs a
+`Sim.*` model or `exclude_from_sim`. Exclude it too if it would leave a node
+with no DC path to ground, otherwise the simulator stops. To check the setup
+without the GUI, export a netlist with `export_netlist` (format `Spice`) and
+run it through KiCad's bundled `bin/ngspice.dll`.
+
 ## Firmware
 
 A Cargo workspace in [firmware/](firmware/) with two members:

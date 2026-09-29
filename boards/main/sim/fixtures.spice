@@ -1,0 +1,105 @@
+* Smart Compass main board - simulation fixtures.
+*
+* These are not components on the board. They stand in for the things that
+* plug into it (the cell, a USB host and its cable, the LED ring and e-ink
+* boards) and for the current drawn by the digital and RF modules, which are
+* only interesting to SPICE as loads. The schematic gives each connector or
+* module symbol the fixture that represents it.
+*
+* Event times, the cell voltage and the cable are global parameters set by
+* the .param directives on the root sheet, so the whole scenario is edited in
+* one place. Load magnitudes are subcircuit parameters, overridable per
+* symbol from KiCad's Simulation Model dialog.
+*
+* Every load fades out below 1.5 V, so an unpowered rail is not dragged below
+* ground by an ideal current source.
+
+*------------------------------------------------------------------------------
+* Li-Po cell: open-circuit voltage VBAT behind RBAT (cell, protection
+* circuit and leads).
+*------------------------------------------------------------------------------
+.subckt LIPO_CELL POS NEG
+V1 A NEG DC {VBAT}
+R1 A POS {RBAT}
+.ends LIPO_CELL
+
+*------------------------------------------------------------------------------
+* USB host at the far end of a cable. The source is ideal and already at
+* VUSB, which is the worst case for hot-plug overshoot. The cable is RCABLE
+* (round trip) in series with LCABLE (loop inductance). The plug makes
+* contact at T_PLUG and is pulled at T_UNPLUG.
+*------------------------------------------------------------------------------
+.subckt USB_HOST VBUS GND
+VSRC SRC GND DC {VUSB}
+R1 SRC A {RCABLE}
+L1 A B {LCABLE}
+C1 B GND 1n
+VCTL CTL GND PWL(0 0 {T_PLUG} 0 {T_PLUG+100n} 1 {T_UNPLUG} 1 {T_UNPLUG+100n} 0)
+S1 B VBUS CTL GND SWPLUG
+.model SWPLUG SW(RON=10m ROFF=100Meg VT=0.5 VH=0.1)
+.ends USB_HOST
+
+*------------------------------------------------------------------------------
+* Constant-current load, for parts whose draw does not change in the
+* scenario.
+*------------------------------------------------------------------------------
+.subckt LOAD_CONST VDD GND params: I=1m
+B1 VDD GND I = {I}*min(1, max(0,V(VDD,GND))/1.5)
+.ends LOAD_CONST
+
+*------------------------------------------------------------------------------
+* nRF52840 module. I_VCC is an estimate for the CPU running with BLE
+* advertising. I_VBUS is the VBUS pin with the USB peripheral disabled; it is
+* deliberately small because the VBUS pin current helps discharge VBUS after
+* unplugging, and assuming little of it is the pessimistic case.
+*------------------------------------------------------------------------------
+.subckt LOAD_NRF52840 VCC VBUS GND params: I_VCC=6m I_VBUS=1u
+B1 VCC GND I = {I_VCC}*min(1, max(0,V(VCC,GND))/1.5)
+B2 VBUS GND I = {I_VBUS}*min(1, max(0,V(VBUS,GND))/1.5)
+.ends LOAD_NRF52840
+
+*------------------------------------------------------------------------------
+* Wio-SX1262 LoRa module: receiving between packets, transmitting at +22 dBm
+* from T_TX1, T_TX2 and T_TX3 for TX_LEN each (datasheet: 7.6 mA RX, 125 mA TX
+* at 22 dBm).
+*------------------------------------------------------------------------------
+.subckt LOAD_WIO_SX1262 VCC GND params: I_RX=7.6m I_TX=125m
+VTX TX 0 PWL(0 0 {T_TX1} 0 {T_TX1+50u} 1 {T_TX1+TX_LEN} 1 {T_TX1+TX_LEN+50u} 0
++ {T_TX2} 0 {T_TX2+50u} 1 {T_TX2+TX_LEN} 1 {T_TX2+TX_LEN+50u} 0
++ {T_TX3} 0 {T_TX3+50u} 1 {T_TX3+TX_LEN} 1 {T_TX3+TX_LEN+50u} 0)
+B1 VCC GND I = ({I_RX} + ({I_TX}-{I_RX})*V(TX))*min(1, max(0,V(VCC,GND))/1.5)
+.ends LOAD_WIO_SX1262
+
+*------------------------------------------------------------------------------
+* DRV2605L haptic driver and LRA: shutdown current, then a buzz from T_BUZZ
+* for BUZZ_LEN. I_BUZZ is an estimate for the LRA at its rated drive.
+*------------------------------------------------------------------------------
+.subckt LOAD_DRV2605 VDD GND params: I_IDLE=4u I_BUZZ=60m
+VON ON 0 PWL(0 0 {T_BUZZ} 0 {T_BUZZ+1m} 1 {T_BUZZ+BUZZ_LEN} 1 {T_BUZZ+BUZZ_LEN+1m} 0)
+B1 VDD GND I = ({I_IDLE} + ({I_BUZZ}-{I_IDLE})*V(ON))*min(1, max(0,V(VDD,GND))/1.5)
+.ends LOAD_DRV2605
+
+*------------------------------------------------------------------------------
+* e-ink display board on the display flat cable: a refresh from T_EPD for
+* EPD_LEN. I_REFRESH is an estimate.
+*------------------------------------------------------------------------------
+.subckt LOAD_EPD VDD GND params: I_SLEEP=1u I_REFRESH=8m
+VON ON 0 PWL(0 0 {T_EPD} 0 {T_EPD+1m} 1 {T_EPD+EPD_LEN} 1 {T_EPD+EPD_LEN+1m} 0)
+B1 VDD GND I = ({I_SLEEP} + ({I_REFRESH}-{I_SLEEP})*V(ON))*min(1, max(0,V(VDD,GND))/1.5)
+.ends LOAD_EPD
+
+*------------------------------------------------------------------------------
+* LED ring board on the ring flat cable. RFFC is the cable's supply and return
+* conductors; CIN is the ring board's input capacitance (22 uF at its
+* connector plus 10 uF at the boost). The boost converter draws constant
+* power RING_W from T_RING_ON to T_RING_OFF and drops out below 1.9 V.
+* For scale: every LED full white is 16 x (3 x 5 mA + 0.5 mA) at 5 V, about
+* 1.4 W at the boost input; the schematic's "typical" 80 mA at 5 V is about
+* 0.45 W.
+*------------------------------------------------------------------------------
+.subckt LOAD_LED_RING VDRIVE GND params: CIN=32u RFFC=0.1
+R1 VDRIVE RING {RFFC}
+C1 RING GND {CIN}
+VON ON 0 PWL(0 0 {T_RING_ON} 0 {T_RING_ON+500u} 1 {T_RING_OFF} 1 {T_RING_OFF+500u} 0)
+B1 RING GND I = {RING_W}*V(ON)/max(V(RING,GND),2.5) * 0.5*(1+tanh((V(RING,GND)-1.9)/0.05))
+.ends LOAD_LED_RING

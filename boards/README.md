@@ -19,6 +19,11 @@ them - are listed in [EXTRA_PARTS_BOM.md](EXTRA_PARTS_BOM.md), because they neve
 appear in a BOM exported from a schematic. Outstanding sourcing work and open
 risks are in [COMPONENT_SOURCING.md](COMPONENT_SOURCING.md).
 
+The main board's power tree can be simulated in KiCad's built-in SPICE
+simulator; [main/sim/README.md](main/sim/README.md) explains the setup, what is
+modelled and excluded, and the results so far. The part models are in
+`../libs/spice/`.
+
 ## Libraries
 
 `../libs/smart_compass.kicad_sym` and `../libs/smart_compass.pretty` hold the

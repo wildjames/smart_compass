@@ -4127,6 +4127,17 @@
 		)
 		(uuid "5f66da0e-a2ca-4676-9af7-1783998a8ca3")
 	)
+	(text "SPICE SCENARIO - Inspect > Simulator; see sim/README.md\nOn battery: LoRa transmit at 0.1 s, LED ring on from 0.15 s,\nhaptic buzz at 0.25 s. USB plugged in at 0.4 s, transmit at\n0.55 s, e-ink refresh from 0.7 s. USB unplugged at 1.0 s,\nwith a transmit 20 ms later while the power path switches back."
+		(exclude_from_sim no)
+		(at 124.46 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abb0954f-748b-491e-a5f9-4b87ed131655")
+	)
 	(text "USB\n"
 		(exclude_from_sim no)
 		(at 226.822 58.674 0)
@@ -4137,6 +4148,17 @@
 			(justify left bottom)
 		)
 		(uuid "acdd3b06-fca0-4f0c-ab65-69c721dc3f4a")
+	)
+	(text ".param VBAT=3.7 RBAT=0.15 VUSB=5.0 RCABLE=0.2 LCABLE=1u\n.param T_PLUG=0.4 T_UNPLUG=1.0\n.param T_TX1=0.1 T_TX2=0.55 T_TX3=1.02 TX_LEN=0.1\n.param T_RING_ON=0.15 T_RING_OFF=2.5 RING_W=0.45\n.param T_BUZZ=0.25 BUZZ_LEN=0.1 T_EPD=0.7 EPD_LEN=1.0\n.tran 10u 3"
+		(exclude_from_sim no)
+		(at 124.46 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b047893d-6c0f-4f6c-94a4-3f61f5fd7fc8")
 	)
 	(junction
 		(at 247.65 82.55)
@@ -7910,7 +7932,7 @@
 		(at 48.26 57.15 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -8481,7 +8503,7 @@
 		(at 203.2 96.52 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -8792,7 +8814,7 @@
 		(mirror y)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -9240,6 +9262,50 @@
 				)
 			)
 		)
+		(property "Sim.Device" "SUBCKT"
+			(at 97.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KIPRJMOD}/sim/fixtures.spice"
+			(at 97.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LOAD_NRF52840"
+			(at 97.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "17=VCC 66=VBUS 1=GND"
+			(at 97.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d37659ff-ff87-47af-a369-ff4b9187d54e")
 		)
@@ -9625,7 +9691,7 @@
 		(at 254 77.47 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10435,7 +10501,7 @@
 		(at 54.61 50.8 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11610,7 +11676,7 @@
 		(at 48.26 44.45 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12108,6 +12174,61 @@
 				)
 			)
 		)
+		(property "Sim.Device" "SUBCKT"
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KIPRJMOD}/sim/fixtures.spice"
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LOAD_CONST"
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "8=VDD 4=GND"
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "I=20u"
+			(at 248.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2b28cc7-a5ac-4bf1-9e1d-fddd3d2c097c")
 		)
@@ -12227,7 +12348,7 @@
 		(at 254 82.55 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12577,6 +12698,50 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
+			(at 236.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 236.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KIPRJMOD}/sim/fixtures.spice"
+			(at 236.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "USB_HOST"
+			(at 236.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "A4=VBUS A1=GND"
 			(at 236.22 82.55 0)
 			(hide yes)
 			(show_name no)
