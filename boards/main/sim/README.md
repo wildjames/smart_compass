@@ -25,7 +25,7 @@ the flash. Edit those values to change it: cell voltage (`VBAT`), cable
 | ---- | ----- |
 | 0 | On battery, idle: MCU running, GNSS acquiring, LoRa receiving, IMU on |
 | 0.10 s | LoRa transmits at +22 dBm for 100 ms |
-| 0.15 s | LED ring on (0.45 W, the schematic's "typical") until 2.5 s |
+| 0.15 s | LED ring on (0.45 W average, the schematic's "typical") until 2.5 s |
 | 0.25 s | Haptic buzz, 100 ms |
 | 0.40 s | USB cable plugged in |
 | 0.55 s | LoRa transmits again, now on USB |
@@ -68,7 +68,13 @@ the flash. Edit those values to change it: cell voltage (`VBAT`), cable
 | Fuel gauge | 23 µA | Datasheet, active mode |
 | Haptic driver + LRA | 60 mA while buzzing | Estimate |
 | e-ink board | 8 mA while refreshing | Estimate |
-| LED ring board | Constant power from `Vdrive` behind 32 µF | Derived from the LED datasheet: 0.45 W typical, about 1.4 W with every LED full white |
+| LED ring board | Power from `Vdrive` behind 32 µF, pulsed at the LEDs' 1 kHz PWM between 0.05 W (dark) and 1.4 W (full white), with the duty set by the average | Derived from the LED datasheet: 0.45 W typical, about 1.4 W with every LED full white |
+
+The LEDs dim by switching each colour fully on or off at 1 kHz, so the ring's
+draw is a train of full-power pulses rather than a steady current. The
+fixture assumes every LED switches at the same moment. That is the worst
+case: in practice each LED has its own oscillator, so they drift in and out
+of step.
 
 ### Parts excluded from simulation
 
@@ -95,6 +101,8 @@ simulation model" or "singular matrix" error.
 
 - Thermal regulation in the charger.
 - The LDO's current limit and over-temperature shutdown.
+- The LDO's power supply rejection. Ripple on `VSYS` only reaches the 3.3 V
+  rail in the simulation when the LDO is in dropout.
 - The MLCCs' loss of capacitance with DC bias.
 - PCB trace resistance and inductance.
 - Anything on the LED ring or display boards beyond their input capacitance

@@ -91,15 +91,28 @@ B1 VDD GND I = ({I_SLEEP} + ({I_REFRESH}-{I_SLEEP})*V(ON))*min(1, max(0,V(VDD,GN
 *------------------------------------------------------------------------------
 * LED ring board on the ring flat cable. RFFC is the cable's supply and return
 * conductors; CIN is the ring board's input capacitance (22 uF at its
-* connector plus 10 uF at the boost). The boost converter draws constant
-* power RING_W from T_RING_ON to T_RING_OFF and drops out below 1.9 V.
+* connector plus 10 uF at the boost). The boost converter draws power from
+* T_RING_ON to T_RING_OFF, averaging RING_W, and drops out below 1.9 V.
+*
+* The LEDs dim by PWM at F_PWM (1 kHz): each colour is either at its full
+* 5 mA or off. Every LED is taken to switch at once, which is the worst case,
+* so the ring's draw steps between W_IDLE (LEDs dark) and W_PEAK (every LED
+* full white) with the duty that gives RING_W. RING_W >= W_PEAK is steady
+* full white. TR_PWM stands in for the boost's response to each step.
+*
 * For scale: every LED full white is 16 x (3 x 5 mA + 0.5 mA) at 5 V, about
-* 1.4 W at the boost input; the schematic's "typical" 80 mA at 5 V is about
-* 0.45 W.
+* 1.4 W at the boost input; dark, it is 16 x 0.5 mA, about 0.05 W. The
+* schematic's "typical" 80 mA at 5 V is about 0.45 W.
 *------------------------------------------------------------------------------
-.subckt LOAD_LED_RING VDRIVE GND params: CIN=32u RFFC=0.1
+.subckt LOAD_LED_RING VDRIVE GND params: CIN=32u RFFC=0.1 W_PEAK=1.4 W_IDLE=50m
++ F_PWM=1k TR_PWM=10u
+.param DUTY={min(1, max(0, (RING_W-W_IDLE)/(W_PEAK-W_IDLE)))}
+.param STEADY={DUTY >= 1 ? 1 : 0}
+.param PW={min(max(DUTY/F_PWM - TR_PWM, 1n), 1/F_PWM - 2*TR_PWM)}
 R1 VDRIVE RING {RFFC}
 C1 RING GND {CIN}
 VON ON 0 PWL(0 0 {T_RING_ON} 0 {T_RING_ON+500u} 1 {T_RING_OFF} 1 {T_RING_OFF+500u} 0)
-B1 RING GND I = {RING_W}*V(ON)/max(V(RING,GND),2.5) * 0.5*(1+tanh((V(RING,GND)-1.9)/0.05))
+VPWM PWM 0 PULSE(0 1 {T_RING_ON} {TR_PWM} {TR_PWM} {PW} {1/F_PWM})
+B1 RING GND I = ({W_IDLE} + ({W_PEAK}-{W_IDLE})*({STEADY} + (1-{STEADY})*V(PWM)))
++ * V(ON)/max(V(RING,GND),2.5) * 0.5*(1+tanh((V(RING,GND)-1.9)/0.05))
 .ends LOAD_LED_RING
