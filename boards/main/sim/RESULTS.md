@@ -109,11 +109,7 @@ parallel Schottky carries about 0.6 A for that time, within its 1 A rating.
    500 mA a USB 2.0 port has to supply. The CC resistors don't tell the
    firmware what the source can supply. Cap the ring's brightness on USB, or
    lower the charge current.
-2. **VBUS Schottky heating.** At 470 mA it dissipates about 0.2 W. The
-   datasheet gives 380 C/W on a minimal pad, so it needs copper on its pads
-   in the layout. The Schottky across the load-sharing FET only conducts for
-   a fraction of a second after unplugging, so it doesn't need the same.
-3. **Low priority: capacitance on VBUS.** 14.7 uF sits directly on VBUS,
+2. **Low priority: capacitance on VBUS.** 14.7 uF sits directly on VBUS,
    which is over the USB guideline of 10 uF. Modern USB-C chargers won't
    care, but an old port could trip its overcurrent protection.
 

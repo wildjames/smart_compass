@@ -4203,18 +4203,6 @@
 		(uuid "3b1e0c66-d06b-44d8-a895-7e6d9bc3d96a")
 	)
 	(junction
-		(at 138.43 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d02c8ba-854e-416c-bea3-4b142db48550")
-	)
-	(junction
-		(at 116.84 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e5f0aaa-9d0b-450e-bd61-301d8642830f")
-	)
-	(junction
 		(at 41.91 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4297,6 +4285,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96e35439-40f4-4105-b332-7b6c94718325")
+	)
+	(junction
+		(at 116.84 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9df64064-5670-4bbd-9260-e7caa96d844e")
 	)
 	(junction
 		(at 116.84 29.21)
@@ -4708,16 +4702,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 19.05) (xy 138.43 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a83bcbc-873e-4369-b145-cc409d8f7e32")
-	)
-	(wire
-		(pts
 			(xy 203.2 87.63) (xy 203.2 88.9)
 		)
 		(stroke
@@ -4745,16 +4729,6 @@
 			(type default)
 		)
 		(uuid "321c3f31-bbab-460f-bf70-bb0bb34199c1")
-	)
-	(wire
-		(pts
-			(xy 138.43 20.32) (xy 138.43 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348ee467-60d3-4bb4-9dae-034f25d0b90e")
 	)
 	(wire
 		(pts
@@ -4858,7 +4832,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 26.67) (xy 132.08 29.21)
+			(xy 127 26.67) (xy 127 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4928,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 26.67) (xy 132.08 26.67)
+			(xy 125.73 26.67) (xy 127 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5218,7 +5192,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 34.29) (xy 134.62 20.32)
+			(xy 134.62 34.29) (xy 134.62 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5708,16 +5682,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 20.32) (xy 138.43 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c50adae8-2798-4598-972b-b80383e378fe")
-	)
-	(wire
-		(pts
 			(xy 203.2 101.6) (xy 203.2 104.14)
 		)
 		(stroke
@@ -5848,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 26.67) (xy 121.92 26.67)
+			(xy 116.84 26.67) (xy 118.11 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7701,7 +7665,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 138.43 19.05 0)
+		(at 134.62 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7711,7 +7675,7 @@
 		(dnp no)
 		(uuid "0383f7de-49c3-4559-952d-1421e43e7e6d")
 		(property "Reference" "#PWR01"
-			(at 138.43 22.86 0)
+			(at 134.62 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,7 +7686,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 138.4299 15.24 0)
+			(at 134.6199 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7733,7 +7697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 19.05 0)
+			(at 134.62 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7744,7 +7708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 19.05 0)
+			(at 134.62 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +7719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 138.43 19.05 0)
+			(at 134.62 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +8068,7 @@
 	)
 	(symbol
 		(lib_id "smart_compass_main:CAP_CERAMIC0805-NOOUTLINE")
-		(at 127 26.67 90)
+		(at 123.19 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8114,7 +8078,7 @@
 		(dnp no)
 		(uuid "213f18f2-2a51-457d-ad36-acd54b1d8361")
 		(property "Reference" "C1"
-			(at 125.75 28.96 90)
+			(at 121.94 28.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8124,7 +8088,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 125.75 24.37 90)
+			(at 121.94 24.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8134,7 +8098,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127 26.67 0)
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,7 +8109,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at 127 26.67 0)
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 26.67 0)
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8131,7 @@
 			)
 		)
 		(property "MPN" "CGA4J3X5R1A106K125AB"
-			(at 127 26.67 90)
+			(at 123.19 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,7 +8142,7 @@
 			)
 		)
 		(property "PRICE" "0.24"
-			(at 127 26.67 90)
+			(at 123.19 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8189,7 +8153,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 127 26.67 90)
+			(at 123.19 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,7 +8164,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 127 26.67 0)
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,7 +8175,7 @@
 			)
 		)
 		(property "DigiKey_PN" "445-6970-1-ND"
-			(at 127 26.67 0)
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,7 +8186,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 127 26.67 0)
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8233,7 +8197,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 127 26.67 0)
+			(at 123.19 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,7 +8208,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 127 26.67 90)
+			(at 123.19 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8422,85 +8386,6 @@
 			(project "SmartCompass"
 				(path "/0c161f28-8075-4403-a867-35208f463636"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "286e13da-08bb-43d5-977d-3a0dcb0059c5")
-		(property "Reference" "#PWR06"
-			(at 138.43 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d621acb8-e82a-4b80-a6e6-827d6ed0f1ce")
-		)
-		(instances
-			(project "SmartCompass"
-				(path "/0c161f28-8075-4403-a867-35208f463636"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9528,173 +9413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "smart_compass_main:CAP_CERAMIC0805-NOOUTLINE")
-		(at 138.43 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c174b08-59a1-4ae6-8da7-6429d37c2f95")
-		(property "Reference" "C2"
-			(at 136.14 25.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 140.73 25.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CGA4J3X5R1A106K125AB"
-			(at 138.43 26.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PRICE" "0.24"
-			(at 138.43 26.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" ""
-			(at 138.43 26.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_PN" "445-6970-1-ND"
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 138.43 26.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9b54e7e-cd10-470e-a6b2-e1053c937f80")
-		)
-		(pin "2"
-			(uuid "0e926b70-6c46-4c34-897b-9cbcf1f8cdfd")
-		)
-		(instances
-			(project "SmartCompass"
-				(path "/0c161f28-8075-4403-a867-35208f463636"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "smart_compass_main:RESISTOR_0603_NOOUT")
 		(at 254 77.47 180)
 		(unit 1)
@@ -10715,7 +10433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 29.21 0)
+		(at 127 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10726,7 +10444,7 @@
 		(fields_autoplaced yes)
 		(uuid "921c2d93-f9d2-467e-aa15-708652a3151a")
 		(property "Reference" "#PWR05"
-			(at 132.08 35.56 0)
+			(at 127 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10737,7 +10455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 34.29 0)
+			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10748,7 +10466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 29.21 0)
+			(at 127 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10759,7 +10477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 29.21 0)
+			(at 127 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10770,7 +10488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 29.21 0)
+			(at 127 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
